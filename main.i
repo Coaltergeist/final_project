@@ -1215,8 +1215,8 @@ void drawSprites() {
     }
 
     if (cheat > 0) {
-        shadowOAM[50].attr0 = (0xFF & hero.screenRow - 6) | (0<<14);
-        shadowOAM[50].attr1 = (0x1FF & hero.screenCol - 8) | (3<<14);
+        shadowOAM[50].attr0 = (0xFF & (hero.screenRow - 6)) | (0<<14);
+        shadowOAM[50].attr1 = (0x1FF & (hero.screenCol - 8)) | (3<<14);
         shadowOAM[50].attr2 = ((24)*32+(10));
     }
 

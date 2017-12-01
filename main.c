@@ -155,8 +155,8 @@ void drawSprites() {
     }
 
     if (cheat > 0) {
-        shadowOAM[50].attr0 = (ROWMASK & hero.screenRow - 6) | ATTR0_SQUARE;
-        shadowOAM[50].attr1 = (COLMASK & hero.screenCol - 8) | ATTR1_LARGE;
+        shadowOAM[50].attr0 = (ROWMASK & (hero.screenRow - 6)) | ATTR0_SQUARE;
+        shadowOAM[50].attr1 = (COLMASK & (hero.screenCol - 8)) | ATTR1_LARGE;
         shadowOAM[50].attr2 = ATTR2_TILEID(24, 10);
     }
 
