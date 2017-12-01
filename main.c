@@ -36,8 +36,8 @@ void drawSprites();
 void gotoHowto();
 void howto();
 void startGame();
-void startJump();
 void firstStart();
+void fireBullet();
 
 unsigned short buttons;
 unsigned short oldButtons;
@@ -140,14 +140,18 @@ void drawSprites() {
         }
     }
 
-    for (int i = 0; i < 1; i++) {
-        shadowOAM[i + 1].attr0 = (ROWMASK & obstacles[i].screenRow) | ATTR0_TALL;
-        shadowOAM[i + 1].attr1 = (COLMASK & obstacles[i].screenCol) | ATTR1_MEDIUM;
-        shadowOAM[i + 1].attr2 = ATTR2_TILEID(24, 4);
+    for (int k = 0; k < 20; k++) {
+        if (bullets[k].isActive) {
+            shadowOAM[k + 1].attr0 = (ROWMASK & bullets[k].screenRow) | ATTR0_SQUARE;
+            shadowOAM[k + 1].attr1 = (COLMASK & bullets[k].screenCol) | ATTR1_SMALL;
+            shadowOAM[k + 1].attr2 = ATTR2_TILEID(24, 8) | ATTR2_PRIORITY(0);
+        }
     }
 
-    for (int k = 0; k < 20; k++) {
-        
+    for (int i = 0; i < 1; i++) {
+        shadowOAM[i + 21].attr0 = (ROWMASK & obstacles[i].screenRow) | ATTR0_TALL;
+        shadowOAM[i + 21].attr1 = (COLMASK & obstacles[i].screenCol) | ATTR1_MEDIUM;
+        shadowOAM[i + 21].attr2 = ATTR2_TILEID(24, 4);
     }
 
 	DMANow(3, shadowOAM, OAM, 128*4);
@@ -214,19 +218,10 @@ void initialize() {
     }
 
     for (int k = 0; k < 20; k++) {
-        
+        bullets[k].isActive = 0;
     }
 
     buttons = BUTTONS;
-}
-
-void startJump() {
-	if ((jumpFrame < 20) && (jumpFrame >= 1)) {
-		hero.worldRow -= 1;
-		jumpFrame++;
-	} else if ((jumpFrame > 20)){
-		hero.worldRow += 1;
-	}
 }
 
 // Runs every frame of the start state
@@ -285,6 +280,7 @@ void goToStart() {
     drawString4(150, 2, "Press Select for Instructions", WHITEID);
 
     flipPage();
+    waitForVBlank();
 
     drawFullscreenImage4(startScreenBitmap);
 
@@ -341,12 +337,11 @@ void game() {
         hero.width = 25;
     }
 
-    if (1) {
-        hero.worldRow += hero.rdel;
-    }
+    hero.worldRow += hero.rdel;
 
     if (BUTTON_PRESSED(BUTTON_B)) {
         playSoundB(laser, LASERLEN, LASERFREQ, 0);
+        fireBullet();
     }
 
     if (collision(hero.worldRow, hero.worldCol, hero.height, hero.width, obstacles[0].worldRow, obstacles[0].worldCol, 32, 16)) {
@@ -382,7 +377,15 @@ void game() {
     }
 
     for (int k = 0; k < 20; k++) {
-
+        if (bullets[k].isActive) {
+            if (bullets[k].worldCol > hOff + 240) {
+                bullets[k].isActive = 0;
+            } else {
+                bullets[k].worldCol += bullets[k].cdel;
+                bullets[k].screenRow = bullets[k].worldRow - vOff;
+                bullets[k].screenCol = bullets[k].worldCol - hOff;
+            }
+        }
     }
 
     hero.screenRow = hero.worldRow - vOff;
@@ -393,6 +396,25 @@ void game() {
     REG_BG2HOFF = hOff / 2;
 
     frame++;
+}
+
+void fireBullet() {
+    for (int k = 0; k <20; k++) {
+        if (!(bullets[k].isActive)) {
+            bullets[k].isActive = 1;
+            bullets[k].cdel = 12;
+            if (hero.worldRow == 92) {
+                bullets[k].worldRow = hero.worldRow + 5;
+                bullets[k].worldCol = hero.worldCol + 37;
+            } else {
+                bullets[k].worldRow = hero.worldRow + 7;
+                bullets[k].worldCol = hero.worldCol + 35;
+            }
+            bullets[k].screenRow = bullets[k].worldRow - vOff;
+            bullets[k].screenCol = bullets[k].worldCol - hOff;
+            break;
+        }
+    }
 }
 
 // Sets up the game state
@@ -468,10 +490,13 @@ void gotoHowto() {
         PALETTE[256-NUMCOLORS+i] = colors[i];
     }
 
+    waitForVBlank();
+
     drawFullscreenImage4(howtoScreenBitmap);
     drawString4(150, 2, "Press B to Return", WHITEID);
 
     flipPage();
+    waitForVBlank();
 
     drawFullscreenImage4(howtoScreenBitmap);
     flipPage();
