@@ -146,6 +146,10 @@ void drawSprites() {
         shadowOAM[i + 1].attr2 = ATTR2_TILEID(24, 4);
     }
 
+    for (int k = 0; k < 20; k++) {
+        
+    }
+
 	DMANow(3, shadowOAM, OAM, 128*4);
 }
 
@@ -207,6 +211,10 @@ void initialize() {
         obstacles[i].worldCol = 300;
         obstacles[i].screenRow = obstacles[i].worldRow - vOff;
         obstacles[i].screenCol = obstacles[i].worldCol - hOff;
+    }
+
+    for (int k = 0; k < 20; k++) {
+        
     }
 
     buttons = BUTTONS;
@@ -333,8 +341,6 @@ void game() {
         hero.width = 25;
     }
 
-    jumpFrame++;
-
     if (1) {
         hero.worldRow += hero.rdel;
     }
@@ -368,11 +374,15 @@ void game() {
 
     for (int j = 0; j < 1; j++) {
         if (obstacles[j].screenCol <= -16) {
-            for (int i = 0; i < 1; i++) {
-                obstacles[i].worldCol = (rand() % 272) + 240 + hOff;
-                obstacles[i].screenCol = obstacles[i].worldCol - hOff;
+            for (int j = 0; j < 1; j++) {
+                obstacles[j].worldCol = (rand() % 272) + 240 + hOff;
+                obstacles[j].screenCol = obstacles[j].worldCol - hOff;
             }
         }
+    }
+
+    for (int k = 0; k < 20; k++) {
+
     }
 
     hero.screenRow = hero.worldRow - vOff;
