@@ -1214,6 +1214,12 @@ void drawSprites() {
         shadowOAM[i + 21].attr2 = ((24)*32+(4));
     }
 
+    if (cheat > 0) {
+        shadowOAM[50].attr0 = (0xFF & hero.screenRow - 6) | (0<<14);
+        shadowOAM[50].attr1 = (0x1FF & hero.screenCol - 8) | (3<<14);
+        shadowOAM[50].attr2 = ((24)*32+(10));
+    }
+
  DMANow(3, shadowOAM, ((OBJ_ATTR*)(0x7000000)), 128*4);
 }
 
@@ -1525,6 +1531,7 @@ void pause() {
 
     if ((!(~(oldButtons)&((1<<0))) && (~buttons & ((1<<0))))) {
         cheat *= -1;
+        playSoundB(laser, 1180, 11025, 0);
     }
 
 
@@ -1534,6 +1541,12 @@ void pause() {
     }
     else if ((!(~(oldButtons)&((1<<2))) && (~buttons & ((1<<2))))) {
         stopSound();
+        drawFullscreenImage4(startScreenBitmap);
+        drawString4(120, 62, "Press Start to Begin", WHITEID);
+        drawString4(150, 2, "Press Select for Instructions", WHITEID);
+        flipPage();
+        drawFullscreenImage4(startScreenBitmap);
+        drawString4(150, 2, "Press Select for Instructions", WHITEID);
         firstStart();
     }
 }
