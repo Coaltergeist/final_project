@@ -889,14 +889,14 @@ lose:
 	@ Function supports interworking.
 	@ args = 0, pretend = 0, frame = 0
 	@ frame_needed = 0, uses_anonymous_args = 0
-	stmfd	sp!, {r4, lr}
+	stmfd	sp!, {r4, r5, r6, lr}
 	ldr	r3, .L88
 	mov	lr, pc
 	bx	r3
-	ldr	r3, .L88+4
+	ldr	r4, .L88+4
 	ldr	r0, .L88+8
 	mov	lr, pc
-	bx	r3
+	bx	r4
 	ldr	r3, .L88+12
 	ldrh	r3, [r3, #0]
 	tst	r3, #8
@@ -906,10 +906,39 @@ lose:
 	tst	r3, #8
 	beq	.L87
 .L85:
-	ldmfd	sp!, {r4, lr}
+	ldmfd	sp!, {r4, r5, r6, lr}
 	bx	lr
 .L87:
-	ldmfd	sp!, {r4, lr}
+	bl	firstStart
+	ldr	r0, .L88+20
+	mov	lr, pc
+	bx	r4
+	ldr	r5, .L88+24
+	mov	r0, #120
+	mov	r1, #62
+	ldr	r2, .L88+28
+	mov	r3, #255
+	mov	lr, pc
+	bx	r5
+	mov	r1, #2
+	ldr	r2, .L88+32
+	mov	r0, #150
+	mov	r3, #255
+	mov	lr, pc
+	bx	r5
+	ldr	r3, .L88+36
+	mov	lr, pc
+	bx	r3
+	ldr	r0, .L88+20
+	mov	lr, pc
+	bx	r4
+	mov	r0, #150
+	mov	r1, #2
+	ldr	r2, .L88+32
+	mov	r3, #255
+	mov	lr, pc
+	bx	r5
+	ldmfd	sp!, {r4, r5, r6, lr}
 	b	firstStart
 .L89:
 	.align	2
@@ -919,6 +948,11 @@ lose:
 	.word	howtoScreenBitmap
 	.word	oldButtons
 	.word	buttons
+	.word	startScreenBitmap
+	.word	drawString4
+	.word	.LC0
+	.word	.LC1
+	.word	flipPage
 	.size	lose, .-lose
 	.align	2
 	.global	pause

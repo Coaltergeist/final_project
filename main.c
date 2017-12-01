@@ -460,6 +460,13 @@ void lose() {
     // State transitions
     if (BUTTON_PRESSED(BUTTON_START)) {
         firstStart();
+        drawFullscreenImage4(startScreenBitmap);
+        drawString4(120, 62, "Press Start to Begin", WHITEID);
+        drawString4(150, 2, "Press Select for Instructions", WHITEID);
+        flipPage();
+        drawFullscreenImage4(startScreenBitmap);
+        drawString4(150, 2, "Press Select for Instructions", WHITEID);
+        firstStart();
     }
 }
 
