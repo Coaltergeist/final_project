@@ -1209,9 +1209,9 @@ void drawSprites() {
     }
 
     for (int i = 0; i < 1; i++) {
-        shadowOAM[i + 21].attr0 = (0xFF & obstacles[i].screenRow) | (2<<14);
-        shadowOAM[i + 21].attr1 = (0x1FF & obstacles[i].screenCol) | (2<<14);
-        shadowOAM[i + 21].attr2 = ((24)*32+(4));
+        shadowOAM[i + 121].attr0 = (0xFF & obstacles[i].screenRow) | (2<<14);
+        shadowOAM[i + 121].attr1 = (0x1FF & obstacles[i].screenCol) | (2<<14);
+        shadowOAM[i + 121].attr2 = ((24)*32+(4));
     }
 
     if (cheat > 0) {

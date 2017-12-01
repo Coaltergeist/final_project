@@ -48,8 +48,8 @@ drawSprites:
 	ldr	r3, [r4, #16]
 	cmp	r3, #0
 	blt	.L16
-	movne	r2, #536	@ movhi
-	strneh	r2, [lr, #4]	@ movhi
+	movne	r3, #536	@ movhi
+	strneh	r3, [lr, #4]	@ movhi
 	beq	.L17
 .L7:
 	ldr	r3, .L18+24
@@ -75,21 +75,25 @@ drawSprites:
 	add	r2, r2, #8
 	bne	.L5
 	ldr	r3, .L18+28
-	ldr	r2, [r3, #4]
-	ldrb	r1, [r3, #0]	@ zero_extendqisi2
+	ldr	r1, [r3, #4]
+	ldrb	ip, [r3, #0]	@ zero_extendqisi2
 	ldr	r3, .L18+32
-	mov	r2, r2, asl #23
-	ldr	r3, [r3, #0]
-	mvn	r1, r1, asl #17
+	mov	r1, r1, asl #23
+	ldr	r2, [r3, #0]
+	mvn	r1, r1, lsr #6
+	mov	r3, #968
+	add	r3, r3, #2
 	mvn	r1, r1, lsr #17
-	mvn	r2, r2, lsr #6
-	mvn	r2, r2, lsr #17
-	cmp	r3, #0
-	strh	r1, [lr, #168]	@ movhi
+	mvn	ip, ip, asl #17
+	strh	r1, [lr, r3]	@ movhi
+	mvn	ip, ip, lsr #17
+	cmp	r2, #0
+	mov	r0, #968
+	mov	r3, #972
 	mov	r1, #772	@ movhi
-	ldr	r3, .L18+16
-	strh	r2, [lr, #170]	@ movhi
-	strh	r1, [lr, #172]	@ movhi
+	ldr	r2, .L18+16
+	strh	ip, [lr, r0]	@ movhi
+	strh	r1, [lr, r3]	@ movhi
 	ble	.L12
 	ldr	r0, [r4, #4]
 	sub	r0, r0, #8
@@ -99,15 +103,15 @@ drawSprites:
 	mvn	r0, r0, lsr #5
 	add	r1, r1, #2
 	sub	lr, lr, #6
-	mov	r2, #776
+	mov	r3, #776
 	mvn	r0, r0, lsr #18
-	strh	r0, [r3, r1]	@ movhi
+	strh	r0, [r2, r1]	@ movhi
 	and	lr, lr, #255
-	add	r2, r2, #2
+	add	r3, r3, #2
 	mov	ip, #400
 	mov	r1, #404
-	strh	lr, [r3, ip]	@ movhi
-	strh	r2, [r3, r1]	@ movhi
+	strh	lr, [r2, ip]	@ movhi
+	strh	r3, [r2, r1]	@ movhi
 .L12:
 	mov	r0, #3
 	ldr	r1, .L18+16
@@ -126,8 +130,8 @@ drawSprites:
 	ldr	r3, .L18+12
 	ldr	r3, [r3, #8]
 	cmp	r3, #91
-	movle	r3, #536	@ movhi
-	strleh	r3, [lr, #4]	@ movhi
+	movle	r0, #536	@ movhi
+	strleh	r0, [lr, #4]	@ movhi
 	ble	.L7
 	ldr	r3, .L18+20
 	ldr	r3, [r3, #0]

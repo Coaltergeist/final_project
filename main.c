@@ -149,9 +149,9 @@ void drawSprites() {
     }
 
     for (int i = 0; i < 1; i++) {
-        shadowOAM[i + 21].attr0 = (ROWMASK & obstacles[i].screenRow) | ATTR0_TALL;
-        shadowOAM[i + 21].attr1 = (COLMASK & obstacles[i].screenCol) | ATTR1_MEDIUM;
-        shadowOAM[i + 21].attr2 = ATTR2_TILEID(24, 4);
+        shadowOAM[i + 121].attr0 = (ROWMASK & obstacles[i].screenRow) | ATTR0_TALL;
+        shadowOAM[i + 121].attr1 = (COLMASK & obstacles[i].screenCol) | ATTR1_MEDIUM;
+        shadowOAM[i + 121].attr2 = ATTR2_TILEID(24, 4);
     }
 
     if (cheat > 0) {
