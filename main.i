@@ -1309,6 +1309,10 @@ void start() {
         playSoundA(song01,1302062,11025, 1);
         startGame();
     } else if ((!(~(oldButtons)&((1<<2))) && (~buttons & ((1<<2))))) {
+        drawFullscreenImage4(howtoScreenBitmap);
+        drawString4(150, 2, "Press B to Return", WHITEID);
+        flipPage();
+        drawFullscreenImage4(howtoScreenBitmap);
      gotoHowto();
     }
 }
@@ -1584,6 +1588,12 @@ void howto() {
     }
 
  if ((!(~(oldButtons)&((1<<1))) && (~buttons & ((1<<1))))) {
+        drawFullscreenImage4(startScreenBitmap);
+        drawString4(120, 62, "Press Start to Begin", WHITEID);
+        drawString4(150, 2, "Press Select for Instructions", WHITEID);
+        flipPage();
+        drawFullscreenImage4(startScreenBitmap);
+        drawString4(150, 2, "Press Select for Instructions", WHITEID);
   goToStart();
  }
 }

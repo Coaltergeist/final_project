@@ -13,8 +13,8 @@ typedef unsigned int u32;
 # 64 "myLib.h"
 extern unsigned short *videoBuffer;
 # 87 "myLib.h"
-enum {BLACKID=(256-9), WHITEID, GRAYID, REDID, GREENID, BLUEID, CYANID, MAGENTAID, YELLOWID};
-extern unsigned short colors[9];
+enum {BLACKID=(256-2), WHITEID};
+extern unsigned short colors[2];
 
 
 typedef struct {

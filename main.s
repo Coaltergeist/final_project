@@ -1081,6 +1081,23 @@ start:
 	ldmfd	sp!, {r4, lr}
 	bx	lr
 .L110:
+	ldr	r4, .L111+16
+	ldr	r0, .L111+20
+	mov	lr, pc
+	bx	r4
+	mov	r1, #2
+	ldr	r2, .L111+24
+	ldr	ip, .L111+28
+	mov	r0, #150
+	mov	r3, #255
+	mov	lr, pc
+	bx	ip
+	ldr	r3, .L111+32
+	mov	lr, pc
+	bx	r3
+	ldr	r0, .L111+20
+	mov	lr, pc
+	bx	r4
 	ldmfd	sp!, {r4, lr}
 	b	gotoHowto
 .L104:
@@ -1088,31 +1105,31 @@ start:
 	cmn	r3, #120
 	str	r3, [r4, #0]
 	bge	.L105
-	ldr	r3, .L111+16
+	ldr	r3, .L111+32
 	mov	lr, pc
 	bx	r3
 	mov	r3, #1
 	str	r3, [r4, #0]
 	b	.L105
 .L108:
-	ldr	r3, .L111+16
+	ldr	r3, .L111+32
 	mov	lr, pc
 	bx	r3
 	mvn	r3, #0
 	str	r3, [r4, #0]
 	b	.L105
 .L109:
-	ldr	r3, .L111+20
+	ldr	r3, .L111+36
 	mov	lr, pc
 	bx	r3
 	mov	r1, #1294336
 	add	r1, r1, #7680
 	mov	r2, #11008
-	ldr	r0, .L111+24
+	ldr	r0, .L111+40
 	add	r1, r1, #46
 	add	r2, r2, #17
 	mov	r3, #1
-	ldr	ip, .L111+28
+	ldr	ip, .L111+44
 	mov	lr, pc
 	bx	ip
 	ldmfd	sp!, {r4, lr}
@@ -1124,6 +1141,10 @@ start:
 	.word	waitForVBlank
 	.word	oldButtons
 	.word	buttons
+	.word	drawFullscreenImage4
+	.word	howtoScreenBitmap
+	.word	.LC2
+	.word	drawString4
 	.word	flipPage
 	.word	stopSound
 	.word	song01
@@ -1136,7 +1157,7 @@ howto:
 	@ Function supports interworking.
 	@ args = 0, pretend = 0, frame = 0
 	@ frame_needed = 0, uses_anonymous_args = 0
-	stmfd	sp!, {r4, lr}
+	stmfd	sp!, {r4, r5, r6, lr}
 	ldr	r4, .L119
 	ldr	r3, .L119+4
 	mov	lr, pc
@@ -1158,24 +1179,53 @@ howto:
 	tst	r3, #2
 	beq	.L118
 .L113:
-	ldmfd	sp!, {r4, lr}
+	ldmfd	sp!, {r4, r5, r6, lr}
 	bx	lr
 .L118:
-	ldmfd	sp!, {r4, lr}
+	ldr	r5, .L119+16
+	ldr	r0, .L119+20
+	mov	lr, pc
+	bx	r5
+	ldr	r4, .L119+24
+	mov	r0, #120
+	mov	r1, #62
+	ldr	r2, .L119+28
+	mov	r3, #255
+	mov	lr, pc
+	bx	r4
+	mov	r1, #2
+	ldr	r2, .L119+32
+	mov	r0, #150
+	mov	r3, #255
+	mov	lr, pc
+	bx	r4
+	ldr	r3, .L119+36
+	mov	lr, pc
+	bx	r3
+	ldr	r0, .L119+20
+	mov	lr, pc
+	bx	r5
+	mov	r0, #150
+	mov	r1, #2
+	ldr	r2, .L119+32
+	mov	r3, #255
+	mov	lr, pc
+	bx	r4
+	ldmfd	sp!, {r4, r5, r6, lr}
 	b	goToStart
 .L114:
 	sub	r3, r3, #1
 	cmn	r3, #120
 	str	r3, [r4, #0]
 	bge	.L115
-	ldr	r3, .L119+16
+	ldr	r3, .L119+36
 	mov	lr, pc
 	bx	r3
 	mov	r3, #1
 	str	r3, [r4, #0]
 	b	.L115
 .L117:
-	ldr	r3, .L119+16
+	ldr	r3, .L119+36
 	mov	lr, pc
 	bx	r3
 	mvn	r3, #0
@@ -1188,6 +1238,11 @@ howto:
 	.word	waitForVBlank
 	.word	oldButtons
 	.word	buttons
+	.word	drawFullscreenImage4
+	.word	startScreenBitmap
+	.word	drawString4
+	.word	.LC0
+	.word	.LC1
 	.word	flipPage
 	.size	howto, .-howto
 	.align	2

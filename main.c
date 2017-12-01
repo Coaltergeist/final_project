@@ -249,6 +249,10 @@ void start() {
         playSoundA(song01,SONG01LEN,SONG01FREQ, 1);
         startGame();
     } else if (BUTTON_PRESSED(BUTTON_SELECT)) {
+        drawFullscreenImage4(howtoScreenBitmap);
+        drawString4(150, 2, "Press B to Return", WHITEID);
+        flipPage();
+        drawFullscreenImage4(howtoScreenBitmap);
     	gotoHowto();
     }
 }
@@ -524,6 +528,12 @@ void howto() {
     }
 
 	if (BUTTON_PRESSED(BUTTON_B)) {
+        drawFullscreenImage4(startScreenBitmap);
+        drawString4(120, 62, "Press Start to Begin", WHITEID);
+        drawString4(150, 2, "Press Select for Instructions", WHITEID);
+        flipPage();
+        drawFullscreenImage4(startScreenBitmap);
+        drawString4(150, 2, "Press Select for Instructions", WHITEID);
 		goToStart();
 	}
 }
