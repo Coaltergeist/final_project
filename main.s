@@ -1893,6 +1893,8 @@ main:
 	.comm	frameCount,4,4
 	.comm	enemyLength,4,4
 	.comm	bulletLength,4,4
+	.comm	lives,4,4
+	.comm	score,4,4
 	.comm	state,4,4
 	.section	.rodata.str1.4,"aMS",%progbits,1
 	.align	2

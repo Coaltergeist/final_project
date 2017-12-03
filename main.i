@@ -1123,6 +1123,8 @@ int aniCounter;
 int frameCount;
 int enemyLength;
 int bulletLength;
+int lives;
+int score;
 
 int state;
 
