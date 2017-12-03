@@ -38,6 +38,7 @@ void howto();
 void startGame();
 void firstStart();
 void fireBullet();
+void spawnEnemy();
 
 unsigned short buttons;
 unsigned short oldButtons;
@@ -48,8 +49,9 @@ int vOff = 0;
 OBJ_ATTR shadowOAM[128];
 
 ANISPRITE hero;
-ANISPRITE bullets[20];
+ANISPRITE bullets[10];
 ANISPRITE obstacles[3];
+ANISPRITE enemies[10];
 
 int frame;
 int aniState;
@@ -59,6 +61,8 @@ int rAcc;
 int cheat;
 int aniCounter;
 int frameCount;
+int enemyLength;
+int bulletLength;
 
 int state;
 
@@ -140,7 +144,7 @@ void drawSprites() {
         }
     }
 
-    for (int k = 0; k < 20; k++) {
+    for (int k = 0; k < bulletLength; k++) {
         if (bullets[k].isActive) {
             shadowOAM[k + 1].attr0 = (ROWMASK & bullets[k].screenRow) | ATTR0_SQUARE;
             shadowOAM[k + 1].attr1 = (COLMASK & bullets[k].screenCol) | ATTR1_SMALL;
@@ -158,6 +162,24 @@ void drawSprites() {
         shadowOAM[50].attr0 = (ROWMASK & (hero.screenRow - 6)) | ATTR0_SQUARE;
         shadowOAM[50].attr1 = (COLMASK & (hero.screenCol - 8)) | ATTR1_LARGE;
         shadowOAM[50].attr2 = ATTR2_TILEID(24, 10);
+    }
+
+    for (int e = 0; e < enemyLength; e++) {
+        if (enemies[e].isActive) {
+            if (enemies[e].aniState == 0) {
+                shadowOAM[e + 51].attr0 = (ROWMASK & enemies[e].screenRow) | ATTR0_SQUARE;
+                shadowOAM[e + 51].attr1 = (COLMASK & enemies[e].screenCol) | ATTR1_MEDIUM;
+                shadowOAM[e + 51].attr2 = ATTR2_TILEID(28, 0);
+            } else if (enemies[e].aniState == 1) {
+                shadowOAM[e + 51].attr0 = (ROWMASK & enemies[e].screenRow) | ATTR0_WIDE;
+                shadowOAM[e + 51].attr1 = (COLMASK & enemies[e].screenCol) | ATTR1_MEDIUM;
+                shadowOAM[e + 51].attr2 = ATTR2_TILEID(28, 4);
+            } else if (enemies[e].aniState == 2) {
+                shadowOAM[e + 51].attr0 = (ROWMASK & enemies[e].screenRow) | ATTR0_SQUARE;
+                shadowOAM[e + 51].attr1 = (COLMASK & enemies[e].screenCol) | ATTR1_SMALL;
+                shadowOAM[e + 51].attr2 = ATTR2_TILEID(30, 4);
+            }
+        }
     }
 
 	DMANow(3, shadowOAM, OAM, 128*4);
@@ -197,6 +219,9 @@ void initialize() {
     rAcc = 1;
     aniCounter = 1;
 
+    bulletLength = 10;
+    enemyLength = 10;
+
     hero.worldRow = 92;
     hero.worldCol = 10;
 
@@ -223,9 +248,29 @@ void initialize() {
         obstacles[i].screenCol = obstacles[i].worldCol - hOff;
     }
 
-    for (int k = 0; k < 20; k++) {
+    for (int k = 0; k < bulletLength; k++) {
         bullets[k].isActive = 0;
     }
+
+    for (int e = 0; e < enemyLength; e++) {
+        enemies[e].isActive = 0;
+        enemies[e].aniState = rand() % 3;
+        if (enemies[e].aniState == 0) {
+            enemies[e].height = 28;
+            enemies[e].width = 30;
+            enemies[e].worldRow = (rand() % 69) + 16;
+        } else if (enemies[e].aniState == 1) {
+            enemies[e].height = 12;
+            enemies[e].width = 21;
+            enemies[e].worldRow = (rand() % 84) + 16;
+        } else if (enemies[e].aniState == 2) {
+            enemies[e].height = 16;
+            enemies[e].width = 16;
+            enemies[e].worldRow = (rand() % 80) + 16;
+        }
+    }
+
+    spawnEnemy();
 
     buttons = BUTTONS;
 }
@@ -386,14 +431,42 @@ void game() {
         }
     }
 
-    for (int k = 0; k < 20; k++) {
+    for (int k = 0; k < bulletLength; k++) {
         if (bullets[k].isActive) {
             if (bullets[k].worldCol > hOff + 240) {
                 bullets[k].isActive = 0;
             } else {
                 bullets[k].worldCol += bullets[k].cdel;
+                bullets[k].worldRow += bullets[k].rdel;
                 bullets[k].screenRow = bullets[k].worldRow - vOff;
                 bullets[k].screenCol = bullets[k].worldCol - hOff;
+            }
+        }
+    }
+
+    for (int e = 0; e < enemyLength; e++) {
+        if (enemies[e].isActive) {
+            if (enemies[e].screenCol < -30) {
+                enemies[e].isActive = 0;
+                spawnEnemy();
+            } else {
+                enemies[e].worldCol += enemies[e].cdel;
+                enemies[e].screenRow = enemies[e].worldRow - vOff;
+                enemies[e].screenCol = enemies[e].worldCol - hOff;
+            }
+        }
+    }
+
+    for (int i = 0; i < enemyLength; i++) {
+        for (int j = 0; j < bulletLength; j++) {
+            if (bullets[j].isActive) {
+                if (enemies[i].isActive) {
+                    if (collision(bullets[j].worldRow, bullets[j].worldCol, bullets[j].height, bullets[j].width, enemies[i].worldRow, enemies[i].worldCol, enemies[i].height, enemies[i].width)) {
+                        enemies[i].isActive = 0;
+                        bullets[j].isActive = 0;
+                        spawnEnemy();
+                    }
+                }
             }
         }
     }
@@ -409,8 +482,13 @@ void game() {
 }
 
 void fireBullet() {
-    for (int k = 0; k <20; k++) {
+    for (int k = 0; k < bulletLength; k++) {
         if (!(bullets[k].isActive)) {
+            if (BUTTON_HELD(BUTTON_UP)) {
+                bullets[k].rdel = -5;
+            } else {
+                bullets[k].rdel = 0;
+            }
             bullets[k].isActive = 1;
             bullets[k].cdel = 12;
             if (hero.worldRow == 92) {
@@ -423,6 +501,36 @@ void fireBullet() {
             bullets[k].screenRow = bullets[k].worldRow - vOff;
             bullets[k].screenCol = bullets[k].worldCol - hOff;
             break;
+        }
+    }
+}
+
+void spawnEnemy() {
+    for (int e = 0; e < enemyLength; e++) {
+        if (!(enemies[e].isActive)) {
+            //if (!(enemies[e].aniState == 3)) {
+                enemies[e].isActive = 1; 
+                enemies[e].cdel = -2;
+                enemies[e].aniState = rand() % 3;
+                if (enemies[e].aniState == 0) {
+                    enemies[e].height = 28;
+                    enemies[e].width = 30;
+                    enemies[e].worldRow = (rand() % 69) + 16;
+                } else if (enemies[e].aniState == 1) {
+                    enemies[e].height = 12;
+                    enemies[e].width = 21;
+                    enemies[e].worldRow = (rand() % 84) + 16;
+                } else if (enemies[e].aniState == 2) {
+                    enemies[e].height = 16;
+                    enemies[e].width = 16;
+                    enemies[e].worldRow = (rand() % 80) + 16;
+                }
+                enemies[e].worldRow = (rand() % 69) + 16;
+                enemies[e].worldCol = (rand() % 272) + 240 + hOff;
+                enemies[e].screenRow = enemies[e].worldRow - vOff;
+                enemies[e].screenCol = enemies[e].worldCol - hOff;
+                break;
+            //}
         }
     }
 }
