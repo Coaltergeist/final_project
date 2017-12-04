@@ -40,6 +40,18 @@ typedef unsigned int u32;
 #define BG_SIZE_TALL        (2<<14)  // 32x64 tiles
 #define BG_SIZE_LARGE       (3<<14)  // 64x64 tiles
 
+// Mosaic Stuff
+#define REG_MOSAIC     (*(volatile unsigned short*)0x400004C)
+#define REG_MOSAIC_L   (*(volatile unsigned short*)0x400004C)
+#define REG_MOSAIC_H   (*(volatile unsigned short*)0x400004E)
+
+#define MOS_BG_HOR(n) (n)
+#define MOS_BG_VER(n) (n<<4)
+#define MOS_OBJ_HOR(n) (n<<8)
+#define MOS_OBJ_VER(n) (n<<12)
+
+#define SetMosaic(bh,bv,oh,ov) ((bh)+(bv<<4)+(oh<<8)+(ov<<12))
+
 // Background Offset Registers
 #define REG_BG0HOFF (*(volatile unsigned short *)0x04000010)
 #define REG_BG0VOFF (*(volatile unsigned short *)0x04000012)

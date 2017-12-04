@@ -37,9 +37,9 @@ void interruptHandler();
 typedef unsigned char u8;
 typedef unsigned short u16;
 typedef unsigned int u32;
-# 64 "myLib.h"
+# 76 "myLib.h"
 extern unsigned short *videoBuffer;
-# 87 "myLib.h"
+# 99 "myLib.h"
 enum {BLACKID=(256-2), WHITEID};
 extern unsigned short colors[2];
 
@@ -87,7 +87,7 @@ typedef struct {
 
 
 extern OBJ_ATTR shadowOAM[];
-# 164 "myLib.h"
+# 176 "myLib.h"
 void hideSprites();
 
 
@@ -112,10 +112,10 @@ typedef struct {
     int hide;
     int isActive;
 } ANISPRITE;
-# 208 "myLib.h"
+# 220 "myLib.h"
 extern unsigned short oldButtons;
 extern unsigned short buttons;
-# 219 "myLib.h"
+# 231 "myLib.h"
 typedef volatile struct {
     volatile const void *src;
     volatile void *dst;
@@ -124,14 +124,14 @@ typedef volatile struct {
 
 
 extern DMA *dma;
-# 259 "myLib.h"
+# 271 "myLib.h"
 void DMANow(int channel, volatile const void *src, volatile void *dst, unsigned int cnt);
 
 
 
 
 int collision(int rowA, int colA, int heightA, int widthA, int rowB, int colB, int heightB, int widthB);
-# 353 "myLib.h"
+# 365 "myLib.h"
 typedef struct
 {
     int row;

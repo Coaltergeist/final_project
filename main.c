@@ -1,5 +1,62 @@
 /*****************************************
-enemies not yet implemented. Cheat is pressing a during pause, makes you invincible
+JADE RUNNER - By R. Coalter Putnal
+
+GAMEPLAY: This is the completed game. Playing is very 
+simple; your character moves to the right, and you shoot 
+your gun to kill enemies and jump to dodge obstacles.
+You can also collect green crystals on the ground, 
+jades. Killing any enemy or collecting any jade will
+raise your score by 1. Get to a score of 50 and you 
+win. If you get hit by enemies or obstacles, you will
+lose health. Once you have lost all of your health, 
+you lose.
+
+CHEAT: The cheat is activated by pressing "A" on the
+pause screen during gameplay (pressing start during
+gameplay will activate the pause screen). This creates
+a barrier around the hero that nullifies all damage 
+from enemies and obstacles.
+
+BUGS: I have worked very hard to make sure everything
+is as bug-free as possible. There may, however, be some
+things that I missed. On occasion, a screen in Mode 4
+may flip to reveal garbage data. I have no idea why; I've
+done all I can to try to make this not happen. During 
+testing for this "final release," I have yet to see it
+happen again, but it may occur if you use the spacebar 
+to speed the game up. Also on occasion, an enemy sprite
+may glitch out towards the left side of the screen;
+I have set up the enemy sprites using ROWMASK and
+COLMASK, so I'm also not too sure why it happens there.
+Once again, I haven't seen it in this "final release," 
+but it might still happen. Those are only visual issues, 
+however. The only gameplay bug (that I've seen) is that, 
+occasionally, a bullet might pass through an enemy 
+without killing it. This is due to how the collision() 
+function is written; if the velocity of one of the objects 
+is larger than the size of another object (or if both
+objects are moving in opposite directions), it's possible
+that the collision never occurs during a frame. I have an
+idea to fix this, so I will try before the final final
+turn-in.
+
+EXTRA CREDIT: There are multiple things that I feel go
+above and beyond the project requirements. For example,
+I make use of both Mode 4 and Mode 0, instead of just 
+Mode 0, I have 3 non-looping sound effects instead of
+just one, and I have 4 looping songs instead of just 1.
+On top of that, (along with art taken mainly from
+Metroid games on GBA) I have multiple home-made assets,
+including the title screen logo, the shield effect, and
+the bullet effect. On a more technical side, I also make
+use of Dynamic Memory for the health system*. I also 
+produced a mosaic effect for when the main character is
+hurt**. In addition to all of this, my game has General
+Coolness™***.
+
+* in initialize() function and game() function
+** in drawSprites() function and game() function
+*** ;)
 ******************************************/
 
 #include "myLib.h"
@@ -25,6 +82,7 @@ enemies not yet implemented. Cheat is pressing a during pause, makes you invinci
 #include "loseSong.h"
 #include <stdlib.h>
 #include <stdio.h>
+#include<malloc.h>
 
 void initialize();
 
@@ -61,7 +119,7 @@ ANISPRITE obstacles[3];
 ANISPRITE enemies[10];
 ANISPRITE jades[5];
 
-int health[10];
+int *health;
 
 int frame;
 int aniState;
@@ -77,6 +135,7 @@ int score;
 int obsCanHurt;
 int enemyCanHurt;
 int healthBucket;
+int hurtCounter;
 
 int state;
 
@@ -132,7 +191,7 @@ void drawSprites() {
 
 	hideSprites();
 
-	shadowOAM[0].attr0 = (ROWMASK & hero.screenRow) | ATTR0_SQUARE;
+	shadowOAM[0].attr0 = (ROWMASK & hero.screenRow) | ATTR0_SQUARE | ATTR0_MOSAIC;
 	shadowOAM[0].attr1 = (COLMASK & hero.screenCol) | ATTR1_LARGE;
     if (frame % 3 == 0) {
 	    if (aniState < 9) {
@@ -196,7 +255,7 @@ void drawSprites() {
         }
     }
 
-    for (int i = 0; i < 10; i++) {
+    for (int i = 0; i < healthBucket; i++) {
         if (health[i]) {
             shadowOAM[i + 71].attr0 = 146 | ATTR0_SQUARE;
             shadowOAM[i + 71].attr1 = (60 + (i * (8))) | ATTR1_TINY;
@@ -313,6 +372,8 @@ void initialize() {
         }
     }
 
+    health = realloc(health, healthBucket * sizeof(int));
+
     for (int i = 0; i < 10; i++) {
         health[i] = 1;
     }
@@ -325,6 +386,9 @@ void initialize() {
         jades[i].width = 8;
         jades[i].aniState = rand() % 2;
     }
+
+    REG_MOSAIC = SetMosaic(0,0,0,0);
+    hurtCounter = 30;
 
     spawnEnemy();
     spawnJade();
@@ -471,37 +535,64 @@ void game() {
         playSoundB(laser, LASERLEN, LASERFREQ, 0);
         fireBullet();
     }
+    
+    if (hurtCounter == 0) {
+        hurtCounter = 30;
+        REG_MOSAIC = SetMosaic(0, 0, 0, 0);
+    } else if (hurtCounter < 30) {
+            REG_MOSAIC = SetMosaic(0, 0, hurtCounter, hurtCounter);
+            hurtCounter--;
+    }
 
     if (collision(hero.worldRow, hero.worldCol, hero.height, hero.width, obstacles[0].worldRow, obstacles[0].worldCol, 32, 16)) {
         if (cheat < 0) {
-            for (int i = 9; i >= 0; i--) {
-                if (obsCanHurt) {
-                    if (health[i]) {
-                        playSoundB(hurt, HURTLEN, HURTFREQ, 0);
-                        health[i] = 0;
-                        obsCanHurt = 0;
-                        healthBucket--;
-                        break;
-                    }
+            if (obsCanHurt) {
+                playSoundB(hurt, HURTLEN, HURTFREQ, 0);
+                obsCanHurt = 0;
+                REG_MOSAIC = SetMosaic(0, 0, hurtCounter, hurtCounter);
+                hurtCounter--;
+                healthBucket--;
+                health = realloc(health, healthBucket * sizeof(int));
+                for (int i = 0; i < healthBucket; i++) {
+                    health[i] = 1;
                 }
             }
         }
     }
 
+    // if (collision(hero.worldRow, hero.worldCol, hero.height, hero.width, obstacles[0].worldRow, obstacles[0].worldCol, 32, 16)) {
+    //     if (cheat < 0) {
+    //         for (int i = 9; i >= 0; i--) {
+    //             if (obsCanHurt) {
+    //                 if (health[i]) {
+    //                     playSoundB(hurt, HURTLEN, HURTFREQ, 0);
+    //                     health[i] = 0;
+    //                     obsCanHurt = 0;
+    //                     REG_MOSAIC = SetMosaic(0, 0, hurtCounter, hurtCounter);
+    //                     hurtCounter--;
+    //                     healthBucket--;
+    //                     health = realloc(health, healthBucket * sizeof(int));
+    //                     break;
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
+
     for (int i = 0; i < enemyLength; i++) {
         if (enemies[i].isActive) {
             if (collision(enemies[i].worldRow, enemies[i].worldCol, enemies[i].height, enemies[i].width, hero.worldRow, hero.worldCol, hero.height, hero.width)) {
                 if (cheat < 0) {
-                    for (int j = 9; j >= 0; j--) {
-                        if (enemyCanHurt) {
-                            if (health[j]) {
-                                health[j] = 0;
-                                enemyCanHurt = 0;
-                                healthBucket--;
-                                playSoundB(hurt, HURTLEN, HURTFREQ, 0);
-                                break;
-                            }
+                    if (enemyCanHurt) {
+                        enemyCanHurt = 0;
+                        REG_MOSAIC = SetMosaic(0, 0, hurtCounter, hurtCounter);
+                        hurtCounter--;
+                        healthBucket--;
+                        health = realloc(health, healthBucket * sizeof(int));
+                        for (int i = 0; i < healthBucket; i++) {
+                            health[i] = 1;
                         }
+                        playSoundB(hurt, HURTLEN, HURTFREQ, 0);
                     }
                 }
             }

@@ -2,10 +2,7 @@
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "main.c"
-
-
-
-
+# 62 "main.c"
 # 1 "myLib.h" 1
 
 
@@ -14,9 +11,9 @@
 typedef unsigned char u8;
 typedef unsigned short u16;
 typedef unsigned int u32;
-# 64 "myLib.h"
+# 76 "myLib.h"
 extern unsigned short *videoBuffer;
-# 87 "myLib.h"
+# 99 "myLib.h"
 enum {BLACKID=(256-2), WHITEID};
 extern unsigned short colors[2];
 
@@ -64,7 +61,7 @@ typedef struct {
 
 
 extern OBJ_ATTR shadowOAM[];
-# 164 "myLib.h"
+# 176 "myLib.h"
 void hideSprites();
 
 
@@ -89,10 +86,10 @@ typedef struct {
     int hide;
     int isActive;
 } ANISPRITE;
-# 208 "myLib.h"
+# 220 "myLib.h"
 extern unsigned short oldButtons;
 extern unsigned short buttons;
-# 219 "myLib.h"
+# 231 "myLib.h"
 typedef volatile struct {
     volatile const void *src;
     volatile void *dst;
@@ -101,14 +98,14 @@ typedef volatile struct {
 
 
 extern DMA *dma;
-# 259 "myLib.h"
+# 271 "myLib.h"
 void DMANow(int channel, volatile const void *src, volatile void *dst, unsigned int cnt);
 
 
 
 
 int collision(int rowA, int colA, int heightA, int widthA, int rowB, int colB, int heightB, int widthB);
-# 353 "myLib.h"
+# 365 "myLib.h"
 typedef struct
 {
     int row;
@@ -119,14 +116,14 @@ typedef struct
     u16 color;
     int AI_STATE;
 } MOVOBJ;
-# 6 "main.c" 2
+# 63 "main.c" 2
 # 1 "spritesheet.h" 1
 # 21 "spritesheet.h"
 extern const unsigned short spritesheetTiles[16384];
 
 
 extern const unsigned short spritesheetPal[256];
-# 7 "main.c" 2
+# 64 "main.c" 2
 # 1 "bg.h" 1
 # 22 "bg.h"
 extern const unsigned short bgTiles[7200];
@@ -136,7 +133,7 @@ extern const unsigned short bgMap[1024];
 
 
 extern const unsigned short bgPal[256];
-# 8 "main.c" 2
+# 65 "main.c" 2
 # 1 "bg2.h" 1
 # 22 "bg2.h"
 extern const unsigned short bg2Tiles[2272];
@@ -146,7 +143,7 @@ extern const unsigned short bg2Map[2048];
 
 
 extern const unsigned short bg2Pal[256];
-# 9 "main.c" 2
+# 66 "main.c" 2
 # 1 "bg3.h" 1
 # 22 "bg3.h"
 extern const unsigned short bg3Tiles[528];
@@ -156,7 +153,7 @@ extern const unsigned short bg3Map[1024];
 
 
 extern const unsigned short bg3Pal[256];
-# 10 "main.c" 2
+# 67 "main.c" 2
 # 1 "bg3_2.h" 1
 # 22 "bg3_2.h"
 extern const unsigned short bg3_2Tiles[1424];
@@ -166,21 +163,21 @@ extern const unsigned short bg3_2Map[1024];
 
 
 extern const unsigned short bg3_2Pal[256];
-# 11 "main.c" 2
+# 68 "main.c" 2
 # 1 "startScreen.h" 1
 # 21 "startScreen.h"
 extern const unsigned short startScreenBitmap[19200];
 
 
 extern const unsigned short startScreenPal[256];
-# 12 "main.c" 2
+# 69 "main.c" 2
 # 1 "howtoScreen.h" 1
 # 21 "howtoScreen.h"
 extern const unsigned short howtoScreenBitmap[19200];
 
 
 extern const unsigned short howtoScreenPal[256];
-# 13 "main.c" 2
+# 70 "main.c" 2
 
 # 1 "sound.h" 1
 typedef struct{
@@ -208,22 +205,22 @@ void unpauseSound();
 
 void setupInterrupts();
 void interruptHandler();
-# 15 "main.c" 2
+# 72 "main.c" 2
 # 1 "song01.h" 1
 # 20 "song01.h"
 extern const unsigned char song01[1302562];
-# 16 "main.c" 2
+# 73 "main.c" 2
 # 1 "laser.h" 1
 # 20 "laser.h"
 extern const unsigned char laser[1180];
-# 17 "main.c" 2
+# 74 "main.c" 2
 # 1 "loseScreen.h" 1
 # 21 "loseScreen.h"
 extern const unsigned short loseScreenBitmap[19200];
 
 
 extern const unsigned short loseScreenPal[256];
-# 18 "main.c" 2
+# 75 "main.c" 2
 # 1 "text.h" 1
 
 void drawChar3(int row, int col, char ch, unsigned short color);
@@ -232,38 +229,38 @@ void drawString3(int row, int col, char *str, unsigned short color);
 
 void drawChar4(int row, int col, char ch, unsigned char colorIndex);
 void drawString4(int row, int col, char *str, unsigned char colorIndex);
-# 19 "main.c" 2
+# 76 "main.c" 2
 # 1 "font.h" 1
 
 extern const unsigned char fontdata_6x8[12288];
-# 20 "main.c" 2
+# 77 "main.c" 2
 # 1 "title.h" 1
 # 20 "title.h"
 extern const unsigned char title[81625];
-# 21 "main.c" 2
+# 78 "main.c" 2
 # 1 "hurt.h" 1
 # 20 "hurt.h"
 extern const unsigned char hurt[3734];
-# 22 "main.c" 2
+# 79 "main.c" 2
 # 1 "coin.h" 1
 # 20 "coin.h"
 extern const unsigned char coin[10969];
-# 23 "main.c" 2
+# 80 "main.c" 2
 # 1 "winScreen.h" 1
 # 21 "winScreen.h"
 extern const unsigned short winScreenBitmap[19200];
 
 
 extern const unsigned short winScreenPal[256];
-# 24 "main.c" 2
+# 81 "main.c" 2
 # 1 "victory.h" 1
 # 20 "victory.h"
 extern const unsigned char victory[756064];
-# 25 "main.c" 2
+# 82 "main.c" 2
 # 1 "loseSong.h" 1
 # 20 "loseSong.h"
 extern const unsigned char loseSong[455616];
-# 26 "main.c" 2
+# 83 "main.c" 2
 # 1 "c:\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.5.0/../../../../arm-eabi/include/stdlib.h" 1 3
 # 10 "c:\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.5.0/../../../../arm-eabi/include/stdlib.h" 3
 # 1 "c:\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.5.0/../../../../arm-eabi/include/machine/ieeefp.h" 1 3
@@ -718,7 +715,7 @@ extern long double wcstold (const wchar_t *, wchar_t **);
 
 
 
-# 27 "main.c" 2
+# 84 "main.c" 2
 # 1 "c:\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.5.0/../../../../arm-eabi/include/stdio.h" 1 3
 # 34 "c:\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.5.0/../../../../arm-eabi/include/stdio.h" 3
 # 1 "c:\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.5.0/include/stddef.h" 1 3 4
@@ -1114,7 +1111,141 @@ int __srget_r (struct _reent *, FILE *);
 int __swbuf_r (struct _reent *, int, FILE *);
 # 687 "c:\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.5.0/../../../../arm-eabi/include/stdio.h" 3
 
-# 28 "main.c" 2
+# 85 "main.c" 2
+# 1 "c:\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.5.0/../../../../arm-eabi/include/malloc.h" 1 3
+# 10 "c:\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.5.0/../../../../arm-eabi/include/malloc.h" 3
+# 1 "c:\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.5.0/include/stddef.h" 1 3 4
+# 11 "c:\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.5.0/../../../../arm-eabi/include/malloc.h" 2 3
+
+
+# 1 "c:\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.5.0/../../../../arm-eabi/include/machine/malloc.h" 1 3
+# 14 "c:\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.5.0/../../../../arm-eabi/include/malloc.h" 2 3
+# 22 "c:\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.5.0/../../../../arm-eabi/include/malloc.h" 3
+struct mallinfo {
+  int arena;
+  int ordblks;
+  int smblks;
+  int hblks;
+  int hblkhd;
+  int usmblks;
+  int fsmblks;
+  int uordblks;
+  int fordblks;
+  int keepcost;
+};
+
+
+
+extern void * malloc (size_t);
+
+
+
+
+extern void * _malloc_r (struct _reent *, size_t);
+
+
+extern void free (void *);
+
+
+
+
+extern void _free_r (struct _reent *, void *);
+
+
+extern void * realloc (void *, size_t);
+
+
+
+
+extern void * _realloc_r (struct _reent *, void *, size_t);
+
+
+extern void * calloc (size_t, size_t);
+
+
+
+
+extern void * _calloc_r (struct _reent *, size_t, size_t);
+
+
+extern void * memalign (size_t, size_t);
+
+
+
+
+extern void * _memalign_r (struct _reent *, size_t, size_t);
+
+
+extern struct mallinfo mallinfo (void);
+
+
+
+
+extern struct mallinfo _mallinfo_r (struct _reent *);
+
+
+extern void malloc_stats (void);
+
+
+
+
+extern void _malloc_stats_r (struct _reent *);
+
+
+extern int mallopt (int, int);
+
+
+
+
+extern int _mallopt_r (struct _reent *, int, int);
+
+
+extern size_t malloc_usable_size (void *);
+
+
+
+
+extern size_t _malloc_usable_size_r (struct _reent *, void *);
+
+
+
+
+
+extern void * valloc (size_t);
+
+
+
+
+extern void * _valloc_r (struct _reent *, size_t);
+
+
+extern void * pvalloc (size_t);
+
+
+
+
+extern void * _pvalloc_r (struct _reent *, size_t);
+
+
+extern int malloc_trim (size_t);
+
+
+
+
+extern int _malloc_trim_r (struct _reent *, size_t);
+
+
+
+
+extern void mstats (char *);
+
+
+
+
+extern void _mstats_r (struct _reent *, char *);
+# 162 "c:\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.5.0/../../../../arm-eabi/include/malloc.h" 3
+extern void cfree (void *);
+# 86 "main.c" 2
 
 void initialize();
 
@@ -1151,7 +1282,7 @@ ANISPRITE obstacles[3];
 ANISPRITE enemies[10];
 ANISPRITE jades[5];
 
-int health[10];
+int *health;
 
 int frame;
 int aniState;
@@ -1167,6 +1298,7 @@ int score;
 int obsCanHurt;
 int enemyCanHurt;
 int healthBucket;
+int hurtCounter;
 
 int state;
 
@@ -1222,7 +1354,7 @@ void drawSprites() {
 
  hideSprites();
 
- shadowOAM[0].attr0 = (0xFF & hero.screenRow) | (0<<14);
+ shadowOAM[0].attr0 = (0xFF & hero.screenRow) | (0<<14) | (1<<12);
  shadowOAM[0].attr1 = (0x1FF & hero.screenCol) | (3<<14);
     if (frame % 3 == 0) {
      if (aniState < 9) {
@@ -1286,7 +1418,7 @@ void drawSprites() {
         }
     }
 
-    for (int i = 0; i < 10; i++) {
+    for (int i = 0; i < healthBucket; i++) {
         if (health[i]) {
             shadowOAM[i + 71].attr0 = 146 | (0<<14);
             shadowOAM[i + 71].attr1 = (60 + (i * (8))) | (0<<14);
@@ -1403,6 +1535,8 @@ void initialize() {
         }
     }
 
+    health = realloc(health, healthBucket * sizeof(int));
+
     for (int i = 0; i < 10; i++) {
         health[i] = 1;
     }
@@ -1415,6 +1549,9 @@ void initialize() {
         jades[i].width = 8;
         jades[i].aniState = rand() % 2;
     }
+
+    (*(volatile unsigned short*)0x400004C) = ((0)+(0<<4)+(0<<8)+(0<<12));
+    hurtCounter = 30;
 
     spawnEnemy();
     spawnJade();
@@ -1562,36 +1699,44 @@ void game() {
         fireBullet();
     }
 
+    if (hurtCounter == 0) {
+        hurtCounter = 30;
+        (*(volatile unsigned short*)0x400004C) = ((0)+(0<<4)+(0<<8)+(0<<12));
+    } else if (hurtCounter < 30) {
+            (*(volatile unsigned short*)0x400004C) = ((0)+(0<<4)+(hurtCounter<<8)+(hurtCounter<<12));
+            hurtCounter--;
+    }
+
     if (collision(hero.worldRow, hero.worldCol, hero.height, hero.width, obstacles[0].worldRow, obstacles[0].worldCol, 32, 16)) {
         if (cheat < 0) {
-            for (int i = 9; i >= 0; i--) {
-                if (obsCanHurt) {
-                    if (health[i]) {
-                        playSoundB(hurt, 3734, 11025, 0);
-                        health[i] = 0;
-                        obsCanHurt = 0;
-                        healthBucket--;
-                        break;
-                    }
+            if (obsCanHurt) {
+                playSoundB(hurt, 3734, 11025, 0);
+                obsCanHurt = 0;
+                (*(volatile unsigned short*)0x400004C) = ((0)+(0<<4)+(hurtCounter<<8)+(hurtCounter<<12));
+                hurtCounter--;
+                healthBucket--;
+                health = realloc(health, healthBucket * sizeof(int));
+                for (int i = 0; i < healthBucket; i++) {
+                    health[i] = 1;
                 }
             }
         }
     }
-
+# 582 "main.c"
     for (int i = 0; i < enemyLength; i++) {
         if (enemies[i].isActive) {
             if (collision(enemies[i].worldRow, enemies[i].worldCol, enemies[i].height, enemies[i].width, hero.worldRow, hero.worldCol, hero.height, hero.width)) {
                 if (cheat < 0) {
-                    for (int j = 9; j >= 0; j--) {
-                        if (enemyCanHurt) {
-                            if (health[j]) {
-                                health[j] = 0;
-                                enemyCanHurt = 0;
-                                healthBucket--;
-                                playSoundB(hurt, 3734, 11025, 0);
-                                break;
-                            }
+                    if (enemyCanHurt) {
+                        enemyCanHurt = 0;
+                        (*(volatile unsigned short*)0x400004C) = ((0)+(0<<4)+(hurtCounter<<8)+(hurtCounter<<12));
+                        hurtCounter--;
+                        healthBucket--;
+                        health = realloc(health, healthBucket * sizeof(int));
+                        for (int i = 0; i < healthBucket; i++) {
+                            health[i] = 1;
                         }
+                        playSoundB(hurt, 3734, 11025, 0);
                     }
                 }
             }
