@@ -1722,7 +1722,7 @@ void game() {
             }
         }
     }
-# 582 "main.c"
+
     for (int i = 0; i < enemyLength; i++) {
         if (enemies[i].isActive) {
             if (collision(enemies[i].worldRow, enemies[i].worldCol, enemies[i].height, enemies[i].width, hero.worldRow, hero.worldCol, hero.height, hero.width)) {
@@ -1750,11 +1750,11 @@ void game() {
                 jades[i].isActive = 0;
                 score++;
                 spawnJade();
-                for (int j = 0; j < 10; j++) {
-                    if (!health[j]) {
-                        health[j] = 1;
-                        healthBucket++;
-                        break;
+                if (healthBucket < 10) {
+                    healthBucket++;
+                    health = realloc(health, healthBucket * sizeof(int));
+                    for (int i = 0; i < healthBucket; i++) {
+                                health[i] = 1;
                     }
                 }
             }
@@ -1831,7 +1831,52 @@ void game() {
         for (int j = 0; j < bulletLength; j++) {
             if (bullets[j].isActive) {
                 if (enemies[i].isActive) {
-                    if (collision(bullets[j].worldRow, bullets[j].worldCol, bullets[j].height, bullets[j].width, enemies[i].worldRow, enemies[i].worldCol, enemies[i].height, enemies[i].width)) {
+                    if (collision(bullets[j].worldRow, bullets[j].worldCol, bullets[j].height, bullets[j].width, enemies[i].worldRow, enemies[i].worldCol - 8, enemies[i].height, enemies[i].width)) {
+                        enemies[i].isActive = 0;
+                        bullets[j].isActive = 0;
+                        score++;
+                        spawnEnemy();
+                    } else if (collision(bullets[j].worldRow + 1, bullets[j].worldCol - 1, bullets[j].height, bullets[j].width, enemies[i].worldRow, enemies[i].worldCol - 8, enemies[i].height, enemies[i].width)) {
+                        enemies[i].isActive = 0;
+                        bullets[j].isActive = 0;
+                        score++;
+                        spawnEnemy();
+                    } else if (collision(bullets[j].worldRow + 2, bullets[j].worldCol - 2, bullets[j].height, bullets[j].width, enemies[i].worldRow, enemies[i].worldCol - 7, enemies[i].height, enemies[i].width)) {
+                        enemies[i].isActive = 0;
+                        bullets[j].isActive = 0;
+                        score++;
+                        spawnEnemy();
+                    } else if (collision(bullets[j].worldRow + 3, bullets[j].worldCol - 3, bullets[j].height, bullets[j].width, enemies[i].worldRow, enemies[i].worldCol - 7, enemies[i].height, enemies[i].width)) {
+                        enemies[i].isActive = 0;
+                        bullets[j].isActive = 0;
+                        score++;
+                        spawnEnemy();
+                    } else if (collision(bullets[j].worldRow + 4, bullets[j].worldCol - 4, bullets[j].height, bullets[j].width, enemies[i].worldRow, enemies[i].worldCol - 6, enemies[i].height, enemies[i].width)) {
+                        enemies[i].isActive = 0;
+                        bullets[j].isActive = 0;
+                        score++;
+                        spawnEnemy();
+                    } else if (collision(bullets[j].worldRow + 5, bullets[j].worldCol - 5, bullets[j].height, bullets[j].width, enemies[i].worldRow, enemies[i].worldCol - 6, enemies[i].height, enemies[i].width)) {
+                        enemies[i].isActive = 0;
+                        bullets[j].isActive = 0;
+                        score++;
+                        spawnEnemy();
+                    } else if (collision(bullets[j].worldRow + 6, bullets[j].worldCol - 6, bullets[j].height, bullets[j].width, enemies[i].worldRow, enemies[i].worldCol - 5, enemies[i].height, enemies[i].width)) {
+                        enemies[i].isActive = 0;
+                        bullets[j].isActive = 0;
+                        score++;
+                        spawnEnemy();
+                    } else if (collision(bullets[j].worldRow + 7, bullets[j].worldCol - 7, bullets[j].height, bullets[j].width, enemies[i].worldRow, enemies[i].worldCol - 5, enemies[i].height, enemies[i].width)) {
+                        enemies[i].isActive = 0;
+                        bullets[j].isActive = 0;
+                        score++;
+                        spawnEnemy();
+                    } else if (collision(bullets[j].worldRow + 8, bullets[j].worldCol - 8, bullets[j].height, bullets[j].width, enemies[i].worldRow, enemies[i].worldCol - 4, enemies[i].height, enemies[i].width)) {
+                        enemies[i].isActive = 0;
+                        bullets[j].isActive = 0;
+                        score++;
+                        spawnEnemy();
+                    } else if (collision(bullets[j].worldRow + 9, bullets[j].worldCol - 9, bullets[j].height, bullets[j].width, enemies[i].worldRow, enemies[i].worldCol - 4, enemies[i].height, enemies[i].width)) {
                         enemies[i].isActive = 0;
                         bullets[j].isActive = 0;
                         score++;
