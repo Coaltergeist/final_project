@@ -531,7 +531,11 @@ hideSprites:
 	add	r3, r3, #8
 	cmp	r3, #1024
 	bne	.L76
-	bx	lr
+	ldr	r1, .L78
+	mov	r0, #3
+	mov	r2, #117440512
+	mov	r3, #512
+	b	DMANow
 .L79:
 	.align	2
 .L78:

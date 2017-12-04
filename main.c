@@ -7,6 +7,7 @@ enemies not yet implemented. Cheat is pressing a during pause, makes you invinci
 #include "bg.h"
 #include "bg2.h"
 #include "bg3.h"
+#include "bg3_2.h"
 #include "startScreen.h"
 #include "howtoScreen.h"
 #include "spritesheet.h"
@@ -707,6 +708,13 @@ void spawnJade() {
 // Sets up the game state
 void goToGame() {
 
+    REG_BG2CNT = BG_SIZE_SMALL | BG_CHARBLOCK(0) | BG_SCREENBLOCK(31);
+    REG_BG1CNT = BG_SIZE_WIDE | BG_CHARBLOCK(1) | BG_SCREENBLOCK(29);
+    REG_BG0CNT = BG_SIZE_SMALL | BG_CHARBLOCK(2) | BG_SCREENBLOCK(27);
+
+    DMANow(3, bg3Tiles, &CHARBLOCK[2], bg3TilesLen / 2);    
+    DMANow(3, bg3Map, &SCREENBLOCK[27], bg3MapLen / 2);
+
     state = GAME;
 }
 
@@ -751,6 +759,8 @@ void pause() {
     // Lock the framerate to 60 fps
     waitForVBlank();
 
+    hideSprites();
+
     if (BUTTON_PRESSED(BUTTON_A)) {
         cheat *= -1;
         playSoundB(coin, COINLEN, COINFREQ, 0);
@@ -759,6 +769,7 @@ void pause() {
     // State transitions
     if (BUTTON_PRESSED(BUTTON_START)) {
         unpauseSound();
+        drawSprites();
         goToGame();
     }
     else if (BUTTON_PRESSED(BUTTON_SELECT)) {
@@ -775,6 +786,13 @@ void pause() {
 
 // Sets up the pause state
 void goToPause() {
+
+    REG_BG2CNT = BG_SIZE_SMALL | BG_CHARBLOCK(0) | BG_SCREENBLOCK(31);
+    REG_BG1CNT = BG_SIZE_WIDE | BG_CHARBLOCK(1) | BG_SCREENBLOCK(29);
+    REG_BG0CNT = BG_SIZE_SMALL | BG_CHARBLOCK(2) | BG_SCREENBLOCK(27);
+
+    DMANow(3, bg3_2Tiles, &CHARBLOCK[2], bg3_2TilesLen / 2);    
+    DMANow(3, bg3_2Map, &SCREENBLOCK[27], bg3_2MapLen / 2);
 
 	state = PAUSE;
 }

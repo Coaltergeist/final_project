@@ -271,4 +271,6 @@ void hideSprites() {
     for (int i = 0; i < 128; i++) {
         shadowOAM[i].attr0 = (2<<8);
     }
+
+    DMANow(3, shadowOAM, ((OBJ_ATTR*)(0x7000000)), 128*4);
 }

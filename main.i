@@ -157,20 +157,30 @@ extern const unsigned short bg3Map[1024];
 
 extern const unsigned short bg3Pal[256];
 # 10 "main.c" 2
+# 1 "bg3_2.h" 1
+# 22 "bg3_2.h"
+extern const unsigned short bg3_2Tiles[1424];
+
+
+extern const unsigned short bg3_2Map[1024];
+
+
+extern const unsigned short bg3_2Pal[256];
+# 11 "main.c" 2
 # 1 "startScreen.h" 1
 # 21 "startScreen.h"
 extern const unsigned short startScreenBitmap[19200];
 
 
 extern const unsigned short startScreenPal[256];
-# 11 "main.c" 2
+# 12 "main.c" 2
 # 1 "howtoScreen.h" 1
 # 21 "howtoScreen.h"
 extern const unsigned short howtoScreenBitmap[19200];
 
 
 extern const unsigned short howtoScreenPal[256];
-# 12 "main.c" 2
+# 13 "main.c" 2
 
 # 1 "sound.h" 1
 typedef struct{
@@ -198,22 +208,22 @@ void unpauseSound();
 
 void setupInterrupts();
 void interruptHandler();
-# 14 "main.c" 2
+# 15 "main.c" 2
 # 1 "song01.h" 1
 # 20 "song01.h"
 extern const unsigned char song01[1302562];
-# 15 "main.c" 2
+# 16 "main.c" 2
 # 1 "laser.h" 1
 # 20 "laser.h"
 extern const unsigned char laser[1180];
-# 16 "main.c" 2
+# 17 "main.c" 2
 # 1 "loseScreen.h" 1
 # 21 "loseScreen.h"
 extern const unsigned short loseScreenBitmap[19200];
 
 
 extern const unsigned short loseScreenPal[256];
-# 17 "main.c" 2
+# 18 "main.c" 2
 # 1 "text.h" 1
 
 void drawChar3(int row, int col, char ch, unsigned short color);
@@ -222,38 +232,38 @@ void drawString3(int row, int col, char *str, unsigned short color);
 
 void drawChar4(int row, int col, char ch, unsigned char colorIndex);
 void drawString4(int row, int col, char *str, unsigned char colorIndex);
-# 18 "main.c" 2
+# 19 "main.c" 2
 # 1 "font.h" 1
 
 extern const unsigned char fontdata_6x8[12288];
-# 19 "main.c" 2
+# 20 "main.c" 2
 # 1 "title.h" 1
 # 20 "title.h"
 extern const unsigned char title[81625];
-# 20 "main.c" 2
+# 21 "main.c" 2
 # 1 "hurt.h" 1
 # 20 "hurt.h"
 extern const unsigned char hurt[3734];
-# 21 "main.c" 2
+# 22 "main.c" 2
 # 1 "coin.h" 1
 # 20 "coin.h"
 extern const unsigned char coin[10969];
-# 22 "main.c" 2
+# 23 "main.c" 2
 # 1 "winScreen.h" 1
 # 21 "winScreen.h"
 extern const unsigned short winScreenBitmap[19200];
 
 
 extern const unsigned short winScreenPal[256];
-# 23 "main.c" 2
+# 24 "main.c" 2
 # 1 "victory.h" 1
 # 20 "victory.h"
 extern const unsigned char victory[756064];
-# 24 "main.c" 2
+# 25 "main.c" 2
 # 1 "loseSong.h" 1
 # 20 "loseSong.h"
 extern const unsigned char loseSong[455616];
-# 25 "main.c" 2
+# 26 "main.c" 2
 # 1 "c:\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.5.0/../../../../arm-eabi/include/stdlib.h" 1 3
 # 10 "c:\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.5.0/../../../../arm-eabi/include/stdlib.h" 3
 # 1 "c:\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.5.0/../../../../arm-eabi/include/machine/ieeefp.h" 1 3
@@ -708,7 +718,7 @@ extern long double wcstold (const wchar_t *, wchar_t **);
 
 
 
-# 26 "main.c" 2
+# 27 "main.c" 2
 # 1 "c:\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.5.0/../../../../arm-eabi/include/stdio.h" 1 3
 # 34 "c:\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.5.0/../../../../arm-eabi/include/stdio.h" 3
 # 1 "c:\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.5.0/include/stddef.h" 1 3 4
@@ -1104,7 +1114,7 @@ int __srget_r (struct _reent *, FILE *);
 int __swbuf_r (struct _reent *, int, FILE *);
 # 687 "c:\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.5.0/../../../../arm-eabi/include/stdio.h" 3
 
-# 27 "main.c" 2
+# 28 "main.c" 2
 
 void initialize();
 
@@ -1788,6 +1798,13 @@ void spawnJade() {
 
 void goToGame() {
 
+    (*(volatile unsigned short*)0x400000C) = (0<<14) | ((0)<<2) | ((31)<<8);
+    (*(volatile unsigned short*)0x400000A) = (1<<14) | ((1)<<2) | ((29)<<8);
+    (*(volatile unsigned short*)0x4000008) = (0<<14) | ((2)<<2) | ((27)<<8);
+
+    DMANow(3, bg3Tiles, &((charblock *)0x6000000)[2], 1056 / 2);
+    DMANow(3, bg3Map, &((screenblock *)0x6000000)[27], 2048 / 2);
+
     state = GAME;
 }
 
@@ -1832,6 +1849,8 @@ void pause() {
 
     waitForVBlank();
 
+    hideSprites();
+
     if ((!(~(oldButtons)&((1<<0))) && (~buttons & ((1<<0))))) {
         cheat *= -1;
         playSoundB(coin, 10969, 11025, 0);
@@ -1840,6 +1859,7 @@ void pause() {
 
     if ((!(~(oldButtons)&((1<<3))) && (~buttons & ((1<<3))))) {
         unpauseSound();
+        drawSprites();
         goToGame();
     }
     else if ((!(~(oldButtons)&((1<<2))) && (~buttons & ((1<<2))))) {
@@ -1856,6 +1876,13 @@ void pause() {
 
 
 void goToPause() {
+
+    (*(volatile unsigned short*)0x400000C) = (0<<14) | ((0)<<2) | ((31)<<8);
+    (*(volatile unsigned short*)0x400000A) = (1<<14) | ((1)<<2) | ((29)<<8);
+    (*(volatile unsigned short*)0x4000008) = (0<<14) | ((2)<<2) | ((27)<<8);
+
+    DMANow(3, bg3_2Tiles, &((charblock *)0x6000000)[2], 2848 / 2);
+    DMANow(3, bg3_2Map, &((screenblock *)0x6000000)[27], 2048 / 2);
 
  state = PAUSE;
 }
