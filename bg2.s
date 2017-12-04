@@ -4346,7 +4346,7 @@ bg2Pal:
 	.short	31775
 	.short	0
 	.short	26325
-	.short	1036
+	.short	12300
 	.short	2059
 	.short	15723
 	.short	10438
@@ -4358,8 +4358,8 @@ bg2Pal:
 	.short	11806
 	.short	12830
 	.short	10270
+	.short	13331
 	.short	0
-	.short	31775
 	.short	0
 	.short	8320
 	.short	11489
@@ -4375,22 +4375,22 @@ bg2Pal:
 	.short	12545
 	.short	1024
 	.short	10400
-	.short	18441
 	.short	0
-	.short	27287
+	.short	18441
 	.short	19986
-	.short	31612
+	.short	27287
+	.short	30588
 	.short	17482
-	.short	22799
-	.short	16620
+	.short	22831
 	.short	25043
+	.short	19628
 	.short	32767
-	.short	29466
-	.short	23953
-	.short	17547
+	.short	29434
+	.short	17515
 	.short	21075
 	.short	26132
-	.short	20685
+	.short	23953
+	.short	21742
 	.short	0
 	.short	0
 	.short	0

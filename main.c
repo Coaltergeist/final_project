@@ -17,6 +17,11 @@ enemies not yet implemented. Cheat is pressing a during pause, makes you invinci
 #include "text.h"
 #include "font.h"
 #include "title.h"
+#include "hurt.h"
+#include "coin.h"
+#include "winScreen.h"
+#include "victory.h"
+#include "loseSong.h"
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -39,6 +44,7 @@ void startGame();
 void firstStart();
 void fireBullet();
 void spawnEnemy();
+void spawnJade();
 
 unsigned short buttons;
 unsigned short oldButtons;
@@ -52,6 +58,9 @@ ANISPRITE hero;
 ANISPRITE bullets[10];
 ANISPRITE obstacles[3];
 ANISPRITE enemies[10];
+ANISPRITE jades[5];
+
+int health[10];
 
 int frame;
 int aniState;
@@ -63,8 +72,10 @@ int aniCounter;
 int frameCount;
 int enemyLength;
 int bulletLength;
-int lives;
 int score;
+int obsCanHurt;
+int enemyCanHurt;
+int healthBucket;
 
 int state;
 
@@ -184,12 +195,36 @@ void drawSprites() {
         }
     }
 
+    for (int i = 0; i < 10; i++) {
+        if (health[i]) {
+            shadowOAM[i + 71].attr0 = 146 | ATTR0_SQUARE;
+            shadowOAM[i + 71].attr1 = (60 + (i * (8))) | ATTR1_TINY;
+            shadowOAM[i + 71].attr2 = ATTR2_TILEID(25, 18);
+        }
+    }
+
+    for (int i = 0; i < 5; i++) {
+        if (jades[i].isActive) {
+            shadowOAM[i + 91].attr0 = (ROWMASK & jades[i].screenRow) | ATTR0_TALL;
+            shadowOAM[i + 91].attr1 = (COLMASK & jades[i].screenCol) | ATTR1_TINY;
+            shadowOAM[i + 91].attr2 = ATTR2_TILEID(25, 6);
+        }
+    }
+
+    shadowOAM[100].attr0 = 146 | ATTR0_SQUARE;;
+    shadowOAM[100].attr1 = (200 + 0) | ATTR1_TINY;
+    shadowOAM[100].attr2 = ATTR2_TILEID(24, 18 + ((score - (score % 10)) / 10));
+
+    shadowOAM[101].attr0 = 146 | ATTR0_SQUARE;;
+    shadowOAM[101].attr1 = (208 + 0) | ATTR1_TINY;
+    shadowOAM[101].attr2 = ATTR2_TILEID(24, 18 + (score % 10));;
+
 	DMANow(3, shadowOAM, OAM, 128*4);
 }
 
 void initialize() {
 
-	REG_DISPCTL = MODE0 | BG2_ENABLE | BG1_ENABLE | SPRITE_ENABLE | BG0_ENABLE;
+	REG_DISPCTL = MODE0 | BG2_ENABLE | BG1_ENABLE | BG0_ENABLE | SPRITE_ENABLE;
 
 	loadPalette(bg2Pal);
 
@@ -232,12 +267,17 @@ void initialize() {
 
     cheat = -1;
 
+    obsCanHurt = 1;
+    enemyCanHurt = 1;
+
+    healthBucket = 10;
+
     hero.screenRow = hero.worldRow - vOff;
     hero.screenCol = hero.worldCol - hOff;
 
     REG_BG2VOFF = vOff + 13;
     REG_BG1VOFF = 0;
-    REG_BG0VOFF = -9;
+    REG_BG0VOFF = 27;
     REG_BG0HOFF = 8;
 
     for (int i = 0; i < 1; i++) {
@@ -272,7 +312,21 @@ void initialize() {
         }
     }
 
+    for (int i = 0; i < 10; i++) {
+        health[i] = 1;
+    }
+
+    for (int i = 0; i < 5; i++) {
+        jades[i].isActive = 0;
+        jades[i].worldRow = 116;
+        jades[i].worldCol = 270;
+        jades[i].height = 12;
+        jades[i].width = 8;
+        jades[i].aniState = rand() % 2;
+    }
+
     spawnEnemy();
+    spawnJade();
 
     buttons = BUTTONS;
 }
@@ -348,10 +402,18 @@ void goToStart() {
     state = START;
 
     frameCount = 1;
+    score = 0;
 }
 
 // Sets up the win state
 void goToWin() {
+
+    drawFullscreenImage4(winScreenBitmap);
+    flipPage();
+    drawFullscreenImage4(winScreenBitmap);    
+
+    stopSound();
+    playSoundA(victory, VICTORYLEN, VICTORYFREQ, 1);
 
     state = WIN;
 }
@@ -363,8 +425,16 @@ void win() {
     waitForVBlank();
 
     // State transitions
-    if (BUTTON_PRESSED(BUTTON_START))
-        goToStart();
+    if (BUTTON_PRESSED(BUTTON_START)) {
+        firstStart();
+        drawFullscreenImage4(startScreenBitmap);
+        drawString4(120, 62, "Press Start to Begin", WHITEID);
+        drawString4(150, 2, "Press Select for Instructions", WHITEID);
+        flipPage();
+        drawFullscreenImage4(startScreenBitmap);
+        drawString4(150, 2, "Press Select for Instructions", WHITEID);
+        firstStart();
+    }
 }
 
 // Update game each frame
@@ -403,8 +473,67 @@ void game() {
 
     if (collision(hero.worldRow, hero.worldCol, hero.height, hero.width, obstacles[0].worldRow, obstacles[0].worldCol, 32, 16)) {
         if (cheat < 0) {
-            goToLose();
+            for (int i = 9; i >= 0; i--) {
+                if (obsCanHurt) {
+                    if (health[i]) {
+                        playSoundB(hurt, HURTLEN, HURTFREQ, 0);
+                        health[i] = 0;
+                        obsCanHurt = 0;
+                        healthBucket--;
+                        break;
+                    }
+                }
+            }
         }
+    }
+
+    for (int i = 0; i < enemyLength; i++) {
+        if (enemies[i].isActive) {
+            if (collision(enemies[i].worldRow, enemies[i].worldCol, enemies[i].height, enemies[i].width, hero.worldRow, hero.worldCol, hero.height, hero.width)) {
+                if (cheat < 0) {
+                    for (int j = 9; j >= 0; j--) {
+                        if (enemyCanHurt) {
+                            if (health[j]) {
+                                health[j] = 0;
+                                enemyCanHurt = 0;
+                                healthBucket--;
+                                playSoundB(hurt, HURTLEN, HURTFREQ, 0);
+                                break;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    for (int i = 0; i < 5; i++) {
+        if (jades[i].isActive) {
+            if (collision(jades[i].worldRow, jades[i].worldCol, jades[i].height, jades[i].width, hero.worldRow, hero.worldCol, hero.height, hero.width)) {
+                playSoundB(coin, COINLEN, COINFREQ, 0);
+                jades[i].isActive = 0;
+                score++;
+                spawnJade();
+                for (int j = 0; j < 10; j++) {
+                    if (!health[j]) {
+                        health[j] = 1;
+                        healthBucket++;
+                        break;
+                    }
+                }
+            }
+        }
+    }
+
+    if (healthBucket == 0) {
+        REG_DISPCTL = MODE4 | BG2_ENABLE | DISP_BACKBUFFER;
+        stopSound();
+        loadPalette(loseScreenPal);
+        drawFullscreenImage4(loseScreenBitmap);
+        flipPage();
+        drawFullscreenImage4(loseScreenBitmap);
+        playSoundA(loseSong, LOSESONGLEN, LOSESONGFREQ, 1);
+        goToLose();
     }
     
 
@@ -429,6 +558,7 @@ void game() {
             for (int j = 0; j < 1; j++) {
                 obstacles[j].worldCol = (rand() % 272) + 240 + hOff;
                 obstacles[j].screenCol = obstacles[j].worldCol - hOff;
+                obsCanHurt = 1;
             }
         }
     }
@@ -436,6 +566,8 @@ void game() {
     for (int k = 0; k < bulletLength; k++) {
         if (bullets[k].isActive) {
             if (bullets[k].worldCol > hOff + 240) {
+                bullets[k].isActive = 0;
+            } else if (bullets[k].worldRow < -8) {
                 bullets[k].isActive = 0;
             } else {
                 bullets[k].worldCol += bullets[k].cdel;
@@ -466,11 +598,33 @@ void game() {
                     if (collision(bullets[j].worldRow, bullets[j].worldCol, bullets[j].height, bullets[j].width, enemies[i].worldRow, enemies[i].worldCol, enemies[i].height, enemies[i].width)) {
                         enemies[i].isActive = 0;
                         bullets[j].isActive = 0;
+                        score++;
                         spawnEnemy();
                     }
                 }
             }
         }
+    }
+
+    for (int i = 0; i < 5; i++) {
+        if (jades[i].isActive) {
+            if (jades[i].screenCol < -8) {
+                jades[i].isActive = 0;
+                spawnJade();
+            } else {
+                jades[i].screenRow = jades[i].worldRow - vOff;
+                jades[i].screenCol = jades[i].worldCol - hOff;
+            }
+        }
+    }
+
+    if (score >= 50) {
+        REG_DISPCTL = MODE4 | BG2_ENABLE | DISP_BACKBUFFER;
+        loadPalette(winScreenPal);
+        drawFullscreenImage4(winScreenBitmap);
+        flipPage();
+        drawFullscreenImage4(winScreenBitmap);
+        goToWin();
     }
 
     hero.screenRow = hero.worldRow - vOff;
@@ -487,7 +641,7 @@ void fireBullet() {
     for (int k = 0; k < bulletLength; k++) {
         if (!(bullets[k].isActive)) {
             if (BUTTON_HELD(BUTTON_UP)) {
-                bullets[k].rdel = -5;
+                bullets[k].rdel = -9;
             } else {
                 bullets[k].rdel = 0;
             }
@@ -531,8 +685,21 @@ void spawnEnemy() {
                 enemies[e].worldCol = (rand() % 272) + 240 + hOff;
                 enemies[e].screenRow = enemies[e].worldRow - vOff;
                 enemies[e].screenCol = enemies[e].worldCol - hOff;
+                enemyCanHurt = 1;
                 break;
             //}
+        }
+    }
+}
+
+void spawnJade() {
+    for (int i = 0; i < 5; i++) {
+        if (!(jades[i].isActive)) {
+            jades[i].isActive = 1;
+            jades[i].worldCol = (rand() % 272) + 210 + hOff;
+            jades[i].screenRow = jades[i].worldRow - vOff;
+            jades[i].screenCol = jades[i].worldCol - hOff;
+            break;
         }
     }
 }
@@ -553,9 +720,9 @@ void startGame() {
 // Sets up the lose state
 void goToLose() {
 
-    REG_DISPCTL = MODE4 | BG2_ENABLE | DISP_BACKBUFFER;
-
-    stopSound();
+    drawFullscreenImage4(loseScreenBitmap);
+    flipPage();
+    drawFullscreenImage4(loseScreenBitmap);
     state = LOSE;
 }
 
@@ -564,8 +731,6 @@ void lose() {
      
     // Lock the framerate to 60 fps
     waitForVBlank();
-
-    drawFullscreenImage4(howtoScreenBitmap);
 
     // State transitions
     if (BUTTON_PRESSED(BUTTON_START)) {
@@ -588,7 +753,7 @@ void pause() {
 
     if (BUTTON_PRESSED(BUTTON_A)) {
         cheat *= -1;
-        playSoundB(laser, LASERLEN, LASERFREQ, 0);
+        playSoundB(coin, COINLEN, COINFREQ, 0);
     }
 
     // State transitions
