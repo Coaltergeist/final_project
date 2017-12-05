@@ -30,33 +30,26 @@ I have set up the enemy sprites using ROWMASK and
 COLMASK, so I'm also not too sure why it happens there.
 Once again, I haven't seen it in this "final release," 
 but it might still happen. Those are only visual issues, 
-however. The only gameplay bug (that I've seen) is that, 
-occasionally, a bullet might pass through an enemy 
-without killing it. This is due to how the collision() 
-function is written; if the velocity of one of the objects 
-is larger than the size of another object (or if both
-objects are moving in opposite directions), it's possible
-that the collision never occurs during a frame. I have an
-idea to fix this, so I will try before the final final
-turn-in.
+however. I originally had a few gameplay bugs, but I've
+fixed all of the ones that I've found.
 
 EXTRA CREDIT: There are multiple things that I feel go
 above and beyond the project requirements. For example,
 I make use of both Mode 4 and Mode 0, instead of just 
-Mode 0, I have 3 non-looping sound effects instead of
-just one, and I have 4 looping songs instead of just 1.
-On top of that, (along with art taken mainly from
+Mode 0. In Mode 0 during the main gameplay, I have 4 
+different backgrounds, 3 of which display simultaneously 
+at any given time. I have 3 non-looping sound effects 
+instead of just one, and I have 4 looping songs instead 
+of just 1. On top of that, (along with art taken mainly from
 Metroid games on GBA) I have multiple home-made assets,
-including the title screen logo, the shield effect, and
-the bullet effect. On a more technical side, I also make
-use of Dynamic Memory for the health system*. I also 
-produced a mosaic effect for when the main character is
-hurt**. In addition to all of this, my game has General
-Coolness™***.
+including the title screen logo, the shield effect, the
+health bar, the score, and the bullet effect. On a more 
+technical side, I also make use of Dynamic Memory for 
+the health system*. I also produced a mosaic effect for
+when the main character is hurt**. 
 
 * in initialize() function and game() function
 ** in drawSprites() function and game() function
-*** ;)
 ******************************************/
 
 #include "myLib.h"
@@ -82,7 +75,7 @@ Coolness™***.
 #include "loseSong.h"
 #include <stdlib.h>
 #include <stdio.h>
-#include<malloc.h>
+#include <malloc.h>
 
 void initialize();
 
@@ -96,11 +89,13 @@ void goToWin();
 void win();
 void goToLose();
 void lose();
-void drawSprites();
 void gotoHowto();
 void howto();
 void startGame();
 void firstStart();
+void collisionCheck();
+void updateObjects();
+void drawSprites();
 void fireBullet();
 void spawnEnemy();
 void spawnJade();
@@ -352,6 +347,8 @@ void initialize() {
 
     for (int k = 0; k < bulletLength; k++) {
         bullets[k].isActive = 0;
+        bullets[k].height = 8;
+        bullets[k].width = 14;
     }
 
     for (int e = 0; e < enemyLength; e++) {
@@ -536,66 +533,12 @@ void game() {
         fireBullet();
     }
     
-    if (hurtCounter == 0) {
+    if (hurtCounter <= 0) {
         hurtCounter = 30;
         REG_MOSAIC = SetMosaic(0, 0, 0, 0);
     } else if (hurtCounter < 30) {
-            REG_MOSAIC = SetMosaic(0, 0, hurtCounter, hurtCounter);
-            hurtCounter--;
-    }
-
-    if (collision(hero.worldRow, hero.worldCol, hero.height, hero.width, obstacles[0].worldRow, obstacles[0].worldCol, 32, 16)) {
-        if (cheat < 0) {
-            if (obsCanHurt) {
-                playSoundB(hurt, HURTLEN, HURTFREQ, 0);
-                obsCanHurt = 0;
-                REG_MOSAIC = SetMosaic(0, 0, hurtCounter, hurtCounter);
-                hurtCounter--;
-                healthBucket--;
-                health = realloc(health, healthBucket * sizeof(int));
-                for (int i = 0; i < healthBucket; i++) {
-                    health[i] = 1;
-                }
-            }
-        }
-    }
-
-    for (int i = 0; i < enemyLength; i++) {
-        if (enemies[i].isActive) {
-            if (collision(enemies[i].worldRow, enemies[i].worldCol, enemies[i].height, enemies[i].width, hero.worldRow, hero.worldCol, hero.height, hero.width)) {
-                if (cheat < 0) {
-                    if (enemyCanHurt) {
-                        enemyCanHurt = 0;
-                        REG_MOSAIC = SetMosaic(0, 0, hurtCounter, hurtCounter);
-                        hurtCounter--;
-                        healthBucket--;
-                        health = realloc(health, healthBucket * sizeof(int));
-                        for (int i = 0; i < healthBucket; i++) {
-                            health[i] = 1;
-                        }
-                        playSoundB(hurt, HURTLEN, HURTFREQ, 0);
-                    }
-                }
-            }
-        }
-    }
-
-    for (int i = 0; i < 5; i++) {
-        if (jades[i].isActive) {
-            if (collision(jades[i].worldRow, jades[i].worldCol, jades[i].height, jades[i].width, hero.worldRow, hero.worldCol, hero.height, hero.width)) {
-                playSoundB(coin, COINLEN, COINFREQ, 0);
-                jades[i].isActive = 0;
-                score++;
-                spawnJade();
-                if (healthBucket < 10) { 
-                    healthBucket++;
-                    health = realloc(health, healthBucket * sizeof(int));
-                    for (int i = 0; i < healthBucket; i++) {
-                                health[i] = 1;
-                    }
-                }
-            }
-        }
+        REG_MOSAIC = SetMosaic(0, 0, hurtCounter, hurtCounter);
+        hurtCounter--;
     }
 
     if (healthBucket == 0) {
@@ -608,17 +551,40 @@ void game() {
         playSoundA(loseSong, LOSESONGLEN, LOSESONGFREQ, 1);
         goToLose();
     }
-    
+
+    collisionCheck();
 
     // autoscroll the background
     hOff += 3;
 
     drawSprites();
     
+    updateObjects();
+
+    if (score >= 50) {
+        REG_DISPCTL = MODE4 | BG2_ENABLE | DISP_BACKBUFFER;
+        loadPalette(winScreenPal);
+        drawFullscreenImage4(winScreenBitmap);
+        flipPage();
+        drawFullscreenImage4(winScreenBitmap);
+        goToWin();
+    }
+
+    hero.screenRow = hero.worldRow - vOff;
+    hero.screenCol = hero.worldCol - hOff;
+
+    // Update the offset registers with the actual offsets
+    REG_BG1HOFF = hOff;
+    REG_BG2HOFF = hOff / 2;
+
+    frame++;
+}
+
+void updateObjects() {
     if ((hero.screenCol > 10) && (hero.worldRow == 92)) {
-    	hero.worldCol += 2;
+        hero.worldCol += 2;
     } else {
-    	hero.worldCol += 3;
+        hero.worldCol += 3;
     }
 
     for (int i = 0; i < 3; i++) {
@@ -664,60 +630,49 @@ void game() {
         }
     }
 
+    for (int i = 0; i < 5; i++) {
+        if (jades[i].isActive) {
+            if (jades[i].screenCol < -8) {
+                jades[i].isActive = 0;
+            } else {
+                jades[i].screenRow = jades[i].worldRow - vOff;
+                jades[i].screenCol = jades[i].worldCol - hOff;
+            }
+        }
+    }
+}
+
+void collisionCheck() {
+    if (collision(hero.worldRow, hero.worldCol, hero.height, hero.width, obstacles[0].worldRow, obstacles[0].worldCol, 32, 16)) {
+        if (cheat < 0) {
+            if (obsCanHurt) {
+                playSoundB(hurt, HURTLEN, HURTFREQ, 0);
+                obsCanHurt = 0;
+                REG_MOSAIC = SetMosaic(0, 0, hurtCounter, hurtCounter);
+                hurtCounter--;
+                healthBucket--;
+                health = realloc(health, healthBucket * sizeof(int));
+                for (int i = 0; i < healthBucket; i++) {
+                    health[i] = 1;
+                }
+            }
+        }
+    }
+
     for (int i = 0; i < enemyLength; i++) {
-        for (int j = 0; j < bulletLength; j++) {
-            if (bullets[j].isActive) {
-                if (enemies[i].isActive) {
-                    if (collision(bullets[j].worldRow, bullets[j].worldCol, bullets[j].height, bullets[j].width, enemies[i].worldRow, enemies[i].worldCol - 8, enemies[i].height, enemies[i].width)) {
-                        enemies[i].isActive = 0;
-                        bullets[j].isActive = 0;
-                        score++;
-                        spawnEnemy();
-                    } else if (collision(bullets[j].worldRow + 1, bullets[j].worldCol - 1, bullets[j].height, bullets[j].width, enemies[i].worldRow, enemies[i].worldCol - 8, enemies[i].height, enemies[i].width)) {
-                        enemies[i].isActive = 0;
-                        bullets[j].isActive = 0;
-                        score++;
-                        spawnEnemy();
-                    } else if (collision(bullets[j].worldRow + 2, bullets[j].worldCol - 2, bullets[j].height, bullets[j].width, enemies[i].worldRow, enemies[i].worldCol - 7, enemies[i].height, enemies[i].width)) {
-                        enemies[i].isActive = 0;
-                        bullets[j].isActive = 0;
-                        score++;
-                        spawnEnemy();
-                    } else if (collision(bullets[j].worldRow + 3, bullets[j].worldCol - 3, bullets[j].height, bullets[j].width, enemies[i].worldRow, enemies[i].worldCol - 7, enemies[i].height, enemies[i].width)) {
-                        enemies[i].isActive = 0;
-                        bullets[j].isActive = 0;
-                        score++;
-                        spawnEnemy();
-                    } else if (collision(bullets[j].worldRow + 4, bullets[j].worldCol - 4, bullets[j].height, bullets[j].width, enemies[i].worldRow, enemies[i].worldCol - 6, enemies[i].height, enemies[i].width)) {
-                        enemies[i].isActive = 0;
-                        bullets[j].isActive = 0;
-                        score++;
-                        spawnEnemy();
-                    } else if (collision(bullets[j].worldRow + 5, bullets[j].worldCol - 5, bullets[j].height, bullets[j].width, enemies[i].worldRow, enemies[i].worldCol - 6, enemies[i].height, enemies[i].width)) {
-                        enemies[i].isActive = 0;
-                        bullets[j].isActive = 0;
-                        score++;
-                        spawnEnemy();
-                    } else if (collision(bullets[j].worldRow + 6, bullets[j].worldCol - 6, bullets[j].height, bullets[j].width, enemies[i].worldRow, enemies[i].worldCol - 5, enemies[i].height, enemies[i].width)) {
-                        enemies[i].isActive = 0;
-                        bullets[j].isActive = 0;
-                        score++;
-                        spawnEnemy();
-                    } else if (collision(bullets[j].worldRow + 7, bullets[j].worldCol - 7, bullets[j].height, bullets[j].width, enemies[i].worldRow, enemies[i].worldCol - 5, enemies[i].height, enemies[i].width)) {
-                        enemies[i].isActive = 0;
-                        bullets[j].isActive = 0;
-                        score++;
-                        spawnEnemy();
-                    } else if (collision(bullets[j].worldRow + 8, bullets[j].worldCol - 8, bullets[j].height, bullets[j].width, enemies[i].worldRow, enemies[i].worldCol - 4, enemies[i].height, enemies[i].width)) {
-                        enemies[i].isActive = 0;
-                        bullets[j].isActive = 0;
-                        score++;
-                        spawnEnemy();
-                    } else if (collision(bullets[j].worldRow + 9, bullets[j].worldCol - 9, bullets[j].height, bullets[j].width, enemies[i].worldRow, enemies[i].worldCol - 4, enemies[i].height, enemies[i].width)) {
-                        enemies[i].isActive = 0;
-                        bullets[j].isActive = 0;
-                        score++;
-                        spawnEnemy();
+        if (enemies[i].isActive) {
+            if (collision(enemies[i].worldRow, enemies[i].worldCol, enemies[i].height, enemies[i].width, hero.worldRow, hero.worldCol, hero.height, hero.width)) {
+                if (cheat < 0) {
+                    if (enemyCanHurt) {
+                        enemyCanHurt = 0;
+                        REG_MOSAIC = SetMosaic(0, 0, hurtCounter, hurtCounter);
+                        hurtCounter--;
+                        healthBucket--;
+                        health = realloc(health, healthBucket * sizeof(int));
+                        for (int i = 0; i < healthBucket; i++) {
+                            health[i] = 1;
+                        }
+                        playSoundB(hurt, HURTLEN, HURTFREQ, 0);
                     }
                 }
             }
@@ -726,33 +681,44 @@ void game() {
 
     for (int i = 0; i < 5; i++) {
         if (jades[i].isActive) {
-            if (jades[i].screenCol < -8) {
+            if (collision(jades[i].worldRow, jades[i].worldCol, jades[i].height, jades[i].width, hero.worldRow, hero.worldCol, hero.height, hero.width)) {
+                playSoundB(coin, COINLEN, COINFREQ, 0);
                 jades[i].isActive = 0;
-                spawnJade();
-            } else {
-                jades[i].screenRow = jades[i].worldRow - vOff;
-                jades[i].screenCol = jades[i].worldCol - hOff;
+                score++;
+                if (healthBucket < 10) { 
+                    healthBucket++;
+                    health = realloc(health, healthBucket * sizeof(int));
+                    for (int i = 0; i < healthBucket; i++) {
+                        health[i] = 1;
+                    }
+                }
             }
         }
     }
 
-    if (score >= 50) {
-        REG_DISPCTL = MODE4 | BG2_ENABLE | DISP_BACKBUFFER;
-        loadPalette(winScreenPal);
-        drawFullscreenImage4(winScreenBitmap);
-        flipPage();
-        drawFullscreenImage4(winScreenBitmap);
-        goToWin();
+    for (int i = 0; i < 5; i++) {
+        if (jades[i].isActive) {
+            if (collision(obstacles[0].worldRow, obstacles[0].worldCol, 32, 16, jades[i].worldRow, jades[i].worldCol, jades[i].height, jades[i].width)) {
+                jades[i].worldCol++;
+            }
+        }
     }
 
-    hero.screenRow = hero.worldRow - vOff;
-    hero.screenCol = hero.worldCol - hOff;
-
-    // Update the offset registers with the actual offsets
-    REG_BG1HOFF = hOff;
-    REG_BG2HOFF = hOff / 2;
-
-    frame++;
+    for (int i = 0; i < enemyLength; i++) {
+        for (int j = 0; j < bulletLength; j++) {
+            if (bullets[j].isActive) {
+                if (enemies[i].isActive) {
+                    if (collision(bullets[j].worldRow, bullets[j].worldCol, bullets[j].height, bullets[j].width, enemies[i].worldRow, enemies[i].worldCol, enemies[i].height, enemies[i].width)) {
+                        enemies[i].isActive = 0;
+                        bullets[j].isActive = 0;
+                        score++;
+                        spawnEnemy();
+                        spawnJade();
+                    }
+                }
+            }
+        }
+    }
 }
 
 void fireBullet() {
@@ -800,7 +766,7 @@ void spawnEnemy() {
                     enemies[e].worldRow = (rand() % 80) + 16;
                 }
                 enemies[e].worldRow = (rand() % 69) + 16;
-                enemies[e].worldCol = (rand() % 272) + 240 + hOff;
+                enemies[e].worldCol = (rand() % 272) + 230 + hOff;
                 enemies[e].screenRow = enemies[e].worldRow - vOff;
                 enemies[e].screenCol = enemies[e].worldCol - hOff;
                 enemyCanHurt = 1;

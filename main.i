@@ -2,7 +2,7 @@
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "main.c"
-# 62 "main.c"
+# 55 "main.c"
 # 1 "myLib.h" 1
 
 
@@ -116,14 +116,14 @@ typedef struct
     u16 color;
     int AI_STATE;
 } MOVOBJ;
-# 63 "main.c" 2
+# 56 "main.c" 2
 # 1 "spritesheet.h" 1
 # 21 "spritesheet.h"
 extern const unsigned short spritesheetTiles[16384];
 
 
 extern const unsigned short spritesheetPal[256];
-# 64 "main.c" 2
+# 57 "main.c" 2
 # 1 "bg.h" 1
 # 22 "bg.h"
 extern const unsigned short bgTiles[7200];
@@ -133,7 +133,7 @@ extern const unsigned short bgMap[1024];
 
 
 extern const unsigned short bgPal[256];
-# 65 "main.c" 2
+# 58 "main.c" 2
 # 1 "bg2.h" 1
 # 22 "bg2.h"
 extern const unsigned short bg2Tiles[2272];
@@ -143,7 +143,7 @@ extern const unsigned short bg2Map[2048];
 
 
 extern const unsigned short bg2Pal[256];
-# 66 "main.c" 2
+# 59 "main.c" 2
 # 1 "bg3.h" 1
 # 22 "bg3.h"
 extern const unsigned short bg3Tiles[528];
@@ -153,7 +153,7 @@ extern const unsigned short bg3Map[1024];
 
 
 extern const unsigned short bg3Pal[256];
-# 67 "main.c" 2
+# 60 "main.c" 2
 # 1 "bg3_2.h" 1
 # 22 "bg3_2.h"
 extern const unsigned short bg3_2Tiles[1424];
@@ -163,21 +163,21 @@ extern const unsigned short bg3_2Map[1024];
 
 
 extern const unsigned short bg3_2Pal[256];
-# 68 "main.c" 2
+# 61 "main.c" 2
 # 1 "startScreen.h" 1
 # 21 "startScreen.h"
 extern const unsigned short startScreenBitmap[19200];
 
 
 extern const unsigned short startScreenPal[256];
-# 69 "main.c" 2
+# 62 "main.c" 2
 # 1 "howtoScreen.h" 1
 # 21 "howtoScreen.h"
 extern const unsigned short howtoScreenBitmap[19200];
 
 
 extern const unsigned short howtoScreenPal[256];
-# 70 "main.c" 2
+# 63 "main.c" 2
 
 # 1 "sound.h" 1
 typedef struct{
@@ -205,22 +205,22 @@ void unpauseSound();
 
 void setupInterrupts();
 void interruptHandler();
-# 72 "main.c" 2
+# 65 "main.c" 2
 # 1 "song01.h" 1
 # 20 "song01.h"
 extern const unsigned char song01[1302562];
-# 73 "main.c" 2
+# 66 "main.c" 2
 # 1 "laser.h" 1
 # 20 "laser.h"
 extern const unsigned char laser[1180];
-# 74 "main.c" 2
+# 67 "main.c" 2
 # 1 "loseScreen.h" 1
 # 21 "loseScreen.h"
 extern const unsigned short loseScreenBitmap[19200];
 
 
 extern const unsigned short loseScreenPal[256];
-# 75 "main.c" 2
+# 68 "main.c" 2
 # 1 "text.h" 1
 
 void drawChar3(int row, int col, char ch, unsigned short color);
@@ -229,38 +229,38 @@ void drawString3(int row, int col, char *str, unsigned short color);
 
 void drawChar4(int row, int col, char ch, unsigned char colorIndex);
 void drawString4(int row, int col, char *str, unsigned char colorIndex);
-# 76 "main.c" 2
+# 69 "main.c" 2
 # 1 "font.h" 1
 
 extern const unsigned char fontdata_6x8[12288];
-# 77 "main.c" 2
+# 70 "main.c" 2
 # 1 "title.h" 1
 # 20 "title.h"
 extern const unsigned char title[81625];
-# 78 "main.c" 2
+# 71 "main.c" 2
 # 1 "hurt.h" 1
 # 20 "hurt.h"
 extern const unsigned char hurt[3734];
-# 79 "main.c" 2
+# 72 "main.c" 2
 # 1 "coin.h" 1
 # 20 "coin.h"
 extern const unsigned char coin[10969];
-# 80 "main.c" 2
+# 73 "main.c" 2
 # 1 "winScreen.h" 1
 # 21 "winScreen.h"
 extern const unsigned short winScreenBitmap[19200];
 
 
 extern const unsigned short winScreenPal[256];
-# 81 "main.c" 2
+# 74 "main.c" 2
 # 1 "victory.h" 1
 # 20 "victory.h"
 extern const unsigned char victory[756064];
-# 82 "main.c" 2
+# 75 "main.c" 2
 # 1 "loseSong.h" 1
 # 20 "loseSong.h"
 extern const unsigned char loseSong[455616];
-# 83 "main.c" 2
+# 76 "main.c" 2
 # 1 "c:\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.5.0/../../../../arm-eabi/include/stdlib.h" 1 3
 # 10 "c:\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.5.0/../../../../arm-eabi/include/stdlib.h" 3
 # 1 "c:\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.5.0/../../../../arm-eabi/include/machine/ieeefp.h" 1 3
@@ -715,7 +715,7 @@ extern long double wcstold (const wchar_t *, wchar_t **);
 
 
 
-# 84 "main.c" 2
+# 77 "main.c" 2
 # 1 "c:\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.5.0/../../../../arm-eabi/include/stdio.h" 1 3
 # 34 "c:\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.5.0/../../../../arm-eabi/include/stdio.h" 3
 # 1 "c:\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.5.0/include/stddef.h" 1 3 4
@@ -1111,7 +1111,7 @@ int __srget_r (struct _reent *, FILE *);
 int __swbuf_r (struct _reent *, int, FILE *);
 # 687 "c:\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.5.0/../../../../arm-eabi/include/stdio.h" 3
 
-# 85 "main.c" 2
+# 78 "main.c" 2
 # 1 "c:\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.5.0/../../../../arm-eabi/include/malloc.h" 1 3
 # 10 "c:\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.5.0/../../../../arm-eabi/include/malloc.h" 3
 # 1 "c:\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.5.0/include/stddef.h" 1 3 4
@@ -1245,7 +1245,7 @@ extern void mstats (char *);
 extern void _mstats_r (struct _reent *, char *);
 # 162 "c:\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.5.0/../../../../arm-eabi/include/malloc.h" 3
 extern void cfree (void *);
-# 86 "main.c" 2
+# 79 "main.c" 2
 
 void initialize();
 
@@ -1259,11 +1259,13 @@ void goToWin();
 void win();
 void goToLose();
 void lose();
-void drawSprites();
 void gotoHowto();
 void howto();
 void startGame();
 void firstStart();
+void collisionCheck();
+void updateObjects();
+void drawSprites();
 void fireBullet();
 void spawnEnemy();
 void spawnJade();
@@ -1515,6 +1517,8 @@ void initialize() {
 
     for (int k = 0; k < bulletLength; k++) {
         bullets[k].isActive = 0;
+        bullets[k].height = 8;
+        bullets[k].width = 14;
     }
 
     for (int e = 0; e < enemyLength; e++) {
@@ -1699,66 +1703,12 @@ void game() {
         fireBullet();
     }
 
-    if (hurtCounter == 0) {
+    if (hurtCounter <= 0) {
         hurtCounter = 30;
         (*(volatile unsigned short*)0x400004C) = ((0)+(0<<4)+(0<<8)+(0<<12));
     } else if (hurtCounter < 30) {
-            (*(volatile unsigned short*)0x400004C) = ((0)+(0<<4)+(hurtCounter<<8)+(hurtCounter<<12));
-            hurtCounter--;
-    }
-
-    if (collision(hero.worldRow, hero.worldCol, hero.height, hero.width, obstacles[0].worldRow, obstacles[0].worldCol, 32, 16)) {
-        if (cheat < 0) {
-            if (obsCanHurt) {
-                playSoundB(hurt, 3734, 11025, 0);
-                obsCanHurt = 0;
-                (*(volatile unsigned short*)0x400004C) = ((0)+(0<<4)+(hurtCounter<<8)+(hurtCounter<<12));
-                hurtCounter--;
-                healthBucket--;
-                health = realloc(health, healthBucket * sizeof(int));
-                for (int i = 0; i < healthBucket; i++) {
-                    health[i] = 1;
-                }
-            }
-        }
-    }
-
-    for (int i = 0; i < enemyLength; i++) {
-        if (enemies[i].isActive) {
-            if (collision(enemies[i].worldRow, enemies[i].worldCol, enemies[i].height, enemies[i].width, hero.worldRow, hero.worldCol, hero.height, hero.width)) {
-                if (cheat < 0) {
-                    if (enemyCanHurt) {
-                        enemyCanHurt = 0;
-                        (*(volatile unsigned short*)0x400004C) = ((0)+(0<<4)+(hurtCounter<<8)+(hurtCounter<<12));
-                        hurtCounter--;
-                        healthBucket--;
-                        health = realloc(health, healthBucket * sizeof(int));
-                        for (int i = 0; i < healthBucket; i++) {
-                            health[i] = 1;
-                        }
-                        playSoundB(hurt, 3734, 11025, 0);
-                    }
-                }
-            }
-        }
-    }
-
-    for (int i = 0; i < 5; i++) {
-        if (jades[i].isActive) {
-            if (collision(jades[i].worldRow, jades[i].worldCol, jades[i].height, jades[i].width, hero.worldRow, hero.worldCol, hero.height, hero.width)) {
-                playSoundB(coin, 10969, 11025, 0);
-                jades[i].isActive = 0;
-                score++;
-                spawnJade();
-                if (healthBucket < 10) {
-                    healthBucket++;
-                    health = realloc(health, healthBucket * sizeof(int));
-                    for (int i = 0; i < healthBucket; i++) {
-                                health[i] = 1;
-                    }
-                }
-            }
-        }
+        (*(volatile unsigned short*)0x400004C) = ((0)+(0<<4)+(hurtCounter<<8)+(hurtCounter<<12));
+        hurtCounter--;
     }
 
     if (healthBucket == 0) {
@@ -1772,16 +1722,39 @@ void game() {
         goToLose();
     }
 
+    collisionCheck();
 
 
     hOff += 3;
 
     drawSprites();
 
+    updateObjects();
+
+    if (score >= 50) {
+        (*(unsigned short *)0x4000000) = 4 | (1<<10) | (1<<4);
+        loadPalette(winScreenPal);
+        drawFullscreenImage4(winScreenBitmap);
+        flipPage();
+        drawFullscreenImage4(winScreenBitmap);
+        goToWin();
+    }
+
+    hero.screenRow = hero.worldRow - vOff;
+    hero.screenCol = hero.worldCol - hOff;
+
+
+    (*(volatile unsigned short *)0x04000014) = hOff;
+    (*(volatile unsigned short *)0x04000018) = hOff / 2;
+
+    frame++;
+}
+
+void updateObjects() {
     if ((hero.screenCol > 10) && (hero.worldRow == 92)) {
-     hero.worldCol += 2;
+        hero.worldCol += 2;
     } else {
-     hero.worldCol += 3;
+        hero.worldCol += 3;
     }
 
     for (int i = 0; i < 3; i++) {
@@ -1827,60 +1800,49 @@ void game() {
         }
     }
 
+    for (int i = 0; i < 5; i++) {
+        if (jades[i].isActive) {
+            if (jades[i].screenCol < -8) {
+                jades[i].isActive = 0;
+            } else {
+                jades[i].screenRow = jades[i].worldRow - vOff;
+                jades[i].screenCol = jades[i].worldCol - hOff;
+            }
+        }
+    }
+}
+
+void collisionCheck() {
+    if (collision(hero.worldRow, hero.worldCol, hero.height, hero.width, obstacles[0].worldRow, obstacles[0].worldCol, 32, 16)) {
+        if (cheat < 0) {
+            if (obsCanHurt) {
+                playSoundB(hurt, 3734, 11025, 0);
+                obsCanHurt = 0;
+                (*(volatile unsigned short*)0x400004C) = ((0)+(0<<4)+(hurtCounter<<8)+(hurtCounter<<12));
+                hurtCounter--;
+                healthBucket--;
+                health = realloc(health, healthBucket * sizeof(int));
+                for (int i = 0; i < healthBucket; i++) {
+                    health[i] = 1;
+                }
+            }
+        }
+    }
+
     for (int i = 0; i < enemyLength; i++) {
-        for (int j = 0; j < bulletLength; j++) {
-            if (bullets[j].isActive) {
-                if (enemies[i].isActive) {
-                    if (collision(bullets[j].worldRow, bullets[j].worldCol, bullets[j].height, bullets[j].width, enemies[i].worldRow, enemies[i].worldCol - 8, enemies[i].height, enemies[i].width)) {
-                        enemies[i].isActive = 0;
-                        bullets[j].isActive = 0;
-                        score++;
-                        spawnEnemy();
-                    } else if (collision(bullets[j].worldRow + 1, bullets[j].worldCol - 1, bullets[j].height, bullets[j].width, enemies[i].worldRow, enemies[i].worldCol - 8, enemies[i].height, enemies[i].width)) {
-                        enemies[i].isActive = 0;
-                        bullets[j].isActive = 0;
-                        score++;
-                        spawnEnemy();
-                    } else if (collision(bullets[j].worldRow + 2, bullets[j].worldCol - 2, bullets[j].height, bullets[j].width, enemies[i].worldRow, enemies[i].worldCol - 7, enemies[i].height, enemies[i].width)) {
-                        enemies[i].isActive = 0;
-                        bullets[j].isActive = 0;
-                        score++;
-                        spawnEnemy();
-                    } else if (collision(bullets[j].worldRow + 3, bullets[j].worldCol - 3, bullets[j].height, bullets[j].width, enemies[i].worldRow, enemies[i].worldCol - 7, enemies[i].height, enemies[i].width)) {
-                        enemies[i].isActive = 0;
-                        bullets[j].isActive = 0;
-                        score++;
-                        spawnEnemy();
-                    } else if (collision(bullets[j].worldRow + 4, bullets[j].worldCol - 4, bullets[j].height, bullets[j].width, enemies[i].worldRow, enemies[i].worldCol - 6, enemies[i].height, enemies[i].width)) {
-                        enemies[i].isActive = 0;
-                        bullets[j].isActive = 0;
-                        score++;
-                        spawnEnemy();
-                    } else if (collision(bullets[j].worldRow + 5, bullets[j].worldCol - 5, bullets[j].height, bullets[j].width, enemies[i].worldRow, enemies[i].worldCol - 6, enemies[i].height, enemies[i].width)) {
-                        enemies[i].isActive = 0;
-                        bullets[j].isActive = 0;
-                        score++;
-                        spawnEnemy();
-                    } else if (collision(bullets[j].worldRow + 6, bullets[j].worldCol - 6, bullets[j].height, bullets[j].width, enemies[i].worldRow, enemies[i].worldCol - 5, enemies[i].height, enemies[i].width)) {
-                        enemies[i].isActive = 0;
-                        bullets[j].isActive = 0;
-                        score++;
-                        spawnEnemy();
-                    } else if (collision(bullets[j].worldRow + 7, bullets[j].worldCol - 7, bullets[j].height, bullets[j].width, enemies[i].worldRow, enemies[i].worldCol - 5, enemies[i].height, enemies[i].width)) {
-                        enemies[i].isActive = 0;
-                        bullets[j].isActive = 0;
-                        score++;
-                        spawnEnemy();
-                    } else if (collision(bullets[j].worldRow + 8, bullets[j].worldCol - 8, bullets[j].height, bullets[j].width, enemies[i].worldRow, enemies[i].worldCol - 4, enemies[i].height, enemies[i].width)) {
-                        enemies[i].isActive = 0;
-                        bullets[j].isActive = 0;
-                        score++;
-                        spawnEnemy();
-                    } else if (collision(bullets[j].worldRow + 9, bullets[j].worldCol - 9, bullets[j].height, bullets[j].width, enemies[i].worldRow, enemies[i].worldCol - 4, enemies[i].height, enemies[i].width)) {
-                        enemies[i].isActive = 0;
-                        bullets[j].isActive = 0;
-                        score++;
-                        spawnEnemy();
+        if (enemies[i].isActive) {
+            if (collision(enemies[i].worldRow, enemies[i].worldCol, enemies[i].height, enemies[i].width, hero.worldRow, hero.worldCol, hero.height, hero.width)) {
+                if (cheat < 0) {
+                    if (enemyCanHurt) {
+                        enemyCanHurt = 0;
+                        (*(volatile unsigned short*)0x400004C) = ((0)+(0<<4)+(hurtCounter<<8)+(hurtCounter<<12));
+                        hurtCounter--;
+                        healthBucket--;
+                        health = realloc(health, healthBucket * sizeof(int));
+                        for (int i = 0; i < healthBucket; i++) {
+                            health[i] = 1;
+                        }
+                        playSoundB(hurt, 3734, 11025, 0);
                     }
                 }
             }
@@ -1889,33 +1851,44 @@ void game() {
 
     for (int i = 0; i < 5; i++) {
         if (jades[i].isActive) {
-            if (jades[i].screenCol < -8) {
+            if (collision(jades[i].worldRow, jades[i].worldCol, jades[i].height, jades[i].width, hero.worldRow, hero.worldCol, hero.height, hero.width)) {
+                playSoundB(coin, 10969, 11025, 0);
                 jades[i].isActive = 0;
-                spawnJade();
-            } else {
-                jades[i].screenRow = jades[i].worldRow - vOff;
-                jades[i].screenCol = jades[i].worldCol - hOff;
+                score++;
+                if (healthBucket < 10) {
+                    healthBucket++;
+                    health = realloc(health, healthBucket * sizeof(int));
+                    for (int i = 0; i < healthBucket; i++) {
+                        health[i] = 1;
+                    }
+                }
             }
         }
     }
 
-    if (score >= 50) {
-        (*(unsigned short *)0x4000000) = 4 | (1<<10) | (1<<4);
-        loadPalette(winScreenPal);
-        drawFullscreenImage4(winScreenBitmap);
-        flipPage();
-        drawFullscreenImage4(winScreenBitmap);
-        goToWin();
+    for (int i = 0; i < 5; i++) {
+        if (jades[i].isActive) {
+            if (collision(obstacles[0].worldRow, obstacles[0].worldCol, 32, 16, jades[i].worldRow, jades[i].worldCol, jades[i].height, jades[i].width)) {
+                jades[i].worldCol++;
+            }
+        }
     }
 
-    hero.screenRow = hero.worldRow - vOff;
-    hero.screenCol = hero.worldCol - hOff;
-
-
-    (*(volatile unsigned short *)0x04000014) = hOff;
-    (*(volatile unsigned short *)0x04000018) = hOff / 2;
-
-    frame++;
+    for (int i = 0; i < enemyLength; i++) {
+        for (int j = 0; j < bulletLength; j++) {
+            if (bullets[j].isActive) {
+                if (enemies[i].isActive) {
+                    if (collision(bullets[j].worldRow, bullets[j].worldCol, bullets[j].height, bullets[j].width, enemies[i].worldRow, enemies[i].worldCol, enemies[i].height, enemies[i].width)) {
+                        enemies[i].isActive = 0;
+                        bullets[j].isActive = 0;
+                        score++;
+                        spawnEnemy();
+                        spawnJade();
+                    }
+                }
+            }
+        }
+    }
 }
 
 void fireBullet() {
@@ -1963,7 +1936,7 @@ void spawnEnemy() {
                     enemies[e].worldRow = (rand() % 80) + 16;
                 }
                 enemies[e].worldRow = (rand() % 69) + 16;
-                enemies[e].worldCol = (rand() % 272) + 240 + hOff;
+                enemies[e].worldCol = (rand() % 272) + 230 + hOff;
                 enemies[e].screenRow = enemies[e].worldRow - vOff;
                 enemies[e].screenCol = enemies[e].worldCol - hOff;
                 enemyCanHurt = 1;

@@ -1,4 +1,4 @@
-PRODUCT_NAME       = Project
+PRODUCT_NAME       = Jade_Runner
 SOURCES            = main.c myLib.c bg.c bg2.c bg3.c startScreen.c howtoScreen.c spritesheet.c sound.c song01.c laser.c loseScreen.c text.c font.c title.c hurt.c coin.c winScreen.c victory.c loseSong.c bg3_2.c
 DKPATH             = C:/devkitARM/bin
 CCPATH             = C:/cygwin/bin
