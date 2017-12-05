@@ -1585,6 +1585,7 @@ void start() {
 
     if ((!(~(oldButtons)&((1<<3))) && (~buttons & ((1<<3))))) {
         stopSound();
+        playSoundB(coin, 10969, 11025, 0);
         playSoundA(song01,1302062,11025, 1);
         startGame();
     } else if ((!(~(oldButtons)&((1<<2))) && (~buttons & ((1<<2))))) {
@@ -1658,7 +1659,6 @@ void win() {
 
 
     if ((!(~(oldButtons)&((1<<3))) && (~buttons & ((1<<3))))) {
-        firstStart();
         drawFullscreenImage4(startScreenBitmap);
         drawString4(120, 62, "Press Start to Begin", WHITEID);
         drawString4(150, 2, "Press Select for Instructions", WHITEID);
@@ -1995,7 +1995,6 @@ void lose() {
 
 
     if ((!(~(oldButtons)&((1<<3))) && (~buttons & ((1<<3))))) {
-        firstStart();
         drawFullscreenImage4(startScreenBitmap);
         drawString4(120, 62, "Press Start to Begin", WHITEID);
         drawString4(150, 2, "Press Select for Instructions", WHITEID);

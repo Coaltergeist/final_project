@@ -415,6 +415,7 @@ void start() {
     // State transitions
     if (BUTTON_PRESSED(BUTTON_START)) {
         stopSound();
+        playSoundB(coin, COINLEN, COINFREQ, 0);
         playSoundA(song01,SONG01LEN,SONG01FREQ, 1);
         startGame();
     } else if (BUTTON_PRESSED(BUTTON_SELECT)) {
@@ -488,7 +489,6 @@ void win() {
 
     // State transitions
     if (BUTTON_PRESSED(BUTTON_START)) {
-        firstStart();
         drawFullscreenImage4(startScreenBitmap);
         drawString4(120, 62, "Press Start to Begin", WHITEID);
         drawString4(150, 2, "Press Select for Instructions", WHITEID);
@@ -825,7 +825,6 @@ void lose() {
 
     // State transitions
     if (BUTTON_PRESSED(BUTTON_START)) {
-        firstStart();
         drawFullscreenImage4(startScreenBitmap);
         drawString4(120, 62, "Press Start to Begin", WHITEID);
         drawString4(150, 2, "Press Select for Instructions", WHITEID);

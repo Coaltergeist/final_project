@@ -520,7 +520,6 @@ win:
 	ldmfd	sp!, {r4, r5, r6, lr}
 	bx	lr
 .L49:
-	bl	firstStart
 	ldr	r5, .L50+12
 	ldr	r0, .L50+16
 	mov	lr, pc
@@ -1869,7 +1868,6 @@ lose:
 	ldmfd	sp!, {r4, r5, r6, lr}
 	bx	lr
 .L179:
-	bl	firstStart
 	ldr	r5, .L180+12
 	ldr	r0, .L180+16
 	mov	lr, pc
@@ -2405,8 +2403,8 @@ start:
 	tst	r3, #8
 	beq	.L222
 	ldr	r2, .L227+12
-	ldrh	r2, [r2, #0]
-	tst	r2, #8
+	ldrh	r4, [r2, #0]
+	ands	r4, r4, #8
 	beq	.L225
 .L222:
 	tst	r3, #4
@@ -2460,14 +2458,23 @@ start:
 	ldr	r3, .L227+36
 	mov	lr, pc
 	bx	r3
+	mov	r1, #10944
+	mov	r2, #11008
+	mov	r3, r4
+	ldr	r0, .L227+40
+	add	r1, r1, #25
+	add	r2, r2, #17
+	ldr	ip, .L227+44
+	mov	lr, pc
+	bx	ip
 	mov	r1, #1294336
 	add	r1, r1, #7680
 	mov	r2, #11008
-	ldr	r0, .L227+40
+	ldr	r0, .L227+48
 	add	r1, r1, #46
 	add	r2, r2, #17
 	mov	r3, #1
-	ldr	ip, .L227+44
+	ldr	ip, .L227+52
 	mov	lr, pc
 	bx	ip
 	ldmfd	sp!, {r4, lr}
@@ -2485,6 +2492,8 @@ start:
 	.word	drawString4
 	.word	flipPage
 	.word	stopSound
+	.word	coin
+	.word	playSoundB
 	.word	song01
 	.word	playSoundA
 	.size	start, .-start
