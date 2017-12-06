@@ -3,13 +3,15 @@ JADE RUNNER - By R. Coalter Putnal
 
 GAMEPLAY: This is the completed game. Playing is very 
 simple; your character moves to the right, and you shoot 
-your gun to kill enemies and jump to dodge obstacles.
-You can also collect green crystals on the ground, 
-jades. Killing any enemy or collecting any jade will
-raise your score by 1. Get to a score of 50 and you 
-win. If you get hit by enemies or obstacles, you will
-lose health. Once you have lost all of your health, 
-you lose.
+your gun (by pressing "A") to kill enemies and jump to 
+dodge obstacles (you can hold "up" when pressing 
+"A" to fire diagonally). You can also collect green 
+crystals on the ground, jades. Killing any enemy or 
+collecting any jade will raise your score by 1. 
+Collecting a jade will refill missing health. Get 
+to a score of 50 and you win. If you get hit by 
+enemies or obstacles, you will lose health. Once 
+you have lost all of your health, you lose.
 
 CHEAT: The cheat is activated by pressing "A" on the
 pause screen during gameplay (pressing start during
@@ -40,15 +42,15 @@ Mode 0. In Mode 0 during the main gameplay, I have 4
 different backgrounds, 3 of which display simultaneously 
 at any given time. I have 3 non-looping sound effects 
 instead of just one, and I have 4 looping songs instead 
-of just 1. On top of that, (along with art taken mainly from
-Metroid games on GBA) I have multiple home-made assets,
+of just 1. On top of that, (along with art taken mainly 
+from Metroid games on GBA) I have multiple home-made assets,
 including the title screen logo, the shield effect, the
 health bar, the score, and the bullet effect. On a more 
 technical side, I also make use of Dynamic Memory for 
 the health system*. I also produced a mosaic effect for
 when the main character is hurt**. 
 
-* in initialize() function and game() function
+* in initialize() function and collision() function
 ** in drawSprites() function and game() function
 ******************************************/
 
@@ -398,19 +400,19 @@ void start() {
 
     waitForVBlank();
 
-    if (frameCount > 0) {
-        frameCount++;
-        if (frameCount > 120) {
-            flipPage();
-            frameCount = -1;
-        }
-    } else {
-        frameCount--;
-        if (frameCount < -120) {
-            flipPage();
-            frameCount = 1;
-        }
-    }    
+    // if (frameCount > 0) {
+    //     frameCount++;
+    //     if (frameCount > 120) {
+    //         flipPage();
+    //         frameCount = -1;
+    //     }
+    // } else {
+    //     frameCount--;
+    //     if (frameCount < -120) {
+    //         flipPage();
+    //         frameCount = 1;
+    //     }
+    // }    
 
     // State transitions
     if (BUTTON_PRESSED(BUTTON_START)) {
@@ -421,6 +423,7 @@ void start() {
     } else if (BUTTON_PRESSED(BUTTON_SELECT)) {
         drawFullscreenImage4(howtoScreenBitmap);
         drawString4(150, 2, "Press B to Return", WHITEID);
+        loadPalette(howtoScreenPal);
         flipPage();
         drawFullscreenImage4(howtoScreenBitmap);
     	gotoHowto();
@@ -437,28 +440,24 @@ void goToStart() {
 
     REG_DISPCTL = MODE4 | BG2_ENABLE | DISP_BACKBUFFER;
 
-    unsigned short colors[NUMCOLORS] = {BLACK, WHITE};
-
     loadPalette(startScreenPal);
-
-    for (int i = 0; i < NUMCOLORS; i++) {
-        PALETTE[256-NUMCOLORS+i] = colors[i];
-    }
 
     waitForVBlank();
 
     drawFullscreenImage4(startScreenBitmap);
 
-    drawString4(120, 62, "Press Start to Begin", WHITEID);
+    drawString4(120, 62, "Press Start to Begin", 255);
 
-    drawString4(150, 2, "Press Select for Instructions", WHITEID);
+    drawString4(150, 2, "Press Select for Instructions", 255);
 
     flipPage();
     waitForVBlank();
 
     drawFullscreenImage4(startScreenBitmap);
 
-    drawString4(150, 2, "Press Select for Instructions", WHITEID);
+    drawString4(120, 62, "Press Start to Begin", 255);
+
+    drawString4(150, 2, "Press Select for Instructions", 255);
 
     flipPage();
 
@@ -492,6 +491,7 @@ void win() {
         drawFullscreenImage4(startScreenBitmap);
         drawString4(120, 62, "Press Start to Begin", WHITEID);
         drawString4(150, 2, "Press Select for Instructions", WHITEID);
+        loadPalette(startScreenPal);
         flipPage();
         drawFullscreenImage4(startScreenBitmap);
         drawString4(150, 2, "Press Select for Instructions", WHITEID);
@@ -828,6 +828,7 @@ void lose() {
         drawFullscreenImage4(startScreenBitmap);
         drawString4(120, 62, "Press Start to Begin", WHITEID);
         drawString4(150, 2, "Press Select for Instructions", WHITEID);
+        loadPalette(startScreenPal);
         flipPage();
         drawFullscreenImage4(startScreenBitmap);
         drawString4(150, 2, "Press Select for Instructions", WHITEID);
@@ -854,15 +855,12 @@ void pause() {
         drawSprites();
         goToGame();
     }
-    else if (BUTTON_PRESSED(BUTTON_SELECT)) {
+    
+    if (BUTTON_PRESSED(BUTTON_SELECT)) {
         stopSound();
-        drawFullscreenImage4(startScreenBitmap);
-        drawString4(120, 62, "Press Start to Begin", WHITEID);
-        drawString4(150, 2, "Press Select for Instructions", WHITEID);
-        flipPage();
-        drawFullscreenImage4(startScreenBitmap);
-        drawString4(150, 2, "Press Select for Instructions", WHITEID);
-        firstStart();
+        REG_DISPCTL = MODE4 | BG2_ENABLE | DISP_BACKBUFFER;
+        playSoundA(title,TITLELEN,TITLEFREQ, 1);
+        goToStart();
     }
 }
 
@@ -881,23 +879,16 @@ void goToPause() {
 
 void gotoHowto() {
 
-    unsigned short colors[NUMCOLORS] = {BLACK, WHITE};
-
-    loadPalette(howtoScreenPal);
-
-    for (int i = 0; i < NUMCOLORS; i++) {
-        PALETTE[256-NUMCOLORS+i] = colors[i];
-    }
-
     waitForVBlank();
 
     drawFullscreenImage4(howtoScreenBitmap);
-    drawString4(150, 2, "Press B to Return", WHITEID);
+    drawString4(150, 2, "Press B to Return", 255);
 
     flipPage();
     waitForVBlank();
 
     drawFullscreenImage4(howtoScreenBitmap);
+    drawString4(150, 2, "Press B to Return", 255);
     flipPage();
     frameCount = 1;
 
@@ -906,26 +897,27 @@ void gotoHowto() {
 
 void howto() {
 
-    waitForVBlank();
+    // waitForVBlank();
 
-    if (frameCount > 0) {
-        frameCount++;
-        if (frameCount > 120) {
-            flipPage();
-            frameCount = -1;
-        }
-    } else {
-        frameCount--;
-        if (frameCount < -120) {
-            flipPage();
-            frameCount = 1;
-        }
-    }
+    // if (frameCount > 0) {
+    //     frameCount++;
+    //     if (frameCount > 120) {
+    //         flipPage();
+    //         frameCount = -1;
+    //     }
+    // } else {
+    //     frameCount--;
+    //     if (frameCount < -120) {
+    //         flipPage();
+    //         frameCount = 1;
+    //     }
+    // }
 
 	if (BUTTON_PRESSED(BUTTON_B)) {
         drawFullscreenImage4(startScreenBitmap);
         drawString4(120, 62, "Press Start to Begin", WHITEID);
         drawString4(150, 2, "Press Select for Instructions", WHITEID);
+        loadPalette(startScreenPal);
         flipPage();
         drawFullscreenImage4(startScreenBitmap);
         drawString4(150, 2, "Press Select for Instructions", WHITEID);

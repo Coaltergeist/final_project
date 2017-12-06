@@ -24,9 +24,9 @@ startScreenBitmap:
 	.short	5647
 	.short	5642
 	.short	5642
-	.short	5440
-	.short	16448
-	.short	5696
+	.short	5434
+	.short	14906
+	.short	5690
 	.short	2570
 	.short	3855
 	.short	3850
@@ -44,8 +44,8 @@ startScreenBitmap:
 	.short	5397
 	.short	8981
 	.short	8995
-	.short	4390
-	.short	13862
+	.short	4134
+	.short	13606
 	.short	771
 	.short	771
 	.short	771
@@ -65,29 +65,29 @@ startScreenBitmap:
 	.short	771
 	.short	771
 	.short	771
-	.short	822
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	5919
+	.short	821
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	5918
 	.short	5911
 	.short	5911
 	.short	5911
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
 	.short	9766
-	.short	7710
-	.short	7710
-	.short	7710
+	.short	7453
+	.short	7453
+	.short	7453
 	.short	8981
 	.short	5397
 	.short	5397
@@ -116,11 +116,11 @@ startScreenBitmap:
 	.short	6934
 	.short	6934
 	.short	6934
-	.short	13107
-	.short	13107
-	.short	13107
-	.short	13107
-	.short	4659
+	.short	12850
+	.short	12850
+	.short	12850
+	.short	12850
+	.short	4658
 	.short	4626
 	.short	4626
 	.short	4626
@@ -130,12 +130,12 @@ startScreenBitmap:
 	.short	3341
 	.short	3341
 	.short	3346
-	.short	4654
-	.short	11822
-	.short	11822
-	.short	11827
-	.short	13107
-	.short	13063
+	.short	4653
+	.short	11565
+	.short	11565
+	.short	11570
+	.short	12850
+	.short	12807
 	.short	4626
 	.short	4626
 	.short	4626
@@ -144,9 +144,9 @@ startScreenBitmap:
 	.short	3867
 	.short	2582
 	.short	2570
-	.short	16406
-	.short	16406
-	.short	16406
+	.short	14870
+	.short	14870
+	.short	14870
 	.short	2570
 	.short	3850
 	.short	2575
@@ -164,9 +164,9 @@ startScreenBitmap:
 	.short	5654
 	.short	5397
 	.short	8981
-	.short	9758
-	.short	13862
-	.short	12593
+	.short	9757
+	.short	13606
+	.short	12336
 	.short	793
 	.short	771
 	.short	771
@@ -181,33 +181,33 @@ startScreenBitmap:
 	.short	771
 	.short	771
 	.short	771
-	.short	13315
-	.short	820
+	.short	13059
+	.short	819
 	.short	771
 	.short	771
 	.short	771
-	.short	822
-	.short	822
-	.short	13878
-	.short	13878
-	.short	822
-	.short	822
-	.short	7967
-	.short	7967
-	.short	7959
+	.short	821
+	.short	821
+	.short	13621
+	.short	13621
+	.short	821
+	.short	821
+	.short	7710
+	.short	7710
+	.short	7703
 	.short	5911
-	.short	13878
-	.short	822
-	.short	822
+	.short	13621
+	.short	821
+	.short	821
 	.short	771
-	.short	13827
-	.short	13827
-	.short	13878
-	.short	13878
-	.short	13878
+	.short	13571
+	.short	13571
+	.short	13621
+	.short	13621
+	.short	13621
 	.short	9766
-	.short	7710
-	.short	7710
+	.short	7453
+	.short	7453
 	.short	5411
 	.short	5411
 	.short	5397
@@ -236,12 +236,12 @@ startScreenBitmap:
 	.short	5654
 	.short	5659
 	.short	5659
-	.short	13107
-	.short	13107
-	.short	13107
-	.short	13074
-	.short	13074
-	.short	11794
+	.short	12850
+	.short	12850
+	.short	12850
+	.short	12818
+	.short	12818
+	.short	11538
 	.short	4626
 	.short	4626
 	.short	4626
@@ -250,12 +250,12 @@ startScreenBitmap:
 	.short	3346
 	.short	4621
 	.short	4621
-	.short	4654
-	.short	4654
-	.short	11794
-	.short	13107
-	.short	13107
-	.short	4654
+	.short	4653
+	.short	4653
+	.short	11538
+	.short	12850
+	.short	12850
+	.short	4653
 	.short	4626
 	.short	4626
 	.short	4626
@@ -267,7 +267,7 @@ startScreenBitmap:
 	.short	2570
 	.short	2570
 	.short	2570
-	.short	16394
+	.short	14858
 	.short	2575
 	.short	3855
 	.short	2570
@@ -284,10 +284,10 @@ startScreenBitmap:
 	.short	5398
 	.short	5397
 	.short	5397
-	.short	7710
-	.short	13862
+	.short	7453
+	.short	13606
 	.short	6403
-	.short	6196
+	.short	6195
 	.short	771
 	.short	771
 	.short	771
@@ -308,14 +308,14 @@ startScreenBitmap:
 	.short	771
 	.short	771
 	.short	771
-	.short	820
+	.short	819
 	.short	771
 	.short	771
 	.short	771
-	.short	7959
-	.short	7959
-	.short	7967
-	.short	5919
+	.short	7703
+	.short	7703
+	.short	7710
+	.short	5918
 	.short	771
 	.short	771
 	.short	771
@@ -323,11 +323,11 @@ startScreenBitmap:
 	.short	771
 	.short	771
 	.short	771
-	.short	13878
-	.short	13878
+	.short	13621
+	.short	13621
 	.short	9766
-	.short	7710
-	.short	7710
+	.short	7453
+	.short	7453
 	.short	8995
 	.short	5397
 	.short	5411
@@ -356,11 +356,11 @@ startScreenBitmap:
 	.short	5654
 	.short	6934
 	.short	5654
-	.short	13107
-	.short	13107
-	.short	13107
-	.short	13107
-	.short	13074
+	.short	12850
+	.short	12850
+	.short	12850
+	.short	12850
+	.short	12818
 	.short	4626
 	.short	4626
 	.short	3346
@@ -369,14 +369,14 @@ startScreenBitmap:
 	.short	4621
 	.short	4621
 	.short	4621
-	.short	11789
-	.short	11794
-	.short	11794
-	.short	13102
-	.short	13102
-	.short	4654
+	.short	11533
+	.short	11538
+	.short	11538
+	.short	12845
+	.short	12845
+	.short	4653
 	.short	4626
-	.short	14392
+	.short	14135
 	.short	4626
 	.short	4626
 	.short	4626
@@ -393,7 +393,7 @@ startScreenBitmap:
 	.short	7178
 	.short	2570
 	.short	2570
-	.short	5440
+	.short	5434
 	.short	5397
 	.short	8981
 	.short	5397
@@ -404,10 +404,10 @@ startScreenBitmap:
 	.short	5397
 	.short	5397
 	.short	8981
-	.short	4382
-	.short	13878
+	.short	4125
+	.short	13621
 	.short	771
-	.short	817
+	.short	816
 	.short	771
 	.short	771
 	.short	811
@@ -418,9 +418,9 @@ startScreenBitmap:
 	.short	771
 	.short	771
 	.short	811
-	.short	822
+	.short	821
 	.short	771
-	.short	12568
+	.short	12312
 	.short	6425
 	.short	793
 	.short	771
@@ -431,23 +431,23 @@ startScreenBitmap:
 	.short	771
 	.short	771
 	.short	771
-	.short	12569
-	.short	7967
-	.short	7967
-	.short	7967
-	.short	5919
-	.short	771
-	.short	771
-	.short	771
-	.short	771
-	.short	771
-	.short	771
-	.short	771
-	.short	771
-	.short	13878
-	.short	9782
-	.short	9766
+	.short	12313
 	.short	7710
+	.short	7710
+	.short	7710
+	.short	5918
+	.short	771
+	.short	771
+	.short	771
+	.short	771
+	.short	771
+	.short	771
+	.short	771
+	.short	771
+	.short	13621
+	.short	9781
+	.short	9766
+	.short	7453
 	.short	5411
 	.short	5411
 	.short	5411
@@ -476,12 +476,12 @@ startScreenBitmap:
 	.short	5654
 	.short	5654
 	.short	6934
-	.short	13107
-	.short	13107
-	.short	13107
-	.short	13074
-	.short	4654
-	.short	4654
+	.short	12850
+	.short	12850
+	.short	12850
+	.short	12818
+	.short	4653
+	.short	4653
 	.short	4626
 	.short	4626
 	.short	3341
@@ -490,13 +490,13 @@ startScreenBitmap:
 	.short	3341
 	.short	4621
 	.short	4621
-	.short	11794
-	.short	11794
-	.short	11794
-	.short	11827
-	.short	13107
-	.short	4659
-	.short	4664
+	.short	11538
+	.short	11538
+	.short	11538
+	.short	11570
+	.short	12850
+	.short	4658
+	.short	4663
 	.short	4626
 	.short	4626
 	.short	4626
@@ -525,12 +525,12 @@ startScreenBitmap:
 	.short	8995
 	.short	8995
 	.short	9766
-	.short	13878
+	.short	13621
 	.short	771
 	.short	771
-	.short	13827
+	.short	13571
 	.short	11011
-	.short	822
+	.short	821
 	.short	811
 	.short	11011
 	.short	771
@@ -540,9 +540,9 @@ startScreenBitmap:
 	.short	771
 	.short	811
 	.short	811
-	.short	12547
-	.short	13364
-	.short	12569
+	.short	12291
+	.short	13107
+	.short	12313
 	.short	771
 	.short	793
 	.short	771
@@ -550,24 +550,24 @@ startScreenBitmap:
 	.short	771
 	.short	771
 	.short	771
-	.short	12547
+	.short	12291
 	.short	771
-	.short	7967
-	.short	7967
-	.short	7967
-	.short	7991
-	.short	12547
-	.short	771
-	.short	817
-	.short	771
-	.short	771
-	.short	771
-	.short	771
-	.short	771
-	.short	822
-	.short	13878
-	.short	7718
 	.short	7710
+	.short	7710
+	.short	7710
+	.short	7734
+	.short	12291
+	.short	771
+	.short	816
+	.short	771
+	.short	771
+	.short	771
+	.short	771
+	.short	771
+	.short	821
+	.short	13621
+	.short	7462
+	.short	7453
 	.short	8995
 	.short	8981
 	.short	8981
@@ -596,10 +596,10 @@ startScreenBitmap:
 	.short	5654
 	.short	6934
 	.short	6934
-	.short	13107
-	.short	13107
-	.short	13107
-	.short	13102
+	.short	12850
+	.short	12850
+	.short	12850
+	.short	12845
 	.short	4626
 	.short	4626
 	.short	4621
@@ -610,13 +610,13 @@ startScreenBitmap:
 	.short	3346
 	.short	4621
 	.short	4621
-	.short	4654
+	.short	4653
 	.short	4626
-	.short	4659
-	.short	4659
-	.short	13107
-	.short	13100
-	.short	14392
+	.short	4658
+	.short	4658
+	.short	12850
+	.short	12844
+	.short	14135
 	.short	4626
 	.short	4626
 	.short	4626
@@ -633,7 +633,7 @@ startScreenBitmap:
 	.short	2570
 	.short	2570
 	.short	2570
-	.short	16405
+	.short	14869
 	.short	5397
 	.short	8995
 	.short	8995
@@ -644,50 +644,50 @@ startScreenBitmap:
 	.short	8995
 	.short	8995
 	.short	8995
-	.short	13878
-	.short	822
+	.short	13621
+	.short	821
 	.short	771
 	.short	771
 	.short	11011
 	.short	771
-	.short	13827
-	.short	13827
-	.short	13827
-	.short	13827
+	.short	13571
+	.short	13571
+	.short	13571
+	.short	13571
 	.short	771
 	.short	771
 	.short	771
 	.short	11011
-	.short	822
-	.short	822
-	.short	12547
-	.short	13364
+	.short	821
+	.short	821
+	.short	12291
+	.short	13107
 	.short	6169
 	.short	771
-	.short	820
+	.short	819
 	.short	771
 	.short	771
-	.short	817
-	.short	771
-	.short	771
-	.short	771
-	.short	12547
-	.short	7967
-	.short	7967
-	.short	7967
-	.short	7967
-	.short	771
-	.short	12547
-	.short	12547
+	.short	816
 	.short	771
 	.short	771
 	.short	771
+	.short	12291
+	.short	7710
+	.short	7710
+	.short	7710
+	.short	7710
+	.short	771
+	.short	12291
+	.short	12291
 	.short	771
 	.short	771
-	.short	13827
-	.short	13878
+	.short	771
+	.short	771
+	.short	771
+	.short	13571
+	.short	13621
 	.short	9766
-	.short	7718
+	.short	7462
 	.short	8995
 	.short	5411
 	.short	5411
@@ -716,12 +716,12 @@ startScreenBitmap:
 	.short	5654
 	.short	5654
 	.short	6934
-	.short	13107
-	.short	13107
-	.short	13107
-	.short	4659
-	.short	4654
-	.short	4654
+	.short	12850
+	.short	12850
+	.short	12850
+	.short	4658
+	.short	4653
+	.short	4653
 	.short	3346
 	.short	3346
 	.short	3341
@@ -730,13 +730,13 @@ startScreenBitmap:
 	.short	3341
 	.short	4621
 	.short	4626
-	.short	11794
-	.short	13074
-	.short	13107
-	.short	13074
-	.short	13107
+	.short	11538
+	.short	12818
+	.short	12850
+	.short	12818
+	.short	12850
 	.short	4652
-	.short	4664
+	.short	4663
 	.short	4626
 	.short	4626
 	.short	4626
@@ -753,7 +753,7 @@ startScreenBitmap:
 	.short	2570
 	.short	2570
 	.short	5386
-	.short	5440
+	.short	5434
 	.short	5397
 	.short	8983
 	.short	8995
@@ -764,7 +764,7 @@ startScreenBitmap:
 	.short	8995
 	.short	8995
 	.short	5923
-	.short	822
+	.short	821
 	.short	771
 	.short	771
 	.short	771
@@ -773,41 +773,41 @@ startScreenBitmap:
 	.short	811
 	.short	811
 	.short	11011
-	.short	11062
+	.short	11061
 	.short	11011
 	.short	11011
 	.short	811
 	.short	811
 	.short	11011
-	.short	11062
+	.short	11061
 	.short	771
-	.short	6193
-	.short	771
-	.short	771
+	.short	6192
 	.short	771
 	.short	771
-	.short	12593
-	.short	12593
-	.short	817
-	.short	817
-	.short	12593
-	.short	12593
-	.short	7967
-	.short	7967
-	.short	7967
-	.short	7967
-	.short	12593
-	.short	12593
-	.short	817
+	.short	771
+	.short	771
+	.short	12336
+	.short	12336
+	.short	816
+	.short	816
+	.short	12336
+	.short	12336
+	.short	7710
+	.short	7710
+	.short	7710
+	.short	7710
+	.short	12336
+	.short	12336
+	.short	816
 	.short	792
 	.short	771
 	.short	771
 	.short	771
 	.short	771
-	.short	13827
-	.short	13827
-	.short	7718
-	.short	7710
+	.short	13571
+	.short	13571
+	.short	7462
+	.short	7453
 	.short	8995
 	.short	8981
 	.short	8981
@@ -836,11 +836,11 @@ startScreenBitmap:
 	.short	5654
 	.short	6934
 	.short	6934
-	.short	13107
-	.short	13107
-	.short	13107
-	.short	11794
-	.short	11794
+	.short	12850
+	.short	12850
+	.short	12850
+	.short	11538
+	.short	11538
 	.short	3346
 	.short	3346
 	.short	3341
@@ -851,12 +851,12 @@ startScreenBitmap:
 	.short	3341
 	.short	3341
 	.short	4626
-	.short	13107
-	.short	13100
-	.short	4659
-	.short	11315
-	.short	13100
-	.short	14392
+	.short	12850
+	.short	12844
+	.short	4658
+	.short	11314
+	.short	12844
+	.short	14135
 	.short	4626
 	.short	4626
 	.short	4626
@@ -873,8 +873,8 @@ startScreenBitmap:
 	.short	2570
 	.short	2570
 	.short	5386
-	.short	5440
-	.short	5440
+	.short	5434
+	.short	5434
 	.short	5397
 	.short	5397
 	.short	5397
@@ -884,7 +884,7 @@ startScreenBitmap:
 	.short	8995
 	.short	8995
 	.short	8995
-	.short	822
+	.short	821
 	.short	771
 	.short	771
 	.short	771
@@ -893,7 +893,7 @@ startScreenBitmap:
 	.short	771
 	.short	771
 	.short	771
-	.short	822
+	.short	821
 	.short	771
 	.short	771
 	.short	771
@@ -906,28 +906,28 @@ startScreenBitmap:
 	.short	771
 	.short	771
 	.short	771
-	.short	817
-	.short	817
-	.short	12593
-	.short	12593
-	.short	12593
-	.short	12593
-	.short	7967
-	.short	7967
-	.short	7967
-	.short	7967
-	.short	12593
-	.short	12593
-	.short	12593
+	.short	816
+	.short	816
+	.short	12336
+	.short	12336
+	.short	12336
+	.short	12336
+	.short	7710
+	.short	7710
+	.short	7710
+	.short	7710
+	.short	12336
+	.short	12336
+	.short	12336
 	.short	6147
 	.short	6147
 	.short	771
 	.short	771
 	.short	771
 	.short	771
-	.short	13878
+	.short	13621
 	.short	9766
-	.short	7718
+	.short	7462
 	.short	8995
 	.short	5411
 	.short	8981
@@ -956,10 +956,10 @@ startScreenBitmap:
 	.short	5654
 	.short	5654
 	.short	6934
-	.short	13107
-	.short	13107
-	.short	13107
-	.short	4659
+	.short	12850
+	.short	12850
+	.short	12850
+	.short	4658
 	.short	4626
 	.short	3346
 	.short	3341
@@ -971,10 +971,10 @@ startScreenBitmap:
 	.short	3341
 	.short	4621
 	.short	4621
-	.short	13107
-	.short	13076
-	.short	13107
-	.short	1843
+	.short	12850
+	.short	12820
+	.short	12850
+	.short	1842
 	.short	11271
 	.short	6939
 	.short	6939
@@ -989,27 +989,27 @@ startScreenBitmap:
 	.short	3850
 	.short	3855
 	.short	1542
-	.short	7686
-	.short	7686
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7697
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	4382
-	.short	7710
+	.short	7430
+	.short	7430
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7440
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	4125
+	.short	7453
 	.short	9766
-	.short	13878
+	.short	13621
 	.short	771
 	.short	3075
 	.short	3075
 	.short	771
 	.short	771
-	.short	817
+	.short	816
 	.short	771
 	.short	11011
 	.short	771
@@ -1027,47 +1027,47 @@ startScreenBitmap:
 	.short	792
 	.short	6424
 	.short	6168
-	.short	12593
-	.short	12593
-	.short	12593
-	.short	12593
-	.short	12593
-	.short	12593
+	.short	12336
+	.short	12336
+	.short	12336
+	.short	12336
+	.short	12336
+	.short	12336
 	.short	6425
-	.short	12569
-	.short	12593
-	.short	12593
-	.short	12593
-	.short	12593
+	.short	12313
+	.short	12336
+	.short	12336
+	.short	12336
+	.short	12336
 	.short	6168
 	.short	792
 	.short	6147
-	.short	12593
+	.short	12336
 	.short	771
 	.short	771
-	.short	13878
+	.short	13621
 	.short	9766
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	9758
-	.short	9758
-	.short	9758
-	.short	7718
-	.short	7718
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	9757
+	.short	9757
+	.short	9757
+	.short	7462
+	.short	7462
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
 	.short	5397
 	.short	5653
 	.short	5653
@@ -1076,9 +1076,9 @@ startScreenBitmap:
 	.short	5654
 	.short	6934
 	.short	6934
-	.short	13107
-	.short	13107
-	.short	13107
+	.short	12850
+	.short	12850
+	.short	12850
 	.short	4626
 	.short	4626
 	.short	4621
@@ -1094,8 +1094,8 @@ startScreenBitmap:
 	.short	4626
 	.short	4626
 	.short	4626
-	.short	11315
-	.short	13100
+	.short	11314
+	.short	12844
 	.short	6939
 	.short	6939
 	.short	6939
@@ -1109,21 +1109,21 @@ startScreenBitmap:
 	.short	3855
 	.short	3855
 	.short	1542
-	.short	1566
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	4382
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	13841
-	.short	13878
-	.short	13878
+	.short	1565
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	4125
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	13584
+	.short	13621
+	.short	13621
 	.short	771
 	.short	6147
 	.short	6168
@@ -1145,49 +1145,49 @@ startScreenBitmap:
 	.short	771
 	.short	771
 	.short	6168
-	.short	13361
-	.short	12593
-	.short	6449
-	.short	12593
-	.short	12593
-	.short	12593
-	.short	12593
-	.short	12593
-	.short	6449
-	.short	6449
-	.short	12569
-	.short	12593
-	.short	12593
-	.short	12593
+	.short	13104
+	.short	12336
+	.short	6448
+	.short	12336
+	.short	12336
+	.short	12336
+	.short	12336
+	.short	12336
+	.short	6448
+	.short	6448
+	.short	12313
+	.short	12336
+	.short	12336
+	.short	12336
 	.short	6168
 	.short	792
 	.short	792
 	.short	771
 	.short	771
-	.short	12547
-	.short	13827
+	.short	12291
+	.short	13571
 	.short	9766
-	.short	7718
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7718
+	.short	7462
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7462
 	.short	9766
 	.short	9766
 	.short	9766
-	.short	9758
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7718
+	.short	9757
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7462
 	.short	9766
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
 	.short	5397
 	.short	5653
 	.short	5653
@@ -1196,10 +1196,10 @@ startScreenBitmap:
 	.short	5654
 	.short	5654
 	.short	6934
-	.short	13107
-	.short	13107
-	.short	4659
-	.short	4659
+	.short	12850
+	.short	12850
+	.short	4658
+	.short	4658
 	.short	4626
 	.short	3341
 	.short	3341
@@ -1228,22 +1228,22 @@ startScreenBitmap:
 	.short	3855
 	.short	2575
 	.short	3855
-	.short	7686
-	.short	7686
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7697
-	.short	7697
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	13841
-	.short	13878
-	.short	822
-	.short	822
+	.short	7430
+	.short	7430
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7440
+	.short	7440
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	13584
+	.short	13621
+	.short	821
+	.short	821
 	.short	771
 	.short	6147
 	.short	6168
@@ -1264,50 +1264,50 @@ startScreenBitmap:
 	.short	771
 	.short	771
 	.short	6147
-	.short	12568
-	.short	12569
-	.short	12593
-	.short	12593
-	.short	12593
-	.short	12569
-	.short	12569
-	.short	12569
+	.short	12312
+	.short	12313
+	.short	12336
+	.short	12336
+	.short	12336
+	.short	12313
+	.short	12313
+	.short	12313
 	.short	6425
 	.short	6425
 	.short	6425
-	.short	12593
-	.short	12569
-	.short	12593
-	.short	12593
+	.short	12336
+	.short	12313
+	.short	12336
+	.short	12336
 	.short	6168
 	.short	6168
 	.short	792
-	.short	817
+	.short	816
 	.short	771
-	.short	820
-	.short	13878
+	.short	819
+	.short	13621
 	.short	9766
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	9758
-	.short	7710
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	9757
+	.short	7453
 	.short	9766
-	.short	9758
-	.short	9766
-	.short	9766
-	.short	7718
-	.short	7710
-	.short	7710
+	.short	9757
 	.short	9766
 	.short	9766
+	.short	7462
+	.short	7453
+	.short	7453
 	.short	9766
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
+	.short	9766
+	.short	9766
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
 	.short	5397
 	.short	5397
 	.short	5653
@@ -1316,9 +1316,9 @@ startScreenBitmap:
 	.short	5654
 	.short	6934
 	.short	6934
-	.short	13107
-	.short	13107
-	.short	13074
+	.short	12850
+	.short	12850
+	.short	12818
 	.short	4626
 	.short	3346
 	.short	3346
@@ -1327,7 +1327,7 @@ startScreenBitmap:
 	.short	3341
 	.short	3341
 	.short	3341
-	.short	11789
+	.short	11533
 	.short	3341
 	.short	4621
 	.short	4621
@@ -1349,18 +1349,18 @@ startScreenBitmap:
 	.short	3850
 	.short	2570
 	.short	1542
-	.short	1566
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	4406
-	.short	822
+	.short	1565
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	4149
+	.short	821
 	.short	811
 	.short	771
 	.short	771
@@ -1385,49 +1385,49 @@ startScreenBitmap:
 	.short	771
 	.short	771
 	.short	6168
-	.short	12568
+	.short	12312
 	.short	6425
 	.short	6425
-	.short	12593
-	.short	6449
-	.short	6425
-	.short	6425
-	.short	6425
+	.short	12336
+	.short	6448
 	.short	6425
 	.short	6425
 	.short	6425
 	.short	6425
-	.short	12569
-	.short	12593
-	.short	12593
-	.short	12568
-	.short	6196
-	.short	12593
-	.short	12547
+	.short	6425
+	.short	6425
+	.short	6425
+	.short	12313
+	.short	12336
+	.short	12336
+	.short	12312
+	.short	6195
+	.short	12336
+	.short	12291
 	.short	771
-	.short	13827
+	.short	13571
 	.short	9766
 	.short	9766
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7718
-	.short	7718
-	.short	9766
-	.short	9766
-	.short	9766
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7462
+	.short	7462
 	.short	9766
 	.short	9766
 	.short	9766
 	.short	9766
 	.short	9766
 	.short	9766
-	.short	9758
-	.short	7710
-	.short	7710
-	.short	7710
+	.short	9766
+	.short	9766
+	.short	9766
+	.short	9757
+	.short	7453
+	.short	7453
+	.short	7453
 	.short	5397
 	.short	5397
 	.short	5398
@@ -1436,10 +1436,10 @@ startScreenBitmap:
 	.short	5654
 	.short	5654
 	.short	6934
-	.short	13107
-	.short	13107
-	.short	4659
-	.short	4654
+	.short	12850
+	.short	12850
+	.short	4658
+	.short	4653
 	.short	4626
 	.short	3341
 	.short	3341
@@ -1453,7 +1453,7 @@ startScreenBitmap:
 	.short	4621
 	.short	4621
 	.short	3346
-	.short	5171
+	.short	5170
 	.short	4626
 	.short	4626
 	.short	6939
@@ -1468,18 +1468,18 @@ startScreenBitmap:
 	.short	2570
 	.short	2570
 	.short	2570
-	.short	7686
-	.short	7686
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	13854
-	.short	785
+	.short	7430
+	.short	7430
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	13597
+	.short	784
 	.short	811
 	.short	3075
 	.short	6168
@@ -1505,36 +1505,34 @@ startScreenBitmap:
 	.short	6147
 	.short	6168
 	.short	6168
-	.short	12593
-	.short	12593
-	.short	12569
+	.short	12336
+	.short	12336
+	.short	12313
 	.short	6425
 	.short	6425
 	.short	6425
-	.short	6452
+	.short	6451
 	.short	6425
 	.short	6425
 	.short	6425
 	.short	6425
 	.short	6425
 	.short	6425
-	.short	6449
-	.short	12593
-	.short	12593
-	.short	12568
-	.short	817
-	.short	817
+	.short	6448
+	.short	12336
+	.short	12336
+	.short	12312
+	.short	816
+	.short	816
 	.short	771
-	.short	13878
-	.short	9782
+	.short	13621
+	.short	9781
 	.short	9766
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	9758
-	.short	7718
-	.short	9766
-	.short	9766
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	9757
+	.short	7462
 	.short	9766
 	.short	9766
 	.short	9766
@@ -1542,12 +1540,14 @@ startScreenBitmap:
 	.short	9766
 	.short	9766
 	.short	9766
-	.short	9782
 	.short	9766
 	.short	9766
-	.short	7710
-	.short	7710
-	.short	7710
+	.short	9781
+	.short	9766
+	.short	9766
+	.short	7453
+	.short	7453
+	.short	7453
 	.short	5397
 	.short	5397
 	.short	5653
@@ -1556,9 +1556,9 @@ startScreenBitmap:
 	.short	5654
 	.short	6934
 	.short	6934
-	.short	13107
-	.short	4659
-	.short	4659
+	.short	12850
+	.short	4658
+	.short	4658
 	.short	4626
 	.short	3346
 	.short	3346
@@ -1575,7 +1575,7 @@ startScreenBitmap:
 	.short	3346
 	.short	4626
 	.short	4626
-	.short	4664
+	.short	4663
 	.short	6939
 	.short	6939
 	.short	6939
@@ -1589,17 +1589,17 @@ startScreenBitmap:
 	.short	2570
 	.short	2570
 	.short	1542
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7697
-	.short	7710
-	.short	7734
-	.short	4355
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7440
+	.short	7453
+	.short	7477
+	.short	4099
 	.short	11011
 	.short	6168
 	.short	6168
@@ -1624,36 +1624,36 @@ startScreenBitmap:
 	.short	6168
 	.short	6168
 	.short	6168
-	.short	13337
-	.short	6193
-	.short	12593
-	.short	6449
+	.short	13081
+	.short	6192
+	.short	12336
+	.short	6448
 	.short	6425
 	.short	6425
 	.short	6425
 	.short	6425
-	.short	13337
+	.short	13081
 	.short	6425
 	.short	6425
 	.short	6425
-	.short	6449
-	.short	6449
+	.short	6448
+	.short	6448
 	.short	6425
 	.short	6425
-	.short	12593
-	.short	817
-	.short	12593
+	.short	12336
+	.short	816
+	.short	12336
 	.short	771
 	.short	771
 	.short	771
-	.short	9782
-	.short	13862
-	.short	7718
-	.short	7718
-	.short	9758
-	.short	7710
-	.short	9758
-	.short	7718
+	.short	9781
+	.short	13606
+	.short	7462
+	.short	7462
+	.short	9757
+	.short	7453
+	.short	9757
+	.short	7462
 	.short	9766
 	.short	9766
 	.short	9766
@@ -1662,12 +1662,12 @@ startScreenBitmap:
 	.short	9766
 	.short	9766
 	.short	9766
-	.short	9782
-	.short	9782
+	.short	9781
+	.short	9781
 	.short	9766
-	.short	7718
-	.short	7710
-	.short	7710
+	.short	7462
+	.short	7453
+	.short	7453
 	.short	8981
 	.short	5397
 	.short	5397
@@ -1676,8 +1676,8 @@ startScreenBitmap:
 	.short	5654
 	.short	5654
 	.short	6934
-	.short	13107
-	.short	13107
+	.short	12850
+	.short	12850
 	.short	4626
 	.short	4626
 	.short	3346
@@ -1709,17 +1709,17 @@ startScreenBitmap:
 	.short	2570
 	.short	2570
 	.short	1542
-	.short	7686
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7697
-	.short	7697
-	.short	7697
-	.short	7710
-	.short	7710
-	.short	13854
-	.short	785
+	.short	7430
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7440
+	.short	7440
+	.short	7440
+	.short	7453
+	.short	7453
+	.short	13597
+	.short	784
 	.short	11051
 	.short	6168
 	.short	6156
@@ -1744,8 +1744,8 @@ startScreenBitmap:
 	.short	6168
 	.short	6168
 	.short	6168
-	.short	12593
-	.short	12593
+	.short	12336
+	.short	12336
 	.short	6425
 	.short	6425
 	.short	6425
@@ -1756,38 +1756,38 @@ startScreenBitmap:
 	.short	6425
 	.short	6425
 	.short	6425
-	.short	12569
+	.short	12313
 	.short	6425
-	.short	6449
-	.short	12593
-	.short	12593
-	.short	12593
-	.short	817
-	.short	817
+	.short	6448
+	.short	12336
+	.short	12336
+	.short	12336
+	.short	816
+	.short	816
 	.short	771
-	.short	13878
-	.short	13878
-	.short	12547
-	.short	7718
-	.short	7718
-	.short	7718
-	.short	7718
-	.short	7718
+	.short	13621
+	.short	13621
+	.short	12291
+	.short	7462
+	.short	7462
+	.short	7462
+	.short	7462
+	.short	7462
 	.short	9766
 	.short	9766
 	.short	9766
 	.short	9766
 	.short	9766
-	.short	9782
-	.short	9782
+	.short	9781
+	.short	9781
 	.short	9766
-	.short	9782
-	.short	13878
+	.short	9781
+	.short	13621
 	.short	9766
 	.short	9766
-	.short	7718
-	.short	7710
-	.short	7710
+	.short	7462
+	.short	7453
+	.short	7453
 	.short	5411
 	.short	5397
 	.short	5653
@@ -1796,9 +1796,9 @@ startScreenBitmap:
 	.short	5654
 	.short	6934
 	.short	6934
-	.short	13107
-	.short	4659
-	.short	4659
+	.short	12850
+	.short	4658
+	.short	4658
 	.short	4621
 	.short	4621
 	.short	3341
@@ -1810,8 +1810,8 @@ startScreenBitmap:
 	.short	3341
 	.short	3341
 	.short	4621
-	.short	4654
-	.short	11794
+	.short	4653
+	.short	11538
 	.short	4626
 	.short	4626
 	.short	4626
@@ -1830,22 +1830,22 @@ startScreenBitmap:
 	.short	2570
 	.short	1542
 	.short	1542
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7697
-	.short	7697
-	.short	7697
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	4406
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7440
+	.short	7440
+	.short	7440
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	4149
 	.short	11051
 	.short	3115
 	.short	8472
 	.short	8481
-	.short	12833
-	.short	8498
+	.short	12577
+	.short	8497
 	.short	8481
 	.short	3084
 	.short	3084
@@ -1866,7 +1866,7 @@ startScreenBitmap:
 	.short	6168
 	.short	6168
 	.short	6168
-	.short	6449
+	.short	6448
 	.short	6425
 	.short	6425
 	.short	6425
@@ -1877,37 +1877,37 @@ startScreenBitmap:
 	.short	6425
 	.short	6425
 	.short	6425
-	.short	12569
+	.short	12313
 	.short	6425
 	.short	6425
-	.short	12593
-	.short	12593
-	.short	12547
+	.short	12336
+	.short	12336
+	.short	12291
 	.short	771
 	.short	771
-	.short	13878
-	.short	822
-	.short	9782
+	.short	13621
+	.short	821
+	.short	9781
 	.short	9766
 	.short	9766
-	.short	9758
-	.short	9758
-	.short	9766
-	.short	9766
-	.short	9766
-	.short	9766
-	.short	9766
-	.short	13862
-	.short	13862
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
+	.short	9757
+	.short	9757
 	.short	9766
 	.short	9766
 	.short	9766
-	.short	7710
-	.short	7710
+	.short	9766
+	.short	9766
+	.short	13606
+	.short	13606
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	9766
+	.short	9766
+	.short	9766
+	.short	7453
+	.short	7453
 	.short	8995
 	.short	5397
 	.short	5397
@@ -1916,8 +1916,8 @@ startScreenBitmap:
 	.short	5654
 	.short	5654
 	.short	6939
-	.short	13107
-	.short	4659
+	.short	12850
+	.short	4658
 	.short	4626
 	.short	3346
 	.short	3341
@@ -1931,15 +1931,15 @@ startScreenBitmap:
 	.short	4621
 	.short	4621
 	.short	4621
-	.short	4654
+	.short	4653
 	.short	4626
 	.short	4626
 	.short	4626
 	.short	4626
 	.short	4626
-	.short	13074
-	.short	13107
-	.short	13074
+	.short	12818
+	.short	12850
+	.short	12818
 	.short	6927
 	.short	3855
 	.short	3855
@@ -1948,25 +1948,25 @@ startScreenBitmap:
 	.short	2570
 	.short	2570
 	.short	2570
-	.short	16448
-	.short	5440
-	.short	7232
-	.short	16448
-	.short	4382
-	.short	7710
-	.short	7710
-	.short	4382
-	.short	7697
-	.short	4382
-	.short	4382
-	.short	4382
+	.short	14906
+	.short	5434
+	.short	7226
+	.short	14906
+	.short	4125
+	.short	7453
+	.short	7453
+	.short	4125
+	.short	7440
+	.short	4125
+	.short	4125
+	.short	4125
 	.short	11051
 	.short	11051
 	.short	3084
 	.short	8481
-	.short	12850
-	.short	12850
-	.short	8498
+	.short	12593
+	.short	12593
+	.short	8497
 	.short	6177
 	.short	3084
 	.short	3084
@@ -1985,7 +1985,7 @@ startScreenBitmap:
 	.short	6168
 	.short	6168
 	.short	6168
-	.short	12593
+	.short	12336
 	.short	6425
 	.short	6425
 	.short	6425
@@ -1996,38 +1996,38 @@ startScreenBitmap:
 	.short	6425
 	.short	6425
 	.short	6425
-	.short	12569
-	.short	12569
-	.short	12569
+	.short	12313
+	.short	12313
+	.short	12313
 	.short	6425
-	.short	12569
-	.short	12593
-	.short	817
+	.short	12313
+	.short	12336
+	.short	816
 	.short	771
-	.short	13827
-	.short	13878
+	.short	13571
+	.short	13621
 	.short	9766
 	.short	9766
 	.short	9766
-	.short	9758
-	.short	9758
+	.short	9757
+	.short	9757
 	.short	9766
 	.short	9766
 	.short	9766
 	.short	9766
 	.short	9766
 	.short	9766
-	.short	9782
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	9782
-	.short	9782
+	.short	9781
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	9781
+	.short	9781
 	.short	9766
 	.short	9766
-	.short	7710
-	.short	7710
+	.short	7453
+	.short	7453
 	.short	8995
 	.short	5397
 	.short	5397
@@ -2036,7 +2036,7 @@ startScreenBitmap:
 	.short	5654
 	.short	6934
 	.short	6939
-	.short	4659
+	.short	4658
 	.short	4626
 	.short	4626
 	.short	3341
@@ -2050,16 +2050,16 @@ startScreenBitmap:
 	.short	3346
 	.short	4621
 	.short	4621
-	.short	4654
-	.short	4654
+	.short	4653
+	.short	4653
 	.short	4626
 	.short	4626
 	.short	4626
 	.short	4626
 	.short	4626
-	.short	13074
-	.short	13074
-	.short	13107
+	.short	12818
+	.short	12818
+	.short	12850
 	.short	3855
 	.short	3855
 	.short	3855
@@ -2067,33 +2067,33 @@ startScreenBitmap:
 	.short	3855
 	.short	3855
 	.short	2570
-	.short	2624
-	.short	16394
-	.short	16448
-	.short	5952
-	.short	16405
-	.short	7686
-	.short	7697
-	.short	7710
-	.short	7697
-	.short	4382
-	.short	7710
-	.short	7710
-	.short	4369
-	.short	4369
+	.short	2618
+	.short	14858
+	.short	14906
+	.short	5946
+	.short	14869
+	.short	7430
+	.short	7440
+	.short	7453
+	.short	7440
+	.short	4125
+	.short	7453
+	.short	7453
+	.short	4112
+	.short	4112
 	.short	11051
 	.short	3115
 	.short	8481
-	.short	12850
-	.short	12850
-	.short	12850
+	.short	12593
+	.short	12593
+	.short	12593
 	.short	8481
 	.short	3084
 	.short	3084
 	.short	11020
 	.short	11020
-	.short	4369
-	.short	11025
+	.short	4112
+	.short	11024
 	.short	11051
 	.short	11051
 	.short	11051
@@ -2104,7 +2104,7 @@ startScreenBitmap:
 	.short	6168
 	.short	6168
 	.short	6168
-	.short	12568
+	.short	12312
 	.short	6168
 	.short	6424
 	.short	6425
@@ -2115,18 +2115,18 @@ startScreenBitmap:
 	.short	6425
 	.short	6425
 	.short	6425
-	.short	6452
-	.short	6449
-	.short	6449
-	.short	12593
-	.short	13337
-	.short	12569
-	.short	13337
+	.short	6451
+	.short	6448
+	.short	6448
+	.short	12336
+	.short	13081
+	.short	12313
+	.short	13081
 	.short	771
 	.short	771
 	.short	771
-	.short	13827
-	.short	13878
+	.short	13571
+	.short	13621
 	.short	9766
 	.short	9766
 	.short	9766
@@ -2137,17 +2137,17 @@ startScreenBitmap:
 	.short	9766
 	.short	9766
 	.short	9766
-	.short	9782
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13862
-	.short	9782
+	.short	9781
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13606
+	.short	9781
 	.short	9766
 	.short	9766
-	.short	7710
+	.short	7453
 	.short	8995
 	.short	8995
 	.short	5397
@@ -2156,9 +2156,9 @@ startScreenBitmap:
 	.short	5654
 	.short	5654
 	.short	6934
-	.short	13107
-	.short	13107
-	.short	4659
+	.short	12850
+	.short	12850
+	.short	4658
 	.short	3346
 	.short	3341
 	.short	3341
@@ -2166,20 +2166,20 @@ startScreenBitmap:
 	.short	3341
 	.short	3341
 	.short	4621
-	.short	13074
+	.short	12818
 	.short	3346
 	.short	4621
 	.short	4621
-	.short	4654
-	.short	4654
-	.short	1843
+	.short	4653
+	.short	4653
+	.short	1842
 	.short	4626
 	.short	4626
 	.short	4626
 	.short	4626
-	.short	13107
-	.short	13107
-	.short	13107
+	.short	12850
+	.short	12850
+	.short	12850
 	.short	3855
 	.short	3855
 	.short	3855
@@ -2187,36 +2187,36 @@ startScreenBitmap:
 	.short	3855
 	.short	3855
 	.short	2575
-	.short	8000
+	.short	7738
 	.short	2570
-	.short	16394
-	.short	16448
-	.short	16448
-	.short	1566
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	4369
-	.short	4369
-	.short	4369
-	.short	4369
+	.short	14858
+	.short	14906
+	.short	14906
+	.short	1565
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	4112
+	.short	4112
+	.short	4112
+	.short	4112
 	.short	11051
 	.short	8481
-	.short	13345
-	.short	12850
-	.short	12850
+	.short	13089
+	.short	12593
+	.short	12593
 	.short	8481
 	.short	3084
 	.short	11051
 	.short	11051
-	.short	4369
-	.short	4369
-	.short	4369
-	.short	4369
-	.short	4369
-	.short	11025
+	.short	4112
+	.short	4112
+	.short	4112
+	.short	4112
+	.short	4112
+	.short	11024
 	.short	11051
 	.short	11051
 	.short	811
@@ -2226,7 +2226,7 @@ startScreenBitmap:
 	.short	6168
 	.short	6168
 	.short	6424
-	.short	12569
+	.short	12313
 	.short	6425
 	.short	6425
 	.short	6425
@@ -2236,17 +2236,17 @@ startScreenBitmap:
 	.short	6425
 	.short	6425
 	.short	6425
-	.short	12569
-	.short	12569
-	.short	12593
-	.short	12593
-	.short	12593
-	.short	817
+	.short	12313
+	.short	12313
+	.short	12336
+	.short	12336
+	.short	12336
+	.short	816
 	.short	771
 	.short	771
 	.short	771
-	.short	13827
-	.short	9782
+	.short	13571
+	.short	9781
 	.short	9766
 	.short	9766
 	.short	9766
@@ -2254,20 +2254,20 @@ startScreenBitmap:
 	.short	9766
 	.short	9766
 	.short	9766
-	.short	13862
-	.short	13862
-	.short	13878
-	.short	13862
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13862
+	.short	13606
+	.short	13606
+	.short	13621
+	.short	13606
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13606
 	.short	9766
 	.short	9766
-	.short	7718
-	.short	7710
+	.short	7462
+	.short	7453
 	.short	8995
 	.short	8995
 	.short	5397
@@ -2276,9 +2276,9 @@ startScreenBitmap:
 	.short	5654
 	.short	6934
 	.short	6939
-	.short	4659
-	.short	11315
-	.short	4659
+	.short	4658
+	.short	11314
+	.short	4658
 	.short	3341
 	.short	3341
 	.short	3341
@@ -2290,16 +2290,16 @@ startScreenBitmap:
 	.short	3341
 	.short	3346
 	.short	3346
-	.short	11794
-	.short	11794
+	.short	11538
+	.short	11538
 	.short	4626
 	.short	4626
 	.short	4626
 	.short	4626
 	.short	4626
-	.short	13074
-	.short	13107
-	.short	13107
+	.short	12818
+	.short	12850
+	.short	12850
 	.short	3862
 	.short	3855
 	.short	3855
@@ -2310,34 +2310,34 @@ startScreenBitmap:
 	.short	2575
 	.short	2570
 	.short	2570
-	.short	16394
-	.short	16448
-	.short	7686
-	.short	7710
-	.short	4382
-	.short	7710
-	.short	7710
-	.short	7732
-	.short	4382
-	.short	4369
+	.short	14858
+	.short	14906
+	.short	7430
+	.short	7453
+	.short	4125
+	.short	7453
+	.short	7453
+	.short	7475
+	.short	4125
+	.short	4112
 	.short	11051
-	.short	11025
-	.short	3089
+	.short	11024
+	.short	3088
 	.short	3084
-	.short	13345
-	.short	8498
-	.short	12833
+	.short	13089
+	.short	8497
+	.short	12577
 	.short	3105
 	.short	11051
 	.short	11051
-	.short	4369
-	.short	7710
-	.short	12561
-	.short	4369
-	.short	4369
-	.short	4369
-	.short	4369
-	.short	4369
+	.short	4112
+	.short	7453
+	.short	12304
+	.short	4112
+	.short	4112
+	.short	4112
+	.short	4112
+	.short	4112
 	.short	11051
 	.short	11051
 	.short	6187
@@ -2345,9 +2345,9 @@ startScreenBitmap:
 	.short	3096
 	.short	6168
 	.short	6168
-	.short	12568
+	.short	12312
 	.short	6424
-	.short	6449
+	.short	6448
 	.short	6425
 	.short	6425
 	.short	6425
@@ -2357,37 +2357,37 @@ startScreenBitmap:
 	.short	6425
 	.short	6425
 	.short	6425
-	.short	12569
-	.short	12569
-	.short	12593
-	.short	12593
-	.short	12593
+	.short	12313
+	.short	12313
+	.short	12336
+	.short	12336
+	.short	12336
 	.short	771
 	.short	771
 	.short	771
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	9782
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	9781
 	.short	9766
 	.short	9766
 	.short	9766
 	.short	9766
 	.short	9766
 	.short	9766
-	.short	13862
+	.short	13606
 	.short	9766
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	9782
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	9781
 	.short	9766
 	.short	9766
-	.short	7718
+	.short	7462
 	.short	8995
 	.short	8995
 	.short	8995
@@ -2396,7 +2396,7 @@ startScreenBitmap:
 	.short	5654
 	.short	5654
 	.short	6934
-	.short	4659
+	.short	4658
 	.short	4626
 	.short	3346
 	.short	3346
@@ -2408,18 +2408,18 @@ startScreenBitmap:
 	.short	3341
 	.short	3346
 	.short	3346
-	.short	4654
-	.short	3374
-	.short	4654
+	.short	4653
+	.short	3373
+	.short	4653
 	.short	4621
-	.short	11794
+	.short	11538
 	.short	4626
 	.short	4626
 	.short	4626
 	.short	4626
-	.short	13107
-	.short	13107
-	.short	13107
+	.short	12850
+	.short	12850
+	.short	12850
 	.short	3850
 	.short	3850
 	.short	2575
@@ -2431,15 +2431,15 @@ startScreenBitmap:
 	.short	2570
 	.short	2570
 	.short	2570
-	.short	16448
-	.short	1566
-	.short	7710
-	.short	7697
-	.short	7697
-	.short	7710
-	.short	7710
-	.short	4382
-	.short	4369
+	.short	14906
+	.short	1565
+	.short	7453
+	.short	7440
+	.short	7440
+	.short	7453
+	.short	7453
+	.short	4125
+	.short	4112
 	.short	11051
 	.short	11051
 	.short	3115
@@ -2449,16 +2449,16 @@ startScreenBitmap:
 	.short	3105
 	.short	11051
 	.short	11051
-	.short	4369
-	.short	7697
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7697
-	.short	7697
-	.short	4369
-	.short	4369
-	.short	11025
+	.short	4112
+	.short	7440
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7440
+	.short	7440
+	.short	4112
+	.short	4112
+	.short	11024
 	.short	11051
 	.short	11020
 	.short	6156
@@ -2466,7 +2466,7 @@ startScreenBitmap:
 	.short	6168
 	.short	6168
 	.short	6169
-	.short	12569
+	.short	12313
 	.short	6425
 	.short	6425
 	.short	6425
@@ -2477,37 +2477,37 @@ startScreenBitmap:
 	.short	6425
 	.short	6425
 	.short	6425
-	.short	12569
-	.short	12593
-	.short	12593
-	.short	12593
-	.short	6449
-	.short	817
+	.short	12313
+	.short	12336
+	.short	12336
+	.short	12336
+	.short	6448
+	.short	816
 	.short	771
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13862
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13606
 	.short	9766
 	.short	9766
 	.short	9766
-	.short	13862
-	.short	13862
-	.short	13862
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13862
-	.short	13878
+	.short	13606
+	.short	13606
+	.short	13606
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13606
+	.short	13621
 	.short	9766
 	.short	9766
-	.short	7710
+	.short	7453
 	.short	8995
 	.short	8995
 	.short	5397
@@ -2516,7 +2516,7 @@ startScreenBitmap:
 	.short	5654
 	.short	6934
 	.short	6939
-	.short	11794
+	.short	11538
 	.short	3346
 	.short	4626
 	.short	3341
@@ -2531,15 +2531,15 @@ startScreenBitmap:
 	.short	4621
 	.short	4621
 	.short	4621
-	.short	4654
+	.short	4653
 	.short	4626
 	.short	4626
 	.short	4626
 	.short	4626
 	.short	4626
-	.short	13107
-	.short	13107
-	.short	13107
+	.short	12850
+	.short	12850
+	.short	12850
 	.short	3862
 	.short	3850
 	.short	3850
@@ -2552,82 +2552,82 @@ startScreenBitmap:
 	.short	2570
 	.short	2570
 	.short	2570
-	.short	7686
-	.short	7686
-	.short	4382
-	.short	7710
-	.short	7710
-	.short	7686
-	.short	7686
-	.short	7686
-	.short	4358
+	.short	7430
+	.short	7430
+	.short	4125
+	.short	7453
+	.short	7453
+	.short	7430
+	.short	7430
+	.short	7430
+	.short	4102
 	.short	11051
 	.short	11051
 	.short	11051
 	.short	3115
-	.short	12812
+	.short	12556
 	.short	3084
 	.short	11051
-	.short	4369
-	.short	4369
-	.short	7697
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	4382
-	.short	7710
-	.short	4382
-	.short	4369
-	.short	11025
+	.short	4112
+	.short	4112
+	.short	7440
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	4125
+	.short	7453
+	.short	4125
+	.short	4112
+	.short	11024
 	.short	11051
 	.short	3115
 	.short	3084
 	.short	6156
 	.short	6177
 	.short	6168
-	.short	12568
+	.short	12312
 	.short	6433
-	.short	6449
-	.short	6449
+	.short	6448
+	.short	6448
 	.short	6425
-	.short	6452
-	.short	6425
-	.short	6425
+	.short	6451
 	.short	6425
 	.short	6425
 	.short	6425
 	.short	6425
 	.short	6425
-	.short	12593
-	.short	12593
-	.short	12593
 	.short	6425
-	.short	12593
+	.short	6425
+	.short	12336
+	.short	12336
+	.short	12336
+	.short	6425
+	.short	12336
 	.short	771
 	.short	771
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13862
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13606
 	.short	9766
 	.short	9766
-	.short	9782
-	.short	13862
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	9782
-	.short	13878
+	.short	9781
+	.short	13606
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	9781
+	.short	13621
 	.short	9766
 	.short	9766
-	.short	7718
-	.short	7718
+	.short	7462
+	.short	7462
 	.short	8995
 	.short	8995
 	.short	8995
@@ -2648,18 +2648,18 @@ startScreenBitmap:
 	.short	3341
 	.short	3341
 	.short	3341
-	.short	3374
-	.short	3374
-	.short	3374
+	.short	3373
+	.short	3373
+	.short	3373
 	.short	3341
 	.short	3346
 	.short	4626
 	.short	4626
 	.short	4626
 	.short	4626
-	.short	13107
-	.short	13107
-	.short	13107
+	.short	12850
+	.short	12850
+	.short	12850
 	.short	2570
 	.short	2570
 	.short	2570
@@ -2673,39 +2673,39 @@ startScreenBitmap:
 	.short	5642
 	.short	2570
 	.short	1542
-	.short	7710
-	.short	7710
-	.short	1566
-	.short	1566
-	.short	1566
-	.short	1566
-	.short	1566
-	.short	1553
-	.short	1553
-	.short	4369
-	.short	11025
+	.short	7453
+	.short	7453
+	.short	1565
+	.short	1565
+	.short	1565
+	.short	1565
+	.short	1565
+	.short	1552
+	.short	1552
+	.short	4112
+	.short	11024
 	.short	11051
 	.short	3084
 	.short	11020
-	.short	4369
-	.short	4369
-	.short	7697
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	4382
-	.short	4382
-	.short	11025
+	.short	4112
+	.short	4112
+	.short	7440
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	4125
+	.short	4125
+	.short	11024
 	.short	11051
 	.short	3084
 	.short	3084
 	.short	8460
 	.short	8472
 	.short	6168
-	.short	12577
+	.short	12321
 	.short	6169
 	.short	6169
 	.short	6425
@@ -2716,38 +2716,38 @@ startScreenBitmap:
 	.short	6425
 	.short	6425
 	.short	6425
-	.short	12569
-	.short	12569
-	.short	12593
-	.short	6193
-	.short	12568
-	.short	13337
-	.short	13364
+	.short	12313
+	.short	12313
+	.short	12336
+	.short	6192
+	.short	12312
+	.short	13081
+	.short	13107
 	.short	771
-	.short	13827
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	9782
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13862
+	.short	13571
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	9781
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13606
 	.short	9766
 	.short	9766
 	.short	9766
 	.short	9766
-	.short	7718
+	.short	7462
 	.short	8995
 	.short	8995
 	.short	5411
@@ -2768,18 +2768,18 @@ startScreenBitmap:
 	.short	3341
 	.short	3341
 	.short	3341
-	.short	11789
-	.short	11789
-	.short	13107
-	.short	4659
+	.short	11533
+	.short	11533
+	.short	12850
+	.short	4658
 	.short	4626
 	.short	4626
 	.short	4626
 	.short	4626
-	.short	13074
-	.short	13107
-	.short	13107
-	.short	13107
+	.short	12818
+	.short	12850
+	.short	12850
+	.short	12850
 	.short	2582
 	.short	2570
 	.short	2570
@@ -2794,41 +2794,41 @@ startScreenBitmap:
 	.short	6934
 	.short	1542
 	.short	1542
-	.short	7686
+	.short	7430
 	.short	1542
 	.short	1542
 	.short	1542
 	.short	1542
 	.short	1542
-	.short	4358
+	.short	4102
 	.short	11014
-	.short	4369
-	.short	4369
+	.short	4112
+	.short	4112
 	.short	11051
-	.short	4369
-	.short	7697
-	.short	7710
-	.short	7710
-	.short	7686
-	.short	7686
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	4382
-	.short	4382
-	.short	4369
-	.short	11025
+	.short	4112
+	.short	7440
+	.short	7453
+	.short	7453
+	.short	7430
+	.short	7430
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	4125
+	.short	4125
+	.short	4112
+	.short	11024
 	.short	11051
 	.short	3115
 	.short	3084
 	.short	3084
 	.short	6177
 	.short	6168
-	.short	12568
-	.short	12577
-	.short	12593
-	.short	12593
+	.short	12312
+	.short	12321
+	.short	12336
+	.short	12336
 	.short	6425
 	.short	6425
 	.short	6425
@@ -2838,36 +2838,36 @@ startScreenBitmap:
 	.short	6425
 	.short	6425
 	.short	6425
-	.short	12593
-	.short	6193
+	.short	12336
+	.short	6192
 	.short	6168
-	.short	12568
-	.short	817
+	.short	12312
+	.short	816
 	.short	771
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
 	.short	9766
-	.short	12547
-	.short	13827
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	9766
-	.short	9766
+	.short	12291
+	.short	13571
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
 	.short	9766
 	.short	9766
-	.short	7710
+	.short	9766
+	.short	9766
+	.short	7453
 	.short	8995
 	.short	8995
 	.short	5411
@@ -2889,10 +2889,10 @@ startScreenBitmap:
 	.short	3341
 	.short	3341
 	.short	3341
-	.short	11822
-	.short	11315
-	.short	11827
-	.short	4654
+	.short	11565
+	.short	11314
+	.short	11570
+	.short	4653
 	.short	4626
 	.short	4626
 	.short	4626
@@ -2929,15 +2929,15 @@ startScreenBitmap:
 	.short	10023
 	.short	10023
 	.short	1542
-	.short	1566
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	11025
-	.short	4369
-	.short	4369
+	.short	1565
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	11024
+	.short	4112
+	.short	4112
 	.short	11051
 	.short	3115
 	.short	3084
@@ -2947,41 +2947,41 @@ startScreenBitmap:
 	.short	6168
 	.short	6177
 	.short	6433
-	.short	12577
-	.short	12568
-	.short	6452
-	.short	12569
-	.short	12569
-	.short	6449
-	.short	6449
+	.short	12321
+	.short	12312
+	.short	6451
+	.short	12313
+	.short	12313
+	.short	6448
+	.short	6448
 	.short	6425
 	.short	6425
 	.short	6425
-	.short	12593
-	.short	6193
+	.short	12336
+	.short	6192
 	.short	6168
 	.short	792
 	.short	792
 	.short	771
 	.short	771
-	.short	13878
-	.short	13878
-	.short	13862
-	.short	13878
-	.short	9782
+	.short	13621
+	.short	13621
+	.short	13606
+	.short	13621
+	.short	9781
 	.short	9766
-	.short	13862
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
+	.short	13606
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
 	.short	9766
 	.short	9766
 	.short	8983
@@ -2992,10 +2992,10 @@ startScreenBitmap:
 	.short	5411
 	.short	5411
 	.short	5397
-	.short	13095
-	.short	13095
-	.short	13107
-	.short	11827
+	.short	12839
+	.short	12839
+	.short	12850
+	.short	11570
 	.short	4626
 	.short	3341
 	.short	3341
@@ -3007,21 +3007,21 @@ startScreenBitmap:
 	.short	3341
 	.short	3341
 	.short	3341
-	.short	11789
-	.short	11789
+	.short	11533
+	.short	11533
 	.short	3341
-	.short	8750
-	.short	11827
-	.short	4654
-	.short	4659
+	.short	8749
+	.short	11570
+	.short	4653
+	.short	4658
 	.short	4626
 	.short	4626
 	.short	3867
 	.short	2587
 	.short	2582
 	.short	5654
-	.short	5696
-	.short	2624
+	.short	5690
+	.short	2618
 	.short	2570
 	.short	2570
 	.short	2582
@@ -3048,15 +3048,15 @@ startScreenBitmap:
 	.short	8738
 	.short	10023
 	.short	10023
-	.short	7686
-	.short	7686
-	.short	7710
-	.short	11025
+	.short	7430
+	.short	7430
+	.short	7453
+	.short	11024
 	.short	11051
 	.short	11051
 	.short	11051
 	.short	11051
-	.short	4395
+	.short	4139
 	.short	257
 	.short	257
 	.short	257
@@ -3067,55 +3067,55 @@ startScreenBitmap:
 	.short	8472
 	.short	6168
 	.short	289
-	.short	12289
-	.short	12336
+	.short	15105
+	.short	15163
 	.short	257
-	.short	4097
-	.short	12545
-	.short	12569
-	.short	12569
+	.short	4353
+	.short	12289
+	.short	12313
+	.short	12313
 	.short	6425
 	.short	6425
-	.short	12569
-	.short	12569
-	.short	6193
-	.short	4120
-	.short	15888
+	.short	12313
+	.short	12313
+	.short	6192
+	.short	4376
+	.short	15889
 	.short	15934
 	.short	15934
 	.short	15934
-	.short	4158
-	.short	15632
-	.short	15677
-	.short	15933
-	.short	10301
-	.short	9782
+	.short	4414
+	.short	17937
+	.short	17990
+	.short	15942
+	.short	10566
+	.short	9781
 	.short	9766
-	.short	13862
-	.short	13878
-	.short	13878
-	.short	822
-	.short	13878
-	.short	15619
-	.short	15677
-	.short	15677
-	.short	15165
-	.short	15677
-	.short	15165
-	.short	15677
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	10555
-	.short	9019
+	.short	13606
+	.short	13621
+	.short	13621
+	.short	821
+	.short	13621
+	.short	17923
+	.short	17990
+	.short	17990
+	.short	19014
+	.short	17990
+	.short	19014
+	.short	17990
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	10314
+	.short	9034
 	.short	5397
 	.short	5653
 	.short	10023
-	.short	13107
-	.short	13107
-	.short	4654
+	.short	12850
+	.short	12850
+	.short	4653
 	.short	3341
 	.short	3341
 	.short	3341
@@ -3128,21 +3128,21 @@ startScreenBitmap:
 	.short	3341
 	.short	3341
 	.short	3341
-	.short	4654
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	13102
-	.short	13107
-	.short	13107
+	.short	4653
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	12845
+	.short	12850
+	.short	12850
 	.short	6927
 	.short	5647
 	.short	5654
 	.short	2582
-	.short	16406
-	.short	5696
-	.short	2624
+	.short	14870
+	.short	5690
+	.short	2618
 	.short	2570
 	.short	2570
 	.short	2582
@@ -3169,9 +3169,9 @@ startScreenBitmap:
 	.short	10018
 	.short	8743
 	.short	1542
-	.short	1566
-	.short	4382
-	.short	3089
+	.short	1565
+	.short	4125
+	.short	3088
 	.short	3115
 	.short	3084
 	.short	3084
@@ -3188,54 +3188,54 @@ startScreenBitmap:
 	.short	8481
 	.short	257
 	.short	257
-	.short	12289
-	.short	12289
+	.short	15105
+	.short	15105
 	.short	257
-	.short	4097
-	.short	6449
-	.short	6449
+	.short	4353
+	.short	6448
+	.short	6448
 	.short	6425
 	.short	6425
-	.short	6449
-	.short	12593
+	.short	6448
+	.short	12336
 	.short	6168
-	.short	4158
-	.short	4112
+	.short	4414
+	.short	4369
 	.short	15934
 	.short	15934
-	.short	10302
+	.short	10558
 	.short	15934
-	.short	15888
-	.short	15678
-	.short	15677
-	.short	15677
-	.short	15656
-	.short	13885
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13827
-	.short	15670
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15145
-	.short	5417
+	.short	15889
+	.short	17982
+	.short	17990
+	.short	17990
+	.short	17961
+	.short	13638
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13571
+	.short	17973
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	18984
+	.short	5416
 	.short	5397
 	.short	5654
-	.short	13107
-	.short	13107
-	.short	11827
-	.short	11794
+	.short	12850
+	.short	12850
+	.short	11570
+	.short	11538
 	.short	3341
 	.short	3341
 	.short	3341
@@ -3243,26 +3243,26 @@ startScreenBitmap:
 	.short	3341
 	.short	3341
 	.short	3341
-	.short	3374
+	.short	3373
 	.short	3341
 	.short	3341
 	.short	3341
-	.short	3374
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	13107
-	.short	13107
-	.short	13107
+	.short	3373
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	12850
+	.short	12850
+	.short	12850
 	.short	6939
 	.short	6939
 	.short	2575
 	.short	5654
-	.short	5696
-	.short	16405
-	.short	16406
+	.short	5690
+	.short	14869
+	.short	14870
 	.short	2582
 	.short	5642
 	.short	5642
@@ -3288,10 +3288,10 @@ startScreenBitmap:
 	.short	8738
 	.short	8738
 	.short	10018
-	.short	7686
-	.short	7686
-	.short	4369
-	.short	12843
+	.short	7430
+	.short	7430
+	.short	4112
+	.short	12587
 	.short	3084
 	.short	8460
 	.short	3084
@@ -3303,58 +3303,58 @@ startScreenBitmap:
 	.short	257
 	.short	257
 	.short	257
-	.short	12850
-	.short	8498
+	.short	12593
+	.short	8497
 	.short	289
 	.short	257
 	.short	257
-	.short	12289
-	.short	12289
-	.short	304
+	.short	15105
+	.short	15105
+	.short	315
 	.short	257
-	.short	12545
-	.short	6449
+	.short	12289
+	.short	6448
 	.short	6425
-	.short	12593
-	.short	12593
-	.short	12593
-	.short	15921
-	.short	4158
-	.short	15888
-	.short	15888
+	.short	12336
+	.short	12336
+	.short	12336
+	.short	15920
+	.short	4414
+	.short	15889
+	.short	15889
 	.short	15934
-	.short	4112
-	.short	4136
-	.short	15677
+	.short	4369
+	.short	4393
+	.short	17990
 	.short	15934
-	.short	15933
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	13878
-	.short	13878
+	.short	15942
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	13621
+	.short	13621
 	.short	771
 	.short	771
-	.short	13878
-	.short	15677
-	.short	15165
-	.short	15165
-	.short	15677
-	.short	15163
-	.short	15675
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	5417
+	.short	13621
+	.short	17990
+	.short	19014
+	.short	19014
+	.short	17990
+	.short	19018
+	.short	17994
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	5416
 	.short	5653
 	.short	5654
-	.short	13107
-	.short	13107
-	.short	11827
+	.short	12850
+	.short	12850
+	.short	11570
 	.short	3341
 	.short	3341
 	.short	3341
@@ -3363,38 +3363,38 @@ startScreenBitmap:
 	.short	3341
 	.short	3341
 	.short	3341
-	.short	11315
+	.short	11314
 	.short	3341
 	.short	3341
-	.short	3374
-	.short	11789
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	13107
-	.short	13107
-	.short	13107
-	.short	13107
+	.short	3373
+	.short	11533
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	12850
+	.short	12850
+	.short	12850
+	.short	12850
 	.short	3855
 	.short	3867
 	.short	5659
 	.short	5642
-	.short	16406
-	.short	5696
-	.short	5696
-	.short	5696
-	.short	16406
-	.short	16406
-	.short	16406
+	.short	14870
+	.short	5690
+	.short	5690
+	.short	5690
+	.short	14870
+	.short	14870
+	.short	14870
 	.short	2582
-	.short	16406
+	.short	14870
 	.short	2582
 	.short	2582
-	.short	16394
-	.short	16394
-	.short	5440
-	.short	2624
+	.short	14858
+	.short	14858
+	.short	5434
+	.short	2618
 	.short	6934
 	.short	6939
 	.short	6939
@@ -3408,9 +3408,9 @@ startScreenBitmap:
 	.short	8738
 	.short	8738
 	.short	10023
-	.short	1566
-	.short	4382
-	.short	11025
+	.short	1565
+	.short	4125
+	.short	11024
 	.short	3084
 	.short	3105
 	.short	8481
@@ -3423,58 +3423,58 @@ startScreenBitmap:
 	.short	257
 	.short	257
 	.short	257
-	.short	12850
-	.short	12833
+	.short	12593
+	.short	12577
 	.short	257
 	.short	257
-	.short	304
+	.short	315
+	.short	15105
+	.short	257
+	.short	257
+	.short	257
 	.short	12289
-	.short	257
-	.short	257
-	.short	257
-	.short	12545
-	.short	6449
-	.short	12569
-	.short	12593
-	.short	12593
-	.short	12568
-	.short	4121
-	.short	4112
-	.short	15888
-	.short	15888
+	.short	6448
+	.short	12313
+	.short	12336
+	.short	12336
+	.short	12312
+	.short	4377
+	.short	4369
+	.short	15889
+	.short	15889
 	.short	15934
-	.short	4112
-	.short	15888
-	.short	15678
-	.short	15677
-	.short	15677
-	.short	10280
-	.short	15677
-	.short	15677
-	.short	13885
-	.short	13878
-	.short	12547
-	.short	817
-	.short	15619
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15675
-	.short	15165
-	.short	15163
-	.short	15165
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15145
-	.short	15145
-	.short	15163
-	.short	5691
+	.short	4369
+	.short	15889
+	.short	17982
+	.short	17990
+	.short	17990
+	.short	10537
+	.short	17990
+	.short	17990
+	.short	13638
+	.short	13621
+	.short	12291
+	.short	816
+	.short	17923
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17994
+	.short	19014
+	.short	19018
+	.short	19014
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	18984
+	.short	18984
+	.short	19018
+	.short	5706
 	.short	5654
 	.short	5654
-	.short	13107
-	.short	11822
-	.short	11794
+	.short	12850
+	.short	11565
+	.short	11538
 	.short	3341
 	.short	3341
 	.short	3341
@@ -3485,37 +3485,37 @@ startScreenBitmap:
 	.short	3341
 	.short	3341
 	.short	3341
-	.short	3374
-	.short	11789
-	.short	11822
-	.short	1843
-	.short	11822
-	.short	11822
-	.short	11822
+	.short	3373
+	.short	11533
+	.short	11565
+	.short	1842
+	.short	11565
+	.short	11565
+	.short	11565
 	.short	11298
-	.short	8755
-	.short	13107
+	.short	8754
+	.short	12850
 	.short	11303
-	.short	16394
+	.short	14858
 	.short	6927
 	.short	3867
-	.short	2624
+	.short	2618
 	.short	5642
-	.short	16406
-	.short	16406
-	.short	16405
+	.short	14870
+	.short	14870
+	.short	14869
 	.short	5654
-	.short	5696
+	.short	5690
 	.short	5654
 	.short	5642
-	.short	5952
-	.short	2624
+	.short	5946
+	.short	2618
 	.short	2582
 	.short	2582
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
 	.short	5654
 	.short	5654
 	.short	6934
@@ -3528,73 +3528,73 @@ startScreenBitmap:
 	.short	8738
 	.short	10023
 	.short	10023
-	.short	4358
+	.short	4102
 	.short	11051
 	.short	8460
 	.short	8481
-	.short	12833
-	.short	12833
-	.short	12850
-	.short	306
+	.short	12577
+	.short	12577
+	.short	12593
+	.short	305
 	.short	257
-	.short	12289
+	.short	15105
 	.short	257
 	.short	257
 	.short	257
 	.short	257
 	.short	8449
 	.short	8481
-	.short	306
+	.short	305
 	.short	257
 	.short	257
-	.short	12289
+	.short	15105
 	.short	257
-	.short	12289
+	.short	15105
 	.short	257
 	.short	257
-	.short	6160
+	.short	6161
 	.short	6425
-	.short	12596
-	.short	6193
+	.short	12339
+	.short	6192
 	.short	6168
 	.short	6168
-	.short	4158
-	.short	15888
+	.short	4414
+	.short	15889
 	.short	15934
-	.short	4158
+	.short	4414
 	.short	15934
 	.short	15934
-	.short	15632
-	.short	15678
-	.short	15678
-	.short	15678
-	.short	10301
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	13878
+	.short	17937
+	.short	17982
+	.short	17982
+	.short	17982
+	.short	10566
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	13621
 	.short	6403
-	.short	820
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15675
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	5417
+	.short	819
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	17994
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	5416
 	.short	5654
 	.short	5654
-	.short	13107
-	.short	11827
-	.short	3374
+	.short	12850
+	.short	11570
+	.short	3373
 	.short	3346
 	.short	3341
 	.short	3341
@@ -3606,15 +3606,15 @@ startScreenBitmap:
 	.short	3341
 	.short	3341
 	.short	3341
-	.short	11822
-	.short	11822
+	.short	11565
+	.short	11565
 	.short	9991
-	.short	11822
-	.short	11822
-	.short	13102
-	.short	13090
-	.short	13107
-	.short	13107
+	.short	11565
+	.short	11565
+	.short	12845
+	.short	12834
+	.short	12850
+	.short	12850
 	.short	11303
 	.short	2582
 	.short	3862
@@ -3622,21 +3622,21 @@ startScreenBitmap:
 	.short	5647
 	.short	2582
 	.short	2582
-	.short	5696
-	.short	5696
-	.short	5440
-	.short	16406
-	.short	16405
+	.short	5690
+	.short	5690
+	.short	5434
+	.short	14870
+	.short	14869
 	.short	5653
 	.short	5642
 	.short	5642
-	.short	5696
-	.short	16448
-	.short	16448
-	.short	16405
-	.short	16405
-	.short	16448
-	.short	16448
+	.short	5690
+	.short	14906
+	.short	14906
+	.short	14869
+	.short	14869
+	.short	14906
+	.short	14906
 	.short	5653
 	.short	5397
 	.short	5654
@@ -3648,13 +3648,13 @@ startScreenBitmap:
 	.short	10018
 	.short	10023
 	.short	10023
-	.short	4369
+	.short	4112
 	.short	11051
 	.short	8460
-	.short	12850
-	.short	12850
-	.short	12850
-	.short	12850
+	.short	12593
+	.short	12593
+	.short	12593
+	.short	12593
 	.short	257
 	.short	257
 	.short	257
@@ -3664,56 +3664,56 @@ startScreenBitmap:
 	.short	257
 	.short	8481
 	.short	8481
-	.short	304
+	.short	315
 	.short	257
 	.short	257
-	.short	12289
+	.short	15105
 	.short	257
-	.short	304
-	.short	4112
-	.short	12289
-	.short	6160
-	.short	6449
-	.short	12569
+	.short	315
+	.short	4369
+	.short	15105
+	.short	6161
+	.short	6448
+	.short	12313
 	.short	6168
 	.short	6168
-	.short	12291
+	.short	15107
 	.short	15934
-	.short	4158
-	.short	4112
-	.short	15888
+	.short	4414
+	.short	4369
+	.short	15889
 	.short	15934
-	.short	4158
-	.short	4158
-	.short	15933
-	.short	15677
-	.short	15678
-	.short	15656
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	829
+	.short	4414
+	.short	4414
+	.short	15942
+	.short	17990
+	.short	17982
+	.short	17961
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	838
 	.short	771
-	.short	817
-	.short	15677
-	.short	15165
-	.short	15675
-	.short	15165
-	.short	15165
-	.short	15675
-	.short	15163
-	.short	15163
-	.short	15165
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	10555
-	.short	15145
+	.short	816
+	.short	17990
+	.short	19014
+	.short	17994
+	.short	19014
+	.short	19014
+	.short	17994
+	.short	19018
+	.short	19018
+	.short	19014
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	10314
+	.short	18984
 	.short	5654
 	.short	5654
 	.short	6934
-	.short	11827
-	.short	4654
+	.short	11570
+	.short	4653
 	.short	3346
 	.short	3346
 	.short	3341
@@ -3725,16 +3725,16 @@ startScreenBitmap:
 	.short	3341
 	.short	3341
 	.short	3341
-	.short	3374
-	.short	3374
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	13102
-	.short	11810
-	.short	13107
-	.short	13090
-	.short	13090
+	.short	3373
+	.short	3373
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	12845
+	.short	11554
+	.short	12850
+	.short	12834
+	.short	12834
 	.short	11303
 	.short	5654
 	.short	3862
@@ -3742,25 +3742,25 @@ startScreenBitmap:
 	.short	2587
 	.short	5642
 	.short	5642
-	.short	16406
-	.short	16406
-	.short	16406
-	.short	16405
+	.short	14870
+	.short	14870
+	.short	14870
+	.short	14869
 	.short	5398
-	.short	16406
-	.short	16406
-	.short	16406
-	.short	16406
-	.short	16394
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	5952
-	.short	16407
-	.short	5440
-	.short	14101
+	.short	14870
+	.short	14870
+	.short	14870
+	.short	14870
+	.short	14858
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	5946
+	.short	14871
+	.short	5434
+	.short	13845
 	.short	5654
 	.short	6939
 	.short	5654
@@ -3768,13 +3768,13 @@ startScreenBitmap:
 	.short	10018
 	.short	10023
 	.short	11303
-	.short	11025
+	.short	11024
 	.short	11051
 	.short	8460
-	.short	12850
-	.short	12850
-	.short	12850
-	.short	12850
+	.short	12593
+	.short	12593
+	.short	12593
+	.short	12593
 	.short	257
 	.short	257
 	.short	257
@@ -3787,53 +3787,53 @@ startScreenBitmap:
 	.short	257
 	.short	257
 	.short	257
-	.short	304
+	.short	315
 	.short	257
-	.short	304
+	.short	315
 	.short	257
 	.short	257
-	.short	6160
-	.short	13361
-	.short	12569
+	.short	6161
+	.short	13104
+	.short	12313
 	.short	6168
 	.short	6168
 	.short	15896
-	.short	4158
-	.short	4112
+	.short	4414
+	.short	4369
 	.short	15934
 	.short	15934
-	.short	15888
+	.short	15889
 	.short	15934
-	.short	15678
+	.short	17982
 	.short	15934
-	.short	15677
-	.short	15678
-	.short	15678
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	13885
-	.short	822
-	.short	15619
-	.short	15677
-	.short	15656
-	.short	15677
-	.short	15165
-	.short	15163
-	.short	15165
-	.short	15675
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	10555
+	.short	17990
+	.short	17982
+	.short	17982
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	13638
+	.short	821
+	.short	17923
+	.short	17990
+	.short	17961
+	.short	17990
+	.short	19014
+	.short	19018
+	.short	19014
+	.short	17994
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	10314
 	.short	5654
 	.short	5654
 	.short	6939
-	.short	13107
-	.short	11794
+	.short	12850
+	.short	11538
 	.short	4626
 	.short	3346
 	.short	3341
@@ -3845,73 +3845,73 @@ startScreenBitmap:
 	.short	3341
 	.short	3341
 	.short	3341
-	.short	3374
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	13102
-	.short	13090
-	.short	13090
-	.short	13090
-	.short	10035
+	.short	3373
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	12845
+	.short	12834
+	.short	12834
+	.short	12834
+	.short	10034
 	.short	5653
 	.short	5653
 	.short	5654
 	.short	5654
 	.short	5654
 	.short	5642
-	.short	5696
-	.short	5440
+	.short	5690
+	.short	5434
 	.short	5653
-	.short	5696
-	.short	5696
-	.short	5696
-	.short	16406
-	.short	16406
-	.short	16406
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
+	.short	5690
+	.short	5690
+	.short	5690
+	.short	14870
+	.short	14870
+	.short	14870
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
 	.short	7191
-	.short	16448
-	.short	16448
-	.short	16448
+	.short	14906
+	.short	14906
+	.short	14906
 	.short	7196
-	.short	5952
-	.short	5440
-	.short	16448
-	.short	16448
-	.short	7710
-	.short	4369
-	.short	11025
+	.short	5946
+	.short	5434
+	.short	14906
+	.short	14906
+	.short	7453
+	.short	4112
+	.short	11024
 	.short	11051
 	.short	11051
 	.short	11051
 	.short	3084
 	.short	8481
-	.short	12850
-	.short	12850
-	.short	306
+	.short	12593
+	.short	12593
+	.short	305
 	.short	257
 	.short	257
 	.short	257
 	.short	257
 	.short	257
 	.short	257
-	.short	12801
-	.short	8498
+	.short	12545
+	.short	8497
 	.short	289
-	.short	304
+	.short	315
 	.short	257
 	.short	257
-	.short	272
-	.short	304
+	.short	273
+	.short	315
 	.short	257
 	.short	257
-	.short	272
+	.short	273
 	.short	6145
 	.short	6168
 	.short	6168
@@ -3919,41 +3919,41 @@ startScreenBitmap:
 	.short	792
 	.short	15934
 	.short	15934
-	.short	4112
+	.short	4369
 	.short	15934
 	.short	15934
 	.short	15934
-	.short	4158
-	.short	4158
+	.short	4414
+	.short	4414
 	.short	15934
-	.short	15678
-	.short	10301
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	13885
-	.short	13827
-	.short	15670
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15165
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	10035
-	.short	13107
-	.short	13107
-	.short	4659
-	.short	4659
+	.short	17982
+	.short	10566
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	13638
+	.short	13571
+	.short	17973
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19014
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	10034
+	.short	12850
+	.short	12850
+	.short	4658
+	.short	4658
 	.short	4626
 	.short	3341
 	.short	3341
@@ -3964,16 +3964,16 @@ startScreenBitmap:
 	.short	3341
 	.short	3341
 	.short	3341
-	.short	11822
-	.short	6702
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	8750
-	.short	8755
+	.short	11565
+	.short	6701
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	8749
+	.short	8754
 	.short	5910
-	.short	5407
+	.short	5406
 	.short	5654
 	.short	8982
 	.short	5398
@@ -3981,49 +3981,49 @@ startScreenBitmap:
 	.short	5398
 	.short	5654
 	.short	5642
-	.short	16406
-	.short	16406
+	.short	14870
+	.short	14870
 	.short	5398
-	.short	16406
-	.short	16405
-	.short	16405
-	.short	16405
-	.short	5696
-	.short	9024
-	.short	5440
-	.short	16448
-	.short	16448
-	.short	16407
-	.short	16448
-	.short	16407
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	7710
-	.short	4369
+	.short	14870
+	.short	14869
+	.short	14869
+	.short	14869
+	.short	5690
+	.short	9018
+	.short	5434
+	.short	14906
+	.short	14906
+	.short	14871
+	.short	14906
+	.short	14871
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	7453
+	.short	4112
 	.short	11051
 	.short	11051
-	.short	11058
+	.short	11057
 	.short	11051
 	.short	11051
 	.short	8460
 	.short	8481
-	.short	12850
-	.short	12850
-	.short	12850
-	.short	12850
-	.short	12850
-	.short	12850
-	.short	12850
-	.short	12850
-	.short	12833
-	.short	8498
-	.short	8498
+	.short	12593
+	.short	12593
+	.short	12593
+	.short	12593
+	.short	12593
+	.short	12593
+	.short	12593
+	.short	12593
+	.short	12577
+	.short	8497
+	.short	8497
 	.short	8481
 	.short	8481
 	.short	8472
@@ -4043,23 +4043,23 @@ startScreenBitmap:
 	.short	771
 	.short	771
 	.short	771
-	.short	13878
-	.short	7718
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	9758
-	.short	9758
-	.short	12598
-	.short	13849
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
+	.short	13621
+	.short	7462
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	9757
+	.short	9757
+	.short	12341
+	.short	13593
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
 	.short	9766
 	.short	9766
-	.short	7710
+	.short	7453
 	.short	8995
 	.short	8995
 	.short	8995
@@ -4069,13 +4069,13 @@ startScreenBitmap:
 	.short	5397
 	.short	5397
 	.short	11303
-	.short	13095
-	.short	13107
-	.short	13107
-	.short	13107
+	.short	12839
+	.short	12850
+	.short	12850
+	.short	12850
 	.short	4626
 	.short	4626
-	.short	11794
+	.short	11538
 	.short	3341
 	.short	3341
 	.short	3341
@@ -4083,66 +4083,66 @@ startScreenBitmap:
 	.short	3341
 	.short	3341
 	.short	3341
-	.short	11789
-	.short	11827
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	8755
-	.short	8755
+	.short	11533
+	.short	11570
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	8754
+	.short	8754
 	.short	5659
 	.short	5654
 	.short	5654
-	.short	7971
+	.short	7715
 	.short	5397
 	.short	5397
 	.short	5397
 	.short	5654
 	.short	5654
-	.short	5696
-	.short	16405
-	.short	16405
-	.short	5696
-	.short	5440
-	.short	5696
-	.short	5696
-	.short	16448
-	.short	16439
-	.short	16448
-	.short	16405
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	2624
-	.short	2624
-	.short	2624
-	.short	7710
-	.short	4382
+	.short	5690
+	.short	14869
+	.short	14869
+	.short	5690
+	.short	5434
+	.short	5690
+	.short	5690
+	.short	14906
+	.short	14902
+	.short	14906
+	.short	14869
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	2618
+	.short	2618
+	.short	2618
+	.short	7453
+	.short	4125
 	.short	11051
 	.short	11051
 	.short	11051
-	.short	4395
+	.short	4139
 	.short	11051
 	.short	8472
 	.short	8460
-	.short	12833
-	.short	12850
-	.short	12850
-	.short	12850
-	.short	12850
-	.short	12850
-	.short	12850
-	.short	8498
-	.short	8498
-	.short	8498
+	.short	12577
+	.short	12593
+	.short	12593
+	.short	12593
+	.short	12593
+	.short	12593
+	.short	12593
+	.short	8497
+	.short	8497
+	.short	8497
 	.short	8481
 	.short	8481
 	.short	6168
@@ -4162,24 +4162,24 @@ startScreenBitmap:
 	.short	771
 	.short	771
 	.short	771
-	.short	13827
-	.short	13878
-	.short	7718
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
+	.short	13571
+	.short	13621
+	.short	7462
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
 	.short	9766
-	.short	13878
-	.short	817
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13862
+	.short	13621
+	.short	816
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13606
 	.short	771
-	.short	9782
-	.short	7710
-	.short	7710
+	.short	9781
+	.short	7453
+	.short	7453
 	.short	8995
 	.short	8995
 	.short	5411
@@ -4188,79 +4188,79 @@ startScreenBitmap:
 	.short	5397
 	.short	5397
 	.short	5398
-	.short	13095
-	.short	13095
-	.short	13107
-	.short	13107
-	.short	13074
-	.short	11794
+	.short	12839
+	.short	12839
+	.short	12850
+	.short	12850
+	.short	12818
+	.short	11538
 	.short	3346
-	.short	8750
+	.short	8749
 	.short	3341
 	.short	3341
 	.short	3341
 	.short	3341
 	.short	3341
 	.short	3341
-	.short	11789
-	.short	11789
-	.short	11822
-	.short	11789
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	8750
-	.short	8750
-	.short	8755
+	.short	11533
+	.short	11533
+	.short	11565
+	.short	11533
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	8749
+	.short	8749
+	.short	8754
 	.short	5654
 	.short	5654
 	.short	5654
-	.short	7971
+	.short	7715
 	.short	5397
 	.short	5397
 	.short	5397
 	.short	5397
-	.short	16405
-	.short	16405
-	.short	16405
+	.short	14869
+	.short	14869
+	.short	14869
 	.short	5397
-	.short	16405
-	.short	16405
-	.short	16405
-	.short	16405
-	.short	16406
-	.short	16405
-	.short	16405
-	.short	16448
-	.short	16448
-	.short	16405
-	.short	16419
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	2624
-	.short	16448
-	.short	16415
-	.short	16448
-	.short	16394
-	.short	16394
-	.short	7686
-	.short	7710
-	.short	4382
+	.short	14869
+	.short	14869
+	.short	14869
+	.short	14869
+	.short	14870
+	.short	14869
+	.short	14869
+	.short	14906
+	.short	14906
+	.short	14869
+	.short	14883
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	2618
+	.short	14906
+	.short	14878
+	.short	14906
+	.short	14858
+	.short	14858
+	.short	7430
+	.short	7453
+	.short	4125
 	.short	11051
 	.short	11051
 	.short	11051
-	.short	11062
+	.short	11061
 	.short	11051
 	.short	3084
 	.short	8481
-	.short	12833
-	.short	12850
-	.short	12850
-	.short	12850
-	.short	12850
-	.short	12850
-	.short	12850
+	.short	12577
+	.short	12593
+	.short	12593
+	.short	12593
+	.short	12593
+	.short	12593
+	.short	12593
 	.short	8481
 	.short	8481
 	.short	8481
@@ -4280,26 +4280,26 @@ startScreenBitmap:
 	.short	771
 	.short	771
 	.short	771
-	.short	822
+	.short	821
 	.short	771
-	.short	13878
-	.short	9782
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7718
-	.short	7718
+	.short	13621
+	.short	9781
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7462
+	.short	7462
 	.short	9766
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	9782
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	9781
 	.short	6403
-	.short	9782
+	.short	9781
 	.short	9766
-	.short	7710
+	.short	7453
 	.short	8995
 	.short	5411
 	.short	5411
@@ -4309,10 +4309,10 @@ startScreenBitmap:
 	.short	5653
 	.short	5653
 	.short	10028
-	.short	13107
-	.short	13107
-	.short	13107
-	.short	4659
+	.short	12850
+	.short	12850
+	.short	12850
+	.short	4658
 	.short	4626
 	.short	3341
 	.short	3341
@@ -4322,16 +4322,16 @@ startScreenBitmap:
 	.short	6669
 	.short	3341
 	.short	3341
-	.short	3374
-	.short	11822
-	.short	11789
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
+	.short	3373
+	.short	11565
+	.short	11533
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
 	.short	8738
-	.short	8755
+	.short	8754
 	.short	5659
 	.short	5654
 	.short	5654
@@ -4339,39 +4339,39 @@ startScreenBitmap:
 	.short	5397
 	.short	5397
 	.short	5653
-	.short	16405
-	.short	16405
+	.short	14869
+	.short	14869
 	.short	8981
 	.short	5397
-	.short	16405
-	.short	16405
-	.short	16405
+	.short	14869
+	.short	14869
+	.short	14869
 	.short	5653
-	.short	5696
-	.short	5440
-	.short	5440
-	.short	16448
-	.short	16405
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16439
-	.short	2624
-	.short	2624
-	.short	16448
-	.short	1566
-	.short	7710
-	.short	7710
-	.short	4369
-	.short	4369
-	.short	4369
-	.short	4369
-	.short	11025
+	.short	5690
+	.short	5434
+	.short	5434
+	.short	14906
+	.short	14869
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14902
+	.short	2618
+	.short	2618
+	.short	14906
+	.short	1565
+	.short	7453
+	.short	7453
+	.short	4112
+	.short	4112
+	.short	4112
+	.short	4112
+	.short	11024
 	.short	3115
 	.short	257
 	.short	257
@@ -4386,54 +4386,54 @@ startScreenBitmap:
 	.short	257
 	.short	257
 	.short	257
-	.short	12289
-	.short	304
+	.short	15105
+	.short	315
 	.short	257
 	.short	257
-	.short	272
-	.short	12336
-	.short	4144
+	.short	273
+	.short	15163
+	.short	4411
 	.short	6168
 	.short	6168
 	.short	771
 	.short	771
 	.short	771
-	.short	4112
-	.short	15888
-	.short	4112
-	.short	15888
+	.short	4369
+	.short	15889
+	.short	4369
+	.short	15889
 	.short	15934
-	.short	9744
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	10301
-	.short	10301
-	.short	13878
-	.short	13878
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15163
-	.short	15165
-	.short	15163
-	.short	15165
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	13115
-	.short	13107
-	.short	13107
-	.short	13107
-	.short	11794
-	.short	11827
+	.short	9745
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	10566
+	.short	10566
+	.short	13621
+	.short	13621
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	19018
+	.short	19014
+	.short	19018
+	.short	19014
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	12874
+	.short	12850
+	.short	12850
+	.short	12850
+	.short	11538
+	.short	11570
 	.short	3341
 	.short	3341
 	.short	3341
@@ -4442,15 +4442,15 @@ startScreenBitmap:
 	.short	6669
 	.short	3341
 	.short	3341
-	.short	11789
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	8750
-	.short	8755
+	.short	11533
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	8749
+	.short	8754
 	.short	8738
 	.short	5654
 	.short	5654
@@ -4462,37 +4462,37 @@ startScreenBitmap:
 	.short	5397
 	.short	5397
 	.short	5923
-	.short	14101
+	.short	13845
 	.short	5397
-	.short	5440
-	.short	16405
-	.short	16405
-	.short	16405
-	.short	16405
-	.short	16405
-	.short	16405
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16394
-	.short	16394
-	.short	7686
-	.short	7686
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	4382
-	.short	273
+	.short	5434
+	.short	14869
+	.short	14869
+	.short	14869
+	.short	14869
+	.short	14869
+	.short	14869
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14858
+	.short	14858
+	.short	7430
+	.short	7430
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	4125
+	.short	272
 	.short	257
 	.short	257
 	.short	257
@@ -4510,50 +4510,50 @@ startScreenBitmap:
 	.short	257
 	.short	257
 	.short	257
-	.short	272
+	.short	273
 	.short	257
-	.short	4144
+	.short	4411
 	.short	6168
 	.short	6168
 	.short	792
 	.short	771
 	.short	15875
-	.short	4112
-	.short	4158
+	.short	4369
+	.short	4414
 	.short	15934
-	.short	4158
-	.short	4158
+	.short	4414
+	.short	4414
 	.short	9790
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	15677
-	.short	15677
-	.short	10301
-	.short	15677
-	.short	15677
-	.short	13878
-	.short	13878
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15675
-	.short	15165
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	10537
-	.short	13107
-	.short	13107
-	.short	13107
-	.short	4659
-	.short	11794
-	.short	11822
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	17990
+	.short	17990
+	.short	10566
+	.short	17990
+	.short	17990
+	.short	13621
+	.short	13621
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17994
+	.short	19014
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	10280
+	.short	12850
+	.short	12850
+	.short	12850
+	.short	4658
+	.short	11538
+	.short	11565
 	.short	3341
 	.short	3341
 	.short	6669
@@ -4561,57 +4561,57 @@ startScreenBitmap:
 	.short	6682
 	.short	6682
 	.short	3341
-	.short	11789
-	.short	11789
-	.short	13100
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11810
+	.short	11533
+	.short	11533
+	.short	12844
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11554
 	.short	8738
-	.short	8755
+	.short	8754
 	.short	5654
 	.short	5654
 	.short	5654
 	.short	5654
-	.short	16405
+	.short	14869
 	.short	5397
 	.short	5397
-	.short	5440
-	.short	16405
-	.short	16405
-	.short	16405
-	.short	16405
-	.short	16405
-	.short	5696
-	.short	5696
-	.short	5696
-	.short	5696
-	.short	5440
-	.short	5440
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	1566
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
+	.short	5434
+	.short	14869
+	.short	14869
+	.short	14869
+	.short	14869
+	.short	14869
+	.short	5690
+	.short	5690
+	.short	5690
+	.short	5690
+	.short	5434
+	.short	5434
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	1565
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
 	.short	257
 	.short	257
 	.short	257
@@ -4624,54 +4624,54 @@ startScreenBitmap:
 	.short	257
 	.short	257
 	.short	257
-	.short	304
+	.short	315
 	.short	257
 	.short	257
 	.short	257
-	.short	272
+	.short	273
 	.short	257
 	.short	257
-	.short	4144
-	.short	15888
+	.short	4411
+	.short	15889
 	.short	6145
 	.short	792
 	.short	771
 	.short	771
 	.short	15875
-	.short	4112
-	.short	15888
+	.short	4369
+	.short	15889
 	.short	15934
 	.short	15934
-	.short	15888
+	.short	15889
 	.short	9766
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	13878
-	.short	15158
-	.short	15677
-	.short	15675
-	.short	15677
-	.short	15677
-	.short	15675
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	10555
-	.short	13107
-	.short	13107
-	.short	13107
-	.short	11794
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	13621
+	.short	18997
+	.short	17990
+	.short	17994
+	.short	17990
+	.short	17990
+	.short	17994
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	10314
+	.short	12850
+	.short	12850
+	.short	12850
+	.short	11538
 	.short	3341
 	.short	3341
 	.short	3341
@@ -4680,16 +4680,16 @@ startScreenBitmap:
 	.short	6682
 	.short	3341
 	.short	3341
-	.short	11789
+	.short	11533
 	.short	3341
-	.short	3374
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	8750
-	.short	8750
+	.short	3373
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	8749
+	.short	8749
 	.short	8738
 	.short	8738
 	.short	5654
@@ -4706,32 +4706,32 @@ startScreenBitmap:
 	.short	5397
 	.short	5397
 	.short	5397
-	.short	5440
-	.short	2624
-	.short	16406
-	.short	16405
-	.short	16419
-	.short	16419
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	7686
-	.short	7686
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	286
+	.short	5434
+	.short	2618
+	.short	14870
+	.short	14869
+	.short	14883
+	.short	14883
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	7430
+	.short	7430
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	285
 	.short	257
 	.short	257
 	.short	257
@@ -4746,52 +4746,52 @@ startScreenBitmap:
 	.short	257
 	.short	257
 	.short	257
-	.short	12289
-	.short	304
+	.short	15105
+	.short	315
 	.short	257
 	.short	257
 	.short	257
-	.short	4144
-	.short	4097
-	.short	6160
+	.short	4411
+	.short	4353
+	.short	6161
 	.short	792
 	.short	771
 	.short	771
-	.short	4099
-	.short	4158
-	.short	15888
+	.short	4355
+	.short	4414
+	.short	15889
 	.short	15934
-	.short	4158
-	.short	4158
+	.short	4414
+	.short	4414
 	.short	9766
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	10301
-	.short	10301
-	.short	13878
-	.short	15670
-	.short	2109
-	.short	15677
-	.short	15677
-	.short	15163
-	.short	15163
-	.short	15675
-	.short	15165
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	10537
-	.short	13107
-	.short	13107
-	.short	13107
-	.short	3374
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	10566
+	.short	10566
+	.short	13621
+	.short	17973
+	.short	2118
+	.short	17990
+	.short	17990
+	.short	19018
+	.short	19018
+	.short	17994
+	.short	19014
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	10280
+	.short	12850
+	.short	12850
+	.short	12850
+	.short	3373
 	.short	3341
 	.short	3341
 	.short	3341
@@ -4801,14 +4801,14 @@ startScreenBitmap:
 	.short	3341
 	.short	3341
 	.short	3341
-	.short	11789
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11810
+	.short	11533
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11554
 	.short	8738
 	.short	8738
 	.short	8738
@@ -4817,40 +4817,40 @@ startScreenBitmap:
 	.short	5654
 	.short	5654
 	.short	5397
-	.short	5440
+	.short	5434
 	.short	5397
-	.short	5440
-	.short	16419
+	.short	5434
+	.short	14883
 	.short	5411
 	.short	8981
-	.short	16405
+	.short	14869
 	.short	5397
-	.short	16405
-	.short	16405
-	.short	16406
-	.short	5696
-	.short	5440
-	.short	9024
+	.short	14869
+	.short	14869
+	.short	14870
+	.short	5690
+	.short	5434
+	.short	9018
 	.short	7203
-	.short	16412
-	.short	16407
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16419
-	.short	5440
-	.short	16448
-	.short	7710
-	.short	7710
-	.short	7710
+	.short	14876
+	.short	14871
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14883
+	.short	5434
+	.short	14906
+	.short	7453
+	.short	7453
+	.short	7453
 	.short	257
 	.short	257
 	.short	257
@@ -4863,71 +4863,71 @@ startScreenBitmap:
 	.short	257
 	.short	257
 	.short	257
-	.short	12289
+	.short	15105
 	.short	257
 	.short	257
 	.short	257
 	.short	257
 	.short	257
-	.short	4097
+	.short	4353
 	.short	257
-	.short	304
+	.short	315
 	.short	257
-	.short	784
+	.short	785
 	.short	771
 	.short	771
 	.short	771
 	.short	15934
-	.short	15888
+	.short	15889
 	.short	15934
-	.short	4158
-	.short	4157
-	.short	4158
-	.short	7718
+	.short	4414
+	.short	4422
+	.short	4414
+	.short	7462
 	.short	8995
 	.short	8995
 	.short	8995
 	.short	8995
-	.short	15678
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	13862
-	.short	15670
-	.short	15165
-	.short	15677
-	.short	15165
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	10555
-	.short	13107
-	.short	13107
-	.short	11794
-	.short	11794
-	.short	11789
+	.short	17982
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	13606
+	.short	17973
+	.short	19014
+	.short	17990
+	.short	19014
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	10314
+	.short	12850
+	.short	12850
+	.short	11538
+	.short	11538
+	.short	11533
 	.short	3341
 	.short	6669
 	.short	6669
 	.short	6669
 	.short	3341
-	.short	11789
-	.short	11789
-	.short	11789
-	.short	11789
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	8750
+	.short	11533
+	.short	11533
+	.short	11533
+	.short	11533
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	8749
 	.short	8738
 	.short	8738
 	.short	8738
@@ -4936,41 +4936,41 @@ startScreenBitmap:
 	.short	5654
 	.short	5398
 	.short	5654
-	.short	16405
+	.short	14869
 	.short	5397
-	.short	16405
+	.short	14869
 	.short	5397
 	.short	8995
-	.short	16405
-	.short	16419
+	.short	14869
+	.short	14883
 	.short	8981
-	.short	5440
-	.short	5440
-	.short	5696
-	.short	2624
-	.short	16406
-	.short	16405
-	.short	9024
-	.short	9024
+	.short	5434
+	.short	5434
+	.short	5690
+	.short	2618
+	.short	14870
+	.short	14869
+	.short	9018
+	.short	9018
 	.short	5923
-	.short	7232
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	5440
-	.short	16448
-	.short	16419
-	.short	16405
-	.short	7710
-	.short	7710
-	.short	286
+	.short	7226
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	5434
+	.short	14906
+	.short	14883
+	.short	14869
+	.short	7453
+	.short	7453
+	.short	285
 	.short	257
 	.short	257
 	.short	257
@@ -4986,51 +4986,51 @@ startScreenBitmap:
 	.short	257
 	.short	257
 	.short	257
-	.short	12289
+	.short	15105
 	.short	257
 	.short	257
 	.short	257
-	.short	4097
-	.short	12289
-	.short	304
-	.short	784
+	.short	4353
+	.short	15105
+	.short	315
+	.short	785
 	.short	771
 	.short	771
 	.short	771
-	.short	4112
-	.short	4112
+	.short	4369
+	.short	4369
 	.short	15934
 	.short	15934
-	.short	15678
-	.short	13886
-	.short	7710
+	.short	17982
+	.short	13630
+	.short	7453
 	.short	8995
 	.short	8995
 	.short	8995
-	.short	15651
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	9789
-	.short	9758
-	.short	15654
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15165
-	.short	15165
-	.short	15675
-	.short	15165
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	10555
-	.short	13107
-	.short	13107
-	.short	11794
+	.short	17955
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	9798
+	.short	9757
+	.short	17958
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	19014
+	.short	19014
+	.short	17994
+	.short	19014
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	10314
+	.short	12850
+	.short	12850
+	.short	11538
 	.short	3346
 	.short	3341
 	.short	3341
@@ -5040,15 +5040,15 @@ startScreenBitmap:
 	.short	3341
 	.short	3341
 	.short	3341
-	.short	3374
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	8750
-	.short	8750
+	.short	3373
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	8749
+	.short	8749
 	.short	8738
 	.short	8738
 	.short	8738
@@ -5057,40 +5057,40 @@ startScreenBitmap:
 	.short	5654
 	.short	5654
 	.short	5397
-	.short	5440
-	.short	9024
-	.short	16405
+	.short	5434
+	.short	9018
+	.short	14869
 	.short	8981
 	.short	8981
 	.short	8981
-	.short	16419
+	.short	14883
 	.short	5397
-	.short	5440
-	.short	5440
-	.short	2624
-	.short	16448
-	.short	16448
-	.short	16419
+	.short	5434
+	.short	5434
+	.short	2618
+	.short	14906
+	.short	14906
+	.short	14883
 	.short	5911
 	.short	5911
 	.short	7191
-	.short	16407
-	.short	16412
-	.short	7232
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	9024
-	.short	16448
-	.short	9024
-	.short	9024
-	.short	5952
-	.short	7710
-	.short	7710
-	.short	286
+	.short	14871
+	.short	14876
+	.short	7226
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	9018
+	.short	14906
+	.short	9018
+	.short	9018
+	.short	5946
+	.short	7453
+	.short	7453
+	.short	285
 	.short	257
 	.short	257
 	.short	257
@@ -5106,51 +5106,51 @@ startScreenBitmap:
 	.short	257
 	.short	257
 	.short	257
-	.short	12336
+	.short	15163
 	.short	257
 	.short	257
 	.short	257
-	.short	272
-	.short	12304
-	.short	272
-	.short	4112
+	.short	273
+	.short	15121
+	.short	273
+	.short	4369
 	.short	771
-	.short	13827
-	.short	822
-	.short	4112
-	.short	4112
+	.short	13571
+	.short	821
+	.short	4369
+	.short	4369
 	.short	15934
 	.short	15934
-	.short	4158
-	.short	7742
-	.short	7710
+	.short	4414
+	.short	7486
+	.short	7453
 	.short	8995
 	.short	8995
 	.short	8995
-	.short	15651
-	.short	15677
-	.short	10301
-	.short	15677
-	.short	15677
-	.short	7741
+	.short	17955
+	.short	17990
+	.short	10566
+	.short	17990
+	.short	17990
+	.short	7494
 	.short	9766
-	.short	15654
-	.short	15677
-	.short	15675
-	.short	15677
-	.short	15165
-	.short	15165
-	.short	15675
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	10537
-	.short	13115
-	.short	13107
-	.short	13107
-	.short	13107
+	.short	17958
+	.short	17990
+	.short	17994
+	.short	17990
+	.short	19014
+	.short	19014
+	.short	17994
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	10280
+	.short	12874
+	.short	12850
+	.short	12850
+	.short	12850
 	.short	3346
 	.short	3341
 	.short	3341
@@ -5158,16 +5158,16 @@ startScreenBitmap:
 	.short	6682
 	.short	6669
 	.short	3341
-	.short	6702
-	.short	6702
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	8750
-	.short	8750
+	.short	6701
+	.short	6701
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	8749
+	.short	8749
 	.short	8738
 	.short	8738
 	.short	8738
@@ -5176,40 +5176,40 @@ startScreenBitmap:
 	.short	5654
 	.short	5654
 	.short	5654
-	.short	16405
-	.short	16419
+	.short	14869
+	.short	14883
 	.short	5397
-	.short	5440
-	.short	5407
-	.short	16405
+	.short	5434
+	.short	5406
+	.short	14869
 	.short	8981
 	.short	8981
-	.short	16419
-	.short	16419
-	.short	16419
-	.short	16405
+	.short	14883
+	.short	14883
+	.short	14883
+	.short	14869
 	.short	5642
-	.short	16448
-	.short	9024
+	.short	14906
+	.short	9018
 	.short	5923
 	.short	5911
 	.short	5911
 	.short	7191
 	.short	7191
-	.short	16407
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16419
-	.short	16419
-	.short	16419
+	.short	14871
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14883
+	.short	14883
+	.short	14883
 	.short	8995
-	.short	7710
-	.short	7710
+	.short	7453
+	.short	7453
 	.short	257
 	.short	257
 	.short	257
@@ -5226,67 +5226,67 @@ startScreenBitmap:
 	.short	257
 	.short	257
 	.short	257
-	.short	12289
+	.short	15105
 	.short	257
 	.short	257
 	.short	257
-	.short	4097
-	.short	12304
+	.short	4353
+	.short	15121
 	.short	257
-	.short	272
-	.short	13827
-	.short	13878
-	.short	13878
-	.short	4158
-	.short	4158
+	.short	273
+	.short	13571
+	.short	13621
+	.short	13621
+	.short	4414
+	.short	4414
 	.short	15934
-	.short	15678
+	.short	17982
 	.short	15934
-	.short	7696
-	.short	7710
+	.short	7441
+	.short	7453
 	.short	8995
 	.short	8995
 	.short	8995
-	.short	15651
-	.short	15677
-	.short	15677
-	.short	10301
-	.short	15677
-	.short	9789
-	.short	9758
-	.short	15677
-	.short	15165
-	.short	15677
-	.short	15165
-	.short	15165
-	.short	15165
-	.short	15675
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	13115
-	.short	13107
-	.short	13107
-	.short	13100
-	.short	3374
+	.short	17955
+	.short	17990
+	.short	17990
+	.short	10566
+	.short	17990
+	.short	9798
+	.short	9757
+	.short	17990
+	.short	19014
+	.short	17990
+	.short	19014
+	.short	19014
+	.short	19014
+	.short	17994
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	12874
+	.short	12850
+	.short	12850
+	.short	12844
+	.short	3373
 	.short	3341
-	.short	6702
-	.short	6702
-	.short	3374
+	.short	6701
+	.short	6701
+	.short	3373
 	.short	6682
-	.short	6702
-	.short	11802
-	.short	11802
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
+	.short	6701
+	.short	11546
+	.short	11546
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
 	.short	8738
 	.short	8738
 	.short	8738
@@ -5296,20 +5296,20 @@ startScreenBitmap:
 	.short	5654
 	.short	5654
 	.short	5654
-	.short	16405
+	.short	14869
 	.short	8981
-	.short	9024
-	.short	5440
-	.short	16419
+	.short	9018
+	.short	5434
+	.short	14883
 	.short	8995
-	.short	16419
-	.short	16419
-	.short	9024
+	.short	14883
+	.short	14883
+	.short	9018
 	.short	8995
 	.short	8995
-	.short	16448
-	.short	16448
-	.short	16448
+	.short	14906
+	.short	14906
+	.short	14906
 	.short	7203
 	.short	5911
 	.short	5911
@@ -5317,19 +5317,19 @@ startScreenBitmap:
 	.short	5911
 	.short	5911
 	.short	7196
-	.short	16407
-	.short	16407
+	.short	14871
+	.short	14871
 	.short	5911
 	.short	8983
-	.short	16407
+	.short	14871
 	.short	5911
 	.short	5911
 	.short	8983
 	.short	8995
 	.short	8995
 	.short	5923
-	.short	7734
-	.short	286
+	.short	7477
+	.short	285
 	.short	257
 	.short	257
 	.short	257
@@ -5347,67 +5347,67 @@ startScreenBitmap:
 	.short	257
 	.short	257
 	.short	257
-	.short	304
+	.short	315
 	.short	257
 	.short	257
-	.short	4112
-	.short	4112
-	.short	4112
-	.short	272
-	.short	13878
-	.short	13878
-	.short	4150
-	.short	4112
-	.short	4112
-	.short	4158
+	.short	4369
+	.short	4369
+	.short	4369
+	.short	273
+	.short	13621
+	.short	13621
+	.short	4405
+	.short	4369
+	.short	4369
+	.short	4414
 	.short	15934
-	.short	4158
-	.short	7710
-	.short	7710
+	.short	4414
+	.short	7453
+	.short	7453
 	.short	8995
 	.short	8995
 	.short	8995
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	9789
-	.short	9758
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15163
-	.short	15637
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	13107
-	.short	4659
-	.short	13107
-	.short	11827
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	9798
+	.short	9757
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	19018
+	.short	17941
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	12850
+	.short	4658
+	.short	12850
+	.short	11570
 	.short	3341
 	.short	3341
 	.short	3341
 	.short	3354
 	.short	6682
 	.short	6682
-	.short	6702
-	.short	6702
-	.short	3374
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	8750
-	.short	8750
-	.short	8750
+	.short	6701
+	.short	6701
+	.short	3373
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	8749
+	.short	8749
+	.short	8749
 	.short	8738
 	.short	8738
 	.short	8738
@@ -5417,19 +5417,19 @@ startScreenBitmap:
 	.short	5654
 	.short	5654
 	.short	5397
-	.short	16419
+	.short	14883
 	.short	5411
 	.short	8995
 	.short	8995
-	.short	16419
+	.short	14883
 	.short	8995
 	.short	8995
-	.short	16405
-	.short	16405
+	.short	14869
+	.short	14869
 	.short	8995
-	.short	9024
-	.short	16405
-	.short	16448
+	.short	9018
+	.short	14869
+	.short	14906
 	.short	5923
 	.short	5911
 	.short	5911
@@ -5448,7 +5448,7 @@ startScreenBitmap:
 	.short	5911
 	.short	8983
 	.short	8983
-	.short	7697
+	.short	7440
 	.short	257
 	.short	257
 	.short	257
@@ -5468,64 +5468,64 @@ startScreenBitmap:
 	.short	6168
 	.short	6168
 	.short	6147
-	.short	4144
-	.short	4097
-	.short	4097
-	.short	272
-	.short	272
+	.short	4411
+	.short	4353
+	.short	4353
+	.short	273
+	.short	273
 	.short	257
-	.short	7710
-	.short	7710
-	.short	15902
-	.short	15888
-	.short	4112
+	.short	7453
+	.short	7453
+	.short	15901
+	.short	15889
+	.short	4369
 	.short	15934
-	.short	4158
-	.short	15888
-	.short	7710
-	.short	7710
+	.short	4414
+	.short	15889
+	.short	7453
+	.short	7453
 	.short	8981
 	.short	8981
-	.short	15651
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	7710
-	.short	9758
-	.short	15677
-	.short	15163
-	.short	15675
-	.short	15165
-	.short	15165
-	.short	15163
+	.short	17955
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	7453
+	.short	9757
+	.short	17990
+	.short	19018
+	.short	17994
+	.short	19014
+	.short	19014
+	.short	19018
 	.short	5397
 	.short	5654
 	.short	5654
 	.short	5654
-	.short	13107
-	.short	13107
-	.short	13107
-	.short	13107
-	.short	13107
+	.short	12850
+	.short	12850
+	.short	12850
+	.short	12850
+	.short	12850
 	.short	4626
-	.short	11822
-	.short	11789
-	.short	3374
-	.short	3374
-	.short	6702
+	.short	11565
+	.short	11533
+	.short	3373
+	.short	3373
+	.short	6701
 	.short	6669
-	.short	6702
-	.short	6702
-	.short	6702
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11810
+	.short	6701
+	.short	6701
+	.short	6701
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11554
 	.short	8738
 	.short	8738
 	.short	8738
@@ -5538,18 +5538,18 @@ startScreenBitmap:
 	.short	5654
 	.short	8995
 	.short	5411
-	.short	16419
+	.short	14883
 	.short	8995
-	.short	16419
+	.short	14883
 	.short	8995
-	.short	16419
-	.short	16419
-	.short	5440
-	.short	9024
+	.short	14883
+	.short	14883
+	.short	5434
+	.short	9018
 	.short	8995
 	.short	8995
-	.short	16448
-	.short	16419
+	.short	14906
+	.short	14883
 	.short	5911
 	.short	5911
 	.short	5911
@@ -5568,15 +5568,15 @@ startScreenBitmap:
 	.short	5911
 	.short	5911
 	.short	8983
-	.short	286
+	.short	285
 	.short	257
 	.short	257
 	.short	257
 	.short	257
 	.short	257
 	.short	257
-	.short	7681
-	.short	13878
+	.short	7425
+	.short	13621
 	.short	811
 	.short	257
 	.short	257
@@ -5589,62 +5589,62 @@ startScreenBitmap:
 	.short	792
 	.short	780
 	.short	259
-	.short	4112
-	.short	4144
-	.short	4144
-	.short	12350
-	.short	4097
-	.short	7696
-	.short	7710
-	.short	15902
-	.short	4112
-	.short	15888
-	.short	15888
+	.short	4369
+	.short	4411
+	.short	4411
+	.short	15166
+	.short	4353
+	.short	7441
+	.short	7453
+	.short	15901
+	.short	4369
+	.short	15889
+	.short	15889
 	.short	15934
-	.short	4157
-	.short	7710
-	.short	7710
+	.short	4422
+	.short	7453
+	.short	7453
 	.short	8995
 	.short	8995
-	.short	15656
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	7710
-	.short	15646
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15675
-	.short	15677
-	.short	5435
-	.short	16406
+	.short	17961
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	7453
+	.short	17949
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17994
+	.short	17990
+	.short	5450
+	.short	14870
 	.short	5654
 	.short	5654
 	.short	6934
-	.short	13107
-	.short	13107
-	.short	13107
-	.short	13107
-	.short	4659
-	.short	11827
+	.short	12850
+	.short	12850
+	.short	12850
+	.short	12850
+	.short	4658
+	.short	11570
 	.short	3346
-	.short	1838
-	.short	3374
-	.short	11789
-	.short	11802
-	.short	11802
+	.short	1837
+	.short	3373
+	.short	11533
+	.short	11546
+	.short	11546
 	.short	3354
-	.short	6702
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	8755
-	.short	8750
+	.short	6701
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	8754
+	.short	8749
 	.short	8738
 	.short	8738
 	.short	8738
@@ -5664,12 +5664,12 @@ startScreenBitmap:
 	.short	8995
 	.short	8995
 	.short	5411
-	.short	16405
-	.short	16405
+	.short	14869
+	.short	14869
 	.short	8995
 	.short	8995
 	.short	8995
-	.short	9024
+	.short	9018
 	.short	5911
 	.short	5911
 	.short	5911
@@ -5688,16 +5688,16 @@ startScreenBitmap:
 	.short	5911
 	.short	5911
 	.short	5911
-	.short	286
+	.short	285
 	.short	257
 	.short	257
 	.short	257
 	.short	257
 	.short	257
 	.short	257
-	.short	7710
-	.short	13878
-	.short	12342
+	.short	7453
+	.short	13621
+	.short	15157
 	.short	257
 	.short	257
 	.short	257
@@ -5709,62 +5709,62 @@ startScreenBitmap:
 	.short	771
 	.short	771
 	.short	259
-	.short	12289
-	.short	272
-	.short	12336
-	.short	4112
-	.short	4097
-	.short	7696
-	.short	7710
-	.short	4126
-	.short	4112
-	.short	4112
-	.short	15934
-	.short	15934
-	.short	7696
-	.short	7710
-	.short	7710
-	.short	8981
-	.short	15637
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	9021
-	.short	7710
-	.short	15134
-	.short	15677
-	.short	15677
-	.short	15677
+	.short	15105
+	.short	273
 	.short	15163
-	.short	15677
-	.short	5691
+	.short	4369
+	.short	4353
+	.short	7441
+	.short	7453
+	.short	4381
+	.short	4369
+	.short	4369
+	.short	15934
+	.short	15934
+	.short	7441
+	.short	7453
+	.short	7453
+	.short	8981
+	.short	17941
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	9030
+	.short	7453
+	.short	18973
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	19018
+	.short	17990
+	.short	5706
 	.short	5654
 	.short	5654
 	.short	5654
 	.short	5654
-	.short	13107
-	.short	13107
-	.short	13107
-	.short	13107
-	.short	13107
-	.short	4659
-	.short	11822
-	.short	11310
-	.short	3374
-	.short	6702
+	.short	12850
+	.short	12850
+	.short	12850
+	.short	12850
+	.short	12850
+	.short	4658
+	.short	11565
+	.short	11309
+	.short	3373
+	.short	6701
 	.short	6669
 	.short	6669
-	.short	11802
-	.short	11802
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
+	.short	11546
+	.short	11546
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
 	.short	10018
-	.short	8750
+	.short	8749
 	.short	8738
 	.short	8738
 	.short	8738
@@ -5776,16 +5776,16 @@ startScreenBitmap:
 	.short	5654
 	.short	5654
 	.short	5654
-	.short	7959
+	.short	7703
 	.short	8983
 	.short	8995
 	.short	8995
-	.short	18723
-	.short	9015
+	.short	18211
+	.short	9014
 	.short	8995
-	.short	16419
-	.short	5440
-	.short	5440
+	.short	14883
+	.short	5434
+	.short	5434
 	.short	8995
 	.short	8995
 	.short	5923
@@ -5816,8 +5816,8 @@ startScreenBitmap:
 	.short	257
 	.short	257
 	.short	8995
-	.short	7710
-	.short	12289
+	.short	7453
+	.short	15105
 	.short	257
 	.short	257
 	.short	257
@@ -5830,60 +5830,60 @@ startScreenBitmap:
 	.short	811
 	.short	279
 	.short	257
-	.short	12289
-	.short	272
-	.short	4112
-	.short	4112
+	.short	15105
+	.short	273
+	.short	4369
+	.short	4369
 	.short	5438
 	.short	5397
-	.short	4158
-	.short	15888
-	.short	15888
+	.short	4414
+	.short	15889
+	.short	15889
 	.short	15934
-	.short	4157
-	.short	5416
+	.short	4422
+	.short	5417
 	.short	5397
-	.short	16405
+	.short	14869
 	.short	15893
-	.short	15678
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	9021
+	.short	17982
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	9030
 	.short	8995
-	.short	15651
-	.short	15677
-	.short	15677
-	.short	15675
-	.short	15165
-	.short	15165
-	.short	16443
-	.short	11315
-	.short	13107
-	.short	13107
-	.short	13107
-	.short	13107
-	.short	13107
-	.short	13107
-	.short	13107
-	.short	13107
-	.short	11794
-	.short	11794
-	.short	11789
-	.short	11789
-	.short	11802
-	.short	11789
-	.short	11789
-	.short	3374
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	8750
-	.short	8750
+	.short	17955
+	.short	17990
+	.short	17990
+	.short	17994
+	.short	19014
+	.short	19014
+	.short	14922
+	.short	11314
+	.short	12850
+	.short	12850
+	.short	12850
+	.short	12850
+	.short	12850
+	.short	12850
+	.short	12850
+	.short	12850
+	.short	11538
+	.short	11538
+	.short	11533
+	.short	11533
+	.short	11546
+	.short	11533
+	.short	11533
+	.short	3373
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	8749
+	.short	8749
 	.short	8738
 	.short	1826
 	.short	8711
@@ -5896,18 +5896,18 @@ startScreenBitmap:
 	.short	10023
 	.short	10023
 	.short	10023
-	.short	9545
-	.short	7991
+	.short	9543
+	.short	7734
 	.short	8983
 	.short	8995
 	.short	5923
 	.short	8983
 	.short	5923
 	.short	8995
-	.short	16405
-	.short	16405
-	.short	5440
-	.short	9024
+	.short	14869
+	.short	14869
+	.short	5434
+	.short	9018
 	.short	8983
 	.short	5923
 	.short	5911
@@ -5936,75 +5936,75 @@ startScreenBitmap:
 	.short	257
 	.short	5377
 	.short	5397
-	.short	7710
+	.short	7453
 	.short	257
 	.short	257
 	.short	257
 	.short	257
 	.short	257
-	.short	12289
+	.short	15105
 	.short	771
 	.short	771
 	.short	771
-	.short	13827
-	.short	13827
-	.short	4119
-	.short	4112
+	.short	13571
+	.short	13571
+	.short	4375
+	.short	4369
 	.short	257
-	.short	15920
-	.short	4112
-	.short	4112
-	.short	5392
-	.short	5696
-	.short	15888
-	.short	15888
+	.short	15931
+	.short	4369
+	.short	4369
+	.short	5393
+	.short	5690
+	.short	15889
+	.short	15889
 	.short	15934
 	.short	15934
-	.short	4158
-	.short	4158
-	.short	15632
+	.short	4414
+	.short	4414
+	.short	17937
 	.short	15934
 	.short	15934
-	.short	10302
-	.short	10301
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
+	.short	10558
+	.short	10566
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
 	.short	8995
 	.short	8995
-	.short	15651
-	.short	15677
-	.short	15677
-	.short	15165
-	.short	15165
-	.short	15677
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	13115
-	.short	13107
-	.short	13074
-	.short	13107
-	.short	11822
-	.short	3374
-	.short	11789
-	.short	11822
-	.short	11789
-	.short	11789
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	8750
-	.short	8750
+	.short	17955
+	.short	17990
+	.short	17990
+	.short	19014
+	.short	19014
+	.short	17990
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	12874
+	.short	12850
+	.short	12818
+	.short	12850
+	.short	11565
+	.short	3373
+	.short	11533
+	.short	11565
+	.short	11533
+	.short	11533
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	8749
+	.short	8749
 	.short	8738
 	.short	8743
 	.short	8738
@@ -6016,17 +6016,17 @@ startScreenBitmap:
 	.short	10023
 	.short	10023
 	.short	10023
-	.short	14135
-	.short	5919
+	.short	13878
+	.short	5918
 	.short	8995
 	.short	8995
 	.short	5923
-	.short	9015
+	.short	9014
 	.short	8995
 	.short	8995
-	.short	16448
-	.short	5440
-	.short	9024
+	.short	14906
+	.short	5434
+	.short	9018
 	.short	8995
 	.short	5923
 	.short	5911
@@ -6043,11 +6043,11 @@ startScreenBitmap:
 	.short	5911
 	.short	5911
 	.short	5911
-	.short	7447
+	.short	7959
 	.short	257
 	.short	257
-	.short	7425
-	.short	285
+	.short	7937
+	.short	287
 	.short	257
 	.short	257
 	.short	257
@@ -6055,8 +6055,8 @@ startScreenBitmap:
 	.short	257
 	.short	257
 	.short	5397
-	.short	5440
-	.short	286
+	.short	5434
+	.short	285
 	.short	257
 	.short	257
 	.short	257
@@ -6064,66 +6064,66 @@ startScreenBitmap:
 	.short	257
 	.short	257
 	.short	771
-	.short	822
-	.short	13878
-	.short	13878
-	.short	13878
+	.short	821
+	.short	13621
+	.short	13621
+	.short	13621
 	.short	5911
-	.short	272
-	.short	12336
-	.short	4144
-	.short	4112
-	.short	12304
-	.short	16446
-	.short	16406
-	.short	4158
-	.short	4112
+	.short	273
+	.short	15163
+	.short	4411
+	.short	4369
+	.short	15121
+	.short	14910
+	.short	14870
+	.short	4414
+	.short	4369
 	.short	15934
 	.short	15934
 	.short	15934
-	.short	4158
+	.short	4414
 	.short	15934
 	.short	15934
-	.short	15677
-	.short	15677
-	.short	15933
-	.short	15656
-	.short	15677
-	.short	15677
-	.short	9021
+	.short	17990
+	.short	17990
+	.short	15942
+	.short	17961
+	.short	17990
+	.short	17990
+	.short	9030
 	.short	8995
 	.short	8995
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15165
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	13115
-	.short	4659
-	.short	13107
-	.short	11794
-	.short	11794
-	.short	11822
-	.short	3374
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	8750
-	.short	11810
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	19014
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	12874
+	.short	4658
+	.short	12850
+	.short	11538
+	.short	11538
+	.short	11565
+	.short	3373
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	8749
+	.short	11554
 	.short	8738
 	.short	8738
 	.short	8738
@@ -6136,18 +6136,18 @@ startScreenBitmap:
 	.short	10023
 	.short	10023
 	.short	10023
-	.short	8009
-	.short	5919
+	.short	7751
+	.short	5918
 	.short	8983
 	.short	8995
 	.short	8995
 	.short	5923
 	.short	8983
 	.short	8995
-	.short	5440
-	.short	16448
-	.short	5440
-	.short	9024
+	.short	5434
+	.short	14906
+	.short	5434
+	.short	9018
 	.short	8995
 	.short	5911
 	.short	5911
@@ -6155,18 +6155,18 @@ startScreenBitmap:
 	.short	5911
 	.short	5911
 	.short	5911
-	.short	5919
+	.short	5918
 	.short	5911
-	.short	5919
-	.short	5911
-	.short	5911
+	.short	5918
 	.short	5911
 	.short	5911
 	.short	5911
-	.short	285
+	.short	5911
+	.short	5911
+	.short	287
 	.short	257
-	.short	7453
-	.short	285
+	.short	7967
+	.short	287
 	.short	257
 	.short	257
 	.short	257
@@ -6174,7 +6174,7 @@ startScreenBitmap:
 	.short	257
 	.short	257
 	.short	5377
-	.short	5440
+	.short	5434
 	.short	5397
 	.short	257
 	.short	257
@@ -6182,67 +6182,67 @@ startScreenBitmap:
 	.short	257
 	.short	257
 	.short	257
-	.short	816
+	.short	827
 	.short	771
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	13878
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	13621
 	.short	8983
 	.short	257
-	.short	12289
-	.short	12289
-	.short	4158
-	.short	4112
+	.short	15105
+	.short	15105
+	.short	4414
+	.short	4369
 	.short	5694
-	.short	4106
-	.short	15888
-	.short	15888
+	.short	4362
+	.short	15889
+	.short	15889
 	.short	15934
 	.short	15934
-	.short	15888
-	.short	4158
-	.short	15888
-	.short	15677
-	.short	15678
-	.short	15933
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	9021
+	.short	15889
+	.short	4414
+	.short	15889
+	.short	17990
+	.short	17982
+	.short	15942
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	9030
 	.short	8995
 	.short	8995
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15165
-	.short	15165
-	.short	15165
-	.short	15677
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	10555
-	.short	4649
-	.short	13107
-	.short	4659
-	.short	4654
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	3374
-	.short	11822
-	.short	11794
-	.short	11827
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	19014
+	.short	19014
+	.short	19014
+	.short	17990
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	10314
+	.short	4648
+	.short	12850
+	.short	4658
+	.short	4653
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	3373
+	.short	11565
+	.short	11538
+	.short	11570
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
 	.short	8738
-	.short	11810
+	.short	11554
 	.short	8738
 	.short	8738
 	.short	8738
@@ -6256,7 +6256,7 @@ startScreenBitmap:
 	.short	10023
 	.short	10023
 	.short	10023
-	.short	8009
+	.short	7751
 	.short	5911
 	.short	5923
 	.short	8995
@@ -6264,9 +6264,9 @@ startScreenBitmap:
 	.short	5911
 	.short	8983
 	.short	8995
-	.short	16419
-	.short	16419
-	.short	16419
+	.short	14883
+	.short	14883
+	.short	14883
 	.short	8995
 	.short	5923
 	.short	5911
@@ -6274,7 +6274,7 @@ startScreenBitmap:
 	.short	5911
 	.short	5911
 	.short	5911
-	.short	5919
+	.short	5918
 	.short	5911
 	.short	5911
 	.short	5911
@@ -6282,20 +6282,20 @@ startScreenBitmap:
 	.short	5911
 	.short	5911
 	.short	5911
-	.short	7454
-	.short	7453
+	.short	7965
+	.short	7967
 	.short	257
 	.short	257
-	.short	285
-	.short	257
-	.short	257
-	.short	257
+	.short	287
 	.short	257
 	.short	257
 	.short	257
-	.short	16455
+	.short	257
+	.short	257
+	.short	257
+	.short	14913
 	.short	5397
-	.short	5440
+	.short	5434
 	.short	257
 	.short	257
 	.short	257
@@ -6303,66 +6303,66 @@ startScreenBitmap:
 	.short	257
 	.short	257
 	.short	771
-	.short	13827
-	.short	13878
-	.short	13878
-	.short	7734
-	.short	7710
+	.short	13571
+	.short	13621
+	.short	13621
+	.short	7477
+	.short	7453
 	.short	8983
 	.short	257
-	.short	4144
-	.short	4112
-	.short	272
-	.short	12304
+	.short	4411
+	.short	4369
+	.short	273
+	.short	15121
 	.short	15934
-	.short	4118
-	.short	4112
-	.short	15888
-	.short	15888
+	.short	4374
+	.short	4369
+	.short	15889
+	.short	15889
 	.short	15934
 	.short	15934
-	.short	15632
-	.short	15632
-	.short	15678
-	.short	15933
-	.short	15656
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
+	.short	17937
+	.short	17937
+	.short	17982
+	.short	15942
+	.short	17961
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
 	.short	8995
 	.short	8995
 	.short	8995
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15165
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15165
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	10555
-	.short	4659
-	.short	4659
-	.short	13074
-	.short	13107
-	.short	13107
-	.short	11827
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	8750
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	19014
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19014
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	10314
+	.short	4658
+	.short	4658
+	.short	12818
+	.short	12850
+	.short	12850
+	.short	11570
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	8749
 	.short	8743
-	.short	11810
+	.short	11554
 	.short	8738
 	.short	8738
 	.short	8738
@@ -6376,35 +6376,35 @@ startScreenBitmap:
 	.short	10023
 	.short	10023
 	.short	10023
-	.short	7967
+	.short	7710
 	.short	5911
 	.short	8983
 	.short	5911
 	.short	5911
-	.short	7959
+	.short	7703
 	.short	5911
 	.short	8995
 	.short	8995
-	.short	9024
-	.short	9024
-	.short	9024
+	.short	9018
+	.short	9018
+	.short	9018
 	.short	8983
 	.short	5911
 	.short	5911
 	.short	5911
 	.short	5911
 	.short	5911
-	.short	5911
-	.short	5911
-	.short	5911
-	.short	7959
 	.short	5911
 	.short	5911
 	.short	5911
 	.short	7703
-	.short	7453
-	.short	285
-	.short	7453
+	.short	5911
+	.short	5911
+	.short	5911
+	.short	7447
+	.short	7967
+	.short	287
+	.short	7967
 	.short	257
 	.short	257
 	.short	257
@@ -6416,72 +6416,72 @@ startScreenBitmap:
 	.short	8981
 	.short	8981
 	.short	277
-	.short	12289
+	.short	15105
 	.short	257
 	.short	257
 	.short	257
 	.short	257
 	.short	769
 	.short	771
-	.short	13878
-	.short	13878
-	.short	13878
-	.short	7710
-	.short	7710
+	.short	13621
+	.short	13621
+	.short	13621
+	.short	7453
+	.short	7453
 	.short	8983
-	.short	12311
-	.short	12304
-	.short	4097
-	.short	4112
-	.short	15888
-	.short	12336
-	.short	4160
-	.short	15888
-	.short	15888
+	.short	15127
+	.short	15121
+	.short	4353
+	.short	4369
+	.short	15889
+	.short	15163
+	.short	4410
+	.short	15889
+	.short	15889
 	.short	15934
-	.short	15678
-	.short	4158
-	.short	4158
-	.short	15933
-	.short	15677
-	.short	10301
-	.short	10301
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	9000
+	.short	17982
+	.short	4414
+	.short	4414
+	.short	15942
+	.short	17990
+	.short	10566
+	.short	10566
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	9001
 	.short	8981
 	.short	8995
-	.short	15651
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15163
-	.short	15163
-	.short	15677
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	10555
-	.short	15163
+	.short	17955
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	19018
+	.short	19018
+	.short	17990
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	10314
+	.short	19018
 	.short	4626
-	.short	4659
+	.short	4658
 	.short	4626
-	.short	13107
-	.short	11827
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11810
+	.short	12850
+	.short	11570
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11554
 	.short	8738
 	.short	8738
 	.short	8738
@@ -6501,10 +6501,10 @@ startScreenBitmap:
 	.short	8983
 	.short	5911
 	.short	5911
-	.short	9503
-	.short	5919
+	.short	9502
+	.short	5918
 	.short	8995
-	.short	16419
+	.short	14883
 	.short	8995
 	.short	8995
 	.short	8995
@@ -6514,18 +6514,18 @@ startScreenBitmap:
 	.short	5911
 	.short	5911
 	.short	5911
-	.short	7959
-	.short	7959
-	.short	7959
+	.short	7703
+	.short	7703
+	.short	7703
 	.short	5911
 	.short	5911
 	.short	5911
 	.short	5911
 	.short	279
-	.short	7425
+	.short	7937
 	.short	257
 	.short	257
-	.short	7425
+	.short	7937
 	.short	257
 	.short	257
 	.short	257
@@ -6533,8 +6533,8 @@ startScreenBitmap:
 	.short	257
 	.short	257
 	.short	8961
-	.short	5440
-	.short	16419
+	.short	5434
+	.short	14883
 	.short	257
 	.short	257
 	.short	257
@@ -6542,67 +6542,67 @@ startScreenBitmap:
 	.short	257
 	.short	257
 	.short	771
-	.short	13827
-	.short	9782
-	.short	9758
-	.short	9782
-	.short	7710
-	.short	7710
+	.short	13571
+	.short	9781
+	.short	9757
+	.short	9781
+	.short	7453
+	.short	7453
 	.short	5923
 	.short	279
-	.short	4097
-	.short	4097
-	.short	272
-	.short	272
-	.short	15888
+	.short	4353
+	.short	4353
+	.short	273
+	.short	273
+	.short	15889
 	.short	15934
-	.short	4112
+	.short	4369
 	.short	15934
 	.short	15934
 	.short	15934
-	.short	15888
+	.short	15889
 	.short	15934
-	.short	15888
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	9021
+	.short	15889
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	9030
 	.short	8981
 	.short	8995
 	.short	8995
-	.short	15651
-	.short	15677
-	.short	15165
-	.short	15677
-	.short	15677
-	.short	15165
-	.short	15677
-	.short	15165
-	.short	15165
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	10555
-	.short	15163
-	.short	13074
-	.short	13074
-	.short	13074
-	.short	11315
-	.short	11827
-	.short	11794
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	8750
-	.short	8750
-	.short	8750
+	.short	17955
+	.short	17990
+	.short	19014
+	.short	17990
+	.short	17990
+	.short	19014
+	.short	17990
+	.short	19014
+	.short	19014
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	10314
+	.short	19018
+	.short	12818
+	.short	12818
+	.short	12818
+	.short	11314
+	.short	11570
+	.short	11538
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	8749
+	.short	8749
+	.short	8749
 	.short	8738
 	.short	8738
 	.short	8738
@@ -6641,10 +6641,10 @@ startScreenBitmap:
 	.short	5911
 	.short	5911
 	.short	5911
-	.short	7453
-	.short	285
+	.short	7967
+	.short	287
 	.short	257
-	.short	7453
+	.short	7967
 	.short	257
 	.short	257
 	.short	257
@@ -6656,71 +6656,71 @@ startScreenBitmap:
 	.short	8981
 	.short	277
 	.short	257
-	.short	304
+	.short	315
 	.short	257
 	.short	257
 	.short	257
 	.short	257
 	.short	771
-	.short	13878
-	.short	9782
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
+	.short	13621
+	.short	9781
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
 	.short	5923
-	.short	12325
-	.short	304
-	.short	4097
-	.short	272
-	.short	15888
+	.short	15141
+	.short	315
+	.short	4353
+	.short	273
+	.short	15889
 	.short	15934
-	.short	15888
-	.short	4158
+	.short	15889
+	.short	4414
 	.short	15934
 	.short	15934
-	.short	4158
-	.short	15632
-	.short	15888
-	.short	15677
-	.short	15933
-	.short	15678
-	.short	15656
-	.short	15677
-	.short	15677
+	.short	4414
+	.short	17937
+	.short	15889
+	.short	17990
+	.short	15942
+	.short	17982
+	.short	17961
+	.short	17990
+	.short	17990
 	.short	5397
 	.short	5411
 	.short	8995
 	.short	8995
-	.short	15651
-	.short	15677
-	.short	15677
-	.short	15165
-	.short	15675
-	.short	15165
-	.short	15163
-	.short	15163
-	.short	15675
-	.short	15163
-	.short	15163
-	.short	15145
-	.short	15163
-	.short	15163
-	.short	4659
-	.short	4659
-	.short	4659
+	.short	17955
+	.short	17990
+	.short	17990
+	.short	19014
+	.short	17994
+	.short	19014
+	.short	19018
+	.short	19018
+	.short	17994
+	.short	19018
+	.short	19018
+	.short	18984
+	.short	19018
+	.short	19018
+	.short	4658
+	.short	4658
+	.short	4658
 	.short	4626
-	.short	11794
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
+	.short	11538
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
 	.short	8738
 	.short	8738
 	.short	8738
@@ -6744,10 +6744,10 @@ startScreenBitmap:
 	.short	5911
 	.short	8983
 	.short	8983
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
 	.short	8995
 	.short	8983
 	.short	5911
@@ -6755,23 +6755,23 @@ startScreenBitmap:
 	.short	5911
 	.short	5911
 	.short	5911
+	.short	7703
+	.short	5911
+	.short	5918
+	.short	5911
+	.short	5911
 	.short	7959
-	.short	5911
-	.short	5919
-	.short	5911
-	.short	5911
-	.short	7447
-	.short	7453
+	.short	7967
 	.short	257
 	.short	257
-	.short	285
-	.short	285
-	.short	285
+	.short	287
+	.short	287
+	.short	287
 	.short	257
 	.short	257
 	.short	257
 	.short	257
-	.short	19201
+	.short	18689
 	.short	8981
 	.short	5397
 	.short	257
@@ -6780,67 +6780,67 @@ startScreenBitmap:
 	.short	257
 	.short	257
 	.short	257
-	.short	13825
-	.short	13878
-	.short	13878
-	.short	7710
+	.short	13569
+	.short	13621
+	.short	13621
+	.short	7453
 	.short	8995
 	.short	8995
 	.short	8995
 	.short	8995
-	.short	16405
-	.short	12311
-	.short	272
-	.short	4112
-	.short	4097
-	.short	12304
+	.short	14869
+	.short	15127
+	.short	273
+	.short	4369
+	.short	4353
+	.short	15121
 	.short	15934
-	.short	4112
-	.short	4112
-	.short	15888
+	.short	4369
+	.short	4369
+	.short	15889
 	.short	15934
 	.short	15934
-	.short	15888
-	.short	10256
-	.short	15678
-	.short	10301
-	.short	15933
-	.short	15677
-	.short	5437
+	.short	15889
+	.short	10513
+	.short	17982
+	.short	10566
+	.short	15942
+	.short	17990
+	.short	5446
 	.short	5397
 	.short	5397
 	.short	5411
 	.short	8995
 	.short	8995
-	.short	15651
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15163
-	.short	15675
-	.short	15165
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	4667
-	.short	4659
+	.short	17955
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	19018
+	.short	17994
+	.short	19014
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	4682
+	.short	4658
 	.short	4626
 	.short	4626
-	.short	11794
-	.short	4654
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
+	.short	11538
+	.short	4653
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
 	.short	8738
-	.short	8750
+	.short	8749
 	.short	8738
 	.short	8738
 	.short	8738
@@ -6864,10 +6864,10 @@ startScreenBitmap:
 	.short	5911
 	.short	5911
 	.short	5923
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
 	.short	8995
 	.short	5923
 	.short	5911
@@ -6893,28 +6893,28 @@ startScreenBitmap:
 	.short	8995
 	.short	8995
 	.short	8995
-	.short	9024
-	.short	16405
+	.short	9018
+	.short	14869
 	.short	5397
-	.short	7710
-	.short	7710
-	.short	4382
-	.short	13862
-	.short	13878
-	.short	9782
-	.short	7718
-	.short	7710
+	.short	7453
+	.short	7453
+	.short	4125
+	.short	13606
+	.short	13621
+	.short	9781
+	.short	7462
+	.short	7453
 	.short	8995
 	.short	8995
 	.short	8995
 	.short	5411
 	.short	5397
-	.short	16448
+	.short	14906
 	.short	5642
 	.short	5642
 	.short	5654
 	.short	5911
-	.short	5696
+	.short	5690
 	.short	5654
 	.short	5642
 	.short	5642
@@ -6944,25 +6944,25 @@ startScreenBitmap:
 	.short	5654
 	.short	5654
 	.short	5654
-	.short	13107
-	.short	13074
+	.short	12850
+	.short	12818
 	.short	4626
-	.short	4659
+	.short	4658
 	.short	4626
 	.short	4626
-	.short	11794
-	.short	11794
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
+	.short	11538
+	.short	11538
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
 	.short	11298
-	.short	11810
-	.short	11822
-	.short	13090
+	.short	11554
+	.short	11565
+	.short	12834
 	.short	8738
 	.short	6939
 	.short	6934
@@ -6984,19 +6984,19 @@ startScreenBitmap:
 	.short	5911
 	.short	5911
 	.short	5911
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
 	.short	8983
 	.short	5911
 	.short	5911
 	.short	5911
 	.short	5911
 	.short	5911
-	.short	7959
-	.short	5919
-	.short	7959
+	.short	7703
+	.short	5918
+	.short	7703
 	.short	5911
 	.short	5911
 	.short	5911
@@ -7016,32 +7016,32 @@ startScreenBitmap:
 	.short	5411
 	.short	5411
 	.short	8995
-	.short	7710
-	.short	7710
-	.short	9758
-	.short	9782
-	.short	9782
-	.short	7710
-	.short	7710
-	.short	7710
+	.short	7453
+	.short	7453
+	.short	9757
+	.short	9781
+	.short	9781
+	.short	7453
+	.short	7453
+	.short	7453
 	.short	8981
-	.short	16405
+	.short	14869
 	.short	5923
 	.short	5411
-	.short	16448
+	.short	14906
 	.short	2582
 	.short	5654
 	.short	2582
 	.short	2582
 	.short	2582
-	.short	16406
-	.short	5696
+	.short	14870
+	.short	5690
 	.short	5654
 	.short	5654
 	.short	5642
 	.short	5654
 	.short	5654
-	.short	5952
+	.short	5946
 	.short	5653
 	.short	5653
 	.short	5397
@@ -7055,35 +7055,35 @@ startScreenBitmap:
 	.short	5411
 	.short	8995
 	.short	5923
-	.short	5919
+	.short	5918
 	.short	5411
-	.short	16419
-	.short	16405
-	.short	16406
+	.short	14883
+	.short	14869
+	.short	14870
 	.short	5654
 	.short	5654
 	.short	5654
 	.short	6939
-	.short	13107
-	.short	13074
+	.short	12850
+	.short	12818
 	.short	4626
 	.short	4626
 	.short	4626
-	.short	4654
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11810
-	.short	8750
+	.short	4653
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11554
+	.short	8749
 	.short	8738
 	.short	8738
-	.short	13090
+	.short	12834
 	.short	6934
 	.short	5654
 	.short	5654
@@ -7104,18 +7104,18 @@ startScreenBitmap:
 	.short	5911
 	.short	5911
 	.short	5911
-	.short	7710
-	.short	7710
-	.short	7710
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7477
+	.short	8983
+	.short	8983
+	.short	5911
+	.short	5911
+	.short	5911
+	.short	5911
+	.short	5911
 	.short	7734
-	.short	8983
-	.short	8983
-	.short	5911
-	.short	5911
-	.short	5911
-	.short	5911
-	.short	5911
-	.short	7991
 	.short	5911
 	.short	5911
 	.short	5911
@@ -7133,35 +7133,35 @@ startScreenBitmap:
 	.short	8995
 	.short	5911
 	.short	5911
-	.short	16419
+	.short	14883
 	.short	8981
 	.short	8995
-	.short	7710
-	.short	7710
-	.short	13854
-	.short	13862
-	.short	7718
-	.short	7710
-	.short	7710
-	.short	7710
+	.short	7453
+	.short	7453
+	.short	13597
+	.short	13606
+	.short	7462
+	.short	7453
+	.short	7453
+	.short	7453
 	.short	5397
 	.short	5397
 	.short	5909
-	.short	16405
-	.short	5696
+	.short	14869
+	.short	5690
 	.short	5642
-	.short	2624
-	.short	5696
-	.short	5642
-	.short	5654
-	.short	5642
-	.short	5642
-	.short	5642
+	.short	2618
+	.short	5690
 	.short	5642
 	.short	5654
 	.short	5642
+	.short	5642
+	.short	5642
+	.short	5642
 	.short	5654
-	.short	14103
+	.short	5642
+	.short	5654
+	.short	13847
 	.short	5653
 	.short	5654
 	.short	5653
@@ -7184,26 +7184,26 @@ startScreenBitmap:
 	.short	5654
 	.short	5654
 	.short	5654
-	.short	13107
-	.short	13074
+	.short	12850
+	.short	12818
 	.short	4626
-	.short	4659
-	.short	4654
-	.short	11794
-	.short	11794
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	8750
-	.short	11822
-	.short	8750
-	.short	8755
-	.short	8755
-	.short	8755
+	.short	4658
+	.short	4653
+	.short	11538
+	.short	11538
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	8749
+	.short	11565
+	.short	8749
+	.short	8754
+	.short	8754
+	.short	8754
 	.short	5659
 	.short	5654
 	.short	5654
@@ -7224,10 +7224,10 @@ startScreenBitmap:
 	.short	5911
 	.short	5911
 	.short	5911
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
 	.short	5923
 	.short	5911
 	.short	5911
@@ -7251,26 +7251,26 @@ startScreenBitmap:
 	.short	5923
 	.short	5923
 	.short	5923
-	.short	7959
-	.short	8009
+	.short	7703
+	.short	7751
 	.short	8983
 	.short	8995
 	.short	8995
-	.short	7710
-	.short	13862
-	.short	13878
-	.short	9782
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	16406
-	.short	16405
-	.short	16406
-	.short	16406
+	.short	7453
+	.short	13606
+	.short	13621
+	.short	9781
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	14870
+	.short	14869
+	.short	14870
+	.short	14870
 	.short	5642
 	.short	2570
-	.short	14090
+	.short	13834
 	.short	5642
 	.short	2582
 	.short	2582
@@ -7299,31 +7299,31 @@ startScreenBitmap:
 	.short	8995
 	.short	5411
 	.short	5667
-	.short	5440
+	.short	5434
 	.short	5654
 	.short	5654
 	.short	5654
 	.short	6934
-	.short	13107
-	.short	4659
-	.short	4659
+	.short	12850
+	.short	4658
+	.short	4658
 	.short	4626
 	.short	4626
-	.short	4654
-	.short	4654
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	8750
+	.short	4653
+	.short	4653
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	8749
 	.short	8738
 	.short	8738
 	.short	10018
-	.short	13095
+	.short	12839
 	.short	6934
 	.short	5654
 	.short	5398
@@ -7336,18 +7336,18 @@ startScreenBitmap:
 	.short	10028
 	.short	11303
 	.short	10023
-	.short	7967
-	.short	5911
-	.short	5911
-	.short	5919
-	.short	5911
-	.short	5911
-	.short	5911
-	.short	5911
-	.short	13854
 	.short	7710
-	.short	7710
-	.short	7710
+	.short	5911
+	.short	5911
+	.short	5918
+	.short	5911
+	.short	5911
+	.short	5911
+	.short	5911
+	.short	13597
+	.short	7453
+	.short	7453
+	.short	7453
 	.short	5911
 	.short	5923
 	.short	5911
@@ -7376,14 +7376,14 @@ startScreenBitmap:
 	.short	8995
 	.short	8995
 	.short	8995
-	.short	7710
-	.short	13854
-	.short	13878
+	.short	7453
+	.short	13597
+	.short	13621
 	.short	9766
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
 	.short	5642
 	.short	2582
 	.short	2582
@@ -7418,35 +7418,35 @@ startScreenBitmap:
 	.short	8995
 	.short	5411
 	.short	5411
-	.short	9024
+	.short	9018
 	.short	5398
 	.short	5654
 	.short	5654
 	.short	5654
 	.short	6934
-	.short	13107
-	.short	4659
-	.short	4659
-	.short	4654
-	.short	4654
-	.short	4654
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	8750
-	.short	11822
-	.short	11810
-	.short	8755
-	.short	8755
+	.short	12850
+	.short	4658
+	.short	4658
+	.short	4653
+	.short	4653
+	.short	4653
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	8749
+	.short	11565
+	.short	11554
+	.short	8754
+	.short	8754
 	.short	11298
 	.short	10028
 	.short	5654
-	.short	7958
-	.short	18723
+	.short	7702
+	.short	18211
 	.short	5653
 	.short	10023
 	.short	10023
@@ -7456,18 +7456,18 @@ startScreenBitmap:
 	.short	10023
 	.short	10023
 	.short	10023
-	.short	7967
-	.short	5911
-	.short	5911
-	.short	7967
-	.short	5911
-	.short	5911
-	.short	5911
-	.short	5911
-	.short	7718
-	.short	9782
 	.short	7710
+	.short	5911
+	.short	5911
 	.short	7710
+	.short	5911
+	.short	5911
+	.short	5911
+	.short	5911
+	.short	7462
+	.short	9781
+	.short	7453
+	.short	7453
 	.short	5923
 	.short	5911
 	.short	5911
@@ -7496,18 +7496,18 @@ startScreenBitmap:
 	.short	8995
 	.short	8995
 	.short	8995
-	.short	9758
-	.short	13862
-	.short	7734
-	.short	7734
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
+	.short	9757
+	.short	13606
+	.short	7477
+	.short	7477
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
 	.short	2582
 	.short	2582
-	.short	16406
-	.short	2624
+	.short	14870
+	.short	2618
 	.short	2570
 	.short	3862
 	.short	2582
@@ -7544,29 +7544,29 @@ startScreenBitmap:
 	.short	5654
 	.short	5654
 	.short	5659
-	.short	11827
-	.short	13107
-	.short	4654
-	.short	4659
-	.short	11794
-	.short	11794
-	.short	11794
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	8750
-	.short	11822
-	.short	8750
-	.short	8750
-	.short	13090
-	.short	13090
+	.short	11570
+	.short	12850
+	.short	4653
+	.short	4658
+	.short	11538
+	.short	11538
+	.short	11538
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	8749
+	.short	11565
+	.short	8749
+	.short	8749
+	.short	12834
+	.short	12834
 	.short	1826
 	.short	11308
 	.short	5654
 	.short	5910
-	.short	7971
+	.short	7715
 	.short	5653
 	.short	10023
 	.short	10023
@@ -7577,17 +7577,17 @@ startScreenBitmap:
 	.short	10023
 	.short	10023
 	.short	5911
-	.short	5919
-	.short	18719
-	.short	5919
+	.short	5918
+	.short	18206
+	.short	5918
 	.short	5911
 	.short	5911
 	.short	5911
 	.short	5911
-	.short	9782
+	.short	9781
 	.short	9766
-	.short	9782
-	.short	7718
+	.short	9781
+	.short	7462
 	.short	5923
 	.short	5911
 	.short	5911
@@ -7616,18 +7616,18 @@ startScreenBitmap:
 	.short	8995
 	.short	8995
 	.short	8995
-	.short	7710
-	.short	13854
-	.short	7718
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
-	.short	7710
+	.short	7453
+	.short	13597
+	.short	7462
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
+	.short	7453
 	.short	5642
 	.short	2582
-	.short	16406
-	.short	16407
+	.short	14870
+	.short	14871
 	.short	2570
 	.short	2570
 	.short	2570
@@ -7664,25 +7664,25 @@ startScreenBitmap:
 	.short	5654
 	.short	5654
 	.short	6934
-	.short	13107
-	.short	11827
-	.short	11822
-	.short	11794
-	.short	4654
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	11810
-	.short	11810
-	.short	11810
+	.short	12850
+	.short	11570
+	.short	11565
+	.short	11538
+	.short	4653
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	11554
+	.short	11554
+	.short	11554
 	.short	8738
-	.short	8755
-	.short	10035
+	.short	8754
+	.short	10034
 	.short	10023
 	.short	5654
 	.short	5654
@@ -7698,114 +7698,114 @@ startScreenBitmap:
 	.short	10023
 	.short	5911
 	.short	5911
-	.short	7967
-	.short	5919
+	.short	7710
+	.short	5918
 	.short	5911
 	.short	5911
 	.short	5911
 	.short	5911
 	.short	9766
-	.short	13862
+	.short	13606
 	.short	14649
 	.short	14649
 	.short	14649
 	.short	14649
-	.short	14621
+	.short	14623
 	.short	14649
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
 	.short	5911
 	.short	5911
 	.short	5911
 	.short	5911
-	.short	7425
+	.short	7937
 	.short	257
 	.short	257
-	.short	285
+	.short	287
 	.short	257
 	.short	5911
 	.short	5923
 	.short	8995
-	.short	16419
+	.short	14883
 	.short	291
 	.short	257
-	.short	12289
+	.short	15105
 	.short	257
 	.short	257
 	.short	5889
 	.short	5411
-	.short	16406
+	.short	14870
 	.short	257
 	.short	257
 	.short	257
-	.short	304
+	.short	315
 	.short	257
 	.short	2561
 	.short	2570
-	.short	13107
-	.short	13107
-	.short	4112
-	.short	4112
+	.short	12850
+	.short	12850
+	.short	4369
+	.short	4369
 	.short	15873
-	.short	15888
-	.short	15888
-	.short	13072
-	.short	13107
-	.short	15923
+	.short	15889
+	.short	15889
+	.short	12817
+	.short	12850
+	.short	15922
 	.short	15934
-	.short	4158
-	.short	4158
-	.short	15678
-	.short	15933
+	.short	4414
+	.short	4414
+	.short	17982
+	.short	15942
 	.short	10046
 	.short	5654
 	.short	5654
 	.short	5398
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	9019
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	9034
 	.short	8995
 	.short	5411
+	.short	17990
+	.short	19014
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	10314
+	.short	10314
+	.short	19018
+	.short	15420
+	.short	15420
+	.short	12860
+	.short	12845
+	.short	11565
+	.short	11565
+	.short	15420
+	.short	4924
+	.short	16191
+	.short	16191
+	.short	16191
+	.short	16191
+	.short	16191
+	.short	16191
+	.short	16189
+	.short	15662
+	.short	15679
 	.short	15677
-	.short	15165
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	10555
-	.short	10555
-	.short	15163
-	.short	16191
-	.short	16191
-	.short	13119
-	.short	13102
-	.short	11822
-	.short	11822
-	.short	16191
-	.short	4927
-	.short	16962
-	.short	16962
-	.short	16962
-	.short	16962
-	.short	16962
-	.short	16962
-	.short	16961
-	.short	16685
-	.short	16706
-	.short	16705
-	.short	16705
-	.short	16705
+	.short	15677
+	.short	15677
 	.short	5654
 	.short	5654
 	.short	5398
@@ -7818,29 +7818,29 @@ startScreenBitmap:
 	.short	5397
 	.short	5911
 	.short	5911
-	.short	7959
+	.short	7703
 	.short	5911
 	.short	5911
 	.short	5911
 	.short	5911
 	.short	5911
-	.short	13878
-	.short	14646
+	.short	13621
+	.short	14645
 	.short	14649
 	.short	14649
 	.short	14649
-	.short	7453
-	.short	7481
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	5917
+	.short	7967
+	.short	7993
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	5919
 	.short	5911
 	.short	5911
 	.short	5911
@@ -7848,7 +7848,7 @@ startScreenBitmap:
 	.short	257
 	.short	257
 	.short	257
-	.short	285
+	.short	287
 	.short	5911
 	.short	8983
 	.short	8983
@@ -7859,234 +7859,234 @@ startScreenBitmap:
 	.short	257
 	.short	257
 	.short	8961
-	.short	16405
-	.short	5696
+	.short	14869
+	.short	5690
 	.short	257
 	.short	257
 	.short	257
-	.short	304
+	.short	315
 	.short	257
 	.short	257
 	.short	3862
-	.short	13107
-	.short	13107
-	.short	15888
-	.short	4112
-	.short	15888
-	.short	15888
-	.short	4158
-	.short	13072
-	.short	13107
-	.short	15923
-	.short	4158
-	.short	10302
-	.short	15888
-	.short	15677
-	.short	15912
-	.short	13117
+	.short	12850
+	.short	12850
+	.short	15889
+	.short	4369
+	.short	15889
+	.short	15889
+	.short	4414
+	.short	12817
+	.short	12850
+	.short	15922
+	.short	4414
+	.short	10558
+	.short	15889
+	.short	17990
+	.short	15913
+	.short	12870
 	.short	5654
 	.short	5654
 	.short	5654
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	5435
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	5450
 	.short	5397
-	.short	15637
-	.short	15675
-	.short	15163
-	.short	15163
-	.short	15165
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	10555
-	.short	10555
-	.short	10555
-	.short	15167
+	.short	17941
+	.short	17994
+	.short	19018
+	.short	19018
+	.short	19014
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	10314
+	.short	10314
+	.short	10314
+	.short	19004
+	.short	15420
+	.short	11580
+	.short	11565
+	.short	11565
+	.short	15405
+	.short	17468
+	.short	16147
+	.short	17471
+	.short	16191
+	.short	16191
+	.short	16191
 	.short	16191
 	.short	11839
-	.short	11822
-	.short	11822
-	.short	16174
-	.short	17215
-	.short	16915
-	.short	17218
-	.short	16962
-	.short	16962
-	.short	16962
-	.short	16962
-	.short	11586
-	.short	11586
-	.short	16685
-	.short	16705
-	.short	16705
-	.short	16705
-	.short	16705
-	.short	5697
-	.short	5654
-	.short	5653
-	.short	5653
-	.short	5653
-	.short	5397
-	.short	5397
-	.short	5397
-	.short	5397
-	.short	5397
-	.short	7967
-	.short	5919
-	.short	5911
-	.short	5911
-	.short	5911
-	.short	5911
-	.short	5911
-	.short	5911
-	.short	13878
-	.short	14646
-	.short	14649
-	.short	14649
-	.short	14621
-	.short	7481
-	.short	7481
-	.short	7453
-	.short	7481
-	.short	7453
-	.short	7481
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	285
-	.short	7453
-	.short	5911
-	.short	5911
-	.short	5911
-	.short	7425
-	.short	7425
-	.short	257
-	.short	257
-	.short	257
-	.short	5911
-	.short	5911
-	.short	8995
-	.short	16419
-	.short	257
-	.short	257
-	.short	257
-	.short	257
-	.short	257
-	.short	5889
-	.short	16448
-	.short	320
-	.short	257
-	.short	257
-	.short	12289
-	.short	304
-	.short	12289
-	.short	4097
-	.short	3841
-	.short	13107
-	.short	13107
-	.short	4112
-	.short	272
-	.short	4144
-	.short	15888
-	.short	15888
-	.short	13072
-	.short	13107
-	.short	15923
-	.short	4158
-	.short	4158
-	.short	15656
-	.short	15934
-	.short	15933
+	.short	11839
+	.short	15662
+	.short	15677
+	.short	15677
+	.short	15677
 	.short	15677
 	.short	5693
 	.short	5654
-	.short	5654
-	.short	10301
-	.short	15677
-	.short	15656
-	.short	15677
-	.short	15677
-	.short	5437
-	.short	5397
-	.short	15637
-	.short	15675
-	.short	15677
-	.short	15677
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	10555
-	.short	15163
-	.short	10555
-	.short	10554
-	.short	15167
-	.short	16191
-	.short	11822
-	.short	11822
-	.short	11822
-	.short	16147
-	.short	4883
-	.short	16191
-	.short	16962
-	.short	16962
-	.short	16962
-	.short	16962
-	.short	16962
-	.short	16962
-	.short	16706
-	.short	11585
-	.short	16705
-	.short	16705
-	.short	16705
-	.short	16705
-	.short	5706
-	.short	5398
-	.short	5398
-	.short	5398
-	.short	5398
+	.short	5653
+	.short	5653
+	.short	5653
 	.short	5397
 	.short	5397
 	.short	5397
 	.short	5397
 	.short	5397
+	.short	7710
+	.short	5918
+	.short	5911
+	.short	5911
+	.short	5911
+	.short	5911
+	.short	5911
+	.short	5911
+	.short	13621
+	.short	14645
+	.short	14649
+	.short	14649
+	.short	14623
+	.short	7993
+	.short	7993
 	.short	7967
-	.short	5919
+	.short	7993
+	.short	7967
+	.short	7993
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	287
+	.short	7967
+	.short	5911
+	.short	5911
+	.short	5911
+	.short	7937
+	.short	7937
+	.short	257
+	.short	257
+	.short	257
+	.short	5911
+	.short	5911
+	.short	8995
+	.short	14883
+	.short	257
+	.short	257
+	.short	257
+	.short	257
+	.short	257
+	.short	5889
+	.short	14906
+	.short	314
+	.short	257
+	.short	257
+	.short	15105
+	.short	315
+	.short	15105
+	.short	4353
+	.short	3841
+	.short	12850
+	.short	12850
+	.short	4369
+	.short	273
+	.short	4411
+	.short	15889
+	.short	15889
+	.short	12817
+	.short	12850
+	.short	15922
+	.short	4414
+	.short	4414
+	.short	17961
+	.short	15934
+	.short	15942
+	.short	17990
+	.short	5702
+	.short	5654
+	.short	5654
+	.short	10566
+	.short	17990
+	.short	17961
+	.short	17990
+	.short	17990
+	.short	5446
+	.short	5397
+	.short	17941
+	.short	17994
+	.short	17990
+	.short	17990
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	10314
+	.short	19018
+	.short	10314
+	.short	10304
+	.short	19004
+	.short	15420
+	.short	11565
+	.short	11565
+	.short	11565
+	.short	15379
+	.short	4883
+	.short	15420
+	.short	16191
+	.short	16191
+	.short	16191
+	.short	16191
+	.short	16191
+	.short	16191
+	.short	15679
+	.short	11837
+	.short	15677
+	.short	15677
+	.short	15677
+	.short	15677
+	.short	5707
+	.short	5398
+	.short	5398
+	.short	5398
+	.short	5398
+	.short	5397
+	.short	5397
+	.short	5397
+	.short	5397
+	.short	5397
+	.short	7710
+	.short	5918
 	.short	5911
 	.short	5911
 	.short	5911
 	.short	5911
 	.short	5911
 	.short	5911
-	.short	822
+	.short	821
 	.short	14649
 	.short	14649
 	.short	14649
 	.short	14649
-	.short	7453
-	.short	7481
+	.short	7967
+	.short	7993
 	.short	14649
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
 	.short	5911
 	.short	5911
 	.short	279
-	.short	7425
+	.short	7937
 	.short	257
-	.short	285
+	.short	287
 	.short	257
 	.short	5889
 	.short	5911
@@ -8098,75 +8098,75 @@ startScreenBitmap:
 	.short	257
 	.short	257
 	.short	257
-	.short	18711
-	.short	16448
-	.short	320
-	.short	304
+	.short	18199
+	.short	14906
+	.short	314
+	.short	315
 	.short	257
 	.short	257
 	.short	257
 	.short	257
 	.short	257
-	.short	12289
-	.short	13107
-	.short	13107
-	.short	4112
-	.short	4112
-	.short	4144
-	.short	4158
-	.short	4112
-	.short	13118
-	.short	13107
+	.short	15105
+	.short	12850
+	.short	12850
+	.short	4369
+	.short	4369
+	.short	4411
+	.short	4414
+	.short	4369
+	.short	12862
+	.short	12850
 	.short	15934
-	.short	15933
+	.short	15942
 	.short	15934
-	.short	4112
+	.short	4369
 	.short	15934
-	.short	15933
-	.short	15677
-	.short	15677
+	.short	15942
+	.short	17990
+	.short	17990
 	.short	5654
-	.short	15638
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
+	.short	17942
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
 	.short	5397
 	.short	5397
-	.short	15675
-	.short	15675
+	.short	17994
+	.short	17994
+	.short	17990
+	.short	19014
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	15424
+	.short	15420
+	.short	15420
+	.short	11565
+	.short	11565
+	.short	4909
+	.short	15420
+	.short	16188
+	.short	17468
+	.short	16191
+	.short	16191
+	.short	16191
+	.short	16191
+	.short	16191
 	.short	15677
-	.short	15165
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	16186
-	.short	16191
-	.short	16191
-	.short	11822
-	.short	11822
-	.short	4910
-	.short	16191
-	.short	16959
-	.short	17215
-	.short	16962
-	.short	16962
-	.short	16962
-	.short	16962
-	.short	16962
-	.short	16705
-	.short	16706
-	.short	16705
-	.short	16705
-	.short	16705
-	.short	16705
-	.short	16705
-	.short	17473
+	.short	15679
+	.short	15677
+	.short	15677
+	.short	15677
+	.short	15677
+	.short	15677
+	.short	17213
 	.short	5654
 	.short	5398
 	.short	5398
@@ -8176,35 +8176,35 @@ startScreenBitmap:
 	.short	5397
 	.short	5397
 	.short	5397
-	.short	7991
-	.short	5919
+	.short	7734
+	.short	5918
 	.short	5911
 	.short	5911
 	.short	5911
 	.short	5911
 	.short	5911
 	.short	5911
-	.short	14646
+	.short	14645
 	.short	14649
 	.short	14649
 	.short	14649
-	.short	7481
-	.short	14621
-	.short	7453
-	.short	7481
-	.short	7481
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
+	.short	7993
+	.short	14623
+	.short	7967
+	.short	7993
+	.short	7993
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
 	.short	5889
 	.short	5911
-	.short	7447
-	.short	285
+	.short	7959
+	.short	287
 	.short	257
 	.short	257
 	.short	257
@@ -8212,81 +8212,81 @@ startScreenBitmap:
 	.short	5911
 	.short	5911
 	.short	8995
-	.short	16419
+	.short	14883
 	.short	257
 	.short	257
 	.short	257
 	.short	257
 	.short	257
 	.short	5911
-	.short	16448
-	.short	320
+	.short	14906
+	.short	314
 	.short	257
 	.short	257
-	.short	304
-	.short	4097
-	.short	12336
-	.short	4097
-	.short	272
-	.short	13104
-	.short	307
-	.short	272
-	.short	272
-	.short	4158
-	.short	15888
-	.short	15888
+	.short	315
+	.short	4353
+	.short	15163
+	.short	4353
+	.short	273
+	.short	12859
+	.short	306
+	.short	273
+	.short	273
+	.short	4414
+	.short	15889
+	.short	15889
 	.short	4626
 	.short	4626
-	.short	15678
-	.short	15933
-	.short	4112
-	.short	15888
-	.short	15933
-	.short	15677
-	.short	10301
-	.short	15677
-	.short	5437
-	.short	15638
-	.short	15677
-	.short	10280
-	.short	15677
-	.short	15677
-	.short	15677
+	.short	17982
+	.short	15942
+	.short	4369
+	.short	15889
+	.short	15942
+	.short	17990
+	.short	10566
+	.short	17990
+	.short	5446
+	.short	17942
+	.short	17990
+	.short	10537
+	.short	17990
+	.short	17990
+	.short	17990
 	.short	5397
-	.short	15638
-	.short	15677
-	.short	15677
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	10555
-	.short	10555
-	.short	16187
-	.short	16191
-	.short	16191
+	.short	17942
+	.short	17990
+	.short	17990
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	10314
+	.short	10314
+	.short	15434
+	.short	15420
+	.short	15420
 	.short	8738
 	.short	8738
-	.short	16162
+	.short	15394
+	.short	15420
+	.short	15420
+	.short	17468
+	.short	16196
 	.short	16191
 	.short	16191
-	.short	17215
-	.short	16963
-	.short	16962
-	.short	16962
-	.short	17986
-	.short	11586
-	.short	16941
-	.short	16705
-	.short	16705
-	.short	16705
-	.short	16705
-	.short	16705
-	.short	16705
-	.short	17473
+	.short	17727
+	.short	11839
+	.short	16174
+	.short	15677
+	.short	15677
+	.short	15677
+	.short	15677
+	.short	15677
+	.short	15677
+	.short	17213
 	.short	5653
 	.short	5398
 	.short	5398
@@ -8296,36 +8296,36 @@ startScreenBitmap:
 	.short	8981
 	.short	8995
 	.short	5411
-	.short	14117
+	.short	13861
+	.short	5918
+	.short	5911
+	.short	5918
+	.short	5911
+	.short	18206
+	.short	18199
+	.short	5911
+	.short	14645
+	.short	14649
+	.short	14649
+	.short	14649
+	.short	14649
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7993
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
 	.short	5919
-	.short	5911
-	.short	5919
-	.short	5911
-	.short	18719
-	.short	18711
-	.short	5911
-	.short	14646
-	.short	14649
-	.short	14649
-	.short	14649
-	.short	14649
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7481
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	5917
 	.short	5911
 	.short	279
 	.short	257
-	.short	7453
+	.short	7967
 	.short	257
 	.short	257
 	.short	5889
@@ -8338,75 +8338,75 @@ startScreenBitmap:
 	.short	257
 	.short	257
 	.short	257
-	.short	7973
-	.short	16419
+	.short	7717
+	.short	14883
 	.short	257
 	.short	257
 	.short	257
-	.short	12289
-	.short	4144
+	.short	15105
+	.short	4411
 	.short	257
 	.short	257
 	.short	257
-	.short	12336
-	.short	4147
-	.short	272
-	.short	12304
+	.short	15163
+	.short	4402
+	.short	273
+	.short	15121
 	.short	15934
-	.short	15888
-	.short	4158
+	.short	15889
+	.short	4414
 	.short	4626
 	.short	4626
-	.short	4158
-	.short	4112
-	.short	10302
-	.short	15678
-	.short	15678
-	.short	15677
-	.short	15656
-	.short	15677
-	.short	15677
-	.short	15638
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
+	.short	4414
+	.short	4369
+	.short	10558
+	.short	17982
+	.short	17982
+	.short	17990
+	.short	17961
+	.short	17990
+	.short	17990
+	.short	17942
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
 	.short	8981
-	.short	15637
-	.short	15165
-	.short	15675
-	.short	15165
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	10555
-	.short	15163
-	.short	10537
-	.short	10555
-	.short	15163
-	.short	16191
-	.short	16191
+	.short	17941
+	.short	19014
+	.short	17994
+	.short	19014
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	10314
+	.short	19018
+	.short	10280
+	.short	10314
+	.short	19018
+	.short	15420
+	.short	15420
 	.short	8738
 	.short	8743
+	.short	15420
+	.short	15420
+	.short	16196
+	.short	16188
 	.short	16191
 	.short	16191
-	.short	16963
-	.short	16959
-	.short	16962
-	.short	16962
-	.short	16962
-	.short	16966
-	.short	16962
-	.short	16941
-	.short	16706
-	.short	16705
-	.short	16705
-	.short	16705
-	.short	16705
-	.short	16705
-	.short	17476
+	.short	16191
+	.short	16197
+	.short	16191
+	.short	16174
+	.short	15679
+	.short	15677
+	.short	15677
+	.short	15677
+	.short	15677
+	.short	15677
+	.short	17219
 	.short	5654
 	.short	5653
 	.short	5653
@@ -8416,37 +8416,37 @@ startScreenBitmap:
 	.short	8981
 	.short	5911
 	.short	8995
-	.short	7991
+	.short	7734
 	.short	5911
-	.short	7959
+	.short	7703
 	.short	5911
 	.short	5911
-	.short	5919
-	.short	9503
-	.short	5919
+	.short	5918
+	.short	9502
+	.short	5918
 	.short	14649
 	.short	14649
 	.short	14649
 	.short	14649
-	.short	7481
-	.short	7453
-	.short	7453
+	.short	7993
+	.short	7967
+	.short	7967
 	.short	14649
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7481
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7993
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
 	.short	5889
 	.short	5911
 	.short	257
-	.short	7425
+	.short	7937
 	.short	257
-	.short	285
+	.short	287
 	.short	257
 	.short	5889
 	.short	5911
@@ -8458,75 +8458,75 @@ startScreenBitmap:
 	.short	257
 	.short	257
 	.short	8961
-	.short	8991
-	.short	16448
+	.short	8990
+	.short	14906
 	.short	257
 	.short	257
 	.short	257
 	.short	257
-	.short	12304
+	.short	15121
 	.short	257
 	.short	257
-	.short	12289
-	.short	4144
-	.short	4097
-	.short	4097
-	.short	15888
-	.short	4158
-	.short	15888
-	.short	4112
-	.short	14354
+	.short	15105
+	.short	4411
+	.short	4353
+	.short	4353
+	.short	15889
+	.short	4414
+	.short	15889
+	.short	4369
+	.short	14098
 	.short	4626
-	.short	15933
+	.short	15942
 	.short	15934
-	.short	15888
-	.short	15632
-	.short	15678
-	.short	15933
-	.short	15656
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15656
-	.short	15677
-	.short	5693
-	.short	7971
-	.short	15677
-	.short	15165
-	.short	15675
-	.short	15163
-	.short	15165
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	10537
-	.short	10537
-	.short	16187
-	.short	16191
-	.short	8767
+	.short	15889
+	.short	17937
+	.short	17982
+	.short	15942
+	.short	17961
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17961
+	.short	17990
+	.short	5702
+	.short	7715
+	.short	17990
+	.short	19014
+	.short	17994
+	.short	19018
+	.short	19014
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	10280
+	.short	10280
+	.short	15434
+	.short	15420
+	.short	8764
 	.short	10018
 	.short	10004
+	.short	15420
+	.short	15420
+	.short	15420
+	.short	16188
+	.short	16196
 	.short	16191
 	.short	16191
 	.short	16191
-	.short	16959
-	.short	16963
-	.short	16962
-	.short	16962
-	.short	16962
-	.short	16966
-	.short	16706
-	.short	11565
-	.short	16705
-	.short	16705
-	.short	16705
-	.short	16705
-	.short	17473
-	.short	17473
+	.short	16197
+	.short	15679
+	.short	11822
+	.short	15677
+	.short	15677
+	.short	15677
+	.short	15677
+	.short	17213
+	.short	17213
 	.short	5653
 	.short	5653
 	.short	5397
@@ -8534,29 +8534,29 @@ startScreenBitmap:
 	.short	8995
 	.short	5411
 	.short	8981
-	.short	7967
+	.short	7710
 	.short	8995
-	.short	7967
+	.short	7710
 	.short	5911
 	.short	5911
 	.short	5911
 	.short	5911
 	.short	5911
-	.short	7959
+	.short	7703
 	.short	5911
-	.short	13366
-	.short	12593
-	.short	12569
+	.short	13109
+	.short	12336
+	.short	12313
 	.short	771
-	.short	13337
-	.short	817
-	.short	13878
-	.short	822
-	.short	12547
-	.short	13337
-	.short	6452
-	.short	13827
-	.short	7967
+	.short	13081
+	.short	816
+	.short	13621
+	.short	821
+	.short	12291
+	.short	13081
+	.short	6451
+	.short	13571
+	.short	7710
 	.short	5911
 	.short	5911
 	.short	5911
@@ -8564,7 +8564,7 @@ startScreenBitmap:
 	.short	5911
 	.short	5911
 	.short	5911
-	.short	7967
+	.short	7710
 	.short	5911
 	.short	5911
 	.short	5911
@@ -8573,37 +8573,37 @@ startScreenBitmap:
 	.short	5911
 	.short	5911
 	.short	8983
-	.short	16419
-	.short	16419
-	.short	16405
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	5696
+	.short	14883
+	.short	14883
+	.short	14869
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	5690
 	.short	2570
 	.short	2582
 	.short	2570
 	.short	2582
 	.short	2582
 	.short	3862
-	.short	13107
-	.short	13107
-	.short	13107
+	.short	12850
+	.short	12850
+	.short	12850
 	.short	4626
 	.short	4626
 	.short	4626
-	.short	4664
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	3384
+	.short	4663
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	3383
 	.short	6939
 	.short	6939
 	.short	6939
@@ -8626,12 +8626,12 @@ startScreenBitmap:
 	.short	5659
 	.short	8738
 	.short	8738
-	.short	8750
+	.short	8749
 	.short	8738
 	.short	10018
 	.short	10028
 	.short	8738
-	.short	8750
+	.short	8749
 	.short	8738
 	.short	8738
 	.short	8738
@@ -8640,7 +8640,7 @@ startScreenBitmap:
 	.short	8738
 	.short	8738
 	.short	8738
-	.short	5663
+	.short	5662
 	.short	5654
 	.short	5654
 	.short	5654
@@ -8651,8 +8651,8 @@ startScreenBitmap:
 	.short	5397
 	.short	5397
 	.short	5397
-	.short	7957
-	.short	18711
+	.short	7701
+	.short	18199
 	.short	8981
 	.short	8995
 	.short	8995
@@ -8661,21 +8661,21 @@ startScreenBitmap:
 	.short	5923
 	.short	5911
 	.short	6403
-	.short	13827
-	.short	822
+	.short	13571
+	.short	821
 	.short	771
-	.short	14111
-	.short	5919
-	.short	7991
-	.short	7967
-	.short	14111
-	.short	7991
-	.short	7959
-	.short	7959
-	.short	7967
-	.short	9527
-	.short	7973
-	.short	5919
+	.short	13854
+	.short	5918
+	.short	7734
+	.short	7710
+	.short	13854
+	.short	7734
+	.short	7703
+	.short	7703
+	.short	7710
+	.short	9526
+	.short	7717
+	.short	5918
 	.short	5911
 	.short	5911
 	.short	5911
@@ -8693,15 +8693,15 @@ startScreenBitmap:
 	.short	5911
 	.short	8983
 	.short	8983
-	.short	9024
-	.short	16448
-	.short	16419
-	.short	16448
-	.short	16448
-	.short	5952
-	.short	16448
-	.short	16448
-	.short	16406
+	.short	9018
+	.short	14906
+	.short	14883
+	.short	14906
+	.short	14906
+	.short	5946
+	.short	14906
+	.short	14906
+	.short	14870
 	.short	2570
 	.short	2570
 	.short	2570
@@ -8713,25 +8713,25 @@ startScreenBitmap:
 	.short	6927
 	.short	6939
 	.short	4626
-	.short	14354
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	14392
+	.short	14098
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	14135
 	.short	10794
-	.short	10808
-	.short	14392
+	.short	10807
+	.short	14135
 	.short	3341
 	.short	4626
-	.short	13074
-	.short	13107
-	.short	13107
-	.short	13107
-	.short	13107
-	.short	13107
+	.short	12818
+	.short	12850
+	.short	12850
+	.short	12850
+	.short	12850
+	.short	12850
 	.short	5654
 	.short	5654
 	.short	5654
@@ -8740,22 +8740,22 @@ startScreenBitmap:
 	.short	5654
 	.short	5654
 	.short	5654
-	.short	13090
-	.short	13090
+	.short	12834
+	.short	12834
 	.short	8738
-	.short	13090
+	.short	12834
 	.short	8738
 	.short	8738
 	.short	8738
 	.short	8738
 	.short	8738
 	.short	8743
-	.short	11810
+	.short	11554
 	.short	8738
 	.short	8738
 	.short	8738
 	.short	8738
-	.short	8755
+	.short	8754
 	.short	5654
 	.short	5654
 	.short	5659
@@ -8780,24 +8780,24 @@ startScreenBitmap:
 	.short	5911
 	.short	5911
 	.short	5911
-	.short	13862
+	.short	13606
+	.short	13621
+	.short	12291
+	.short	12336
+	.short	5911
+	.short	5918
+	.short	13847
+	.short	7717
+	.short	7710
+	.short	7734
+	.short	5911
+	.short	13854
+	.short	7710
 	.short	13878
-	.short	12547
-	.short	12593
-	.short	5911
-	.short	5919
-	.short	14103
-	.short	7973
-	.short	7967
-	.short	7991
-	.short	5911
-	.short	14111
-	.short	7967
-	.short	14135
-	.short	7991
-	.short	5919
-	.short	5919
-	.short	7959
+	.short	7734
+	.short	5918
+	.short	5918
+	.short	7703
 	.short	5911
 	.short	5911
 	.short	5911
@@ -8813,15 +8813,15 @@ startScreenBitmap:
 	.short	5911
 	.short	5911
 	.short	5923
-	.short	16419
-	.short	9024
-	.short	16448
-	.short	5440
-	.short	5440
-	.short	16448
-	.short	16448
-	.short	16406
-	.short	16394
+	.short	14883
+	.short	9018
+	.short	14906
+	.short	5434
+	.short	5434
+	.short	14906
+	.short	14906
+	.short	14870
+	.short	14858
 	.short	2582
 	.short	2582
 	.short	5642
@@ -8834,24 +8834,24 @@ startScreenBitmap:
 	.short	6939
 	.short	4626
 	.short	4626
-	.short	14354
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	10808
-	.short	10808
-	.short	14378
+	.short	14098
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	10807
+	.short	10807
+	.short	14122
 	.short	10794
-	.short	10808
-	.short	3384
+	.short	10807
+	.short	3383
 	.short	4626
-	.short	13074
-	.short	13107
-	.short	13107
-	.short	13107
-	.short	13107
+	.short	12818
+	.short	12850
+	.short	12850
+	.short	12850
+	.short	12850
 	.short	5654
 	.short	5654
 	.short	5654
@@ -8860,18 +8860,18 @@ startScreenBitmap:
 	.short	5654
 	.short	6934
 	.short	5654
-	.short	8755
-	.short	8755
-	.short	8755
-	.short	8755
-	.short	13090
+	.short	8754
+	.short	8754
+	.short	8754
+	.short	8754
+	.short	12834
 	.short	8738
 	.short	8738
-	.short	11810
+	.short	11554
 	.short	8738
 	.short	8738
 	.short	8738
-	.short	8750
+	.short	8749
 	.short	8738
 	.short	8738
 	.short	8738
@@ -8882,8 +8882,8 @@ startScreenBitmap:
 	.short	5654
 	.short	5654
 	.short	5654
-	.short	14102
-	.short	8991
+	.short	13846
+	.short	8990
 	.short	5654
 	.short	5654
 	.short	5654
@@ -8901,9 +8901,9 @@ startScreenBitmap:
 	.short	5911
 	.short	5911
 	.short	9766
-	.short	13862
+	.short	13606
 	.short	6403
-	.short	12569
+	.short	12313
 	.short	257
 	.short	257
 	.short	257
@@ -8923,9 +8923,9 @@ startScreenBitmap:
 	.short	257
 	.short	5889
 	.short	5911
-	.short	7425
+	.short	7937
 	.short	257
-	.short	7425
+	.short	7937
 	.short	257
 	.short	5889
 	.short	5911
@@ -8934,13 +8934,13 @@ startScreenBitmap:
 	.short	7203
 	.short	257
 	.short	257
-	.short	304
+	.short	315
 	.short	257
 	.short	257
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
 	.short	5642
 	.short	2570
 	.short	2570
@@ -8952,26 +8952,26 @@ startScreenBitmap:
 	.short	6927
 	.short	6927
 	.short	3867
-	.short	14354
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	10808
-	.short	14378
-	.short	14378
+	.short	14098
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	10807
+	.short	14122
+	.short	14122
 	.short	10794
-	.short	14378
+	.short	14122
 	.short	10794
-	.short	3384
+	.short	3383
 	.short	4621
 	.short	4626
-	.short	13107
-	.short	13107
-	.short	13107
-	.short	13107
+	.short	12850
+	.short	12850
+	.short	12850
+	.short	12850
 	.short	5654
 	.short	5659
 	.short	5659
@@ -8980,18 +8980,18 @@ startScreenBitmap:
 	.short	5659
 	.short	5659
 	.short	5654
-	.short	8755
-	.short	13107
-	.short	13090
-	.short	13090
-	.short	10035
-	.short	10035
+	.short	8754
+	.short	12850
+	.short	12834
+	.short	12834
+	.short	10034
+	.short	10034
 	.short	8738
-	.short	11822
-	.short	11822
+	.short	11565
+	.short	11565
 	.short	8738
 	.short	8738
-	.short	8750
+	.short	8749
 	.short	8738
 	.short	8738
 	.short	8738
@@ -9021,28 +9021,28 @@ startScreenBitmap:
 	.short	5911
 	.short	5911
 	.short	9766
-	.short	13862
-	.short	817
-	.short	13878
+	.short	13606
+	.short	816
+	.short	13621
 	.short	14593
 	.short	14649
 	.short	14649
 	.short	14649
-	.short	7481
-	.short	7453
-	.short	14621
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	285
+	.short	7993
+	.short	7967
+	.short	14623
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	287
 	.short	5911
-	.short	7447
+	.short	7959
 	.short	257
 	.short	257
 	.short	257
@@ -9057,8 +9057,8 @@ startScreenBitmap:
 	.short	257
 	.short	257
 	.short	257
-	.short	16448
-	.short	5696
+	.short	14906
+	.short	5690
 	.short	257
 	.short	257
 	.short	257
@@ -9066,72 +9066,72 @@ startScreenBitmap:
 	.short	257
 	.short	257
 	.short	257
-	.short	272
-	.short	272
-	.short	272
-	.short	4158
-	.short	4112
-	.short	15920
+	.short	273
+	.short	273
+	.short	273
+	.short	4414
+	.short	4369
+	.short	15931
 	.short	15934
-	.short	4158
-	.short	14352
-	.short	14392
+	.short	4414
+	.short	14097
+	.short	14135
 	.short	15934
 	.short	15934
 	.short	15934
-	.short	15888
-	.short	15933
-	.short	10280
-	.short	10302
-	.short	10301
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	10301
-	.short	15656
-	.short	15677
-	.short	15675
-	.short	13107
+	.short	15889
+	.short	15942
+	.short	10537
+	.short	10558
+	.short	10566
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	10566
+	.short	17961
+	.short	17990
+	.short	17994
+	.short	12850
 	.short	5659
-	.short	15126
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	10555
-	.short	15145
-	.short	16187
-	.short	16191
-	.short	14911
-	.short	11822
-	.short	11789
+	.short	18966
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	10314
+	.short	18984
+	.short	15434
+	.short	15420
+	.short	16444
+	.short	11565
+	.short	11533
 	.short	1826
-	.short	16162
+	.short	15394
+	.short	15420
+	.short	16188
 	.short	16191
-	.short	16959
-	.short	16962
-	.short	16962
-	.short	16963
-	.short	16962
-	.short	16966
-	.short	16961
-	.short	11585
-	.short	16685
-	.short	16706
-	.short	16705
-	.short	16705
-	.short	16705
-	.short	16705
-	.short	5444
+	.short	16191
+	.short	16196
+	.short	16191
+	.short	16197
+	.short	16189
+	.short	11837
+	.short	15662
+	.short	15679
+	.short	15677
+	.short	15677
+	.short	15677
+	.short	15677
+	.short	5443
 	.short	5398
 	.short	5397
 	.short	5397
 	.short	5909
-	.short	9033
+	.short	9031
 	.short	5411
 	.short	5411
 	.short	8995
@@ -9140,31 +9140,31 @@ startScreenBitmap:
 	.short	8995
 	.short	5911
 	.short	5911
-	.short	7734
-	.short	9782
+	.short	7477
+	.short	9781
 	.short	9766
-	.short	13878
+	.short	13621
 	.short	14593
 	.short	14649
 	.short	14649
 	.short	14649
-	.short	7453
+	.short	7967
 	.short	14649
-	.short	14621
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	285
-	.short	7425
-	.short	7453
+	.short	14623
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	287
+	.short	7937
+	.short	7967
 	.short	5911
-	.short	7447
+	.short	7959
 	.short	257
-	.short	285
+	.short	287
 	.short	257
 	.short	257
 	.short	5889
@@ -9177,113 +9177,113 @@ startScreenBitmap:
 	.short	257
 	.short	257
 	.short	257
-	.short	16448
+	.short	14906
 	.short	2570
 	.short	257
 	.short	257
 	.short	257
 	.short	257
-	.short	304
-	.short	304
+	.short	315
+	.short	315
 	.short	257
-	.short	4112
-	.short	12289
-	.short	4144
-	.short	12304
+	.short	4369
+	.short	15105
+	.short	4411
+	.short	15121
 	.short	15873
-	.short	12304
+	.short	15121
 	.short	15934
-	.short	4112
-	.short	14392
-	.short	14392
-	.short	4112
+	.short	4369
+	.short	14135
+	.short	14135
+	.short	4369
 	.short	15934
-	.short	4112
-	.short	15632
-	.short	15677
-	.short	10301
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	13107
+	.short	4369
+	.short	17937
+	.short	17990
+	.short	10566
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	12850
 	.short	5654
-	.short	15643
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15165
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15145
-	.short	16186
-	.short	16191
-	.short	16191
+	.short	17947
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19014
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	18984
+	.short	15424
+	.short	15420
+	.short	15420
 	.short	10794
 	.short	6698
 	.short	9997
-	.short	16174
+	.short	15405
+	.short	4924
 	.short	4927
-	.short	4930
-	.short	16962
-	.short	16962
-	.short	16962
-	.short	16962
-	.short	16962
-	.short	16966
-	.short	11586
-	.short	16705
-	.short	16705
-	.short	16705
-	.short	16705
-	.short	16705
-	.short	17473
-	.short	5700
+	.short	16191
+	.short	16191
+	.short	16191
+	.short	16191
+	.short	16191
+	.short	16197
+	.short	11839
+	.short	15677
+	.short	15677
+	.short	15677
+	.short	15677
+	.short	15677
+	.short	17213
+	.short	5699
 	.short	5397
 	.short	5397
-	.short	18709
-	.short	7971
-	.short	9033
+	.short	18197
+	.short	7715
+	.short	9031
 	.short	8995
 	.short	8995
 	.short	8995
 	.short	8995
 	.short	8995
 	.short	8995
-	.short	7959
-	.short	5919
-	.short	7710
-	.short	7710
-	.short	9782
-	.short	13862
+	.short	7703
+	.short	5918
+	.short	7453
+	.short	7453
+	.short	9781
+	.short	13606
 	.short	14615
 	.short	14649
 	.short	14649
 	.short	14649
-	.short	7453
-	.short	14621
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	5917
+	.short	7967
+	.short	14623
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	5919
 	.short	5911
 	.short	279
-	.short	7425
+	.short	7937
 	.short	257
 	.short	257
 	.short	257
@@ -9297,76 +9297,76 @@ startScreenBitmap:
 	.short	257
 	.short	257
 	.short	257
-	.short	16448
-	.short	2624
+	.short	14906
+	.short	2618
 	.short	257
 	.short	257
 	.short	257
-	.short	12289
+	.short	15105
 	.short	257
 	.short	2570
-	.short	4097
+	.short	4353
 	.short	257
-	.short	4097
-	.short	4112
-	.short	4097
-	.short	272
-	.short	4158
-	.short	4158
-	.short	4158
-	.short	14392
-	.short	14392
-	.short	15678
+	.short	4353
+	.short	4369
+	.short	4353
+	.short	273
+	.short	4414
+	.short	4414
+	.short	4414
+	.short	14135
+	.short	14135
+	.short	17982
 	.short	15934
-	.short	4112
+	.short	4369
 	.short	15934
-	.short	15678
-	.short	15672
-	.short	10302
-	.short	15677
-	.short	15677
-	.short	10301
-	.short	15656
-	.short	10301
-	.short	15656
-	.short	15677
-	.short	15677
-	.short	13107
+	.short	17982
+	.short	17975
+	.short	10558
+	.short	17990
+	.short	17990
+	.short	10566
+	.short	17961
+	.short	10566
+	.short	17961
+	.short	17990
+	.short	17990
+	.short	12850
 	.short	6934
-	.short	15126
-	.short	15165
-	.short	15677
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	10555
-	.short	15145
-	.short	16191
-	.short	10810
+	.short	18966
+	.short	19014
+	.short	17990
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	10314
+	.short	18984
+	.short	15420
+	.short	10816
 	.short	10794
 	.short	10794
 	.short	6698
+	.short	15420
+	.short	17468
+	.short	17468
 	.short	16191
-	.short	17215
-	.short	17215
-	.short	16962
-	.short	16962
-	.short	16962
-	.short	16962
-	.short	17965
-	.short	16941
-	.short	16685
-	.short	16705
-	.short	16705
-	.short	16705
-	.short	16705
-	.short	16705
-	.short	17473
-	.short	5700
+	.short	16191
+	.short	16191
+	.short	16191
+	.short	17710
+	.short	16174
+	.short	15662
+	.short	15677
+	.short	15677
+	.short	15677
+	.short	15677
+	.short	15677
+	.short	17213
+	.short	5699
 	.short	5397
 	.short	5397
 	.short	5397
@@ -9377,35 +9377,35 @@ startScreenBitmap:
 	.short	8995
 	.short	8995
 	.short	5667
-	.short	5440
+	.short	5434
 	.short	5923
-	.short	5943
-	.short	7710
-	.short	7710
-	.short	9780
-	.short	13878
+	.short	5942
+	.short	7453
+	.short	7453
+	.short	9779
+	.short	13621
 	.short	14615
 	.short	14649
 	.short	14649
-	.short	7481
-	.short	14621
-	.short	7453
-	.short	14621
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
+	.short	7993
+	.short	14623
+	.short	7967
+	.short	14623
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
 	.short	5911
 	.short	5911
 	.short	279
-	.short	7425
-	.short	7425
-	.short	7425
+	.short	7937
+	.short	7937
+	.short	7937
 	.short	257
 	.short	5889
 	.short	7191
@@ -9417,75 +9417,75 @@ startScreenBitmap:
 	.short	257
 	.short	257
 	.short	257
-	.short	16448
+	.short	14906
 	.short	2570
-	.short	304
+	.short	315
 	.short	257
 	.short	257
-	.short	12336
-	.short	304
+	.short	15163
+	.short	315
 	.short	2570
-	.short	12310
+	.short	15126
 	.short	257
-	.short	4144
-	.short	4112
-	.short	4112
-	.short	4112
-	.short	12350
-	.short	15888
-	.short	15888
-	.short	14392
-	.short	14392
-	.short	4112
+	.short	4411
+	.short	4369
+	.short	4369
+	.short	4369
+	.short	15166
+	.short	15889
+	.short	15889
+	.short	14135
+	.short	14135
+	.short	4369
 	.short	15934
-	.short	4158
-	.short	15888
-	.short	15678
-	.short	10808
-	.short	15672
-	.short	15677
-	.short	15678
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15656
-	.short	15677
-	.short	13115
-	.short	13107
+	.short	4414
+	.short	15889
+	.short	17982
+	.short	10807
+	.short	17975
+	.short	17990
+	.short	17982
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17961
+	.short	17990
+	.short	12874
+	.short	12850
 	.short	5659
-	.short	15165
-	.short	15675
-	.short	15675
-	.short	15675
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15145
-	.short	16169
+	.short	19014
+	.short	17994
+	.short	17994
+	.short	17994
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	18984
+	.short	15400
+	.short	15420
+	.short	10812
+	.short	10794
+	.short	10794
+	.short	10794
+	.short	15420
+	.short	16188
+	.short	16188
+	.short	17471
 	.short	16191
-	.short	10815
-	.short	10794
-	.short	10794
-	.short	10794
 	.short	16191
-	.short	16959
-	.short	16959
-	.short	17218
-	.short	16962
-	.short	16962
-	.short	16962
-	.short	16962
-	.short	16710
-	.short	11565
-	.short	16706
-	.short	16705
-	.short	16705
-	.short	16705
-	.short	19009
-	.short	17732
+	.short	16191
+	.short	16191
+	.short	15685
+	.short	11822
+	.short	15679
+	.short	15677
+	.short	15677
+	.short	15677
+	.short	19261
+	.short	18499
 	.short	5653
 	.short	5653
 	.short	5397
@@ -9497,34 +9497,34 @@ startScreenBitmap:
 	.short	8995
 	.short	8995
 	.short	2570
-	.short	16394
-	.short	16448
-	.short	16405
-	.short	7710
-	.short	7710
-	.short	9758
-	.short	13878
+	.short	14858
+	.short	14906
+	.short	14869
+	.short	7453
+	.short	7453
+	.short	9757
+	.short	13621
 	.short	14649
 	.short	14649
 	.short	14649
-	.short	7481
-	.short	14621
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	5917
+	.short	7993
+	.short	14623
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	5919
 	.short	5911
 	.short	5911
-	.short	7425
-	.short	7425
-	.short	285
+	.short	7937
+	.short	7937
+	.short	287
 	.short	257
 	.short	257
 	.short	5911
@@ -9536,75 +9536,75 @@ startScreenBitmap:
 	.short	257
 	.short	257
 	.short	257
-	.short	16385
-	.short	16448
+	.short	14849
+	.short	14906
 	.short	266
 	.short	257
 	.short	257
 	.short	257
 	.short	257
-	.short	304
+	.short	315
 	.short	2570
 	.short	2570
-	.short	4112
-	.short	12336
-	.short	12289
-	.short	304
-	.short	4112
-	.short	12304
+	.short	4369
+	.short	15163
+	.short	15105
+	.short	315
+	.short	4369
+	.short	15121
 	.short	15934
-	.short	4112
-	.short	14392
-	.short	15928
+	.short	4369
+	.short	14135
+	.short	15927
 	.short	15934
 	.short	15934
-	.short	4158
-	.short	15888
-	.short	15677
-	.short	14392
-	.short	14392
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	13117
-	.short	13107
+	.short	4414
+	.short	15889
+	.short	17990
+	.short	14135
+	.short	14135
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	12870
+	.short	12850
 	.short	6934
-	.short	15675
-	.short	15165
-	.short	15163
-	.short	15677
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	16187
-	.short	16191
-	.short	10815
+	.short	17994
+	.short	19014
+	.short	19018
+	.short	17990
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	15434
+	.short	15420
+	.short	10812
 	.short	2313
 	.short	2313
 	.short	10761
-	.short	16191
+	.short	15420
 	.short	4883
-	.short	4927
-	.short	16962
-	.short	16962
-	.short	16962
-	.short	16962
-	.short	11586
-	.short	11565
-	.short	16706
-	.short	16705
-	.short	16705
-	.short	16705
-	.short	16705
-	.short	16705
+	.short	4924
+	.short	16191
+	.short	16191
+	.short	16191
+	.short	16191
+	.short	11839
+	.short	11822
+	.short	15679
+	.short	15677
+	.short	15677
+	.short	15677
+	.short	15677
+	.short	15677
 	.short	5398
 	.short	5397
 	.short	5397
@@ -9620,31 +9620,31 @@ startScreenBitmap:
 	.short	6939
 	.short	3855
 	.short	5647
-	.short	5440
+	.short	5434
 	.short	8983
-	.short	7971
-	.short	14153
+	.short	7715
+	.short	13895
 	.short	14649
 	.short	14649
 	.short	14649
-	.short	7453
+	.short	7967
 	.short	14649
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
 	.short	5911
 	.short	5911
 	.short	5911
-	.short	285
-	.short	285
-	.short	7425
+	.short	287
+	.short	287
+	.short	7937
 	.short	257
 	.short	257
 	.short	5911
@@ -9656,75 +9656,75 @@ startScreenBitmap:
 	.short	257
 	.short	257
 	.short	257
-	.short	16385
-	.short	16448
+	.short	14849
+	.short	14906
 	.short	266
 	.short	257
 	.short	257
 	.short	257
-	.short	12336
+	.short	15163
 	.short	257
 	.short	2570
 	.short	3850
 	.short	266
-	.short	272
+	.short	273
 	.short	257
-	.short	4112
+	.short	4369
 	.short	15873
-	.short	4112
+	.short	4369
 	.short	15934
-	.short	14352
-	.short	14392
-	.short	15928
+	.short	14097
+	.short	14135
+	.short	15927
 	.short	15934
 	.short	15934
-	.short	4112
-	.short	15632
-	.short	10813
-	.short	14392
-	.short	14392
-	.short	15672
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15656
-	.short	15677
-	.short	15677
-	.short	13117
-	.short	13107
-	.short	13107
-	.short	15163
-	.short	15675
-	.short	15163
-	.short	15163
-	.short	15675
-	.short	15677
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	14906
-	.short	14911
-	.short	2367
+	.short	4369
+	.short	17937
+	.short	10822
+	.short	14135
+	.short	14135
+	.short	17975
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17961
+	.short	17990
+	.short	17990
+	.short	12870
+	.short	12850
+	.short	12850
+	.short	19018
+	.short	17994
+	.short	19018
+	.short	19018
+	.short	17994
+	.short	17990
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	16448
+	.short	16444
+	.short	2364
 	.short	10761
 	.short	2313
 	.short	10794
+	.short	15420
+	.short	15379
 	.short	16191
-	.short	16147
-	.short	16962
-	.short	16962
-	.short	16962
-	.short	16962
-	.short	16962
-	.short	16962
-	.short	16705
-	.short	16705
-	.short	16705
-	.short	11585
-	.short	16705
-	.short	16705
-	.short	5697
+	.short	16191
+	.short	16191
+	.short	16191
+	.short	16191
+	.short	16191
+	.short	15677
+	.short	15677
+	.short	15677
+	.short	11837
+	.short	15677
+	.short	15677
+	.short	5693
 	.short	5653
 	.short	5397
 	.short	5397
@@ -9740,33 +9740,33 @@ startScreenBitmap:
 	.short	6939
 	.short	6939
 	.short	2575
-	.short	5440
-	.short	14115
+	.short	5434
+	.short	13859
 	.short	5911
-	.short	7959
+	.short	7703
 	.short	14649
 	.short	14649
 	.short	14649
-	.short	7481
-	.short	7453
-	.short	7453
-	.short	14621
-	.short	14621
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	5917
+	.short	7993
+	.short	7967
+	.short	7967
+	.short	14623
+	.short	14623
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
 	.short	5919
-	.short	7959
+	.short	5918
+	.short	7703
 	.short	5911
-	.short	7453
+	.short	7967
 	.short	257
 	.short	257
-	.short	285
-	.short	285
+	.short	287
+	.short	287
 	.short	5916
 	.short	5911
 	.short	5911
@@ -9777,73 +9777,73 @@ startScreenBitmap:
 	.short	257
 	.short	257
 	.short	2561
-	.short	2624
+	.short	2618
 	.short	266
-	.short	304
+	.short	315
 	.short	257
 	.short	257
-	.short	12336
-	.short	7937
+	.short	15163
+	.short	7681
 	.short	3850
 	.short	3855
 	.short	3855
-	.short	4097
-	.short	304
-	.short	272
-	.short	272
-	.short	15920
-	.short	15888
-	.short	14352
-	.short	14392
-	.short	4152
+	.short	4353
+	.short	315
+	.short	273
+	.short	273
+	.short	15931
+	.short	15889
+	.short	14097
+	.short	14135
+	.short	4407
 	.short	15934
 	.short	15934
-	.short	4112
-	.short	15933
+	.short	4369
+	.short	15942
 	.short	10814
-	.short	10808
-	.short	14392
-	.short	14392
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	4669
-	.short	13107
-	.short	15667
-	.short	15165
-	.short	15675
-	.short	15163
-	.short	15675
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	10555
-	.short	16191
-	.short	14907
+	.short	10807
+	.short	14135
+	.short	14135
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	4678
+	.short	12850
+	.short	17970
+	.short	19014
+	.short	17994
+	.short	19018
+	.short	17994
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	10314
+	.short	15420
+	.short	16458
 	.short	10794
 	.short	10794
 	.short	2346
-	.short	16137
-	.short	4927
-	.short	4927
-	.short	17218
-	.short	16962
-	.short	16962
-	.short	16962
-	.short	17986
-	.short	11586
-	.short	16961
-	.short	16705
-	.short	16706
-	.short	16705
-	.short	16705
-	.short	16705
+	.short	15369
+	.short	4924
+	.short	4924
+	.short	17471
+	.short	16191
+	.short	16191
+	.short	16191
+	.short	17727
+	.short	11839
+	.short	16189
+	.short	15677
+	.short	15679
+	.short	15677
+	.short	15677
+	.short	15677
 	.short	5398
 	.short	5398
 	.short	5398
@@ -9863,26 +9863,26 @@ startScreenBitmap:
 	.short	8981
 	.short	8995
 	.short	5911
-	.short	14623
+	.short	14622
 	.short	14649
 	.short	14649
 	.short	14649
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	5917
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	5919
 	.short	5911
 	.short	5911
 	.short	279
-	.short	7425
+	.short	7937
 	.short	257
 	.short	257
 	.short	257
@@ -9890,10 +9890,10 @@ startScreenBitmap:
 	.short	5911
 	.short	7191
 	.short	7191
-	.short	16412
+	.short	14876
 	.short	257
 	.short	257
-	.short	304
+	.short	315
 	.short	257
 	.short	257
 	.short	2570
@@ -9901,70 +9901,70 @@ startScreenBitmap:
 	.short	266
 	.short	257
 	.short	257
-	.short	12289
+	.short	15105
 	.short	257
 	.short	3841
 	.short	3855
 	.short	3855
 	.short	3855
 	.short	271
-	.short	4112
-	.short	272
-	.short	4112
+	.short	4369
+	.short	273
+	.short	4369
 	.short	15934
-	.short	4158
-	.short	14398
-	.short	14392
+	.short	4414
+	.short	14142
+	.short	14135
 	.short	15934
-	.short	15678
+	.short	17982
 	.short	15934
-	.short	10302
-	.short	15632
-	.short	10813
-	.short	14378
-	.short	14392
-	.short	14392
-	.short	15672
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	13117
-	.short	13107
-	.short	15667
-	.short	15675
-	.short	15165
-	.short	2107
-	.short	15165
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15145
-	.short	10555
-	.short	15163
-	.short	15145
-	.short	16186
-	.short	16186
+	.short	10558
+	.short	17937
+	.short	10822
+	.short	14122
+	.short	14135
+	.short	14135
+	.short	17975
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	12870
+	.short	12850
+	.short	17970
+	.short	17994
+	.short	19014
+	.short	2122
+	.short	19014
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	18984
+	.short	10314
+	.short	19018
+	.short	18984
+	.short	15424
+	.short	15424
 	.short	10761
 	.short	10794
 	.short	2313
-	.short	16170
-	.short	16959
-	.short	16915
-	.short	16962
-	.short	16962
-	.short	16962
-	.short	16962
-	.short	17986
-	.short	17965
-	.short	16706
-	.short	16685
-	.short	16705
-	.short	16705
-	.short	16705
-	.short	16705
-	.short	5697
+	.short	15402
+	.short	16188
+	.short	16147
+	.short	16191
+	.short	16191
+	.short	16191
+	.short	16191
+	.short	17727
+	.short	17710
+	.short	15679
+	.short	15662
+	.short	15677
+	.short	15677
+	.short	15677
+	.short	15677
+	.short	5693
 	.short	5397
 	.short	5397
 	.short	5397
@@ -9987,24 +9987,24 @@ startScreenBitmap:
 	.short	14649
 	.short	14649
 	.short	14649
-	.short	7453
+	.short	7967
 	.short	14649
-	.short	5919
-	.short	5919
+	.short	5918
+	.short	5918
 	.short	5911
-	.short	5919
+	.short	5918
 	.short	5911
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
 	.short	5911
 	.short	5911
 	.short	279
 	.short	257
 	.short	257
-	.short	285
+	.short	287
 	.short	257
 	.short	5889
 	.short	5916
@@ -10021,47 +10021,47 @@ startScreenBitmap:
 	.short	257
 	.short	257
 	.short	257
-	.short	12289
-	.short	12336
+	.short	15105
+	.short	15163
 	.short	3841
 	.short	3855
 	.short	3855
 	.short	3855
-	.short	4111
-	.short	4112
-	.short	4112
-	.short	15888
-	.short	4158
-	.short	4112
-	.short	14392
-	.short	14392
-	.short	15888
-	.short	15678
+	.short	4367
+	.short	4369
+	.short	4369
+	.short	15889
+	.short	4414
+	.short	4369
+	.short	14135
+	.short	14135
+	.short	15889
+	.short	17982
 	.short	15934
-	.short	15678
-	.short	15677
-	.short	10813
+	.short	17982
+	.short	17990
+	.short	10822
 	.short	10794
-	.short	14392
-	.short	14392
-	.short	15672
-	.short	15677
-	.short	15677
-	.short	10301
-	.short	15677
-	.short	15677
+	.short	14135
+	.short	14135
+	.short	17975
+	.short	17990
+	.short	17990
+	.short	10566
+	.short	17990
+	.short	17990
 	.short	4626
-	.short	13074
-	.short	15155
-	.short	15677
-	.short	15165
-	.short	15163
-	.short	15675
-	.short	15675
-	.short	13115
+	.short	12818
+	.short	18994
+	.short	17990
+	.short	19014
+	.short	19018
+	.short	17994
+	.short	17994
+	.short	12874
 	.short	4626
 	.short	4626
-	.short	14349
+	.short	14093
 	.short	10794
 	.short	10794
 	.short	10794
@@ -10069,22 +10069,22 @@ startScreenBitmap:
 	.short	2313
 	.short	2346
 	.short	2313
-	.short	16137
+	.short	15369
+	.short	15420
+	.short	15420
+	.short	16147
 	.short	16191
-	.short	16191
-	.short	16915
-	.short	16962
-	.short	8770
+	.short	8767
 	.short	8738
 	.short	5654
 	.short	5654
 	.short	5654
 	.short	5654
-	.short	16685
-	.short	16705
-	.short	16705
-	.short	16705
-	.short	5441
+	.short	15662
+	.short	15677
+	.short	15677
+	.short	15677
+	.short	5437
 	.short	5398
 	.short	5397
 	.short	5397
@@ -10107,22 +10107,22 @@ startScreenBitmap:
 	.short	14649
 	.short	14649
 	.short	14649
-	.short	14621
-	.short	14137
-	.short	7967
-	.short	5919
+	.short	14623
+	.short	13881
+	.short	7710
+	.short	5918
 	.short	5911
 	.short	7191
-	.short	14108
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
+	.short	13852
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
 	.short	5916
 	.short	5911
-	.short	7447
-	.short	7453
+	.short	7959
+	.short	7967
 	.short	257
 	.short	257
 	.short	257
@@ -10141,46 +10141,46 @@ startScreenBitmap:
 	.short	257
 	.short	257
 	.short	257
-	.short	12289
-	.short	304
+	.short	15105
+	.short	315
 	.short	6913
 	.short	6939
 	.short	6927
 	.short	3855
 	.short	271
-	.short	4112
-	.short	4097
-	.short	15920
-	.short	4158
-	.short	4112
-	.short	14392
-	.short	14392
-	.short	15888
+	.short	4369
+	.short	4353
+	.short	15931
+	.short	4414
+	.short	4369
+	.short	14135
+	.short	14135
+	.short	15889
 	.short	15934
 	.short	15934
-	.short	4158
-	.short	15678
+	.short	4414
+	.short	17982
 	.short	10794
 	.short	10794
-	.short	14392
-	.short	14392
-	.short	15672
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
+	.short	14135
+	.short	14135
+	.short	17975
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
 	.short	4626
-	.short	4659
-	.short	15667
-	.short	15675
-	.short	15165
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	4667
+	.short	4658
+	.short	17970
+	.short	17994
+	.short	19014
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	4682
 	.short	4626
-	.short	14349
+	.short	14093
 	.short	10794
 	.short	10794
 	.short	10794
@@ -10189,29 +10189,29 @@ startScreenBitmap:
 	.short	2313
 	.short	2313
 	.short	2313
-	.short	16191
-	.short	16191
-	.short	16959
-	.short	16915
-	.short	16963
-	.short	8770
+	.short	15420
+	.short	15420
+	.short	16188
+	.short	16147
+	.short	16196
+	.short	8767
 	.short	8738
 	.short	5654
 	.short	5654
 	.short	5654
 	.short	5654
-	.short	16706
-	.short	16705
-	.short	16705
-	.short	16705
-	.short	5441
+	.short	15679
+	.short	15677
+	.short	15677
+	.short	15677
+	.short	5437
 	.short	5397
 	.short	5398
 	.short	5397
 	.short	5397
 	.short	8981
 	.short	8995
-	.short	7971
+	.short	7715
 	.short	5923
 	.short	8995
 	.short	5923
@@ -10226,25 +10226,25 @@ startScreenBitmap:
 	.short	14649
 	.short	14649
 	.short	14649
-	.short	7481
-	.short	7453
-	.short	7965
+	.short	7993
+	.short	7967
+	.short	7711
 	.short	5911
 	.short	5911
 	.short	5911
-	.short	7199
-	.short	16448
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7232
+	.short	7198
+	.short	14906
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7226
 	.short	5911
-	.short	7453
-	.short	7425
+	.short	7967
+	.short	7937
 	.short	257
-	.short	285
+	.short	287
 	.short	257
 	.short	7191
 	.short	7191
@@ -10261,46 +10261,46 @@ startScreenBitmap:
 	.short	257
 	.short	257
 	.short	257
-	.short	12289
+	.short	15105
 	.short	257
 	.short	6939
 	.short	6939
 	.short	6939
 	.short	6939
 	.short	271
-	.short	4112
-	.short	4097
-	.short	15888
-	.short	15920
-	.short	4158
-	.short	14392
-	.short	8760
+	.short	4369
+	.short	4353
+	.short	15889
+	.short	15931
+	.short	4414
+	.short	14135
+	.short	8759
 	.short	15934
-	.short	4158
-	.short	4158
-	.short	10256
-	.short	15677
+	.short	4414
+	.short	4414
+	.short	10513
+	.short	17990
 	.short	2313
 	.short	10794
 	.short	10794
-	.short	14392
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15165
+	.short	14135
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	19014
 	.short	4626
-	.short	4659
-	.short	15667
-	.short	15675
-	.short	15165
-	.short	15677
-	.short	15163
-	.short	15163
+	.short	4658
+	.short	17970
+	.short	17994
+	.short	19014
+	.short	17990
+	.short	19018
+	.short	19018
 	.short	4626
 	.short	4626
-	.short	14392
+	.short	14135
 	.short	10794
 	.short	2346
 	.short	10794
@@ -10309,29 +10309,29 @@ startScreenBitmap:
 	.short	2313
 	.short	2313
 	.short	10761
-	.short	16194
-	.short	16959
-	.short	17218
-	.short	16962
-	.short	16962
-	.short	13122
+	.short	15423
+	.short	16188
+	.short	17471
+	.short	16191
+	.short	16191
+	.short	12863
 	.short	8738
 	.short	5654
 	.short	5654
 	.short	5654
 	.short	5654
-	.short	16705
-	.short	16705
-	.short	16705
-	.short	16705
-	.short	5441
+	.short	15677
+	.short	15677
+	.short	15677
+	.short	15677
+	.short	5437
 	.short	5398
 	.short	5397
 	.short	5397
 	.short	8981
 	.short	5397
-	.short	14115
-	.short	9015
+	.short	13859
+	.short	9014
 	.short	5911
 	.short	5911
 	.short	8983
@@ -10347,22 +10347,22 @@ startScreenBitmap:
 	.short	14649
 	.short	14649
 	.short	14649
-	.short	7481
 	.short	7993
+	.short	7737
 	.short	5911
 	.short	5911
-	.short	7232
+	.short	7226
 	.short	2588
 	.short	7183
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	16448
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	14906
 	.short	5916
-	.short	285
-	.short	285
+	.short	287
+	.short	287
 	.short	257
 	.short	257
 	.short	257
@@ -10387,40 +10387,40 @@ startScreenBitmap:
 	.short	6939
 	.short	6939
 	.short	6939
-	.short	4123
-	.short	4144
-	.short	4112
-	.short	15888
-	.short	15888
-	.short	4158
-	.short	14392
-	.short	15928
+	.short	4379
+	.short	4411
+	.short	4369
+	.short	15889
+	.short	15889
+	.short	4414
+	.short	14135
+	.short	15927
 	.short	15934
-	.short	4158
-	.short	15888
-	.short	4158
-	.short	15933
+	.short	4414
+	.short	15889
+	.short	4414
+	.short	15942
 	.short	10761
 	.short	10794
 	.short	10794
-	.short	10808
-	.short	15677
-	.short	15677
-	.short	10301
-	.short	15677
-	.short	15677
-	.short	15677
+	.short	10807
+	.short	17990
+	.short	17990
+	.short	10566
+	.short	17990
+	.short	17990
+	.short	17990
 	.short	4626
 	.short	4626
-	.short	15677
-	.short	15163
-	.short	15165
-	.short	15165
-	.short	15163
-	.short	15165
+	.short	17990
+	.short	19018
+	.short	19014
+	.short	19014
+	.short	19018
+	.short	19014
 	.short	4626
-	.short	4664
-	.short	14378
+	.short	4663
+	.short	14122
 	.short	10794
 	.short	10794
 	.short	2346
@@ -10429,22 +10429,22 @@ startScreenBitmap:
 	.short	2313
 	.short	2346
 	.short	10761
+	.short	15420
+	.short	15420
 	.short	16191
 	.short	16191
-	.short	16962
-	.short	16962
-	.short	16962
-	.short	8755
+	.short	16191
+	.short	8754
 	.short	10018
 	.short	5654
 	.short	5654
 	.short	5654
-	.short	16662
-	.short	16705
-	.short	16705
-	.short	16705
-	.short	16705
-	.short	5700
+	.short	15638
+	.short	15677
+	.short	15677
+	.short	15677
+	.short	15677
+	.short	5699
 	.short	5397
 	.short	5397
 	.short	5397
@@ -10452,8 +10452,8 @@ startScreenBitmap:
 	.short	8981
 	.short	8995
 	.short	8995
-	.short	7959
-	.short	5919
+	.short	7703
+	.short	5918
 	.short	5923
 	.short	5923
 	.short	6939
@@ -10467,24 +10467,24 @@ startScreenBitmap:
 	.short	14649
 	.short	14649
 	.short	14649
-	.short	7453
-	.short	5961
+	.short	7967
+	.short	5959
 	.short	5916
-	.short	16448
-	.short	16448
+	.short	14906
+	.short	14906
 	.short	3850
-	.short	7439
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	16413
-	.short	16448
+	.short	7951
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	14879
+	.short	14906
 	.short	7196
 	.short	257
 	.short	257
 	.short	257
-	.short	285
+	.short	287
 	.short	257
 	.short	7191
 	.short	7191
@@ -10496,75 +10496,75 @@ startScreenBitmap:
 	.short	257
 	.short	257
 	.short	6913
-	.short	6984
-	.short	328
+	.short	6978
+	.short	322
 	.short	257
 	.short	257
 	.short	257
-	.short	12289
+	.short	15105
 	.short	257
-	.short	6984
-	.short	6984
-	.short	6984
-	.short	6984
-	.short	4144
-	.short	4112
-	.short	15888
-	.short	15888
-	.short	15888
-	.short	14352
-	.short	14392
-	.short	15928
+	.short	6978
+	.short	6978
+	.short	6978
+	.short	6978
+	.short	4411
+	.short	4369
+	.short	15889
+	.short	15889
+	.short	15889
+	.short	14097
+	.short	14135
+	.short	15927
 	.short	15934
-	.short	15933
-	.short	4158
-	.short	15888
+	.short	15942
+	.short	4414
+	.short	15889
 	.short	9278
 	.short	2313
 	.short	10761
 	.short	10794
-	.short	14378
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	4669
+	.short	14122
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	4678
 	.short	4626
 	.short	4626
-	.short	15677
-	.short	15677
-	.short	15163
-	.short	15165
-	.short	15165
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	10555
-	.short	10537
-	.short	16187
-	.short	10815
+	.short	17990
+	.short	17990
+	.short	19018
+	.short	19014
+	.short	19014
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	10314
+	.short	10280
+	.short	15434
+	.short	10812
 	.short	10761
 	.short	2313
-	.short	16170
+	.short	15402
+	.short	15420
+	.short	15420
+	.short	16188
 	.short	16191
 	.short	16191
-	.short	16959
-	.short	16962
-	.short	16962
-	.short	8755
+	.short	8754
 	.short	8738
 	.short	5654
 	.short	5654
 	.short	5654
-	.short	16662
-	.short	16705
-	.short	16705
-	.short	16705
-	.short	16705
-	.short	5444
+	.short	15638
+	.short	15677
+	.short	15677
+	.short	15677
+	.short	15677
+	.short	5443
 	.short	5397
 	.short	5397
 	.short	5397
@@ -10572,8 +10572,8 @@ startScreenBitmap:
 	.short	8995
 	.short	8995
 	.short	8995
-	.short	7959
-	.short	5919
+	.short	7703
+	.short	5918
 	.short	5911
 	.short	5923
 	.short	6939
@@ -10588,24 +10588,22 @@ startScreenBitmap:
 	.short	14649
 	.short	14649
 	.short	14649
-	.short	15371
-	.short	8252
-	.short	2876
-	.short	15371
-	.short	13579
-	.short	7477
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	16413
-	.short	16448
+	.short	14347
+	.short	8248
+	.short	2872
+	.short	14347
+	.short	13323
+	.short	7988
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	14879
+	.short	14906
 	.short	7196
-	.short	7453
+	.short	7967
 	.short	257
-	.short	285
-	.short	257
-	.short	257
+	.short	287
 	.short	257
 	.short	257
 	.short	257
@@ -10615,76 +10613,78 @@ startScreenBitmap:
 	.short	257
 	.short	257
 	.short	257
-	.short	18433
+	.short	257
+	.short	257
+	.short	16897
 	.short	514
 	.short	258
 	.short	257
 	.short	257
 	.short	257
-	.short	12336
+	.short	15163
 	.short	1025
 	.short	1028
 	.short	12036
 	.short	12036
 	.short	1028
-	.short	4097
-	.short	4112
-	.short	15888
-	.short	15888
+	.short	4353
+	.short	4369
+	.short	15889
+	.short	15889
 	.short	15934
 	.short	2366
-	.short	14392
-	.short	15928
-	.short	15888
-	.short	4157
-	.short	4158
-	.short	15933
+	.short	14135
+	.short	15927
+	.short	15889
+	.short	4422
+	.short	4414
+	.short	15942
 	.short	9278
 	.short	9252
 	.short	9252
 	.short	9252
 	.short	9252
-	.short	15677
-	.short	15677
-	.short	10280
-	.short	15677
-	.short	15677
-	.short	4669
+	.short	17990
+	.short	17990
+	.short	10537
+	.short	17990
+	.short	17990
+	.short	4678
 	.short	4626
 	.short	4626
-	.short	15165
-	.short	15677
-	.short	15165
-	.short	15165
-	.short	15163
-	.short	15675
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	16169
-	.short	16191
+	.short	19014
+	.short	17990
+	.short	19014
+	.short	19014
+	.short	19018
+	.short	17994
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	15400
+	.short	15420
 	.short	2346
 	.short	10761
 	.short	2346
-	.short	16170
-	.short	16194
+	.short	15402
+	.short	15423
 	.short	4883
-	.short	16962
-	.short	16962
-	.short	11842
+	.short	16191
+	.short	16191
+	.short	11583
 	.short	8738
 	.short	8738
 	.short	10023
 	.short	10023
 	.short	10023
-	.short	16679
-	.short	16705
-	.short	16705
-	.short	16705
-	.short	16705
-	.short	5697
+	.short	15655
+	.short	15677
+	.short	15677
+	.short	15677
+	.short	15677
+	.short	5693
 	.short	5397
 	.short	5397
 	.short	5397
@@ -10707,32 +10707,32 @@ startScreenBitmap:
 	.short	14649
 	.short	14649
 	.short	14649
-	.short	14621
-	.short	15371
+	.short	14623
+	.short	14347
 	.short	2827
 	.short	2827
-	.short	2869
-	.short	565
-	.short	7477
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7197
+	.short	2868
+	.short	564
+	.short	7988
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7199
 	.short	7196
 	.short	7196
-	.short	7453
+	.short	7967
 	.short	257
-	.short	285
-	.short	285
-	.short	257
-	.short	257
+	.short	287
+	.short	287
 	.short	257
 	.short	257
 	.short	257
 	.short	257
 	.short	257
-	.short	12289
+	.short	257
+	.short	257
+	.short	15105
 	.short	257
 	.short	257
 	.short	6939
@@ -10741,70 +10741,70 @@ startScreenBitmap:
 	.short	257
 	.short	257
 	.short	257
-	.short	304
+	.short	315
 	.short	12033
 	.short	1028
 	.short	1071
 	.short	1071
 	.short	1071
-	.short	4097
-	.short	4112
-	.short	4112
+	.short	4353
+	.short	4369
+	.short	4369
 	.short	15934
-	.short	4158
+	.short	4414
 	.short	2366
-	.short	2360
+	.short	2359
 	.short	15934
 	.short	15934
 	.short	15934
-	.short	15888
-	.short	15888
+	.short	15889
+	.short	15889
 	.short	9278
 	.short	9252
 	.short	9252
 	.short	9252
-	.short	15652
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	4669
+	.short	17956
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	4678
 	.short	4626
 	.short	4626
-	.short	15165
-	.short	15675
-	.short	15165
-	.short	15163
-	.short	15163
-	.short	15165
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15145
-	.short	16169
-	.short	16191
+	.short	19014
+	.short	17994
+	.short	19014
+	.short	19018
+	.short	19018
+	.short	19014
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	18984
+	.short	15400
+	.short	15420
 	.short	10794
 	.short	10794
 	.short	10761
 	.short	4906
+	.short	15420
+	.short	15420
+	.short	4924
 	.short	16191
-	.short	16191
-	.short	4927
-	.short	16962
-	.short	11842
+	.short	11583
 	.short	8738
 	.short	8738
 	.short	10018
 	.short	10018
 	.short	10023
-	.short	16705
-	.short	16705
-	.short	16705
-	.short	16705
-	.short	16705
-	.short	5441
+	.short	15677
+	.short	15677
+	.short	15677
+	.short	15677
+	.short	15677
+	.short	5437
 	.short	5397
 	.short	5397
 	.short	5397
@@ -10824,25 +10824,25 @@ startScreenBitmap:
 	.short	8981
 	.short	14627
 	.short	14649
-	.short	14621
+	.short	14623
 	.short	14649
-	.short	14621
+	.short	14623
 	.short	14649
-	.short	13579
-	.short	15413
-	.short	565
+	.short	13323
+	.short	14388
+	.short	564
 	.short	514
 	.short	514
-	.short	7477
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7197
+	.short	7988
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7199
 	.short	7196
 	.short	7196
-	.short	7425
-	.short	285
+	.short	7937
+	.short	287
 	.short	257
 	.short	257
 	.short	257
@@ -10855,75 +10855,75 @@ startScreenBitmap:
 	.short	257
 	.short	257
 	.short	257
-	.short	18459
+	.short	16923
 	.short	514
 	.short	257
 	.short	257
 	.short	257
-	.short	12304
-	.short	304
-	.short	1040
+	.short	15121
+	.short	315
+	.short	1041
 	.short	12036
 	.short	1071
 	.short	1028
-	.short	12292
-	.short	4097
-	.short	272
-	.short	15888
-	.short	4112
-	.short	4158
-	.short	2320
-	.short	14345
+	.short	15108
+	.short	4353
+	.short	273
+	.short	15889
+	.short	4369
+	.short	4414
+	.short	2321
+	.short	14089
 	.short	15934
-	.short	4158
+	.short	4414
 	.short	15934
-	.short	15888
-	.short	15933
-	.short	9277
+	.short	15889
+	.short	15942
+	.short	9286
 	.short	9252
 	.short	9252
 	.short	9252
-	.short	15652
-	.short	15677
-	.short	15677
-	.short	10280
-	.short	15677
-	.short	15677
-	.short	4626
-	.short	4626
-	.short	15634
-	.short	15675
-	.short	15163
-	.short	15165
-	.short	15165
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
+	.short	17956
+	.short	17990
+	.short	17990
 	.short	10537
-	.short	16169
-	.short	16191
+	.short	17990
+	.short	17990
+	.short	4626
+	.short	4626
+	.short	17938
+	.short	17994
+	.short	19018
+	.short	19014
+	.short	19014
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	10280
+	.short	15400
+	.short	15420
 	.short	10794
 	.short	10794
 	.short	10794
-	.short	16170
+	.short	15402
+	.short	15420
+	.short	15420
 	.short	16191
-	.short	16191
-	.short	16962
-	.short	16963
-	.short	13122
-	.short	13090
-	.short	13102
-	.short	8755
+	.short	16196
+	.short	12863
+	.short	12834
+	.short	12845
+	.short	8754
 	.short	8738
 	.short	10023
-	.short	16705
-	.short	16705
-	.short	16705
-	.short	16705
-	.short	17729
+	.short	15677
+	.short	15677
+	.short	15677
+	.short	15677
+	.short	18493
 	.short	5923
 	.short	5397
 	.short	5397
@@ -10933,7 +10933,7 @@ startScreenBitmap:
 	.short	8995
 	.short	8995
 	.short	5923
-	.short	14103
+	.short	13847
 	.short	5911
 	.short	5923
 	.short	6927
@@ -10945,20 +10945,20 @@ startScreenBitmap:
 	.short	14613
 	.short	14649
 	.short	14649
-	.short	7481
-	.short	7481
-	.short	3869
-	.short	13621
-	.short	8245
+	.short	7993
+	.short	7993
+	.short	3871
+	.short	13364
+	.short	8244
 	.short	514
 	.short	8194
 	.short	517
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7425
-	.short	7453
-	.short	7197
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7937
+	.short	7967
+	.short	7199
 	.short	7191
 	.short	7196
 	.short	284
@@ -10973,77 +10973,77 @@ startScreenBitmap:
 	.short	257
 	.short	257
 	.short	257
-	.short	304
+	.short	315
 	.short	257
 	.short	6939
 	.short	514
 	.short	257
 	.short	257
 	.short	257
-	.short	4097
+	.short	4353
 	.short	257
 	.short	12033
 	.short	1071
 	.short	1028
 	.short	1028
-	.short	4100
-	.short	4097
-	.short	4112
-	.short	4112
+	.short	4356
+	.short	4353
+	.short	4369
+	.short	4369
 	.short	15934
-	.short	15888
+	.short	15889
 	.short	2322
 	.short	2313
 	.short	15934
-	.short	4158
-	.short	15888
-	.short	15632
-	.short	15632
+	.short	4414
+	.short	15889
+	.short	17937
+	.short	17937
 	.short	9252
 	.short	9216
 	.short	9216
 	.short	9252
-	.short	15616
-	.short	15677
-	.short	10301
-	.short	10301
-	.short	15677
-	.short	15677
+	.short	17920
+	.short	17990
+	.short	10566
+	.short	10566
+	.short	17990
+	.short	17990
 	.short	4626
 	.short	4626
-	.short	15634
-	.short	15163
-	.short	15677
-	.short	15675
-	.short	15165
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	10555
-	.short	10555
-	.short	16191
-	.short	10815
+	.short	17938
+	.short	19018
+	.short	17990
+	.short	17994
+	.short	19014
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	10314
+	.short	10314
+	.short	15420
+	.short	10812
 	.short	10794
 	.short	10794
 	.short	10794
-	.short	16191
+	.short	15420
+	.short	15379
+	.short	15420
 	.short	16147
 	.short	16191
-	.short	16915
-	.short	16962
-	.short	13122
-	.short	13107
-	.short	3374
-	.short	11794
-	.short	13102
+	.short	12863
+	.short	12850
+	.short	3373
+	.short	11538
+	.short	12845
 	.short	8738
-	.short	16706
-	.short	16705
-	.short	16705
-	.short	16705
-	.short	16705
+	.short	15679
+	.short	15677
+	.short	15677
+	.short	15677
+	.short	15677
 	.short	5397
 	.short	5397
 	.short	5397
@@ -11056,7 +11056,7 @@ startScreenBitmap:
 	.short	8995
 	.short	8983
 	.short	5911
-	.short	6943
+	.short	6942
 	.short	6939
 	.short	6939
 	.short	6939
@@ -11068,16 +11068,16 @@ startScreenBitmap:
 	.short	14649
 	.short	14649
 	.short	3897
-	.short	13621
+	.short	13364
 	.short	514
 	.short	8194
 	.short	514
-	.short	13621
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
+	.short	13364
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
 	.short	7196
 	.short	7196
 	.short	7191
@@ -11095,75 +11095,75 @@ startScreenBitmap:
 	.short	257
 	.short	257
 	.short	3841
-	.short	18459
+	.short	16923
 	.short	514
 	.short	257
 	.short	257
 	.short	257
-	.short	12289
+	.short	15105
 	.short	257
 	.short	12079
 	.short	1071
 	.short	1028
 	.short	12036
-	.short	4143
-	.short	4112
-	.short	272
-	.short	15888
-	.short	4158
+	.short	4399
+	.short	4369
+	.short	273
+	.short	15889
+	.short	4414
 	.short	15934
 	.short	4626
 	.short	2322
-	.short	15888
-	.short	4158
+	.short	15889
+	.short	4414
 	.short	15934
-	.short	10256
-	.short	15678
+	.short	10513
+	.short	17982
 	.short	36
 	.short	0
-	.short	15396
+	.short	14372
 	.short	0
-	.short	15652
-	.short	15677
-	.short	10301
-	.short	15656
-	.short	15677
-	.short	15677
+	.short	17956
+	.short	17990
+	.short	10566
+	.short	17961
+	.short	17990
+	.short	17990
 	.short	4626
 	.short	4626
-	.short	15634
-	.short	15163
-	.short	15163
-	.short	15165
-	.short	15163
-	.short	15675
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	10555
-	.short	14906
+	.short	17938
+	.short	19018
+	.short	19018
+	.short	19014
+	.short	19018
+	.short	17994
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	10314
+	.short	16448
+	.short	15420
+	.short	10812
+	.short	10794
+	.short	10794
+	.short	10794
+	.short	4924
+	.short	4924
+	.short	16188
 	.short	16191
-	.short	10815
-	.short	10794
-	.short	10794
-	.short	10794
-	.short	4927
-	.short	4927
-	.short	16959
-	.short	16962
-	.short	16962
+	.short	16191
 	.short	11282
-	.short	13100
+	.short	12844
 	.short	3341
 	.short	3341
-	.short	13102
+	.short	12845
 	.short	8738
-	.short	16685
-	.short	16705
-	.short	16705
-	.short	16705
-	.short	16705
+	.short	15662
+	.short	15677
+	.short	15677
+	.short	15677
+	.short	15677
 	.short	5397
 	.short	5397
 	.short	5397
@@ -11176,7 +11176,7 @@ startScreenBitmap:
 	.short	8983
 	.short	8983
 	.short	5911
-	.short	6985
+	.short	6983
 	.short	6939
 	.short	6939
 	.short	6939
@@ -11186,18 +11186,18 @@ startScreenBitmap:
 	.short	14649
 	.short	14649
 	.short	14649
-	.short	7453
+	.short	7967
 	.short	3897
-	.short	13570
+	.short	13314
 	.short	514
 	.short	514
 	.short	514
-	.short	13600
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
+	.short	13344
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
 	.short	7191
 	.short	7191
 	.short	5916
@@ -11220,22 +11220,22 @@ startScreenBitmap:
 	.short	257
 	.short	257
 	.short	257
-	.short	12289
-	.short	12289
+	.short	15105
+	.short	15105
 	.short	12079
 	.short	12079
 	.short	1028
 	.short	12079
-	.short	4100
-	.short	4112
-	.short	4097
-	.short	15888
-	.short	15920
-	.short	15888
+	.short	4356
+	.short	4369
+	.short	4353
+	.short	15889
+	.short	15931
+	.short	15889
 	.short	4626
-	.short	4114
+	.short	4370
 	.short	15934
-	.short	4158
+	.short	4414
 	.short	15934
 	.short	15934
 	.short	15934
@@ -11243,47 +11243,47 @@ startScreenBitmap:
 	.short	0
 	.short	0
 	.short	2816
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	15677
-	.short	14397
-	.short	14354
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	17990
+	.short	14150
+	.short	14098
 	.short	4626
-	.short	15675
-	.short	15677
-	.short	15675
-	.short	15163
-	.short	15163
-	.short	15165
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15145
-	.short	15145
-	.short	16186
-	.short	10815
+	.short	17994
+	.short	17990
+	.short	17994
+	.short	19018
+	.short	19018
+	.short	19014
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	18984
+	.short	18984
+	.short	15424
+	.short	10812
 	.short	10794
 	.short	10794
 	.short	10794
+	.short	15420
+	.short	4924
+	.short	15423
+	.short	16188
 	.short	16191
-	.short	4927
-	.short	16194
-	.short	16959
-	.short	16962
-	.short	13069
-	.short	3379
+	.short	12813
+	.short	3378
 	.short	3370
 	.short	3341
-	.short	13102
-	.short	16691
-	.short	16705
-	.short	16705
-	.short	16705
-	.short	16705
-	.short	10049
+	.short	12845
+	.short	15666
+	.short	15677
+	.short	15677
+	.short	15677
+	.short	15677
+	.short	10045
 	.short	5397
 	.short	5397
 	.short	5397
@@ -11305,19 +11305,19 @@ startScreenBitmap:
 	.short	14649
 	.short	14649
 	.short	14649
-	.short	7453
-	.short	14621
+	.short	7967
+	.short	14623
 	.short	6939
 	.short	514
 	.short	514
-	.short	13570
+	.short	13314
 	.short	514
-	.short	7477
-	.short	7453
-	.short	7453
-	.short	285
-	.short	7453
-	.short	7453
+	.short	7988
+	.short	7967
+	.short	7967
+	.short	287
+	.short	7967
+	.short	7967
 	.short	7196
 	.short	7191
 	.short	7191
@@ -11335,75 +11335,75 @@ startScreenBitmap:
 	.short	257
 	.short	257
 	.short	3841
-	.short	18447
+	.short	16911
 	.short	258
 	.short	257
 	.short	257
 	.short	257
-	.short	304
+	.short	315
 	.short	257
 	.short	12079
 	.short	12079
 	.short	12079
 	.short	12036
-	.short	272
-	.short	4112
-	.short	272
-	.short	4158
-	.short	4158
-	.short	4112
+	.short	273
+	.short	4369
+	.short	273
+	.short	4414
+	.short	4414
+	.short	4369
 	.short	4626
-	.short	4114
+	.short	4370
 	.short	15934
 	.short	15934
 	.short	15934
-	.short	15888
+	.short	15889
 	.short	15934
 	.short	0
 	.short	0
 	.short	11
 	.short	0
-	.short	15677
-	.short	15677
-	.short	10301
-	.short	15656
-	.short	15677
-	.short	14397
+	.short	17990
+	.short	17990
+	.short	10566
+	.short	17961
+	.short	17990
+	.short	14150
 	.short	4626
 	.short	4626
-	.short	15677
-	.short	15165
-	.short	15165
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	10555
-	.short	16191
-	.short	10810
+	.short	17990
+	.short	19014
+	.short	19014
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	10314
+	.short	15420
+	.short	10816
 	.short	10794
 	.short	10794
-	.short	16170
+	.short	15402
+	.short	15420
+	.short	15420
 	.short	16191
+	.short	17476
 	.short	16191
-	.short	16962
-	.short	17219
-	.short	16962
 	.short	10794
 	.short	6698
 	.short	3341
-	.short	11789
-	.short	8755
-	.short	16674
-	.short	16705
-	.short	16705
-	.short	16705
-	.short	16705
-	.short	10049
+	.short	11533
+	.short	8754
+	.short	15650
+	.short	15677
+	.short	15677
+	.short	15677
+	.short	15677
+	.short	10045
 	.short	5397
 	.short	5397
 	.short	5397
@@ -11413,9 +11413,9 @@ startScreenBitmap:
 	.short	8995
 	.short	8995
 	.short	8995
-	.short	16448
-	.short	16407
-	.short	9024
+	.short	14906
+	.short	14871
+	.short	9018
 	.short	6939
 	.short	6939
 	.short	6939
@@ -11425,19 +11425,19 @@ startScreenBitmap:
 	.short	14649
 	.short	14649
 	.short	14649
-	.short	7481
+	.short	7993
 	.short	14649
 	.short	6939
 	.short	514
 	.short	514
-	.short	13570
+	.short	13314
 	.short	1291
-	.short	13621
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7453
-	.short	7232
+	.short	13364
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7967
+	.short	7226
 	.short	5916
 	.short	5916
 	.short	5916
@@ -11461,53 +11461,53 @@ startScreenBitmap:
 	.short	257
 	.short	257
 	.short	257
-	.short	12080
+	.short	12091
 	.short	1028
 	.short	12036
 	.short	12079
 	.short	12079
 	.short	257
-	.short	4112
-	.short	4112
+	.short	4369
+	.short	4369
 	.short	15934
-	.short	4144
+	.short	4411
 	.short	1028
 	.short	4626
-	.short	4114
+	.short	4370
 	.short	15934
 	.short	15934
-	.short	4158
-	.short	4112
-	.short	61
+	.short	4414
+	.short	4369
+	.short	70
 	.short	0
 	.short	0
 	.short	0
 	.short	0
-	.short	15677
-	.short	15677
-	.short	10301
-	.short	15677
-	.short	17469
-	.short	14397
-	.short	14354
+	.short	17990
+	.short	17990
+	.short	10566
+	.short	17990
+	.short	17222
+	.short	14150
+	.short	14098
 	.short	4626
-	.short	15165
-	.short	15163
-	.short	15675
-	.short	15675
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	15163
-	.short	10555
-	.short	10555
-	.short	14399
+	.short	19014
+	.short	19018
+	.short	17994
+	.short	17994
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	19018
+	.short	10314
+	.short	10314
+	.short	14140
 	.short	10794
 	.short	10794
 	.short	10794
-	.short	14378
+	.short	14122
 	.short	10794
 	.short	10794
 	.short	10794
@@ -11516,7 +11516,7 @@ startScreenBitmap:
 	.short	10794
 	.short	10794
 	.short	3341
-	.short	8750
+	.short	8749
 	.short	8738
 	.short	10023
 	.short	10023
@@ -11532,10 +11532,10 @@ startScreenBitmap:
 	.short	8995
 	.short	8995
 	.short	8995
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
 	.short	1028
 	.short	1028
 	.short	1028
@@ -11545,19 +11545,19 @@ startScreenBitmap:
 	.short	12036
 	.short	8194
 	.short	6939
-	.short	3895
+	.short	3894
 	.short	3855
 	.short	3855
 	.short	3855
 	.short	2575
-	.short	3871
+	.short	3870
 	.short	2575
 	.short	3850
-	.short	7964
+	.short	7708
 	.short	7196
-	.short	3895
-	.short	2624
-	.short	7223
+	.short	3894
+	.short	2618
+	.short	7222
 	.short	7196
 	.short	7191
 	.short	7191
@@ -11573,8 +11573,8 @@ startScreenBitmap:
 	.short	7196
 	.short	7196
 	.short	7196
-	.short	16448
-	.short	2624
+	.short	14906
+	.short	2618
 	.short	3855
 	.short	514
 	.short	514
@@ -11589,7 +11589,7 @@ startScreenBitmap:
 	.short	12079
 	.short	1071
 	.short	1028
-	.short	15364
+	.short	14340
 	.short	1028
 	.short	1028
 	.short	1028
@@ -11608,26 +11608,26 @@ startScreenBitmap:
 	.short	9216
 	.short	9252
 	.short	9252
-	.short	14378
-	.short	14392
-	.short	4664
-	.short	4664
-	.short	14354
-	.short	14354
-	.short	14354
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	4664
-	.short	14392
-	.short	14392
-	.short	14378
+	.short	14122
+	.short	14135
+	.short	4663
+	.short	4663
+	.short	14098
+	.short	14098
+	.short	14098
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	4663
+	.short	14135
+	.short	14135
+	.short	14122
 	.short	10794
 	.short	10794
 	.short	10794
-	.short	14392
+	.short	14135
 	.short	10794
 	.short	2346
 	.short	2346
@@ -11635,7 +11635,7 @@ startScreenBitmap:
 	.short	10794
 	.short	6698
 	.short	3341
-	.short	11822
+	.short	11565
 	.short	8738
 	.short	10018
 	.short	10023
@@ -11651,7 +11651,7 @@ startScreenBitmap:
 	.short	8995
 	.short	8995
 	.short	8995
-	.short	5440
+	.short	5434
 	.short	2570
 	.short	3850
 	.short	3855
@@ -11665,19 +11665,19 @@ startScreenBitmap:
 	.short	1028
 	.short	1028
 	.short	6939
-	.short	6967
+	.short	6966
 	.short	6939
 	.short	3855
 	.short	3855
-	.short	8000
-	.short	7991
+	.short	7738
+	.short	7734
 	.short	7196
-	.short	2624
-	.short	7199
-	.short	16412
-	.short	16448
-	.short	7232
-	.short	16448
+	.short	2618
+	.short	7198
+	.short	14876
+	.short	14906
+	.short	7226
+	.short	14906
 	.short	7196
 	.short	7196
 	.short	5911
@@ -11691,9 +11691,9 @@ startScreenBitmap:
 	.short	7191
 	.short	7196
 	.short	7196
-	.short	7991
-	.short	7241
-	.short	14144
+	.short	7734
+	.short	7239
+	.short	13882
 	.short	2570
 	.short	3855
 	.short	514
@@ -11728,23 +11728,23 @@ startScreenBitmap:
 	.short	32
 	.short	9252
 	.short	9252
-	.short	14378
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	4664
-	.short	4664
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	14354
-	.short	14392
-	.short	14392
-	.short	14354
-	.short	14392
-	.short	14378
+	.short	14122
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	4663
+	.short	4663
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	14098
+	.short	14135
+	.short	14135
+	.short	14098
+	.short	14135
+	.short	14122
 	.short	10794
 	.short	10794
 	.short	10794
@@ -11754,8 +11754,8 @@ startScreenBitmap:
 	.short	10761
 	.short	10794
 	.short	3370
-	.short	11822
-	.short	11310
+	.short	11565
+	.short	11309
 	.short	8738
 	.short	10023
 	.short	10023
@@ -11771,7 +11771,7 @@ startScreenBitmap:
 	.short	8981
 	.short	8995
 	.short	5411
-	.short	16448
+	.short	14906
 	.short	2570
 	.short	3855
 	.short	6927
@@ -11784,20 +11784,20 @@ startScreenBitmap:
 	.short	1028
 	.short	1028
 	.short	514
-	.short	14111
-	.short	14153
-	.short	3871
+	.short	13854
+	.short	13895
+	.short	3870
 	.short	3855
 	.short	3855
-	.short	16415
-	.short	2591
-	.short	18719
+	.short	14878
+	.short	2590
+	.short	18206
 	.short	2588
-	.short	16448
-	.short	16412
-	.short	16448
+	.short	14906
+	.short	14876
+	.short	14906
 	.short	9500
-	.short	7232
+	.short	7226
 	.short	7196
 	.short	7196
 	.short	5916
@@ -11811,15 +11811,15 @@ startScreenBitmap:
 	.short	7196
 	.short	7196
 	.short	7196
-	.short	7964
-	.short	7241
-	.short	2624
+	.short	7708
+	.short	7239
+	.short	2618
 	.short	3850
 	.short	3855
 	.short	514
 	.short	514
 	.short	12034
-	.short	15407
+	.short	14383
 	.short	1028
 	.short	12036
 	.short	12079
@@ -11838,7 +11838,7 @@ startScreenBitmap:
 	.short	9230
 	.short	9252
 	.short	9216
-	.short	15360
+	.short	14336
 	.short	0
 	.short	0
 	.short	0
@@ -11848,23 +11848,23 @@ startScreenBitmap:
 	.short	9252
 	.short	9252
 	.short	9252
-	.short	14378
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	4664
-	.short	14392
-	.short	4664
-	.short	4664
-	.short	14392
-	.short	14392
-	.short	10808
+	.short	14122
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	4663
+	.short	14135
+	.short	4663
+	.short	4663
+	.short	14135
+	.short	14135
+	.short	10807
 	.short	10794
 	.short	10794
 	.short	10794
@@ -11874,8 +11874,8 @@ startScreenBitmap:
 	.short	2346
 	.short	6698
 	.short	3341
-	.short	11310
-	.short	8750
+	.short	11309
+	.short	8749
 	.short	10018
 	.short	10023
 	.short	10023
@@ -11890,14 +11890,14 @@ startScreenBitmap:
 	.short	5411
 	.short	8995
 	.short	8995
-	.short	16405
-	.short	5696
+	.short	14869
+	.short	5690
 	.short	3855
 	.short	6927
 	.short	6939
 	.short	6939
 	.short	12036
-	.short	12085
+	.short	12084
 	.short	12036
 	.short	12079
 	.short	1071
@@ -11905,24 +11905,24 @@ startScreenBitmap:
 	.short	516
 	.short	514
 	.short	3855
-	.short	16439
+	.short	14902
 	.short	3855
 	.short	2575
-	.short	16439
-	.short	2615
-	.short	16448
-	.short	14111
-	.short	16412
-	.short	16448
-	.short	14144
-	.short	14144
+	.short	14902
+	.short	2614
+	.short	14906
+	.short	13854
+	.short	14876
+	.short	14906
+	.short	13882
+	.short	13882
 	.short	7196
 	.short	7196
 	.short	7196
-	.short	7964
+	.short	7708
 	.short	5911
-	.short	7959
-	.short	7967
+	.short	7703
+	.short	7710
 	.short	7191
 	.short	7196
 	.short	7196
@@ -11931,12 +11931,12 @@ startScreenBitmap:
 	.short	7196
 	.short	7191
 	.short	7196
-	.short	16412
-	.short	16448
+	.short	14876
+	.short	14906
 	.short	2570
 	.short	3855
 	.short	3855
-	.short	565
+	.short	564
 	.short	2818
 	.short	559
 	.short	12079
@@ -11969,23 +11969,23 @@ startScreenBitmap:
 	.short	9252
 	.short	9252
 	.short	10794
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	14354
-	.short	4664
-	.short	14354
-	.short	14354
-	.short	14354
-	.short	14392
-	.short	10808
-	.short	10808
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	14098
+	.short	4663
+	.short	14098
+	.short	14098
+	.short	14098
+	.short	14135
+	.short	10807
+	.short	10807
 	.short	10794
 	.short	10794
 	.short	10794
@@ -11994,7 +11994,7 @@ startScreenBitmap:
 	.short	2313
 	.short	10794
 	.short	3354
-	.short	8750
+	.short	8749
 	.short	8738
 	.short	10018
 	.short	10023
@@ -12010,7 +12010,7 @@ startScreenBitmap:
 	.short	8981
 	.short	5411
 	.short	5397
-	.short	5696
+	.short	5690
 	.short	2570
 	.short	3855
 	.short	6939
@@ -12019,44 +12019,44 @@ startScreenBitmap:
 	.short	1071
 	.short	12079
 	.short	559
-	.short	12085
+	.short	12084
 	.short	12079
 	.short	1028
 	.short	12037
 	.short	514
 	.short	3867
-	.short	3895
+	.short	3894
 	.short	3855
 	.short	2570
-	.short	16448
-	.short	16439
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	7232
-	.short	16415
-	.short	16448
-	.short	7232
-	.short	7199
-	.short	7964
-	.short	7223
+	.short	14906
+	.short	14902
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	7226
+	.short	14878
+	.short	14906
+	.short	7226
+	.short	7198
+	.short	7708
+	.short	7222
 	.short	7196
 	.short	5916
 	.short	5916
 	.short	5916
-	.short	7967
-	.short	7223
+	.short	7710
+	.short	7222
 	.short	5916
 	.short	7196
 	.short	7196
 	.short	7196
 	.short	7196
-	.short	16412
-	.short	16448
-	.short	16394
+	.short	14876
+	.short	14906
+	.short	14858
 	.short	3855
-	.short	18703
-	.short	565
+	.short	18191
+	.short	564
 	.short	514
 	.short	12034
 	.short	12079
@@ -12089,22 +12089,22 @@ startScreenBitmap:
 	.short	9252
 	.short	3620
 	.short	10794
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	14354
-	.short	4664
-	.short	14375
-	.short	14354
-	.short	14354
-	.short	14392
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	14098
+	.short	4663
+	.short	14119
+	.short	14098
+	.short	14098
+	.short	14135
 	.short	10794
 	.short	10794
 	.short	10794
@@ -12113,8 +12113,8 @@ startScreenBitmap:
 	.short	2313
 	.short	2313
 	.short	6682
-	.short	11789
-	.short	8750
+	.short	11533
+	.short	8749
 	.short	8738
 	.short	10023
 	.short	10023
@@ -12129,7 +12129,7 @@ startScreenBitmap:
 	.short	5411
 	.short	5411
 	.short	5397
-	.short	5696
+	.short	5690
 	.short	2570
 	.short	3855
 	.short	6939
@@ -12145,22 +12145,22 @@ startScreenBitmap:
 	.short	514
 	.short	514
 	.short	3867
-	.short	3871
+	.short	3870
 	.short	2575
-	.short	18698
-	.short	16448
-	.short	16457
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	18752
+	.short	18186
+	.short	14906
+	.short	14919
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	18234
 	.short	7196
-	.short	18743
+	.short	18230
 	.short	7196
-	.short	18716
-	.short	8009
-	.short	7967
+	.short	18204
+	.short	7751
+	.short	7710
 	.short	7191
 	.short	7191
 	.short	7196
@@ -12172,8 +12172,8 @@ startScreenBitmap:
 	.short	7196
 	.short	7191
 	.short	7196
-	.short	16448
-	.short	3895
+	.short	14906
+	.short	3894
 	.short	2575
 	.short	3855
 	.short	514
@@ -12186,7 +12186,7 @@ startScreenBitmap:
 	.short	12079
 	.short	2863
 	.short	12079
-	.short	12092
+	.short	12088
 	.short	12079
 	.short	12079
 	.short	1071
@@ -12209,32 +12209,32 @@ startScreenBitmap:
 	.short	9252
 	.short	9252
 	.short	10794
-	.short	14378
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	2360
+	.short	14122
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	2359
 	.short	2313
-	.short	14345
-	.short	14392
-	.short	14392
-	.short	14354
-	.short	4664
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	10808
+	.short	14089
+	.short	14135
+	.short	14135
+	.short	14098
+	.short	4663
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	10807
 	.short	10794
 	.short	10794
-	.short	10808
+	.short	10807
 	.short	2346
 	.short	2313
 	.short	2313
 	.short	6682
-	.short	11789
-	.short	8750
+	.short	11533
+	.short	8749
 	.short	10018
 	.short	10023
 	.short	10023
@@ -12257,30 +12257,30 @@ startScreenBitmap:
 	.short	6939
 	.short	6939
 	.short	12036
-	.short	8245
+	.short	8244
 	.short	12079
 	.short	559
 	.short	12079
 	.short	559
-	.short	13621
-	.short	13621
+	.short	13364
+	.short	13364
 	.short	3855
 	.short	2575
-	.short	14108
-	.short	16448
-	.short	16448
-	.short	8009
-	.short	7232
-	.short	16412
-	.short	16448
-	.short	7232
-	.short	16448
-	.short	16412
+	.short	13852
+	.short	14906
+	.short	14906
+	.short	7751
+	.short	7226
+	.short	14876
+	.short	14906
+	.short	7226
+	.short	14906
+	.short	14876
 	.short	7196
-	.short	14111
-	.short	9503
-	.short	18761
-	.short	7967
+	.short	13854
+	.short	9502
+	.short	18247
+	.short	7710
 	.short	7196
 	.short	7191
 	.short	7191
@@ -12292,8 +12292,8 @@ startScreenBitmap:
 	.short	7196
 	.short	7196
 	.short	7196
-	.short	16412
-	.short	2624
+	.short	14876
+	.short	2618
 	.short	7183
 	.short	3855
 	.short	514
@@ -12331,30 +12331,30 @@ startScreenBitmap:
 	.short	10794
 	.short	10794
 	.short	10794
-	.short	14378
-	.short	14392
-	.short	14392
-	.short	2360
+	.short	14122
+	.short	14135
+	.short	14135
+	.short	2359
 	.short	2313
 	.short	2313
 	.short	10761
-	.short	14345
-	.short	14392
-	.short	14392
-	.short	14354
-	.short	14354
-	.short	14354
-	.short	4664
-	.short	10808
+	.short	14089
+	.short	14135
+	.short	14135
+	.short	14098
+	.short	14098
+	.short	14098
+	.short	4663
+	.short	10807
 	.short	10794
 	.short	10794
-	.short	14354
+	.short	14098
 	.short	2313
 	.short	2313
 	.short	2313
 	.short	6682
-	.short	11789
-	.short	8750
+	.short	11533
+	.short	8749
 	.short	10018
 	.short	10023
 	.short	10023
@@ -12382,39 +12382,39 @@ startScreenBitmap:
 	.short	559
 	.short	12079
 	.short	559
-	.short	572
-	.short	13621
+	.short	568
+	.short	13364
 	.short	3855
 	.short	2575
-	.short	16394
-	.short	14111
-	.short	18761
-	.short	18725
-	.short	14153
-	.short	16415
-	.short	7232
-	.short	7232
+	.short	14858
+	.short	13854
+	.short	18247
+	.short	18213
+	.short	13895
+	.short	14878
+	.short	7226
+	.short	7226
 	.short	7196
-	.short	7232
-	.short	7196
-	.short	7196
-	.short	14108
-	.short	9527
-	.short	7967
+	.short	7226
 	.short	7196
 	.short	7196
+	.short	13852
+	.short	9526
+	.short	7710
 	.short	7196
-	.short	7199
 	.short	7196
 	.short	7196
+	.short	7198
 	.short	7196
 	.short	7196
 	.short	7196
 	.short	7196
 	.short	7196
-	.short	16412
-	.short	16448
-	.short	14090
+	.short	7196
+	.short	7196
+	.short	14876
+	.short	14906
+	.short	13834
 	.short	3855
 	.short	514
 	.short	514
@@ -12453,27 +12453,27 @@ startScreenBitmap:
 	.short	10794
 	.short	10794
 	.short	10794
-	.short	14378
+	.short	14122
 	.short	2346
 	.short	2313
 	.short	2313
 	.short	2313
 	.short	10761
-	.short	14378
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	10808
+	.short	14122
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	10807
 	.short	10794
 	.short	10794
-	.short	14354
+	.short	14098
 	.short	2346
 	.short	2313
 	.short	6665
 	.short	6682
-	.short	11822
+	.short	11565
 	.short	8738
 	.short	8738
 	.short	10023
@@ -12499,32 +12499,30 @@ startScreenBitmap:
 	.short	1071
 	.short	1028
 	.short	12079
-	.short	13615
+	.short	13359
 	.short	12079
 	.short	514
-	.short	13570
-	.short	13621
+	.short	13314
+	.short	13364
 	.short	2570
 	.short	2570
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	7241
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	7239
 	.short	7196
 	.short	7196
 	.short	7196
 	.short	7196
 	.short	7196
-	.short	18716
+	.short	18204
 	.short	7196
-	.short	7199
-	.short	14153
-	.short	14135
-	.short	7199
+	.short	7198
+	.short	13895
+	.short	13878
+	.short	7198
 	.short	7196
-	.short	7964
-	.short	7196
-	.short	7196
+	.short	7708
 	.short	7196
 	.short	7196
 	.short	7196
@@ -12532,8 +12530,10 @@ startScreenBitmap:
 	.short	7196
 	.short	7196
 	.short	7196
-	.short	16448
-	.short	16448
+	.short	7196
+	.short	7196
+	.short	14906
+	.short	14906
 	.short	3850
 	.short	3855
 	.short	514
@@ -12544,7 +12544,7 @@ startScreenBitmap:
 	.short	1028
 	.short	12079
 	.short	12079
-	.short	12092
+	.short	12088
 	.short	12079
 	.short	12079
 	.short	12079
@@ -12577,23 +12577,23 @@ startScreenBitmap:
 	.short	1028
 	.short	1028
 	.short	3598
-	.short	15396
+	.short	14372
 	.short	9252
 	.short	9252
 	.short	9252
 	.short	9252
 	.short	9252
 	.short	9218
-	.short	4664
-	.short	10808
+	.short	4663
+	.short	10807
 	.short	2346
 	.short	2313
 	.short	10761
 	.short	2313
 	.short	6682
 	.short	8717
-	.short	11822
-	.short	8750
+	.short	11565
+	.short	8749
 	.short	8738
 	.short	8743
 	.short	10023
@@ -12623,27 +12623,25 @@ startScreenBitmap:
 	.short	12079
 	.short	559
 	.short	514
-	.short	13621
+	.short	13364
 	.short	3855
 	.short	2570
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16457
-	.short	7232
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14919
+	.short	7226
 	.short	7196
 	.short	7196
 	.short	7196
 	.short	7196
 	.short	7196
-	.short	16412
+	.short	14876
 	.short	7196
-	.short	14108
-	.short	7973
-	.short	18716
-	.short	7967
-	.short	7196
-	.short	7196
+	.short	13852
+	.short	7717
+	.short	18204
+	.short	7710
 	.short	7196
 	.short	7196
 	.short	7196
@@ -12652,11 +12650,13 @@ startScreenBitmap:
 	.short	7196
 	.short	7196
 	.short	7196
-	.short	16412
-	.short	16448
+	.short	7196
+	.short	7196
+	.short	14876
+	.short	14906
 	.short	2570
 	.short	3855
-	.short	13621
+	.short	13364
 	.short	514
 	.short	12079
 	.short	1071
@@ -12704,16 +12704,16 @@ startScreenBitmap:
 	.short	9252
 	.short	9252
 	.short	9252
-	.short	14392
-	.short	10808
+	.short	14135
+	.short	10807
 	.short	10794
 	.short	2313
 	.short	2313
 	.short	6665
 	.short	6682
 	.short	6682
-	.short	11822
-	.short	8750
+	.short	11565
+	.short	8749
 	.short	8738
 	.short	10018
 	.short	10023
@@ -12746,22 +12746,22 @@ startScreenBitmap:
 	.short	514
 	.short	3855
 	.short	3855
-	.short	16394
-	.short	7232
-	.short	16448
-	.short	16439
-	.short	7232
-	.short	7232
-	.short	16412
-	.short	16412
-	.short	16412
-	.short	16412
-	.short	16412
-	.short	16448
-	.short	7991
-	.short	18716
+	.short	14858
+	.short	7226
+	.short	14906
+	.short	14902
+	.short	7226
+	.short	7226
+	.short	14876
+	.short	14876
+	.short	14876
+	.short	14876
+	.short	14876
+	.short	14906
+	.short	7734
+	.short	18204
 	.short	9500
-	.short	7223
+	.short	7222
 	.short	7196
 	.short	7196
 	.short	7196
@@ -12772,11 +12772,11 @@ startScreenBitmap:
 	.short	7196
 	.short	7196
 	.short	7196
-	.short	16412
-	.short	16448
+	.short	14876
+	.short	14906
 	.short	2570
 	.short	3855
-	.short	13621
+	.short	13364
 	.short	514
 	.short	12079
 	.short	1028
@@ -12824,15 +12824,15 @@ startScreenBitmap:
 	.short	9252
 	.short	9252
 	.short	9252
-	.short	14392
-	.short	5176
-	.short	10808
+	.short	14135
+	.short	5175
+	.short	10807
 	.short	2313
 	.short	2313
 	.short	6682
 	.short	6682
-	.short	11822
-	.short	8750
+	.short	11565
+	.short	8749
 	.short	8738
 	.short	10018
 	.short	10023
@@ -12858,7 +12858,7 @@ startScreenBitmap:
 	.short	1071
 	.short	1028
 	.short	12079
-	.short	15407
+	.short	14383
 	.short	12079
 	.short	12079
 	.short	12079
@@ -12868,36 +12868,36 @@ startScreenBitmap:
 	.short	3867
 	.short	3855
 	.short	2570
-	.short	16448
-	.short	16439
-	.short	16448
-	.short	16412
+	.short	14906
+	.short	14902
+	.short	14906
+	.short	14876
 	.short	7196
 	.short	7196
 	.short	7196
-	.short	7232
-	.short	16412
-	.short	16412
-	.short	16448
-	.short	16448
-	.short	7964
+	.short	7226
+	.short	14876
+	.short	14876
+	.short	14906
+	.short	14906
+	.short	7708
 	.short	7196
 	.short	7196
-	.short	16412
-	.short	7232
+	.short	14876
+	.short	7226
 	.short	7196
 	.short	5916
-	.short	14103
-	.short	7232
+	.short	13847
+	.short	7226
 	.short	5911
 	.short	7196
 	.short	7196
-	.short	16448
-	.short	16448
+	.short	14906
+	.short	14906
 	.short	3850
-	.short	18703
-	.short	13621
-	.short	565
+	.short	18191
+	.short	13364
+	.short	564
 	.short	12079
 	.short	1028
 	.short	3598
@@ -12944,15 +12944,15 @@ startScreenBitmap:
 	.short	0
 	.short	9252
 	.short	9252
-	.short	14392
-	.short	10808
+	.short	14135
+	.short	10807
 	.short	2346
 	.short	2346
 	.short	6698
 	.short	6682
 	.short	6682
-	.short	11802
-	.short	8750
+	.short	11546
+	.short	8749
 	.short	8738
 	.short	8738
 	.short	10023
@@ -12977,7 +12977,7 @@ startScreenBitmap:
 	.short	1028
 	.short	1071
 	.short	1028
-	.short	13570
+	.short	13314
 	.short	12079
 	.short	12079
 	.short	12079
@@ -12988,36 +12988,36 @@ startScreenBitmap:
 	.short	3855
 	.short	3855
 	.short	2575
-	.short	16394
-	.short	16415
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	7232
-	.short	7232
+	.short	14858
+	.short	14878
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	7226
+	.short	7226
 	.short	7196
 	.short	7196
-	.short	16448
-	.short	7232
-	.short	7232
-	.short	7232
+	.short	14906
+	.short	7226
+	.short	7226
+	.short	7226
 	.short	7196
-	.short	18716
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	7964
+	.short	18204
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	7708
 	.short	5911
 	.short	8983
-	.short	9024
-	.short	7232
-	.short	16412
-	.short	16412
-	.short	2624
+	.short	9018
+	.short	7226
+	.short	14876
+	.short	14876
+	.short	2618
 	.short	3850
-	.short	7232
-	.short	13621
-	.short	565
+	.short	7226
+	.short	13364
+	.short	564
 	.short	12034
 	.short	1028
 	.short	3598
@@ -13054,25 +13054,25 @@ startScreenBitmap:
 	.short	3598
 	.short	9230
 	.short	9252
-	.short	60
+	.short	56
 	.short	9252
 	.short	0
 	.short	0
 	.short	0
-	.short	60
+	.short	56
 	.short	0
 	.short	9216
 	.short	9216
 	.short	9252
-	.short	14378
+	.short	14122
 	.short	2346
 	.short	2313
 	.short	10761
 	.short	6682
 	.short	6682
-	.short	11789
-	.short	11822
-	.short	8750
+	.short	11533
+	.short	11565
+	.short	8749
 	.short	8738
 	.short	10023
 	.short	10023
@@ -13110,34 +13110,34 @@ startScreenBitmap:
 	.short	3855
 	.short	3855
 	.short	2570
-	.short	16394
-	.short	16394
-	.short	7232
-	.short	7232
-	.short	16448
+	.short	14858
+	.short	14858
+	.short	7226
+	.short	7226
+	.short	14906
 	.short	7196
-	.short	7199
-	.short	16412
-	.short	16448
-	.short	16439
-	.short	16448
-	.short	16439
-	.short	16448
+	.short	7198
+	.short	14876
+	.short	14906
+	.short	14902
+	.short	14906
+	.short	14902
+	.short	14906
 	.short	3855
 	.short	7178
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16419
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14883
 	.short	8995
-	.short	9024
-	.short	7232
+	.short	9018
+	.short	7226
 	.short	7196
-	.short	2624
+	.short	2618
 	.short	2570
 	.short	3855
-	.short	13579
-	.short	565
+	.short	13323
+	.short	564
 	.short	12034
 	.short	1071
 	.short	3598
@@ -13191,8 +13191,8 @@ startScreenBitmap:
 	.short	6682
 	.short	6682
 	.short	6682
-	.short	11822
-	.short	11822
+	.short	11565
+	.short	11565
 	.short	8738
 	.short	10018
 	.short	10023
@@ -13233,31 +13233,31 @@ startScreenBitmap:
 	.short	3855
 	.short	3855
 	.short	2575
-	.short	16439
+	.short	14902
 	.short	2570
-	.short	7232
-	.short	7223
-	.short	7232
-	.short	16448
-	.short	16448
-	.short	8000
-	.short	14108
+	.short	7226
+	.short	7222
+	.short	7226
+	.short	14906
+	.short	14906
+	.short	7738
+	.short	13852
 	.short	3855
 	.short	6927
 	.short	3855
-	.short	16415
-	.short	16394
-	.short	16448
-	.short	16448
-	.short	16419
-	.short	16448
-	.short	7232
-	.short	16448
-	.short	16448
+	.short	14878
+	.short	14858
+	.short	14906
+	.short	14906
+	.short	14883
+	.short	14906
+	.short	7226
+	.short	14906
+	.short	14906
 	.short	3850
 	.short	3855
-	.short	2869
-	.short	13621
+	.short	2868
+	.short	13364
 	.short	12034
 	.short	12079
 	.short	3588
@@ -13311,8 +13311,8 @@ startScreenBitmap:
 	.short	6682
 	.short	6682
 	.short	6682
-	.short	6702
-	.short	8750
+	.short	6701
+	.short	8749
 	.short	8738
 	.short	10018
 	.short	10023
@@ -13340,7 +13340,7 @@ startScreenBitmap:
 	.short	12036
 	.short	12079
 	.short	12079
-	.short	13570
+	.short	13314
 	.short	12064
 	.short	12079
 	.short	12079
@@ -13356,28 +13356,28 @@ startScreenBitmap:
 	.short	3855
 	.short	3855
 	.short	2575
-	.short	16448
-	.short	2624
-	.short	16394
-	.short	16394
-	.short	16448
+	.short	14906
+	.short	2618
+	.short	14858
+	.short	14858
+	.short	14906
 	.short	3850
 	.short	3855
 	.short	3855
 	.short	3855
-	.short	16415
+	.short	14878
 	.short	2570
-	.short	16394
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
-	.short	16448
+	.short	14858
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
+	.short	14906
 	.short	2570
 	.short	3855
-	.short	13621
-	.short	13621
+	.short	13364
+	.short	13364
 	.short	12034
 	.short	12079
 	.short	3588
@@ -13431,8 +13431,8 @@ startScreenBitmap:
 	.short	6682
 	.short	6682
 	.short	6682
-	.short	11802
-	.short	11822
+	.short	11546
+	.short	11565
 	.short	8738
 	.short	10018
 	.short	10023
@@ -13452,7 +13452,7 @@ startScreenBitmap:
 	.short	5654
 	.short	3855
 	.short	6927
-	.short	13570
+	.short	13314
 	.short	1026
 	.short	1028
 	.short	559
@@ -13475,29 +13475,29 @@ startScreenBitmap:
 	.short	514
 	.short	514
 	.short	2818
-	.short	2869
-	.short	13621
-	.short	13621
-	.short	2869
+	.short	2868
+	.short	13364
+	.short	13364
+	.short	2868
 	.short	2827
-	.short	13579
+	.short	13323
 	.short	2827
-	.short	13579
+	.short	13323
 	.short	2848
-	.short	13621
+	.short	13364
 	.short	2827
 	.short	2827
 	.short	8203
-	.short	16394
-	.short	16412
-	.short	16439
-	.short	16448
-	.short	16448
-	.short	2624
+	.short	14858
+	.short	14876
+	.short	14902
+	.short	14906
+	.short	14906
+	.short	2618
 	.short	2570
 	.short	3855
-	.short	13579
-	.short	565
+	.short	13323
+	.short	564
 	.short	12034
 	.short	1071
 	.short	3588
@@ -13551,8 +13551,8 @@ startScreenBitmap:
 	.short	2313
 	.short	6682
 	.short	6682
-	.short	11802
-	.short	11822
+	.short	11546
+	.short	11565
 	.short	8738
 	.short	8738
 	.short	10023
@@ -13563,11 +13563,11 @@ startScreenBitmap:
 	.short	10023
 	.short	10023
 	.short	8738
-	.short	13107
-	.short	4659
+	.short	12850
+	.short	4658
 	.short	4626
 	.short	4626
-	.short	13074
+	.short	12818
 	.short	4626
 	.short	4626
 	.short	4626
@@ -13581,10 +13581,10 @@ startScreenBitmap:
 	.short	1028
 	.short	1028
 	.short	12036
-	.short	13615
-	.short	565
+	.short	13359
+	.short	564
 	.short	514
-	.short	565
+	.short	564
 	.short	12079
 	.short	12079
 	.short	12079
@@ -13594,29 +13594,29 @@ startScreenBitmap:
 	.short	12079
 	.short	12079
 	.short	12079
-	.short	15407
+	.short	14383
 	.short	2818
 	.short	514
 	.short	514
-	.short	2869
-	.short	2876
-	.short	13621
-	.short	2869
-	.short	13600
-	.short	13621
-	.short	2869
+	.short	2868
+	.short	2872
+	.short	13364
+	.short	2868
+	.short	13344
+	.short	13364
+	.short	2868
 	.short	2827
 	.short	2827
-	.short	2876
+	.short	2872
 	.short	2570
 	.short	2570
-	.short	16448
-	.short	16394
-	.short	7232
-	.short	2624
+	.short	14906
+	.short	14858
+	.short	7226
+	.short	2618
 	.short	2575
 	.short	3855
-	.short	13579
+	.short	13323
 	.short	514
 	.short	12079
 	.short	1028
@@ -13672,8 +13672,8 @@ startScreenBitmap:
 	.short	6665
 	.short	6682
 	.short	6682
-	.short	11822
-	.short	11822
+	.short	11565
+	.short	11565
 	.short	8738
 	.short	10023
 	.short	10023
@@ -13682,16 +13682,16 @@ startScreenBitmap:
 	.short	10023
 	.short	10023
 	.short	10023
-	.short	13090
-	.short	13107
+	.short	12834
+	.short	12850
 	.short	4626
 	.short	4626
-	.short	14354
-	.short	14354
-	.short	4664
-	.short	4664
-	.short	14392
-	.short	14392
+	.short	14098
+	.short	14098
+	.short	4663
+	.short	4663
+	.short	14135
+	.short	14135
 	.short	1028
 	.short	1028
 	.short	1028
@@ -13702,8 +13702,8 @@ startScreenBitmap:
 	.short	12036
 	.short	12079
 	.short	2818
-	.short	12092
-	.short	13570
+	.short	12088
+	.short	13314
 	.short	523
 	.short	12034
 	.short	12079
@@ -13718,25 +13718,25 @@ startScreenBitmap:
 	.short	12034
 	.short	514
 	.short	514
-	.short	13570
+	.short	13314
 	.short	2827
-	.short	8245
-	.short	13621
-	.short	13579
-	.short	13621
-	.short	2869
-	.short	13579
-	.short	8252
+	.short	8244
+	.short	13364
+	.short	13323
+	.short	13364
+	.short	2868
+	.short	13323
+	.short	8248
 	.short	2827
-	.short	16394
-	.short	16394
-	.short	16412
-	.short	16448
-	.short	7232
-	.short	2624
+	.short	14858
+	.short	14858
+	.short	14876
+	.short	14906
+	.short	7226
+	.short	2618
 	.short	3850
 	.short	3855
-	.short	565
+	.short	564
 	.short	12034
 	.short	1071
 	.short	3588
@@ -13792,9 +13792,9 @@ startScreenBitmap:
 	.short	6665
 	.short	6682
 	.short	6682
-	.short	11802
-	.short	11822
-	.short	8750
+	.short	11546
+	.short	11565
+	.short	8749
 	.short	8738
 	.short	8738
 	.short	10023
@@ -13802,29 +13802,29 @@ startScreenBitmap:
 	.short	10023
 	.short	10023
 	.short	8743
-	.short	13090
-	.short	4654
+	.short	12834
+	.short	4653
 	.short	3346
-	.short	4664
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	2360
+	.short	4663
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	2359
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1026
 	.short	1026
-	.short	13615
+	.short	13359
 	.short	1071
 	.short	1028
 	.short	12036
 	.short	12079
 	.short	12079
-	.short	13570
-	.short	13570
+	.short	13314
+	.short	13314
 	.short	12034
 	.short	12079
 	.short	12034
@@ -13837,31 +13837,31 @@ startScreenBitmap:
 	.short	1291
 	.short	523
 	.short	559
-	.short	12085
-	.short	13621
-	.short	565
+	.short	12084
+	.short	13364
+	.short	564
 	.short	514
 	.short	514
 	.short	514
 	.short	514
 	.short	2827
-	.short	13579
+	.short	13323
 	.short	2827
 	.short	2827
 	.short	2570
 	.short	2575
-	.short	16394
+	.short	14858
 	.short	2570
-	.short	2624
-	.short	2624
+	.short	2618
+	.short	2618
 	.short	2570
 	.short	3850
-	.short	565
+	.short	564
 	.short	559
 	.short	1071
 	.short	3598
 	.short	3598
-	.short	13604
+	.short	13348
 	.short	9252
 	.short	9252
 	.short	9252
@@ -13914,29 +13914,29 @@ startScreenBitmap:
 	.short	6682
 	.short	6682
 	.short	6669
-	.short	11822
-	.short	11822
+	.short	11565
+	.short	11565
 	.short	8738
 	.short	8738
 	.short	8738
 	.short	8738
 	.short	8743
-	.short	13090
-	.short	4659
+	.short	12834
+	.short	4658
 	.short	4626
 	.short	4626
-	.short	14349
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	14392
-	.short	14345
+	.short	14093
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	14135
+	.short	14089
 	.short	2313
 	.short	1028
 	.short	1028
 	.short	1071
 	.short	1026
-	.short	1077
+	.short	1076
 	.short	1028
 	.short	1028
 	.short	1028
@@ -13953,27 +13953,27 @@ startScreenBitmap:
 	.short	1028
 	.short	1028
 	.short	2863
-	.short	8252
+	.short	8248
 	.short	9477
 	.short	8197
-	.short	2876
+	.short	2872
 	.short	12079
-	.short	15407
+	.short	14383
 	.short	12079
 	.short	12034
 	.short	12079
 	.short	514
-	.short	13621
+	.short	13364
 	.short	2827
-	.short	2869
-	.short	15420
-	.short	15371
+	.short	2868
+	.short	14392
+	.short	14347
 	.short	3855
 	.short	2575
-	.short	16394
+	.short	14858
 	.short	2570
-	.short	16394
-	.short	16448
+	.short	14858
+	.short	14906
 	.short	3855
 	.short	7183
 	.short	523
@@ -14036,19 +14036,19 @@ startScreenBitmap:
 	.short	3341
 	.short	3354
 	.short	3341
-	.short	11789
-	.short	11822
-	.short	11822
-	.short	11794
+	.short	11533
+	.short	11565
+	.short	11565
+	.short	11538
 	.short	4626
 	.short	4621
 	.short	3341
-	.short	14349
+	.short	14093
 	.short	3341
-	.short	4664
-	.short	4664
-	.short	14392
-	.short	2360
+	.short	4663
+	.short	4663
+	.short	14135
+	.short	2359
 	.short	2313
 	.short	2313
 	.short	2313
@@ -14085,14 +14085,14 @@ startScreenBitmap:
 	.short	12079
 	.short	2818
 	.short	514
-	.short	2876
-	.short	15420
+	.short	2872
+	.short	14392
 	.short	2827
 	.short	3855
 	.short	3855
 	.short	3855
 	.short	2570
-	.short	16394
+	.short	14858
 	.short	2588
 	.short	3855
 	.short	6939
@@ -14153,7 +14153,7 @@ startScreenBitmap:
 	.short	2313
 	.short	2313
 	.short	2313
-	.short	6702
+	.short	6701
 	.short	10778
 	.short	6682
 	.short	3354
@@ -14161,14 +14161,14 @@ startScreenBitmap:
 	.short	10765
 	.short	10765
 	.short	3341
-	.short	3384
-	.short	10808
-	.short	10808
-	.short	14378
-	.short	14378
-	.short	4664
-	.short	14392
-	.short	14392
+	.short	3383
+	.short	10807
+	.short	10807
+	.short	14122
+	.short	14122
+	.short	4663
+	.short	14135
+	.short	14135
 	.short	2313
 	.short	2313
 	.short	2313
@@ -14189,7 +14189,7 @@ startScreenBitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1084
+	.short	1080
 	.short	1028
 	.short	1028
 	.short	1028
@@ -14203,7 +14203,7 @@ startScreenBitmap:
 	.short	12079
 	.short	12036
 	.short	12079
-	.short	13570
+	.short	13314
 	.short	514
 	.short	2818
 	.short	2827
@@ -14280,13 +14280,13 @@ startScreenBitmap:
 	.short	10794
 	.short	10794
 	.short	10794
-	.short	14378
+	.short	14122
 	.short	10794
 	.short	10794
 	.short	10794
 	.short	10794
-	.short	14392
-	.short	2360
+	.short	14135
+	.short	2359
 	.short	4617
 	.short	2313
 	.short	2313
@@ -14314,7 +14314,7 @@ startScreenBitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	15364
+	.short	14340
 	.short	1028
 	.short	12079
 	.short	12079
@@ -14323,19 +14323,19 @@ startScreenBitmap:
 	.short	1071
 	.short	1028
 	.short	12079
-	.short	2869
+	.short	2868
 	.short	12034
-	.short	13570
+	.short	13314
 	.short	2827
-	.short	13579
+	.short	13323
 	.short	3867
 	.short	3855
 	.short	7178
-	.short	2624
+	.short	2618
 	.short	3855
 	.short	3855
 	.short	3855
-	.short	16411
+	.short	14875
 	.short	12079
 	.short	1038
 	.short	3588
@@ -14406,7 +14406,7 @@ startScreenBitmap:
 	.short	2313
 	.short	2313
 	.short	2313
-	.short	14345
+	.short	14089
 	.short	2313
 	.short	2313
 	.short	2313
@@ -14427,7 +14427,7 @@ startScreenBitmap:
 	.short	1028
 	.short	1028
 	.short	12079
-	.short	13570
+	.short	13314
 	.short	1071
 	.short	1028
 	.short	1028
@@ -14446,13 +14446,13 @@ startScreenBitmap:
 	.short	12079
 	.short	514
 	.short	2818
-	.short	13621
+	.short	13364
 	.short	514
 	.short	514
 	.short	514
-	.short	13621
-	.short	13621
-	.short	13621
+	.short	13364
+	.short	13364
+	.short	13364
 	.short	514
 	.short	514
 	.short	12079
@@ -14552,7 +14552,7 @@ startScreenBitmap:
 	.short	1028
 	.short	1028
 	.short	1038
-	.short	15374
+	.short	14350
 	.short	1038
 	.short	1028
 	.short	1028
@@ -14562,7 +14562,7 @@ startScreenBitmap:
 	.short	1028
 	.short	1028
 	.short	3588
-	.short	15374
+	.short	14350
 	.short	12079
 	.short	12079
 	.short	514
@@ -15041,10 +15041,10 @@ startScreenBitmap:
 	.short	9227
 	.short	9252
 	.short	2852
-	.short	2876
+	.short	2872
 	.short	3598
 	.short	3598
-	.short	3644
+	.short	3640
 	.short	3598
 	.short	1038
 	.short	1028
@@ -15521,7 +15521,7 @@ startScreenBitmap:
 	.short	1291
 	.short	11
 	.short	0
-	.short	60
+	.short	56
 	.short	2816
 	.short	0
 	.short	0
@@ -15597,7 +15597,7 @@ startScreenBitmap:
 	.short	0
 	.short	0
 	.short	0
-	.short	15360
+	.short	14336
 	.short	0
 	.short	0
 	.short	0
@@ -15633,7 +15633,7 @@ startScreenBitmap:
 	.short	512
 	.short	0
 	.short	512
-	.short	15371
+	.short	14347
 	.short	523
 	.short	0
 	.short	0
@@ -15641,7 +15641,7 @@ startScreenBitmap:
 	.short	2816
 	.short	0
 	.short	0
-	.short	60
+	.short	56
 	.short	0
 	.short	0
 	.short	0
@@ -15760,9 +15760,9 @@ startScreenBitmap:
 	.short	11
 	.short	0
 	.short	2816
-	.short	15420
-	.short	15365
-	.short	2876
+	.short	14392
+	.short	14341
+	.short	2872
 	.short	0
 	.short	0
 	.short	0
@@ -15836,9 +15836,9 @@ startScreenBitmap:
 	.short	0
 	.short	0
 	.short	0
-	.short	15371
+	.short	14347
 	.short	1312
-	.short	15420
+	.short	14392
 	.short	11
 	.short	0
 	.short	0
@@ -15878,10 +15878,10 @@ startScreenBitmap:
 	.short	0
 	.short	0
 	.short	0
-	.short	15360
+	.short	14336
 	.short	0
 	.short	0
-	.short	60
+	.short	56
 	.short	0
 	.short	0
 	.short	0
@@ -15909,7 +15909,7 @@ startScreenBitmap:
 	.short	0
 	.short	0
 	.short	0
-	.short	15360
+	.short	14336
 	.short	0
 	.short	0
 	.short	0
@@ -16001,7 +16001,7 @@ startScreenBitmap:
 	.short	0
 	.short	0
 	.short	0
-	.short	60
+	.short	56
 	.short	0
 	.short	0
 	.short	0
@@ -16077,7 +16077,7 @@ startScreenBitmap:
 	.short	0
 	.short	0
 	.short	0
-	.short	15360
+	.short	14336
 	.short	0
 	.short	0
 	.short	1024
@@ -16141,7 +16141,7 @@ startScreenBitmap:
 	.short	0
 	.short	0
 	.short	0
-	.short	60
+	.short	56
 	.short	0
 	.short	0
 	.short	0
@@ -16202,7 +16202,7 @@ startScreenBitmap:
 	.short	0
 	.short	0
 	.short	0
-	.short	15360
+	.short	14336
 	.short	0
 	.short	0
 	.short	0
@@ -16729,7 +16729,7 @@ startScreenBitmap:
 	.short	0
 	.short	0
 	.short	0
-	.short	15362
+	.short	14338
 	.short	2
 	.short	0
 	.short	0
@@ -16833,7 +16833,7 @@ startScreenBitmap:
 	.short	0
 	.short	0
 	.short	0
-	.short	15360
+	.short	14336
 	.short	0
 	.short	0
 	.short	0
@@ -16849,8 +16849,8 @@ startScreenBitmap:
 	.short	0
 	.short	0
 	.short	2818
-	.short	8252
-	.short	2876
+	.short	8248
+	.short	2872
 	.short	2
 	.short	0
 	.short	0
@@ -16969,7 +16969,7 @@ startScreenBitmap:
 	.short	0
 	.short	0
 	.short	0
-	.short	15362
+	.short	14338
 	.short	2
 	.short	0
 	.short	0
@@ -17058,7 +17058,7 @@ startScreenBitmap:
 	.short	0
 	.short	0
 	.short	512
-	.short	572
+	.short	568
 	.short	0
 	.short	0
 	.short	0
@@ -17166,7 +17166,7 @@ startScreenBitmap:
 	.short	0
 	.short	0
 	.short	512
-	.short	572
+	.short	568
 	.short	0
 	.short	0
 	.short	0
@@ -17849,7 +17849,7 @@ startScreenBitmap:
 	.short	0
 	.short	0
 	.short	0
-	.short	15360
+	.short	14336
 	.short	0
 	.short	0
 	.short	0
@@ -17885,7 +17885,7 @@ startScreenBitmap:
 	.short	0
 	.short	0
 	.short	0
-	.short	15360
+	.short	14336
 	.short	0
 	.short	0
 	.short	0
@@ -17934,7 +17934,7 @@ startScreenBitmap:
 	.short	0
 	.short	0
 	.short	512
-	.short	15362
+	.short	14338
 	.short	2
 	.short	1024
 	.short	0
@@ -18022,7 +18022,7 @@ startScreenBitmap:
 	.short	0
 	.short	0
 	.short	512
-	.short	572
+	.short	568
 	.short	0
 	.short	0
 	.short	0
@@ -18042,7 +18042,7 @@ startScreenBitmap:
 	.short	0
 	.short	0
 	.short	512
-	.short	572
+	.short	568
 	.short	0
 	.short	0
 	.short	0
@@ -18058,7 +18058,7 @@ startScreenBitmap:
 	.short	0
 	.short	0
 	.short	0
-	.short	15360
+	.short	14336
 	.short	0
 	.short	0
 	.short	0
@@ -18118,7 +18118,7 @@ startScreenBitmap:
 	.short	0
 	.short	0
 	.short	512
-	.short	572
+	.short	568
 	.short	0
 	.short	0
 	.short	0
@@ -18749,7 +18749,7 @@ startScreenBitmap:
 	.short	0
 	.short	0
 	.short	0
-	.short	15360
+	.short	14336
 	.short	0
 	.short	0
 	.short	0
@@ -18765,7 +18765,7 @@ startScreenBitmap:
 	.short	0
 	.short	0
 	.short	0
-	.short	15360
+	.short	14336
 	.short	0
 	.short	0
 	.short	0
@@ -18865,7 +18865,7 @@ startScreenBitmap:
 	.short	0
 	.short	0
 	.short	0
-	.short	15360
+	.short	14336
 	.short	0
 	.short	0
 	.short	0
@@ -18909,7 +18909,7 @@ startScreenBitmap:
 	.short	0
 	.short	0
 	.short	0
-	.short	15360
+	.short	14336
 	.short	0
 	.short	0
 	.short	0
@@ -18933,7 +18933,7 @@ startScreenBitmap:
 	.short	0
 	.short	0
 	.short	0
-	.short	15360
+	.short	14336
 	.short	0
 	.short	0
 	.short	0
@@ -18977,7 +18977,7 @@ startScreenBitmap:
 	.short	0
 	.short	0
 	.short	0
-	.short	60
+	.short	56
 	.short	0
 	.short	0
 	.short	0
@@ -18994,7 +18994,7 @@ startScreenBitmap:
 	.short	0
 	.short	0
 	.short	512
-	.short	572
+	.short	568
 	.short	0
 	.short	0
 	.short	0
@@ -19034,7 +19034,7 @@ startScreenBitmap:
 	.short	0
 	.short	0
 	.short	512
-	.short	572
+	.short	568
 	.short	0
 	.short	0
 	.short	0
@@ -19235,8 +19235,8 @@ startScreenPal:
 	.short	7267
 	.short	6176
 	.short	11365
-	.short	1728
 	.short	15588
+	.short	1728
 	.short	8292
 	.short	5857
 	.short	25170
@@ -19248,9 +19248,9 @@ startScreenPal:
 	.short	6242
 	.short	9347
 	.short	15559
-	.short	705
 	.short	13541
 	.short	16680
+	.short	705
 	.short	20969
 	.short	20836
 	.short	8355
@@ -19259,15 +19259,14 @@ startScreenPal:
 	.short	32767
 	.short	13573
 	.short	10435
-	.short	2752
 	.short	4832
+	.short	2752
 	.short	6179
 	.short	17668
 	.short	11462
-	.short	5859
 	.short	7299
+	.short	5859
 	.short	9280
-	.short	736
 	.short	17734
 	.short	22916
 	.short	9348
@@ -19276,25 +19275,26 @@ startScreenPal:
 	.short	14597
 	.short	19852
 	.short	7204
-	.short	706
-	.short	3809
-	.short	3808
 	.short	16742
-	.short	2784
-	.short	1760
-	.short	4833
+	.short	706
 	.short	13478
+	.short	736
+	.short	4833
 	.short	6883
+	.short	1760
 	.short	5858
-	.short	4834
-	.short	6884
-	.short	7907
-	.short	6882
+	.short	3809
 	.short	11459
 	.short	9316
+	.short	6884
+	.short	4834
+	.short	6882
+	.short	2784
 	.short	26194
-	.short	7908
+	.short	7907
 	.short	11492
+	.short	3808
+	.short	7908
 	.short	0
 	.short	0
 	.short	0
@@ -19474,5 +19474,5 @@ startScreenPal:
 	.short	0
 	.short	0
 	.short	0
-	.short	0
+	.short	32767
 	.ident	"GCC: (devkitARM release 31) 4.5.0"

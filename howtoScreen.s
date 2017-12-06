@@ -19474,5 +19474,5 @@ howtoScreenPal:
 	.short	22131
 	.short	27449
 	.short	14599
-	.short	29564
+	.short	32767
 	.ident	"GCC: (devkitARM release 31) 4.5.0"

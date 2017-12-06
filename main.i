@@ -2,7 +2,7 @@
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "main.c"
-# 55 "main.c"
+# 57 "main.c"
 # 1 "myLib.h" 1
 
 
@@ -116,14 +116,14 @@ typedef struct
     u16 color;
     int AI_STATE;
 } MOVOBJ;
-# 56 "main.c" 2
+# 58 "main.c" 2
 # 1 "spritesheet.h" 1
 # 21 "spritesheet.h"
 extern const unsigned short spritesheetTiles[16384];
 
 
 extern const unsigned short spritesheetPal[256];
-# 57 "main.c" 2
+# 59 "main.c" 2
 # 1 "bg.h" 1
 # 22 "bg.h"
 extern const unsigned short bgTiles[7200];
@@ -133,7 +133,7 @@ extern const unsigned short bgMap[1024];
 
 
 extern const unsigned short bgPal[256];
-# 58 "main.c" 2
+# 60 "main.c" 2
 # 1 "bg2.h" 1
 # 22 "bg2.h"
 extern const unsigned short bg2Tiles[2272];
@@ -143,7 +143,7 @@ extern const unsigned short bg2Map[2048];
 
 
 extern const unsigned short bg2Pal[256];
-# 59 "main.c" 2
+# 61 "main.c" 2
 # 1 "bg3.h" 1
 # 22 "bg3.h"
 extern const unsigned short bg3Tiles[528];
@@ -153,7 +153,7 @@ extern const unsigned short bg3Map[1024];
 
 
 extern const unsigned short bg3Pal[256];
-# 60 "main.c" 2
+# 62 "main.c" 2
 # 1 "bg3_2.h" 1
 # 22 "bg3_2.h"
 extern const unsigned short bg3_2Tiles[1424];
@@ -163,21 +163,21 @@ extern const unsigned short bg3_2Map[1024];
 
 
 extern const unsigned short bg3_2Pal[256];
-# 61 "main.c" 2
+# 63 "main.c" 2
 # 1 "startScreen.h" 1
 # 21 "startScreen.h"
 extern const unsigned short startScreenBitmap[19200];
 
 
 extern const unsigned short startScreenPal[256];
-# 62 "main.c" 2
+# 64 "main.c" 2
 # 1 "howtoScreen.h" 1
 # 21 "howtoScreen.h"
 extern const unsigned short howtoScreenBitmap[19200];
 
 
 extern const unsigned short howtoScreenPal[256];
-# 63 "main.c" 2
+# 65 "main.c" 2
 
 # 1 "sound.h" 1
 typedef struct{
@@ -205,22 +205,22 @@ void unpauseSound();
 
 void setupInterrupts();
 void interruptHandler();
-# 65 "main.c" 2
+# 67 "main.c" 2
 # 1 "song01.h" 1
 # 20 "song01.h"
 extern const unsigned char song01[1302562];
-# 66 "main.c" 2
+# 68 "main.c" 2
 # 1 "laser.h" 1
 # 20 "laser.h"
 extern const unsigned char laser[1180];
-# 67 "main.c" 2
+# 69 "main.c" 2
 # 1 "loseScreen.h" 1
 # 21 "loseScreen.h"
 extern const unsigned short loseScreenBitmap[19200];
 
 
 extern const unsigned short loseScreenPal[256];
-# 68 "main.c" 2
+# 70 "main.c" 2
 # 1 "text.h" 1
 
 void drawChar3(int row, int col, char ch, unsigned short color);
@@ -229,38 +229,38 @@ void drawString3(int row, int col, char *str, unsigned short color);
 
 void drawChar4(int row, int col, char ch, unsigned char colorIndex);
 void drawString4(int row, int col, char *str, unsigned char colorIndex);
-# 69 "main.c" 2
+# 71 "main.c" 2
 # 1 "font.h" 1
 
 extern const unsigned char fontdata_6x8[12288];
-# 70 "main.c" 2
+# 72 "main.c" 2
 # 1 "title.h" 1
 # 20 "title.h"
 extern const unsigned char title[81625];
-# 71 "main.c" 2
+# 73 "main.c" 2
 # 1 "hurt.h" 1
 # 20 "hurt.h"
 extern const unsigned char hurt[3734];
-# 72 "main.c" 2
+# 74 "main.c" 2
 # 1 "coin.h" 1
 # 20 "coin.h"
 extern const unsigned char coin[10969];
-# 73 "main.c" 2
+# 75 "main.c" 2
 # 1 "winScreen.h" 1
 # 21 "winScreen.h"
 extern const unsigned short winScreenBitmap[19200];
 
 
 extern const unsigned short winScreenPal[256];
-# 74 "main.c" 2
+# 76 "main.c" 2
 # 1 "victory.h" 1
 # 20 "victory.h"
 extern const unsigned char victory[756064];
-# 75 "main.c" 2
+# 77 "main.c" 2
 # 1 "loseSong.h" 1
 # 20 "loseSong.h"
 extern const unsigned char loseSong[455616];
-# 76 "main.c" 2
+# 78 "main.c" 2
 # 1 "c:\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.5.0/../../../../arm-eabi/include/stdlib.h" 1 3
 # 10 "c:\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.5.0/../../../../arm-eabi/include/stdlib.h" 3
 # 1 "c:\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.5.0/../../../../arm-eabi/include/machine/ieeefp.h" 1 3
@@ -715,7 +715,7 @@ extern long double wcstold (const wchar_t *, wchar_t **);
 
 
 
-# 77 "main.c" 2
+# 79 "main.c" 2
 # 1 "c:\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.5.0/../../../../arm-eabi/include/stdio.h" 1 3
 # 34 "c:\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.5.0/../../../../arm-eabi/include/stdio.h" 3
 # 1 "c:\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.5.0/include/stddef.h" 1 3 4
@@ -1111,7 +1111,7 @@ int __srget_r (struct _reent *, FILE *);
 int __swbuf_r (struct _reent *, int, FILE *);
 # 687 "c:\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.5.0/../../../../arm-eabi/include/stdio.h" 3
 
-# 78 "main.c" 2
+# 80 "main.c" 2
 # 1 "c:\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.5.0/../../../../arm-eabi/include/malloc.h" 1 3
 # 10 "c:\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.5.0/../../../../arm-eabi/include/malloc.h" 3
 # 1 "c:\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.5.0/include/stddef.h" 1 3 4
@@ -1245,7 +1245,7 @@ extern void mstats (char *);
 extern void _mstats_r (struct _reent *, char *);
 # 162 "c:\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.5.0/../../../../arm-eabi/include/malloc.h" 3
 extern void cfree (void *);
-# 79 "main.c" 2
+# 81 "main.c" 2
 
 void initialize();
 
@@ -1567,22 +1567,7 @@ void initialize() {
 void start() {
 
     waitForVBlank();
-
-    if (frameCount > 0) {
-        frameCount++;
-        if (frameCount > 120) {
-            flipPage();
-            frameCount = -1;
-        }
-    } else {
-        frameCount--;
-        if (frameCount < -120) {
-            flipPage();
-            frameCount = 1;
-        }
-    }
-
-
+# 418 "main.c"
     if ((!(~(oldButtons)&((1<<3))) && (~buttons & ((1<<3))))) {
         stopSound();
         playSoundB(coin, 10969, 11025, 0);
@@ -1591,6 +1576,7 @@ void start() {
     } else if ((!(~(oldButtons)&((1<<2))) && (~buttons & ((1<<2))))) {
         drawFullscreenImage4(howtoScreenBitmap);
         drawString4(150, 2, "Press B to Return", WHITEID);
+        loadPalette(howtoScreenPal);
         flipPage();
         drawFullscreenImage4(howtoScreenBitmap);
      gotoHowto();
@@ -1607,28 +1593,24 @@ void goToStart() {
 
     (*(unsigned short *)0x4000000) = 4 | (1<<10) | (1<<4);
 
-    unsigned short colors[2] = {((0) | (0)<<5 | (0)<<10), ((31) | (31)<<5 | (31)<<10)};
-
     loadPalette(startScreenPal);
-
-    for (int i = 0; i < 2; i++) {
-        ((unsigned short *)0x5000000)[256-2 +i] = colors[i];
-    }
 
     waitForVBlank();
 
     drawFullscreenImage4(startScreenBitmap);
 
-    drawString4(120, 62, "Press Start to Begin", WHITEID);
+    drawString4(120, 62, "Press Start to Begin", 255);
 
-    drawString4(150, 2, "Press Select for Instructions", WHITEID);
+    drawString4(150, 2, "Press Select for Instructions", 255);
 
     flipPage();
     waitForVBlank();
 
     drawFullscreenImage4(startScreenBitmap);
 
-    drawString4(150, 2, "Press Select for Instructions", WHITEID);
+    drawString4(120, 62, "Press Start to Begin", 255);
+
+    drawString4(150, 2, "Press Select for Instructions", 255);
 
     flipPage();
 
@@ -1662,6 +1644,7 @@ void win() {
         drawFullscreenImage4(startScreenBitmap);
         drawString4(120, 62, "Press Start to Begin", WHITEID);
         drawString4(150, 2, "Press Select for Instructions", WHITEID);
+        loadPalette(startScreenPal);
         flipPage();
         drawFullscreenImage4(startScreenBitmap);
         drawString4(150, 2, "Press Select for Instructions", WHITEID);
@@ -1998,6 +1981,7 @@ void lose() {
         drawFullscreenImage4(startScreenBitmap);
         drawString4(120, 62, "Press Start to Begin", WHITEID);
         drawString4(150, 2, "Press Select for Instructions", WHITEID);
+        loadPalette(startScreenPal);
         flipPage();
         drawFullscreenImage4(startScreenBitmap);
         drawString4(150, 2, "Press Select for Instructions", WHITEID);
@@ -2024,15 +2008,12 @@ void pause() {
         drawSprites();
         goToGame();
     }
-    else if ((!(~(oldButtons)&((1<<2))) && (~buttons & ((1<<2))))) {
+
+    if ((!(~(oldButtons)&((1<<2))) && (~buttons & ((1<<2))))) {
         stopSound();
-        drawFullscreenImage4(startScreenBitmap);
-        drawString4(120, 62, "Press Start to Begin", WHITEID);
-        drawString4(150, 2, "Press Select for Instructions", WHITEID);
-        flipPage();
-        drawFullscreenImage4(startScreenBitmap);
-        drawString4(150, 2, "Press Select for Instructions", WHITEID);
-        firstStart();
+        (*(unsigned short *)0x4000000) = 4 | (1<<10) | (1<<4);
+        playSoundA(title,81240,11025, 1);
+        goToStart();
     }
 }
 
@@ -2051,23 +2032,16 @@ void goToPause() {
 
 void gotoHowto() {
 
-    unsigned short colors[2] = {((0) | (0)<<5 | (0)<<10), ((31) | (31)<<5 | (31)<<10)};
-
-    loadPalette(howtoScreenPal);
-
-    for (int i = 0; i < 2; i++) {
-        ((unsigned short *)0x5000000)[256-2 +i] = colors[i];
-    }
-
     waitForVBlank();
 
     drawFullscreenImage4(howtoScreenBitmap);
-    drawString4(150, 2, "Press B to Return", WHITEID);
+    drawString4(150, 2, "Press B to Return", 255);
 
     flipPage();
     waitForVBlank();
 
     drawFullscreenImage4(howtoScreenBitmap);
+    drawString4(150, 2, "Press B to Return", 255);
     flipPage();
     frameCount = 1;
 
@@ -2075,27 +2049,12 @@ void gotoHowto() {
 }
 
 void howto() {
-
-    waitForVBlank();
-
-    if (frameCount > 0) {
-        frameCount++;
-        if (frameCount > 120) {
-            flipPage();
-            frameCount = -1;
-        }
-    } else {
-        frameCount--;
-        if (frameCount < -120) {
-            flipPage();
-            frameCount = 1;
-        }
-    }
-
+# 916 "main.c"
  if ((!(~(oldButtons)&((1<<1))) && (~buttons & ((1<<1))))) {
         drawFullscreenImage4(startScreenBitmap);
         drawString4(120, 62, "Press Start to Begin", WHITEID);
         drawString4(150, 2, "Press Select for Instructions", WHITEID);
+        loadPalette(startScreenPal);
         flipPage();
         drawFullscreenImage4(startScreenBitmap);
         drawString4(150, 2, "Press Select for Instructions", WHITEID);

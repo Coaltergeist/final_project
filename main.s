@@ -347,78 +347,80 @@ goToStart:
 	@ args = 0, pretend = 0, frame = 0
 	@ frame_needed = 0, uses_anonymous_args = 0
 	mov	r3, #1040
-	mov	r2, #67108864
-	add	r3, r3, #4
 	stmfd	sp!, {r4, r5, r6, r7, r8, r9, sl, lr}
-	ldr	r0, .L39
+	mov	r2, #67108864
+	ldr	r6, .L39
+	add	r3, r3, #4
 	strh	r3, [r2, #0]	@ movhi
-	ldr	r3, .L39+4
+	ldr	r0, .L39+4
+	ldr	r3, .L39+8
+	ldr	r7, .L39+12
+	ldr	sl, .L39+16
 	mov	lr, pc
 	bx	r3
-	mov	r3, #83886080
-	add	r3, r3, #256
-	mvn	r2, #32768
-	mov	r4, #0
-	ldr	r8, .L39+8
-	strh	r2, [r3, #254]	@ movhi
-	strh	r4, [r3, #252]	@ movhi
-	ldr	r7, .L39+12
+	ldr	r8, .L39+20
 	mov	lr, pc
 	bx	r7
-	ldr	sl, .L39+16
-	mov	r0, r8
-	ldr	r9, .L39+20
+	ldr	r9, .L39+24
+	mov	r0, r6
 	mov	lr, pc
-	bx	sl
-	ldr	r5, .L39+24
+	bx	r8
+	ldr	r4, .L39+28
 	mov	r0, #120
 	mov	r1, #62
-	ldr	r2, .L39+28
+	mov	r2, sl
 	mov	r3, #255
 	mov	lr, pc
-	bx	r5
-	ldr	r6, .L39+32
+	bx	r4
+	ldr	r5, .L39+32
 	mov	r1, #2
 	mov	r2, r9
 	mov	r3, #255
 	mov	r0, #150
 	mov	lr, pc
-	bx	r5
+	bx	r4
 	mov	lr, pc
-	bx	r6
+	bx	r5
 	mov	lr, pc
 	bx	r7
-	mov	r0, r8
+	mov	r0, r6
 	mov	lr, pc
-	bx	sl
+	bx	r8
+	mov	r0, #120
+	mov	r1, #62
+	mov	r2, sl
+	mov	r3, #255
+	mov	lr, pc
+	bx	r4
+	mov	r1, #2
 	mov	r2, r9
 	mov	r3, #255
 	mov	r0, #150
-	mov	r1, #2
+	mov	lr, pc
+	bx	r4
 	mov	lr, pc
 	bx	r5
-	mov	lr, pc
-	bx	r6
-	ldr	r3, .L39+36
-	str	r4, [r3, #0]
-	ldr	r3, .L39+40
-	mov	r2, #1
-	str	r2, [r3, #0]
-	ldr	r3, .L39+44
-	str	r4, [r3, #0]
+	ldr	r2, .L39+36
+	mov	r3, #0
+	str	r3, [r2, #0]
+	ldr	r2, .L39+40
+	mov	r1, #1
+	str	r1, [r2, #0]
+	ldr	r2, .L39+44
+	str	r3, [r2, #0]
 	ldmfd	sp!, {r4, r5, r6, r7, r8, r9, sl, lr}
 	bx	lr
 .L40:
 	.align	2
 .L39:
+	.word	startScreenBitmap
 	.word	startScreenPal
 	.word	loadPalette
-	.word	startScreenBitmap
 	.word	waitForVBlank
+	.word	.LC0
 	.word	drawFullscreenImage4
 	.word	.LC1
 	.word	drawString4
-	.word	.LC0
 	.word	flipPage
 	.word	state
 	.word	frameCount
@@ -533,11 +535,15 @@ win:
 	bx	r4
 	mov	r1, #2
 	ldr	r2, .L50+28
-	mov	r0, #150
 	mov	r3, #255
+	mov	r0, #150
 	mov	lr, pc
 	bx	r4
-	ldr	r3, .L50+32
+	ldr	r0, .L50+32
+	ldr	r3, .L50+36
+	mov	lr, pc
+	bx	r3
+	ldr	r3, .L50+40
 	mov	lr, pc
 	bx	r3
 	ldr	r0, .L50+16
@@ -562,6 +568,8 @@ win:
 	.word	drawString4
 	.word	.LC0
 	.word	.LC1
+	.word	startScreenPal
+	.word	loadPalette
 	.word	flipPage
 	.size	win, .-win
 	.align	2
@@ -1881,11 +1889,15 @@ lose:
 	bx	r4
 	mov	r1, #2
 	ldr	r2, .L180+28
-	mov	r0, #150
 	mov	r3, #255
+	mov	r0, #150
 	mov	lr, pc
 	bx	r4
-	ldr	r3, .L180+32
+	ldr	r0, .L180+32
+	ldr	r3, .L180+36
+	mov	lr, pc
+	bx	r3
+	ldr	r3, .L180+40
 	mov	lr, pc
 	bx	r3
 	ldr	r0, .L180+16
@@ -1910,6 +1922,8 @@ lose:
 	.word	drawString4
 	.word	.LC0
 	.word	.LC1
+	.word	startScreenPal
+	.word	loadPalette
 	.word	flipPage
 	.size	lose, .-lose
 	.align	2
@@ -1919,7 +1933,7 @@ pause:
 	@ Function supports interworking.
 	@ args = 0, pretend = 0, frame = 0
 	@ frame_needed = 0, uses_anonymous_args = 0
-	stmfd	sp!, {r4, r5, r6, lr}
+	stmfd	sp!, {r4, lr}
 	ldr	r3, .L189
 	ldr	r4, .L189+4
 	mov	lr, pc
@@ -1949,65 +1963,50 @@ pause:
 	tst	r3, #4
 	beq	.L188
 .L182:
-	ldmfd	sp!, {r4, r5, r6, lr}
+	ldmfd	sp!, {r4, lr}
 	bx	lr
 .L188:
 	ldr	r3, .L189+16
 	mov	lr, pc
 	bx	r3
-	ldr	r5, .L189+20
-	ldr	r0, .L189+24
+	mov	ip, #1040
+	mov	lr, #67108864
+	add	ip, ip, #4
+	mov	r1, #80896
+	mov	r2, #11008
+	strh	ip, [lr, #0]	@ movhi
+	ldr	r0, .L189+20
+	add	r1, r1, #344
+	add	r2, r2, #17
+	mov	r3, #1
+	ldr	ip, .L189+24
 	mov	lr, pc
-	bx	r5
-	ldr	r4, .L189+28
-	mov	r0, #120
-	mov	r1, #62
-	ldr	r2, .L189+32
-	mov	r3, #255
-	mov	lr, pc
-	bx	r4
-	mov	r1, #2
-	ldr	r2, .L189+36
-	mov	r0, #150
-	mov	r3, #255
-	mov	lr, pc
-	bx	r4
-	ldr	r3, .L189+40
+	bx	ip
+	ldmfd	sp!, {r4, lr}
+	b	goToStart
+.L187:
+	ldr	r3, .L189+28
 	mov	lr, pc
 	bx	r3
-	ldr	r0, .L189+24
-	mov	lr, pc
-	bx	r5
-	mov	r0, #150
-	mov	r1, #2
-	ldr	r2, .L189+36
-	mov	r3, #255
-	mov	lr, pc
-	bx	r4
-	ldmfd	sp!, {r4, r5, r6, lr}
-	b	firstStart
+	bl	drawSprites
+	bl	goToGame
+	ldrh	r2, [r4, #0]
+	b	.L184
 .L186:
-	ldr	ip, .L189+44
+	ldr	ip, .L189+32
 	ldr	lr, [ip, #0]
 	mov	r1, #10944
 	rsb	lr, lr, #0
 	mov	r2, #11008
 	add	r2, r2, #17
 	str	lr, [ip, #0]
-	ldr	r0, .L189+48
+	ldr	r0, .L189+36
 	add	r1, r1, #25
-	ldr	ip, .L189+52
+	ldr	ip, .L189+40
 	mov	lr, pc
 	bx	ip
 	ldrh	r2, [r4, #0]
 	b	.L183
-.L187:
-	ldr	r3, .L189+56
-	mov	lr, pc
-	bx	r3
-	bl	drawSprites
-	ldmfd	sp!, {r4, r5, r6, lr}
-	b	goToGame
 .L190:
 	.align	2
 .L189:
@@ -2016,16 +2015,12 @@ pause:
 	.word	hideSprites
 	.word	buttons
 	.word	stopSound
-	.word	drawFullscreenImage4
-	.word	startScreenBitmap
-	.word	drawString4
-	.word	.LC0
-	.word	.LC1
-	.word	flipPage
+	.word	title
+	.word	playSoundA
+	.word	unpauseSound
 	.word	cheat
 	.word	coin
 	.word	playSoundB
-	.word	unpauseSound
 	.size	pause, .-pause
 	.align	2
 	.global	goToPause
@@ -2320,61 +2315,56 @@ gotoHowto:
 	@ Function supports interworking.
 	@ args = 0, pretend = 0, frame = 0
 	@ frame_needed = 0, uses_anonymous_args = 0
-	stmfd	sp!, {r3, r4, r5, r6, r7, lr}
-	ldr	r0, .L217
-	ldr	r3, .L217+4
+	stmfd	sp!, {r3, r4, r5, r6, r7, r8, sl, lr}
+	ldr	r6, .L217
+	ldr	r7, .L217+4
+	ldr	r8, .L217+8
 	mov	lr, pc
-	bx	r3
-	mov	r3, #83886080
-	add	r3, r3, #256
-	mov	r2, #0	@ movhi
-	strh	r2, [r3, #252]	@ movhi
-	ldr	r5, .L217+8
-	mvn	r2, #32768
-	strh	r2, [r3, #254]	@ movhi
-	ldr	r6, .L217+12
+	bx	r7
+	ldr	r5, .L217+12
+	mov	r0, r6
 	mov	lr, pc
-	bx	r6
-	ldr	r4, .L217+16
-	mov	r0, r5
-	mov	lr, pc
-	bx	r4
-	ldr	r7, .L217+20
-	ldr	r2, .L217+24
-	mov	r3, #255
+	bx	r5
+	ldr	sl, .L217+16
 	mov	r1, #2
-	ldr	ip, .L217+28
+	mov	r2, r8
+	mov	r3, #255
 	mov	r0, #150
+	ldr	r4, .L217+20
 	mov	lr, pc
-	bx	ip
-	mov	lr, pc
-	bx	r7
-	mov	lr, pc
-	bx	r6
-	mov	r0, r5
+	bx	sl
 	mov	lr, pc
 	bx	r4
 	mov	lr, pc
 	bx	r7
-	ldr	r3, .L217+32
+	mov	r0, r6
+	mov	lr, pc
+	bx	r5
+	mov	r2, r8
+	mov	r3, #255
+	mov	r0, #150
+	mov	r1, #2
+	mov	lr, pc
+	bx	sl
+	mov	lr, pc
+	bx	r4
+	ldr	r3, .L217+24
 	mov	r2, #1
 	str	r2, [r3, #0]
-	ldr	r3, .L217+36
+	ldr	r3, .L217+28
 	mov	r2, #5
 	str	r2, [r3, #0]
-	ldmfd	sp!, {r3, r4, r5, r6, r7, lr}
+	ldmfd	sp!, {r3, r4, r5, r6, r7, r8, sl, lr}
 	bx	lr
 .L218:
 	.align	2
 .L217:
-	.word	howtoScreenPal
-	.word	loadPalette
 	.word	howtoScreenBitmap
 	.word	waitForVBlank
-	.word	drawFullscreenImage4
-	.word	flipPage
 	.word	.LC2
+	.word	drawFullscreenImage4
 	.word	drawString4
+	.word	flipPage
 	.word	frameCount
 	.word	state
 	.size	gotoHowto, .-gotoHowto
@@ -2385,104 +2375,80 @@ start:
 	@ Function supports interworking.
 	@ args = 0, pretend = 0, frame = 0
 	@ frame_needed = 0, uses_anonymous_args = 0
+	ldr	r3, .L224
 	stmfd	sp!, {r4, lr}
-	ldr	r4, .L227
-	ldr	r3, .L227+4
 	mov	lr, pc
 	bx	r3
-	ldr	r3, [r4, #0]
-	cmp	r3, #0
-	ble	.L220
-	add	r3, r3, #1
-	cmp	r3, #120
-	str	r3, [r4, #0]
-	bgt	.L224
-.L221:
-	ldr	r3, .L227+8
+	ldr	r3, .L224+4
 	ldrh	r3, [r3, #0]
 	tst	r3, #8
-	beq	.L222
-	ldr	r2, .L227+12
+	beq	.L220
+	ldr	r2, .L224+8
 	ldrh	r4, [r2, #0]
 	ands	r4, r4, #8
-	beq	.L225
-.L222:
+	beq	.L222
+.L220:
 	tst	r3, #4
 	beq	.L219
-	ldr	r3, .L227+12
+	ldr	r3, .L224+8
 	ldrh	r3, [r3, #0]
 	tst	r3, #4
-	beq	.L226
+	beq	.L223
 .L219:
 	ldmfd	sp!, {r4, lr}
 	bx	lr
-.L226:
-	ldr	r4, .L227+16
-	ldr	r0, .L227+20
+.L223:
+	ldr	r4, .L224+12
+	ldr	r0, .L224+16
 	mov	lr, pc
 	bx	r4
 	mov	r1, #2
-	ldr	r2, .L227+24
-	ldr	ip, .L227+28
-	mov	r0, #150
+	ldr	r2, .L224+20
+	ldr	ip, .L224+24
 	mov	r3, #255
+	mov	r0, #150
 	mov	lr, pc
 	bx	ip
-	ldr	r3, .L227+32
+	ldr	r0, .L224+28
+	ldr	r3, .L224+32
 	mov	lr, pc
 	bx	r3
-	ldr	r0, .L227+20
+	ldr	r3, .L224+36
+	mov	lr, pc
+	bx	r3
+	ldr	r0, .L224+16
 	mov	lr, pc
 	bx	r4
 	ldmfd	sp!, {r4, lr}
 	b	gotoHowto
-.L220:
-	sub	r3, r3, #1
-	cmn	r3, #120
-	str	r3, [r4, #0]
-	bge	.L221
-	ldr	r3, .L227+32
-	mov	lr, pc
-	bx	r3
-	mov	r3, #1
-	str	r3, [r4, #0]
-	b	.L221
-.L224:
-	ldr	r3, .L227+32
-	mov	lr, pc
-	bx	r3
-	mvn	r3, #0
-	str	r3, [r4, #0]
-	b	.L221
-.L225:
-	ldr	r3, .L227+36
+.L222:
+	ldr	r3, .L224+40
 	mov	lr, pc
 	bx	r3
 	mov	r1, #10944
 	mov	r2, #11008
 	mov	r3, r4
-	ldr	r0, .L227+40
+	ldr	r0, .L224+44
 	add	r1, r1, #25
 	add	r2, r2, #17
-	ldr	ip, .L227+44
+	ldr	ip, .L224+48
 	mov	lr, pc
 	bx	ip
 	mov	r1, #1294336
 	add	r1, r1, #7680
 	mov	r2, #11008
-	ldr	r0, .L227+48
+	ldr	r0, .L224+52
 	add	r1, r1, #46
 	add	r2, r2, #17
 	mov	r3, #1
-	ldr	ip, .L227+52
+	ldr	ip, .L224+56
 	mov	lr, pc
 	bx	ip
 	ldmfd	sp!, {r4, lr}
 	b	startGame
-.L228:
+.L225:
 	.align	2
-.L227:
-	.word	frameCount
+.L224:
 	.word	waitForVBlank
 	.word	oldButtons
 	.word	buttons
@@ -2490,6 +2456,8 @@ start:
 	.word	howtoScreenBitmap
 	.word	.LC2
 	.word	drawString4
+	.word	howtoScreenPal
+	.word	loadPalette
 	.word	flipPage
 	.word	stopSound
 	.word	coin
@@ -2504,85 +2472,57 @@ howto:
 	@ Function supports interworking.
 	@ args = 0, pretend = 0, frame = 0
 	@ frame_needed = 0, uses_anonymous_args = 0
+	ldr	r3, .L229
 	stmfd	sp!, {r4, r5, r6, lr}
-	ldr	r4, .L235
-	ldr	r3, .L235+4
-	mov	lr, pc
-	bx	r3
-	ldr	r3, [r4, #0]
-	cmp	r3, #0
-	ble	.L230
-	add	r3, r3, #1
-	cmp	r3, #120
-	str	r3, [r4, #0]
-	bgt	.L233
-.L231:
-	ldr	r3, .L235+8
 	ldrh	r3, [r3, #0]
 	tst	r3, #2
-	beq	.L229
-	ldr	r3, .L235+12
+	beq	.L226
+	ldr	r3, .L229+4
 	ldrh	r3, [r3, #0]
 	tst	r3, #2
-	beq	.L234
-.L229:
+	beq	.L228
+.L226:
 	ldmfd	sp!, {r4, r5, r6, lr}
 	bx	lr
-.L234:
-	ldr	r5, .L235+16
-	ldr	r0, .L235+20
+.L228:
+	ldr	r5, .L229+8
+	ldr	r0, .L229+12
 	mov	lr, pc
 	bx	r5
-	ldr	r4, .L235+24
+	ldr	r4, .L229+16
 	mov	r0, #120
 	mov	r1, #62
-	ldr	r2, .L235+28
+	ldr	r2, .L229+20
 	mov	r3, #255
 	mov	lr, pc
 	bx	r4
 	mov	r1, #2
-	ldr	r2, .L235+32
-	mov	r0, #150
+	ldr	r2, .L229+24
 	mov	r3, #255
+	mov	r0, #150
 	mov	lr, pc
 	bx	r4
-	ldr	r3, .L235+36
+	ldr	r0, .L229+28
+	ldr	r3, .L229+32
 	mov	lr, pc
 	bx	r3
-	ldr	r0, .L235+20
+	ldr	r3, .L229+36
+	mov	lr, pc
+	bx	r3
+	ldr	r0, .L229+12
 	mov	lr, pc
 	bx	r5
 	mov	r0, #150
 	mov	r1, #2
-	ldr	r2, .L235+32
+	ldr	r2, .L229+24
 	mov	r3, #255
 	mov	lr, pc
 	bx	r4
 	ldmfd	sp!, {r4, r5, r6, lr}
 	b	goToStart
 .L230:
-	sub	r3, r3, #1
-	cmn	r3, #120
-	str	r3, [r4, #0]
-	bge	.L231
-	ldr	r3, .L235+36
-	mov	lr, pc
-	bx	r3
-	mov	r3, #1
-	str	r3, [r4, #0]
-	b	.L231
-.L233:
-	ldr	r3, .L235+36
-	mov	lr, pc
-	bx	r3
-	mvn	r3, #0
-	str	r3, [r4, #0]
-	b	.L231
-.L236:
 	.align	2
-.L235:
-	.word	frameCount
-	.word	waitForVBlank
+.L229:
 	.word	oldButtons
 	.word	buttons
 	.word	drawFullscreenImage4
@@ -2590,6 +2530,8 @@ howto:
 	.word	drawString4
 	.word	.LC0
 	.word	.LC1
+	.word	startScreenPal
+	.word	loadPalette
 	.word	flipPage
 	.size	howto, .-howto
 	.align	2
@@ -2600,56 +2542,56 @@ main:
 	@ args = 0, pretend = 0, frame = 0
 	@ frame_needed = 0, uses_anonymous_args = 0
 	stmfd	sp!, {r3, r4, r5, r6, r7, lr}
-	ldr	r3, .L250
+	ldr	r3, .L244
 	mov	lr, pc
 	bx	r3
-	ldr	r3, .L250+4
+	ldr	r3, .L244+4
 	mov	lr, pc
 	bx	r3
 	bl	firstStart
 	mov	r5, #67108864
-	ldr	r4, .L250+8
-	ldr	r7, .L250+12
-	ldr	r6, .L250+16
+	ldr	r4, .L244+8
+	ldr	r7, .L244+12
+	ldr	r6, .L244+16
 	add	r5, r5, #256
-.L249:
+.L243:
 	ldrh	r3, [r4, #0]
 	ldr	r2, [r7, #0]
-.L239:
+.L233:
 	strh	r3, [r6, #0]	@ movhi
 	ldrh	r3, [r5, #48]
 	strh	r3, [r4, #0]	@ movhi
 	cmp	r2, #5
 	ldrls	pc, [pc, r2, asl #2]
-	b	.L239
-.L246:
-	.word	.L240
-	.word	.L241
-	.word	.L242
-	.word	.L243
-	.word	.L244
-	.word	.L245
-.L245:
-	bl	howto
-	b	.L249
-.L244:
-	bl	lose
-	b	.L249
-.L243:
-	bl	win
-	b	.L249
-.L242:
-	bl	pause
-	b	.L249
-.L241:
-	bl	game
-	b	.L249
+	b	.L233
 .L240:
+	.word	.L234
+	.word	.L235
+	.word	.L236
+	.word	.L237
+	.word	.L238
+	.word	.L239
+.L239:
+	bl	howto
+	b	.L243
+.L238:
+	bl	lose
+	b	.L243
+.L237:
+	bl	win
+	b	.L243
+.L236:
+	bl	pause
+	b	.L243
+.L235:
+	bl	game
+	b	.L243
+.L234:
 	bl	start
-	b	.L249
-.L251:
+	b	.L243
+.L245:
 	.align	2
-.L250:
+.L244:
 	.word	setupSounds
 	.word	setupInterrupts
 	.word	buttons
